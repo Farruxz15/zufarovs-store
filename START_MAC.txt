@@ -1,0 +1,23 @@
+1. Откройте Terminal и перейдите в папку проекта:
+   cd ~/Downloads/zufarovs-miniapp
+
+2. Активируйте уже созданное окружение или создайте новое:
+   /opt/homebrew/bin/python3 -m venv .venv
+   source .venv/bin/activate
+   pip install -U python-telegram-bot
+
+3. Настройте переменные (подставьте свои значения):
+   export BOT_TOKEN='НОВЫЙ_ТОКЕН'
+   export ADMIN_ID='8879836353'
+   export CARD_NUMBER='НОМЕР_КАРТЫ'
+   export CARD_HOLDER='Zufarova Sarvinoz'
+   export CARD_BANK='Uzcard'
+   export CONSULTANT_USERNAME='Zufarovsstore'
+   export MINI_APP_URL='https://ВАШ-ЛОГИН.github.io/zufarovs-miniapp/'
+
+4. Запуск:
+   python bot_miniapp.py
+
+Команды администратора:
+/today — заказы и сумма за сегодня
+/orders — последние 10 заказов
