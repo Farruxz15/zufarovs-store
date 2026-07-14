@@ -1,13 +1,136 @@
-<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name="theme-color" content="#f8f5f0"><title>ZUFAROVS’ STORE</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"><script src="https://telegram.org/js/telegram-web-app.js"></script></head><body>
-<header><div><div class="eyebrow">KOREAN SKINCARE</div><h1>ZUFAROVS’ STORE</h1></div><button id="langBtn" class="ghost">RU</button></header>
-<main>
-<section class="hero"><div><span class="pill">Оригинальная косметика 🇰🇷</span><h2 id="heroTitle">Уход, который подходит именно вашей коже</h2><p id="heroText">Пройдите короткую диагностику или выберите средство в каталоге.</p><div class="hero-actions"><button class="primary" data-view="quiz">Подобрать уход</button><button class="secondary" data-view="catalog">Каталог</button></div></div></section>
-<nav class="tabs"><button class="active" data-view="catalog">Каталог</button><button data-view="quiz">Диагностика</button><button data-view="favorites">Избранное</button><button data-view="cart">Корзина <span id="cartCount">0</span></button></nav>
-<section id="catalog" class="view active"><div class="toolbar"><input id="search" placeholder="Поиск по товарам"><select id="category"><option value="all">Все категории</option><option value="cleanser">Очищение</option><option value="toner">Тонеры</option><option value="serum">Сыворотки</option><option value="cream">Кремы</option><option value="spf">SPF</option><option value="makeup">Макияж</option><option value="set">Наборы</option></select></div><div id="grid" class="grid"></div></section>
-<section id="quiz" class="view"><div class="panel"><div class="eyebrow">AI-КОНСУЛЬТАНТ</div><h2>Подбор базового ухода</h2><p>Выберите тип кожи и основные задачи. Рекомендация носит косметический, а не медицинский характер.</p><label>Тип кожи</label><div id="skinOptions" class="chips"></div><label>Что беспокоит</label><div id="concernOptions" class="chips"></div><button id="runQuiz" class="primary wide">Показать рекомендации</button></div><div id="quizResult" class="grid"></div></section>
-<section id="favorites" class="view"><h2>Избранное</h2><div id="favGrid" class="grid"></div></section>
-<section id="cart" class="view"><h2>Корзина</h2><div id="cartItems"></div><div class="cart-summary"><div><span>Товары</span><strong id="subtotal">0 сум</strong></div><div><span>Доставка</span><strong id="delivery">0 сум</strong></div><div class="total"><span>Итого</span><strong id="total">0 сум</strong></div><button id="checkout" class="primary wide">Оформить через Telegram</button></div></section>
-</main>
-<div id="modal" class="modal"><div class="modal-card"><button id="closeModal" class="close">×</button><img id="modalImage"><div class="modal-body"><div id="modalBrand" class="eyebrow"></div><h2 id="modalName"></h2><div id="modalPrice" class="price"></div><p id="modalDesc"></p><div class="facts"><div><b>Объём</b><span id="modalVolume"></span></div><div><b>Как использовать</b><span id="modalUse"></span></div></div><button id="modalAdd" class="primary wide">В корзину</button></div></div></div>
-<footer><a href="https://t.me/Zufarovsstore">Консультант @Zufarovsstore</a><span>•</span><span>Ташкент</span></footer>
-<script src="products.js"></script><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#f7f4ef">
+  <title>ZUFAROVS’ STORE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="icon-button" id="homeButton" aria-label="Главная">Z</button>
+      <div class="brand-lockup">
+        <span class="eyebrow">KOREAN SKINCARE</span>
+        <h1>ZUFAROVS’ STORE</h1>
+      </div>
+      <button id="langBtn" class="lang-button" aria-label="Сменить язык">RU</button>
+    </header>
+
+    <main>
+      <section class="hero" id="homeHero">
+        <div class="hero-copy">
+          <span class="hero-badge" id="heroBadge">Оригинальная косметика из Кореи 🇰🇷</span>
+          <h2 id="heroTitle">Уход, который подходит именно вашей коже</h2>
+          <p id="heroText">Короткая диагностика поможет подобрать базовую программу ухода.</p>
+          <div class="hero-actions">
+            <button class="primary" data-view="quiz" id="heroQuiz">Подобрать уход</button>
+            <button class="secondary" data-view="catalog" id="heroCatalog">Открыть каталог</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="catalog" class="view active">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow" id="catalogEyebrow">27 СРЕДСТВ</span>
+            <h2 id="catalogTitle">Каталог</h2>
+          </div>
+          <button class="text-button" data-view="favorites" id="favoritesShortcut">Избранное</button>
+        </div>
+
+        <div class="search-wrap">
+          <span>⌕</span>
+          <input id="search" autocomplete="off" placeholder="Поиск по названию или задаче">
+        </div>
+        <div id="categoryChips" class="category-strip"></div>
+        <div id="grid" class="product-grid"></div>
+        <div id="catalogEmpty" class="empty-state hidden"></div>
+      </section>
+
+      <section id="quiz" class="view">
+        <div class="quiz-card">
+          <div class="quiz-progress"><span id="quizProgress"></span></div>
+          <div id="quizIntro" class="quiz-step active">
+            <span class="eyebrow">AI-КОНСУЛЬТАНТ</span>
+            <h2 id="quizIntroTitle">Подберём базовый уход</h2>
+            <p id="quizIntroText">Ответьте на несколько вопросов. Рекомендация носит косметический, а не медицинский характер.</p>
+            <button id="startQuiz" class="primary wide">Начать диагностику</button>
+          </div>
+          <div id="quizQuestion" class="quiz-step">
+            <span class="eyebrow" id="quizStepLabel"></span>
+            <h2 id="quizQuestionTitle"></h2>
+            <p id="quizQuestionHint"></p>
+            <div id="quizOptions" class="quiz-options"></div>
+            <div class="quiz-nav">
+              <button id="quizBack" class="secondary">Назад</button>
+              <button id="quizNext" class="primary">Далее</button>
+            </div>
+          </div>
+          <div id="quizResults" class="quiz-step">
+            <span class="eyebrow">ПЕРСОНАЛЬНАЯ ПРОГРАММА</span>
+            <h2 id="quizResultsTitle">Ваш базовый уход</h2>
+            <p id="quizResultsText"></p>
+            <div id="routineBlocks"></div>
+            <button id="addRoutine" class="primary wide">Добавить программу в корзину</button>
+            <button id="restartQuiz" class="text-button wide">Пройти заново</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="favorites" class="view">
+        <div class="section-heading"><div><span class="eyebrow">SAVED</span><h2 id="favoritesTitle">Избранное</h2></div></div>
+        <div id="favGrid" class="product-grid"></div>
+        <div id="favEmpty" class="empty-state hidden"></div>
+      </section>
+
+      <section id="cart" class="view">
+        <div class="section-heading"><div><span class="eyebrow">CHECKOUT</span><h2 id="cartTitle">Корзина</h2></div></div>
+        <div id="cartItems" class="cart-list"></div>
+        <div id="cartEmpty" class="empty-state hidden"></div>
+        <div id="cartSummary" class="cart-summary">
+          <div><span id="itemsLabel">Товары</span><strong id="subtotal">0 сум</strong></div>
+          <div><span id="deliveryLabel">Доставка</span><strong id="delivery">0 сум</strong></div>
+          <div class="total"><span id="totalLabel">Итого</span><strong id="total">0 сум</strong></div>
+          <p class="delivery-note" id="deliveryNote">Бесплатная доставка от 200 000 сум.</p>
+          <button id="checkout" class="primary wide">Оформить заказ</button>
+        </div>
+      </section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="Основная навигация">
+      <button class="active" data-view="catalog"><span>⌂</span><small id="navCatalog">Каталог</small></button>
+      <button data-view="quiz"><span>✦</span><small id="navQuiz">Подбор</small></button>
+      <button data-view="favorites"><span>♡</span><small id="navFavorites">Избранное</small></button>
+      <button data-view="cart" class="cart-nav"><span>Bag</span><small id="navCart">Корзина</small><b id="cartCount">0</b></button>
+    </nav>
+  </div>
+
+  <div id="modal" class="modal" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <article class="product-sheet">
+      <button id="closeModal" class="sheet-close" aria-label="Закрыть">×</button>
+      <div class="sheet-image-wrap"><img id="modalImage" alt=""></div>
+      <div class="sheet-content">
+        <div class="sheet-head"><div><div id="modalBrand" class="eyebrow"></div><h2 id="modalName"></h2></div><button id="modalFavorite" class="favorite-large">♡</button></div>
+        <div id="modalPrice" class="price-large"></div>
+        <p id="modalDesc" class="sheet-description"></p>
+        <div id="modalTags" class="tag-row"></div>
+        <details open><summary id="benefitSummary">Для чего это средство</summary><p id="modalBenefits"></p></details>
+        <details><summary id="useSummary">Как использовать</summary><p id="modalUse"></p></details>
+        <div class="product-meta"><div><span id="volumeLabel">Объём</span><strong id="modalVolume"></strong></div><div><span id="originLabel">Производство</span><strong>South Korea</strong></div></div>
+        <button id="modalAdd" class="primary wide sticky-add">Добавить в корзину</button>
+      </div>
+    </article>
+  </div>
+
+  <div id="toast" class="toast" role="status"></div>
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
