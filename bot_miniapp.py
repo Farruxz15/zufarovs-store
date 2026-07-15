@@ -20,11 +20,14 @@ ORDERS_FILE=Path(__file__).with_name('orders.jsonl')
 CONTACT, ADDRESS, HOME, PAYMENT, RECEIPT = range(5)
 
 def money(n): return f"{int(n):,}".replace(',',' ')
-def menu():
+def store_keyboard():
     rows=[]
-    if MINI_APP_URL: rows.append([InlineKeyboardButton('🛍 Открыть магазин',web_app=WebAppInfo(url=MINI_APP_URL))])
-    rows += [[InlineKeyboardButton('💬 Консультант',url=f'https://t.me/{CONSULTANT}')],[InlineKeyboardButton('🇺🇿 O‘zbekcha / 🇷🇺 Русский',callback_data='language')]]
-    return InlineKeyboardMarkup(rows)
+    if MINI_APP_URL:
+        rows.append([KeyboardButton('🛍 Открыть магазин', web_app=WebAppInfo(url=MINI_APP_URL))])
+    return ReplyKeyboardMarkup(rows, resize_keyboard=True, is_persistent=True)
+
+def consultant_keyboard():
+    return InlineKeyboardMarkup([[InlineKeyboardButton('💬 Написать консультанту', url=f'https://t.me/{CONSULTANT}')]])
 
 def items_text(d):
     return '\n'.join(f"• {x['name']} × {x['qty']} — {money(x['price']*x['qty'])} сум" for x in d['items'])
@@ -34,14 +37,14 @@ def persist_order(d,user):
     with ORDERS_FILE.open('a',encoding='utf-8') as f:f.write(json.dumps(row,ensure_ascii=False)+'\n')
 
 async def start(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
-    text=("*ZUFAROVS’ STORE*\n\nОригинальная корейская косметика 🇰🇷\n"
-          "Каталог, описание каждого товара, персональный подбор и корзина — внутри Mini App.\n\n"
-          "Нажмите кнопку ниже 👇")
-    await update.message.reply_text(text,parse_mode='Markdown',reply_markup=menu())
-
-async def language(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
-    q=update.callback_query; await q.answer()
-    await q.message.reply_text("Язык можно переключить кнопкой RU/UZ внутри магазина.")
+    text=("✨ *Добро пожаловать в ZUFAROVS’ STORE*\n\n"
+          "Премиальная оригинальная корейская косметика 🇰🇷\n\n"
+          "• Подробные карточки товаров\n"
+          "• Персональный подбор ухода\n"
+          "• Корзина и быстрое оформление\n\n"
+          "Нажмите кнопку *🛍 Открыть магазин* внизу.")
+    await update.message.reply_text(text, parse_mode='Markdown', reply_markup=store_keyboard())
+    await update.message.reply_text("Нужна помощь с выбором?", reply_markup=consultant_keyboard())
 
 async def web_order(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
     try:data=json.loads(update.effective_message.web_app_data.data)
@@ -84,9 +87,9 @@ async def ask_payment(m,ctx):
 
 async def payment(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
     q=update.callback_query;await q.answer();d=ctx.user_data
-    if q.data=='pay:cancel':d.clear();await q.edit_message_text('Заказ отменён. /start');return ConversationHandler.END
+    if q.data=='pay:cancel':d.clear();await q.edit_message_text('Заказ отменён.'); await q.message.reply_text('Магазин можно открыть кнопкой ниже.', reply_markup=store_keyboard()); return ConversationHandler.END
     if q.data=='pay:cash':
-        d['payment']='Наличными при получении';await send_admin(ctx,q.from_user,d);persist_order(d,q.from_user);await q.edit_message_text('✅ Заказ принят. Консультант скоро свяжется с вами.');d.clear();return ConversationHandler.END
+        d['payment']='Наличными при получении';await send_admin(ctx,q.from_user,d);persist_order(d,q.from_user);await q.edit_message_text('✅ Спасибо за заказ! Консультант скоро свяжется с вами.'); await q.message.reply_text('Магазин всегда доступен кнопкой ниже.', reply_markup=store_keyboard()); d.clear(); return ConversationHandler.END
     if not CARD_NUMBER:
         await q.answer('Номер карты не настроен',show_alert=True);return PAYMENT
     d['payment']='Карта заранее'
@@ -96,7 +99,7 @@ async def payment(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
 async def receipt(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
     if not update.message.photo:
         await update.message.reply_text('Отправьте чек фотографией.');return RECEIPT
-    d=ctx.user_data;await send_admin(ctx,update.effective_user,d,update.message.photo[-1].file_id);persist_order(d,update.effective_user);await update.message.reply_text('✅ Чек и заказ получены. Консультант проверит оплату и свяжется с вами.');d.clear();return ConversationHandler.END
+    d=ctx.user_data;await send_admin(ctx,update.effective_user,d,update.message.photo[-1].file_id);persist_order(d,update.effective_user);await update.message.reply_text('✅ Спасибо за заказ! Чек получен. Консультант проверит оплату и свяжется с вами.', reply_markup=store_keyboard()); d.clear(); return ConversationHandler.END
 
 async def send_admin(ctx,user,d,photo=None):
     text=("🔔 *НОВЫЙ ЗАКАЗ*\n\n"+items_text(d)+f"\n\nТовары: {money(d['subtotal'])} сум\nДоставка: {money(d['delivery'])} сум\n*Итого: {money(d['total'])} сум*\nОплата: {d['payment']}\n\n👤 {d['name']}\n📱 `{d['phone']}`\n📍 {d['address']}\nTelegram: @{user.username or '—'} (ID {user.id})")
@@ -121,12 +124,12 @@ async def orders(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
     text='🧾 Последние заказы\n\n'+'\n\n'.join(f"{r['created_at']} — {r['name']} — {money(r['total'])} сум" for r in reversed(rows))
     await update.message.reply_text(text)
 
-async def cancel(update:Update,ctx:ContextTypes.DEFAULT_TYPE):ctx.user_data.clear();await update.message.reply_text('Отменено. /start',reply_markup=ReplyKeyboardRemove());return ConversationHandler.END
+async def cancel(update:Update,ctx:ContextTypes.DEFAULT_TYPE): ctx.user_data.clear(); await update.message.reply_text('Заказ отменён. Магазин можно открыть кнопкой ниже.', reply_markup=store_keyboard()); return ConversationHandler.END
 
 def main():
     if not BOT_TOKEN:raise RuntimeError('BOT_TOKEN is empty')
     app=Application.builder().token(BOT_TOKEN).build()
     conv=ConversationHandler(entry_points=[MessageHandler(filters.StatusUpdate.WEB_APP_DATA,web_order)],states={CONTACT:[MessageHandler(filters.CONTACT|(filters.TEXT&~filters.COMMAND),contact)],ADDRESS:[MessageHandler(filters.LOCATION|(filters.TEXT&~filters.COMMAND),address)],HOME:[MessageHandler(filters.TEXT&~filters.COMMAND,home)],PAYMENT:[CallbackQueryHandler(payment,pattern='^pay:')],RECEIPT:[MessageHandler(filters.PHOTO|(filters.TEXT&~filters.COMMAND),receipt)]},fallbacks=[CommandHandler('cancel',cancel)],allow_reentry=True)
-    app.add_handler(CommandHandler('start',start));app.add_handler(CommandHandler('today',today));app.add_handler(CommandHandler('orders',orders));app.add_handler(CallbackQueryHandler(language,pattern='^language$'));app.add_handler(conv)
+    app.add_handler(CommandHandler('start',start)); app.add_handler(CommandHandler('today',today)); app.add_handler(CommandHandler('orders',orders)); app.add_handler(conv)
     print('Bot started');app.run_polling()
 if __name__=='__main__':main()

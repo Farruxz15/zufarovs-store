@@ -23,17 +23,27 @@
     </header>
 
     <main>
-      <section class="hero" id="homeHero">
-        <div class="hero-copy">
-          <span class="hero-badge" id="heroBadge">Оригинальная косметика из Кореи 🇰🇷</span>
-          <h2 id="heroTitle">Уход, который подходит именно вашей коже</h2>
-          <p id="heroText">Короткая диагностика поможет подобрать базовую программу ухода.</p>
-          <div class="hero-actions">
-            <button class="primary" data-view="quiz" id="heroQuiz">Подобрать уход</button>
-            <button class="secondary" data-view="catalog" id="heroCatalog">Открыть каталог</button>
-          </div>
-        </div>
-      </section>
+      <<section class="hero-banner-section" id="homeHero">
+  <img
+    src="images/hero-banner.png"
+    alt="ZUFAROVS' STORE — премиальная корейская косметика"
+    class="hero-banner-image"
+  >
+
+  <div class="hero-banner-actions">
+    <button class="primary" data-view="quiz" id="heroQuiz">
+      Подобрать уход
+    </button>
+
+    <button class="secondary" data-view="catalog" id="heroCatalog">
+      Открыть каталог
+    </button>
+  </div>
+
+  <span class="visually-hidden" id="heroBadge"></span>
+  <span class="visually-hidden" id="heroTitle"></span>
+  <span class="visually-hidden" id="heroText"></span>
+</section>
 
       <section id="catalog" class="view active">
         <div class="section-heading">
