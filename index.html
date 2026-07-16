@@ -23,7 +23,7 @@
     </header>
 
     <main>
-      <<section class="hero-banner-section" id="homeHero">
+      <section class="hero-banner-section" id="homeHero">
   <img
     src="images/hero-banner.png"
     alt="ZUFAROVS' STORE — премиальная корейская косметика"
@@ -57,8 +57,17 @@
         <div class="search-wrap">
           <span>⌕</span>
           <input id="search" autocomplete="off" placeholder="Поиск по названию или задаче">
+          <button id="searchClear" class="search-clear hidden" aria-label="Очистить">×</button>
         </div>
         <div id="categoryChips" class="category-strip"></div>
+        <div class="catalog-toolbar">
+          <button id="filterBtn" class="filter-button">
+            <span class="filter-icon">≡</span>
+            <span id="filterBtnLabel">Фильтры</span>
+            <b id="filterCount" class="filter-count hidden">0</b>
+          </button>
+          <span id="resultCount" class="result-count"></span>
+        </div>
         <div id="grid" class="product-grid"></div>
         <div id="catalogEmpty" class="empty-state hidden"></div>
       </section>
@@ -107,8 +116,13 @@
           <div><span id="itemsLabel">Товары</span><strong id="subtotal">0 сум</strong></div>
           <div><span id="deliveryLabel">Доставка</span><strong id="delivery">0 сум</strong></div>
           <div class="total"><span id="totalLabel">Итого</span><strong id="total">0 сум</strong></div>
+          <div id="freeProgress" class="free-progress">
+            <div class="free-progress-track"><span id="freeProgressFill"></span></div>
+            <p id="freeProgressText" class="free-progress-text"></p>
+          </div>
           <p class="delivery-note" id="deliveryNote">Бесплатная доставка от 200 000 сум.</p>
           <button id="checkout" class="primary wide">Оформить заказ</button>
+          <button id="clearCart" class="text-button wide">Очистить корзину</button>
         </div>
       </section>
     </main>
@@ -135,6 +149,32 @@
         <details><summary id="useSummary">Как использовать</summary><p id="modalUse"></p></details>
         <div class="product-meta"><div><span id="volumeLabel">Объём</span><strong id="modalVolume"></strong></div><div><span id="originLabel">Производство</span><strong>South Korea</strong></div></div>
         <button id="modalAdd" class="primary wide sticky-add">Добавить в корзину</button>
+      </div>
+    </article>
+  </div>
+
+  <div id="filterSheet" class="modal" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" id="filterBackdrop"></div>
+    <article class="filter-sheet">
+      <div class="filter-sheet-head">
+        <h2 id="filterSheetTitle">Фильтры</h2>
+        <button id="filterClose" class="sheet-close-inline" aria-label="Закрыть">×</button>
+      </div>
+      <div class="filter-group">
+        <span class="eyebrow" id="filterSkinLabel">ТИП КОЖИ</span>
+        <div id="filterSkin" class="filter-chips"></div>
+      </div>
+      <div class="filter-group">
+        <span class="eyebrow" id="filterConcernLabel">ЗАДАЧА</span>
+        <div id="filterConcern" class="filter-chips"></div>
+      </div>
+      <div class="filter-group">
+        <span class="eyebrow" id="filterSortLabel">СОРТИРОВКА</span>
+        <div id="filterSort" class="filter-sort"></div>
+      </div>
+      <div class="filter-actions">
+        <button id="filterReset" class="secondary">Сбросить</button>
+        <button id="filterApply" class="primary">Показать</button>
       </div>
     </article>
   </div>
