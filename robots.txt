@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://farruxz15.github.io/zufarovs-store/sitemap.xml
