@@ -1463,44 +1463,6 @@ window.PRODUCTS = [
     "imported": true
   },
   {
-    "id": "p72",
-    "image": "images/placeholder.svg",
-    "brand": "Dr.Althea",
-    "nameRu": "Dr.Althea 147 Cream",
-    "nameUz": "Dr.Althea 147 Cream",
-    "category": "cream",
-    "price": 130000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Dr.Althea 147 krem (original).",
-    "shortUz": "Dr.Althea 147 krem (original).",
-    "useRu": "",
-    "useUz": "",
-    "imported": true
-  },
-  {
-    "id": "p73",
-    "image": "images/placeholder.svg",
-    "brand": "Dr.Althea",
-    "nameRu": "Dr.Althea 345 Relief Cream",
-    "nameUz": "Dr.Althea 345 Relief Cream",
-    "category": "cream",
-    "price": 125000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Dr.Althea \"345\" liniyasi krem — terini tinchlantiradi va namlaydi.",
-    "shortUz": "Dr.Althea \"345\" liniyasi krem — terini tinchlantiradi va namlaydi.",
-    "useRu": "",
-    "useUz": "",
-    "imported": true
-  },
-  {
     "id": "p74",
     "image": "images/placeholder.svg",
     "brand": "Dr.Althea",
@@ -1553,25 +1515,6 @@ window.PRODUCTS = [
     "concerns": [],
     "shortRu": "Dr.Althea Aqua Marine nabori (serum 75k, krem 75k, mist 105k).",
     "shortUz": "Dr.Althea Aqua Marine nabori (serum 75k, krem 75k, mist 105k).",
-    "useRu": "",
-    "useUz": "",
-    "imported": true
-  },
-  {
-    "id": "p77",
-    "image": "images/placeholder.svg",
-    "brand": "Dr.Althea",
-    "nameRu": "Dr.Althea Cleansing Balm",
-    "nameUz": "Dr.Althea Cleansing Balm",
-    "category": "cleanser",
-    "price": 90000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Balzam-tozalagich: makiyajni yumshoq eritib tozalaydi.",
-    "shortUz": "Balzam-tozalagich: makiyajni yumshoq eritib tozalaydi.",
     "useRu": "",
     "useUz": "",
     "imported": true
@@ -2294,25 +2237,6 @@ window.PRODUCTS = [
     "concerns": [],
     "shortRu": "Lagom Cellup micro foam cleanser.",
     "shortUz": "Lagom Cellup micro foam cleanser.",
-    "useRu": "",
-    "useUz": "",
-    "imported": true
-  },
-  {
-    "id": "p116",
-    "image": "images/placeholder.svg",
-    "brand": "Lagom",
-    "nameRu": "Lagom Cellup pH Cure Foam Cleanser",
-    "nameUz": "Lagom Cellup pH Cure Foam Cleanser",
-    "category": "cleanser",
-    "price": 75000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Terini quritmaydigan pH-balansli tozalovchi penka.",
-    "shortUz": "Terini quritmaydigan pH-balansli tozalovchi penka.",
     "useRu": "",
     "useUz": "",
     "imported": true
@@ -3415,44 +3339,6 @@ window.PRODUCTS = [
     "concerns": [],
     "shortRu": "Qayin suvi tarkibli stik SPF — qo‘l tegmasdan surtish qulay.",
     "shortUz": "Qayin suvi tarkibli stik SPF — qo‘l tegmasdan surtish qulay.",
-    "useRu": "",
-    "useUz": "",
-    "imported": true
-  },
-  {
-    "id": "p175",
-    "image": "images/placeholder.svg",
-    "brand": "Round Lab",
-    "nameRu": "Round Lab Dokdo Ampoule",
-    "nameUz": "Round Lab Dokdo Ampoule",
-    "category": "other",
-    "price": 95000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Dokdo liniyasi namlantiruvchi ampula-serum.",
-    "shortUz": "Dokdo liniyasi namlantiruvchi ampula-serum.",
-    "useRu": "",
-    "useUz": "",
-    "imported": true
-  },
-  {
-    "id": "p176",
-    "image": "images/placeholder.svg",
-    "brand": "Round Lab",
-    "nameRu": "Round Lab Dokdo Cleansing Oil",
-    "nameUz": "Round Lab Dokdo Cleansing Oil",
-    "category": "cleanser",
-    "price": 120000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Dokdo liniyasi gidrofil yog‘i — makiyajni tozalaydi va terini namlaydi.",
-    "shortUz": "Dokdo liniyasi gidrofil yog‘i — makiyajni tozalaydi va terini namlaydi.",
     "useRu": "",
     "useUz": "",
     "imported": true
