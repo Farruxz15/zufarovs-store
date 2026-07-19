@@ -9,7 +9,7 @@ import json, os, re, html, datetime
 
 # ---------- SOZLAMALAR ----------
 SITE = "https://farruxz15.github.io/zufarovs-store"
-TG_APP = "https://t.me/Zufarovsstore"   # <-- BOT/MINI APP HAVOLASI. TEKSHIRIB TO'G'IRLANG
+TG_APP = "https://t.me/zufarovs_store_bot"   # <-- BOT/MINI APP HAVOLASI. TEKSHIRIB TO'G'IRLANG
 SHOP = "ZUFAROVS’ STORE"
 CITY = "Ташкенте"        # предложный падеж: "в Ташкенте"
 CITY_N = "Ташкент"       # именительный
