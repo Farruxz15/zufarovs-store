@@ -3974,26 +3974,6 @@ window.PRODUCTS = [
     "weight": 0.15
   },
   {
-    "id": "p194",
-    "image": "images/placeholder.svg",
-    "brand": "The History of Whoo",
-    "nameRu": "The History of Whoo Luxury BB Cream (katta hajm)",
-    "nameUz": "The History of Whoo Luxury BB Cream (katta hajm)",
-    "category": "cream",
-    "price": 150000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Premium BB krem, katta hajmli variant.",
-    "shortUz": "Premium BB krem, katta hajmli variant.",
-    "useRu": "",
-    "useUz": "",
-    "imported": true,
-    "weight": 0.15
-  },
-  {
     "id": "p195",
     "image": "images/placeholder.svg",
     "brand": "TIRTIR",
