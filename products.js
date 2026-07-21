@@ -6,7 +6,7 @@ window.PRODUCTS = [
     "nameRu": "Relief Sun: Rice + Probiotics SPF50+ PA++++",
     "nameUz": "Relief Sun: Rice + Probiotics SPF50+ PA++++",
     "category": "spf",
-    "price": 135000,
+    "price": 83000,
     "volume": "50 мл",
     "skin": [
       "all",
@@ -153,7 +153,7 @@ window.PRODUCTS = [
     "nameRu": "Complete No-Stress Physical Sunscreen SPF50+ PA++++",
     "nameUz": "Complete No-Stress Physical Sunscreen SPF50+ PA++++",
     "category": "spf",
-    "price": 140000,
+    "price": 93000,
     "volume": "50 мл",
     "skin": [
       "oily",
@@ -276,7 +276,7 @@ window.PRODUCTS = [
     "nameRu": "1025 Dokdo Ampoule",
     "nameUz": "1025 Dokdo Ampoule",
     "category": "serum",
-    "price": 160000,
+    "price": 95000,
     "volume": "45 г",
     "skin": [
       "all",
@@ -324,7 +324,7 @@ window.PRODUCTS = [
     "nameRu": "1025 Dokdo Cleansing Oil",
     "nameUz": "1025 Dokdo Cleansing Oil",
     "category": "cleanser",
-    "price": 165000,
+    "price": 120000,
     "volume": "200 мл",
     "skin": [
       "all",
@@ -346,7 +346,7 @@ window.PRODUCTS = [
     "nameRu": "Birch Juice Moisturizing Sun Spray SPF50+ PA++++",
     "nameUz": "Birch Juice Moisturizing Sun Spray SPF50+ PA++++",
     "category": "spf",
-    "price": 135000,
+    "price": 90000,
     "volume": "150 мл",
     "skin": [
       "all",
@@ -370,7 +370,7 @@ window.PRODUCTS = [
     "nameRu": "Cellup pH Cure Foam Cleanser",
     "nameUz": "Cellup pH Cure Foam Cleanser",
     "category": "cleanser",
-    "price": 105000,
+    "price": 62000,
     "volume": "120 мл",
     "skin": [
       "all",
@@ -394,7 +394,7 @@ window.PRODUCTS = [
     "nameRu": "345 Relief Cream",
     "nameUz": "345 Relief Cream",
     "category": "cream",
-    "price": 190000,
+    "price": 125000,
     "volume": "50 мл",
     "skin": [
       "sensitive",
@@ -420,7 +420,7 @@ window.PRODUCTS = [
     "nameRu": "345 Relief Cream Mist",
     "nameUz": "345 Relief Cream Mist",
     "category": "toner",
-    "price": 128000,
+    "price": 70000,
     "volume": "60 мл",
     "skin": [
       "sensitive",
@@ -491,7 +491,7 @@ window.PRODUCTS = [
     "nameRu": "Cellup Micro Pore Cleansing Oil",
     "nameUz": "Cellup Micro Pore Cleansing Oil",
     "category": "cleanser",
-    "price": 128000,
+    "price": 82000,
     "volume": "200 мл",
     "skin": [
       "all",
@@ -587,7 +587,7 @@ window.PRODUCTS = [
     "nameRu": "147 Barrier Cream",
     "nameUz": "147 Barrier Cream",
     "category": "cream",
-    "price": 175000,
+    "price": 130000,
     "volume": "50 мл",
     "skin": [
       "dry",
@@ -611,7 +611,7 @@ window.PRODUCTS = [
     "nameRu": "Pure Grinding Cleansing Balm",
     "nameUz": "Pure Grinding Cleansing Balm",
     "category": "cleanser",
-    "price": 145000,
+    "price": 90000,
     "volume": "50 мл",
     "skin": [
       "all",
@@ -972,46 +972,6 @@ window.PRODUCTS = [
     "useUz": "",
     "imported": true,
     "weight": 0.25
-  },
-  {
-    "id": "p44",
-    "image": "images/placeholder.svg",
-    "brand": "Axis-Y",
-    "nameRu": "Axis-Y Complete No Stress Sunscreen SPF50+ (vegan)",
-    "nameUz": "Axis-Y Complete No Stress Sunscreen SPF50+ (vegan)",
-    "category": "spf",
-    "price": 93000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Vegan tarkibli yengil quyoshdan himoya kremi, terini quritmaydi va oq iz qoldirmaydi.",
-    "shortUz": "Vegan tarkibli yengil quyoshdan himoya kremi, terini quritmaydi va oq iz qoldirmaydi.",
-    "useRu": "",
-    "useUz": "",
-    "imported": true,
-    "weight": 0.1
-  },
-  {
-    "id": "p45",
-    "image": "images/placeholder.svg",
-    "brand": "Beauty of Joseon",
-    "nameRu": "Beauty of Joseon Sun Cream",
-    "nameUz": "Beauty of Joseon Sun Cream",
-    "category": "spf",
-    "price": 83000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Beauty of Joseon SPF krem (ko'k va oq variant).",
-    "shortUz": "Beauty of Joseon SPF krem (ko'k va oq variant).",
-    "useRu": "",
-    "useUz": "",
-    "imported": true,
-    "weight": 0.1
   },
   {
     "id": "p46",
@@ -1534,66 +1494,6 @@ window.PRODUCTS = [
     "weight": 0.3
   },
   {
-    "id": "p72",
-    "image": "images/placeholder.svg",
-    "brand": "Dr.Althea",
-    "nameRu": "Dr.Althea 147 Cream",
-    "nameUz": "Dr.Althea 147 Cream",
-    "category": "cream",
-    "price": 130000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Dr.Althea 147 krem (original).",
-    "shortUz": "Dr.Althea 147 krem (original).",
-    "useRu": "",
-    "useUz": "",
-    "imported": true,
-    "weight": 0.15
-  },
-  {
-    "id": "p73",
-    "image": "images/placeholder.svg",
-    "brand": "Dr.Althea",
-    "nameRu": "Dr.Althea 345 Relief Cream",
-    "nameUz": "Dr.Althea 345 Relief Cream",
-    "category": "cream",
-    "price": 125000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Dr.Althea \"345\" liniyasi krem — terini tinchlantiradi va namlaydi.",
-    "shortUz": "Dr.Althea \"345\" liniyasi krem — terini tinchlantiradi va namlaydi.",
-    "useRu": "",
-    "useUz": "",
-    "imported": true,
-    "weight": 0.15
-  },
-  {
-    "id": "p74",
-    "image": "images/placeholder.svg",
-    "brand": "Dr.Althea",
-    "nameRu": "Dr.Althea 345 Relief Mist",
-    "nameUz": "Dr.Althea 345 Relief Mist",
-    "category": "other",
-    "price": 70000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Kun davomida namlik beruvchi \"345\" tinchlantiruvchi mist.",
-    "shortUz": "Kun davomida namlik beruvchi \"345\" tinchlantiruvchi mist.",
-    "useRu": "",
-    "useUz": "",
-    "imported": true,
-    "weight": 0.3
-  },
-  {
     "id": "p75",
     "image": "images/placeholder.svg",
     "brand": "Dr.Althea",
@@ -1634,26 +1534,6 @@ window.PRODUCTS = [
     "weight": 0.15
   },
   {
-    "id": "p77",
-    "image": "images/placeholder.svg",
-    "brand": "Dr.Althea",
-    "nameRu": "Dr.Althea Cleansing Balm",
-    "nameUz": "Dr.Althea Cleansing Balm",
-    "category": "cleanser",
-    "price": 90000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Balzam-tozalagich: makiyajni yumshoq eritib tozalaydi.",
-    "shortUz": "Balzam-tozalagich: makiyajni yumshoq eritib tozalaydi.",
-    "useRu": "",
-    "useUz": "",
-    "imported": true,
-    "weight": 0.2
-  },
-  {
     "id": "p78",
     "image": "images/placeholder.svg",
     "brand": "Dr.Althea",
@@ -1672,26 +1552,6 @@ window.PRODUCTS = [
     "useUz": "",
     "imported": true,
     "weight": 0.2
-  },
-  {
-    "id": "p79",
-    "image": "images/placeholder.svg",
-    "brand": "Dr.Althea",
-    "nameRu": "Dr.Althea Cream/Product",
-    "nameUz": "Dr.Althea Cream/Product",
-    "category": "cream",
-    "price": 125000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Dr.Althea brendi mahsuloti (nalichida).",
-    "shortUz": "Dr.Althea brendi mahsuloti (nalichida).",
-    "useRu": "",
-    "useUz": "",
-    "imported": true,
-    "weight": 0.15
   },
   {
     "id": "p80",
@@ -2414,26 +2274,6 @@ window.PRODUCTS = [
     "weight": 0.2
   },
   {
-    "id": "p116",
-    "image": "images/placeholder.svg",
-    "brand": "Lagom",
-    "nameRu": "Lagom Cellup pH Cure Foam Cleanser",
-    "nameUz": "Lagom Cellup pH Cure Foam Cleanser",
-    "category": "cleanser",
-    "price": 62000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Terini quritmaydigan pH-balansli tozalovchi penka.",
-    "shortUz": "Terini quritmaydigan pH-balansli tozalovchi penka.",
-    "useRu": "",
-    "useUz": "",
-    "imported": true,
-    "weight": 0.2
-  },
-  {
     "id": "p117",
     "image": "images/placeholder.svg",
     "brand": "Lagom",
@@ -2492,26 +2332,6 @@ window.PRODUCTS = [
     "useUz": "",
     "imported": true,
     "weight": 0.15
-  },
-  {
-    "id": "p120",
-    "image": "images/placeholder.svg",
-    "brand": "Lagom",
-    "nameRu": "Lagom Cleansing Oil (gidrofil)",
-    "nameUz": "Lagom Cleansing Oil (gidrofil)",
-    "category": "cleanser",
-    "price": 82000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Lagom gidrofil tozalagich (cleansing oil).",
-    "shortUz": "Lagom gidrofil tozalagich (cleansing oil).",
-    "useRu": "",
-    "useUz": "",
-    "imported": true,
-    "weight": 0.2
   },
   {
     "id": "p121",
@@ -2848,26 +2668,6 @@ window.PRODUCTS = [
     "concerns": [],
     "shortRu": "Nivea Men Cool Kick — salqinlik beruvchi dezodrant.",
     "shortUz": "Nivea Men Cool Kick — salqinlik beruvchi dezodrant.",
-    "useRu": "",
-    "useUz": "",
-    "imported": true,
-    "weight": 0.3
-  },
-  {
-    "id": "p138",
-    "image": "images/placeholder.svg",
-    "brand": "Nivea",
-    "nameRu": "Nivea Men Deodorant",
-    "nameUz": "Nivea Men Deodorant",
-    "category": "other",
-    "price": 60000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Erkaklar uchun Nivea dezodrant.",
-    "shortUz": "Erkaklar uchun Nivea dezodrant.",
     "useRu": "",
     "useUz": "",
     "imported": true,
@@ -3594,46 +3394,6 @@ window.PRODUCTS = [
     "weight": 0.1
   },
   {
-    "id": "p175",
-    "image": "images/placeholder.svg",
-    "brand": "Round Lab",
-    "nameRu": "Round Lab Dokdo Ampoule",
-    "nameUz": "Round Lab Dokdo Ampoule",
-    "category": "other",
-    "price": 95000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Dokdo liniyasi namlantiruvchi ampula-serum.",
-    "shortUz": "Dokdo liniyasi namlantiruvchi ampula-serum.",
-    "useRu": "",
-    "useUz": "",
-    "imported": true,
-    "weight": 0.3
-  },
-  {
-    "id": "p176",
-    "image": "images/placeholder.svg",
-    "brand": "Round Lab",
-    "nameRu": "Round Lab Dokdo Cleansing Oil",
-    "nameUz": "Round Lab Dokdo Cleansing Oil",
-    "category": "cleanser",
-    "price": 120000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Dokdo liniyasi gidrofil yog‘i — makiyajni tozalaydi va terini namlaydi.",
-    "shortUz": "Dokdo liniyasi gidrofil yog‘i — makiyajni tozalaydi va terini namlaydi.",
-    "useRu": "",
-    "useUz": "",
-    "imported": true,
-    "weight": 0.2
-  },
-  {
     "id": "p177",
     "image": "images/placeholder.svg",
     "brand": "Round Lab",
@@ -3692,26 +3452,6 @@ window.PRODUCTS = [
     "useUz": "",
     "imported": true,
     "weight": 0.2
-  },
-  {
-    "id": "p180",
-    "image": "images/placeholder.svg",
-    "brand": "Round Lab",
-    "nameRu": "Round Lab Sun Spray SPF",
-    "nameUz": "Round Lab Sun Spray SPF",
-    "category": "spf",
-    "price": 90000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Round Lab spreyli SPF (donasi).",
-    "shortUz": "Round Lab spreyli SPF (donasi).",
-    "useRu": "",
-    "useUz": "",
-    "imported": true,
-    "weight": 0.1
   },
   {
     "id": "p181",
@@ -4718,7 +4458,7 @@ window.PRODUCTS = [
     "weight": 0.14
   },
   {
-    "id": "p230",
+    "id": "p236",
     "image": "images/placeholder.svg",
     "brand": "Torriden",
     "nameRu": "Torriden Toner",
