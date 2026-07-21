@@ -1600,7 +1600,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.Althea 345 Relief Serum",
     "nameUz": "Dr.Althea 345 Relief Serum",
     "category": "serum",
-    "price": 95000,
+    "price": 96000,
     "volume": "",
     "skin": [
       "all"
@@ -2420,7 +2420,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Cellup pH Cure Foam Cleanser",
     "nameUz": "Lagom Cellup pH Cure Foam Cleanser",
     "category": "cleanser",
-    "price": 75000,
+    "price": 62000,
     "volume": "",
     "skin": [
       "all"
@@ -2440,7 +2440,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Cellus Deep Moisture Cream",
     "nameUz": "Lagom Cellus Deep Moisture Cream",
     "category": "cream",
-    "price": 145000,
+    "price": 135000,
     "volume": "",
     "skin": [
       "all"
@@ -2460,7 +2460,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Cellus Mild Cream",
     "nameUz": "Lagom Cellus Mild Cream",
     "category": "cream",
-    "price": 150000,
+    "price": 140000,
     "volume": "",
     "skin": [
       "all"
@@ -2560,7 +2560,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Sun Gel SPF50+ PA++++",
     "nameUz": "Lagom Sun Gel SPF50+ PA++++",
     "category": "spf",
-    "price": 111000,
+    "price": 110000,
     "volume": "",
     "skin": [
       "all"
@@ -2620,7 +2620,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom White Moisture Cream",
     "nameUz": "Lagom White Moisture Cream",
     "category": "cream",
-    "price": 150000,
+    "price": 130000,
     "volume": "",
     "skin": [
       "all"
@@ -4716,5 +4716,119 @@ window.PRODUCTS = [
     "useRu": "Распылите на точки пульса: запястья, шея, за ушами.",
     "useUz": "Puls nuqtalariga sepiladi: bilak, bo‘yin, quloq ortiga.",
     "weight": 0.14
+  },
+  {
+    "id": "p230",
+    "image": "images/placeholder.svg",
+    "brand": "Torriden",
+    "nameRu": "Torriden Toner",
+    "nameUz": "Torriden Toner",
+    "category": "toner",
+    "price": 100000,
+    "volume": "",
+    "skin": [
+      "all"
+    ],
+    "concerns": [],
+    "shortRu": "Увлажняющий тонер с низкомолекулярной гиалуроновой кислотой. Подготавливает кожу к следующим этапам ухода.",
+    "shortUz": "Past molekulyar gialuron kislotali namlantiruvchi toner. Terini keyingi bosqichlarga tayyorlaydi.",
+    "useRu": "После умывания нанесите на ватный диск или ладони и распределите по лицу похлопывающими движениями.",
+    "useUz": "Yuvingandan so‘ng paxta disk yoki kaftga olib, yuzga sekin urib singdiring.",
+    "weight": 0.15
+  },
+  {
+    "id": "p231",
+    "image": "images/placeholder.svg",
+    "brand": "Torriden",
+    "nameRu": "Torriden Cream",
+    "nameUz": "Torriden Krem",
+    "category": "cream",
+    "price": 110000,
+    "volume": "",
+    "skin": [
+      "all"
+    ],
+    "concerns": [],
+    "shortRu": "Лёгкий увлажняющий крем, завершающий уход. Укрепляет барьер и удерживает влагу.",
+    "shortUz": "Parvarishni yakunlovchi yengil namlantiruvchi krem. Teri bariyerini mustahkamlaydi va namlikni ushlab turadi.",
+    "useRu": "Наносите утром и вечером на очищенную кожу как финальный шаг ухода.",
+    "useUz": "Ertalab va kechqurun tozalangan teriga parvarishning oxirgi bosqichi sifatida surting.",
+    "weight": 0.15
+  },
+  {
+    "id": "p232",
+    "image": "images/placeholder.svg",
+    "brand": "Torriden",
+    "nameRu": "Torriden Foam Cleanser",
+    "nameUz": "Torriden Penka",
+    "category": "cleanser",
+    "price": 65000,
+    "volume": "",
+    "skin": [
+      "all"
+    ],
+    "concerns": [],
+    "shortRu": "Мягкая пенка для ежедневного умывания. Очищает без ощущения стянутости.",
+    "shortUz": "Kundalik yuvinish uchun yumshoq penka. Terini tortishtirmasdan tozalaydi.",
+    "useRu": "Вспеньте небольшое количество в ладонях, помассируйте лицо и смойте тёплой водой.",
+    "useUz": "Ozgina miqdorni kaftda ko‘pirtiring, yuzga massaj qiling va iliq suv bilan yuving.",
+    "weight": 0.15
+  },
+  {
+    "id": "p233",
+    "image": "images/placeholder.svg",
+    "brand": "Torriden",
+    "nameRu": "Torriden Dive-In Cleansing Gel",
+    "nameUz": "Torriden Gel Penka",
+    "category": "cleanser",
+    "price": 88000,
+    "volume": "",
+    "skin": [
+      "all"
+    ],
+    "concerns": [],
+    "shortRu": "Гелевая очищающая основа с гиалуроновой кислотой. Подходит для утреннего и вечернего умывания.",
+    "shortUz": "Gialuron kislotali gel tozalagich. Ertalabki va kechki yuvinish uchun mos.",
+    "useRu": "Нанесите на влажную кожу, помассируйте и тщательно смойте водой.",
+    "useUz": "Nam teriga surting, massaj qiling va suv bilan yaxshilab yuving.",
+    "weight": 0.15
+  },
+  {
+    "id": "p234",
+    "image": "images/placeholder.svg",
+    "brand": "Ohui",
+    "nameRu": "Ohui Peeling",
+    "nameUz": "Ohui Peeling",
+    "category": "other",
+    "price": 60000,
+    "volume": "",
+    "skin": [
+      "all"
+    ],
+    "concerns": [],
+    "shortRu": "Пилинг для мягкого удаления ороговевших клеток и выравнивания текстуры кожи.",
+    "shortUz": "O‘lik hujayralarni yumshoq tozalab, teri teksturasini tekislaydigan peeling.",
+    "useRu": "Используйте 1–2 раза в неделю на сухую очищенную кожу, избегая области глаз, затем смойте.",
+    "useUz": "Haftasiga 1–2 marta quruq va tozalangan teriga qo‘llang, ko‘z atrofidan saqlaning, so‘ng yuving.",
+    "weight": 0.15
+  },
+  {
+    "id": "p235",
+    "image": "images/placeholder.svg",
+    "brand": "Numbuzin",
+    "nameRu": "Numbuzin Sheet Mask",
+    "nameUz": "Numbuzin Maska",
+    "category": "mask",
+    "price": 26000,
+    "volume": "",
+    "skin": [
+      "all"
+    ],
+    "concerns": [],
+    "shortRu": "Тканевая маска для интенсивного увлажнения и восстановления кожи после очищения.",
+    "shortUz": "Tozalashdan keyin terini jadal namlantirish va tiklash uchun mato maska.",
+    "useRu": "Нанесите на очищенное лицо на 15–20 минут, снимите и вбейте остатки эссенции.",
+    "useUz": "Tozalangan yuzga 15–20 daqiqaga qo‘ying, oling va qolgan essensiyani teriga singdiring.",
+    "weight": 0.15
   }
 ];
