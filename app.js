@@ -36,6 +36,31 @@ const pDesc=p=>lang==='ru'?p.shortRu:p.shortUz;
 const pUse=p=>lang==='ru'?p.useRu:p.useUz;
 const purpose=p=>pDesc(p);
 
+/* ---------- QIDIRUV / ПОИСК (kirill+lotin, 2 tilda, xatoga chidamli) ---------- */
+const CYR2LAT={'а':'a','б':'b','в':'v','г':'g','д':'d','е':'e','ё':'yo','ж':'j','з':'z','и':'i','й':'y','к':'k','л':'l','м':'m','н':'n','о':'o','п':'p','р':'r','с':'s','т':'t','у':'u','ф':'f','х':'x','ц':'c','ч':'ch','ш':'sh','щ':'sh','ъ':'','ы':'i','ь':'','э':'e','ю':'yu','я':'ya','ў':'o','қ':'q','ғ':'g','ҳ':'h','і':'i','ї':'i'};
+const translit=s=>String(s||'').replace(/[а-яёўқғҳії]/g,c=>CYR2LAT[c]!==undefined?CYR2LAT[c]:c);
+const nrm=s=>translit(String(s||'').toLowerCase()).replace(/[^a-z0-9]+/g,' ').trim();
+const skel=s=>nrm(s).replace(/kh/g,'x').replace(/q/g,'k').replace(/ch/g,'c').replace(/sh/g,'s').replace(/ts/g,'c').replace(/[yj]/g,'i').replace(/(.)\1+/g,'$1');
+function lev(a,b){if(a===b)return 0;if(Math.abs(a.length-b.length)>2)return 9;let prev=[...Array(b.length+1).keys()];for(let i=1;i<=a.length;i++){const cur=[i];for(let j=1;j<=b.length;j++)cur[j]=Math.min(prev[j]+1,cur[j-1]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1));prev=cur}return prev[b.length]}
+function catWords(p){const out=[p.category];for(const L of ['ru','uz']){const d=i18n[L];if(!d)continue;if(d.categories&&d.categories[p.category])out.push(d.categories[p.category]);for(const st of (d.quiz||[]))for(const k of [...(p.concerns||[]),...(p.skin||[])])if(st.options&&st.options[k])out.push(st.options[k])}return out.join(' ')}
+const _idx=new Map();
+function idxOf(p){if(!_idx.has(p.id)){const raw=[p.brand,p.nameRu,p.nameUz,p.shortRu,p.shortUz,p.useRu,p.useUz,p.volume,catWords(p)].join(' ');_idx.set(p.id,{n:nrm(raw),s:skel(raw)})}return _idx.get(p.id)}
+function matchesQuery(p,q){
+ if(!q)return true;
+ const ix=idxOf(p),nq=nrm(q),sq=skel(q);
+ if(!nq)return true;
+ if(ix.n.includes(nq)||ix.s.includes(sq))return true;
+ const nTok=ix.n.split(' '),sTok=ix.s.split(' ');
+ return nq.split(' ').filter(Boolean).every(t=>{
+  const st=skel(t);
+  if(ix.n.includes(t)||ix.s.includes(st))return true;
+  const tol=t.length>=7?2:t.length>=4?1:0;
+  if(!tol)return false;
+  return nTok.some(w=>lev(t,w)<=tol)||sTok.some(w=>lev(st,w)<=tol);
+ });
+}
+
+
 function haptic(type='light'){tg?.HapticFeedback?.impactOccurred?.(type)}
 function toast(message){const el=document.querySelector('#toast');el.textContent=message;el.classList.add('show');clearTimeout(toast.timer);toast.timer=setTimeout(()=>el.classList.remove('show'),1600)}
 function save(){localStorage.setItem('cart',JSON.stringify(cart));localStorage.setItem('favorites',JSON.stringify([...favorites]));updateCartBadge()}
@@ -58,7 +83,7 @@ function renderCatalog(){
  document.querySelector('#searchClear').classList.toggle('hidden',!q);
  let items=PRODUCTS.filter(p=>
    (activeCategory==='all'||p.category===activeCategory)&&
-   (`${p.brand} ${pName(p)} ${pDesc(p)}`.toLowerCase().includes(q))&&
+   matchesQuery(p,q)&&
    (activeSkin.size===0||[...activeSkin].some(s=>(p.skin||[]).includes(s)))&&
    (activeConcern.size===0||[...activeConcern].some(c=>(p.concerns||[]).includes(c)))
  );

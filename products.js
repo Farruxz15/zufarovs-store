@@ -2520,7 +2520,7 @@ window.PRODUCTS = [
     "nameRu": "Medibeau CC Cream",
     "nameUz": "Medibeau CC Cream",
     "category": "makeup",
-    "price": 0,
+    "price": 40000,
     "volume": "",
     "skin": [
       "all"
@@ -2592,26 +2592,6 @@ window.PRODUCTS = [
     "useUz": "",
     "imported": true,
     "weight": 0.23
-  },
-  {
-    "id": "p134",
-    "image": "images/placeholder.svg",
-    "brand": "Merikit",
-    "nameRu": "Merikit Rice Brightening Serum (Vit C)",
-    "nameUz": "Merikit Rice Brightening Serum (Vit C)",
-    "category": "serum",
-    "price": 0,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Merikit vitamin C li oqartiruvchi serum — dog'larni ketkazadi. (narx postda yo'q)",
-    "shortUz": "Merikit vitamin C li oqartiruvchi serum — dog'larni ketkazadi. (narx postda yo'q)",
-    "useRu": "",
-    "useUz": "",
-    "imported": true,
-    "weight": 0.1
   },
   {
     "id": "p135",
@@ -3020,7 +3000,7 @@ window.PRODUCTS = [
     "nameRu": "Prmr Peeling Gel",
     "nameUz": "Prmr Peeling Gel",
     "category": "cleanser",
-    "price": 0,
+    "price": 45000,
     "volume": "",
     "skin": [
       "all"
@@ -3840,7 +3820,7 @@ window.PRODUCTS = [
     "nameRu": "Torriden Serum",
     "nameUz": "Torriden Serum",
     "category": "serum",
-    "price": 105000,
+    "price": 100000,
     "volume": "",
     "skin": [
       "all"
@@ -4515,25 +4495,6 @@ window.PRODUCTS = [
     "weight": 0.15
   },
   {
-    "id": "p233",
-    "image": "images/placeholder.svg",
-    "brand": "Torriden",
-    "nameRu": "Torriden Dive-In Cleansing Gel",
-    "nameUz": "Torriden Gel Penka",
-    "category": "cleanser",
-    "price": 88000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Гелевая очищающая основа с гиалуроновой кислотой. Подходит для утреннего и вечернего умывания.",
-    "shortUz": "Gialuron kislotali gel tozalagich. Ertalabki va kechki yuvinish uchun mos.",
-    "useRu": "Нанесите на влажную кожу, помассируйте и тщательно смойте водой.",
-    "useUz": "Nam teriga surting, massaj qiling va suv bilan yaxshilab yuving.",
-    "weight": 0.15
-  },
-  {
     "id": "p234",
     "image": "images/placeholder.svg",
     "brand": "Ohui",
@@ -4569,6 +4530,25 @@ window.PRODUCTS = [
     "shortUz": "Tozalashdan keyin terini jadal namlantirish va tiklash uchun mato maska.",
     "useRu": "Нанесите на очищенное лицо на 15–20 минут, снимите и вбейте остатки эссенции.",
     "useUz": "Tozalangan yuzga 15–20 daqiqaga qo‘ying, oling va qolgan essensiyani teriga singdiring.",
+    "weight": 0.15
+  },
+  {
+    "id": "p237",
+    "image": "images/placeholder.svg",
+    "brand": "Dr.Althea",
+    "nameRu": "Dr.Althea Крем-маска (упаковка 4 шт)",
+    "nameUz": "Dr.Althea Krem-maska (4 dona)",
+    "category": "mask",
+    "price": 55000,
+    "volume": "4 dona",
+    "skin": [
+      "all"
+    ],
+    "concerns": [],
+    "shortRu": "Упаковка из 4 крем-масок для интенсивного увлажнения и восстановления кожи.",
+    "shortUz": "Terini jadal namlantirish va tiklash uchun 4 donalik krem-maska to‘plami.",
+    "useRu": "Нанесите на очищенную кожу плотным слоем на 10–15 минут, затем смойте или вбейте остатки.",
+    "useUz": "Tozalangan teriga qalin qatlam qilib 10–15 daqiqaga surting, so‘ng yuving yoki qoldig‘ini singdiring.",
     "weight": 0.15
   }
 ];
