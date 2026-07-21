@@ -4718,7 +4718,7 @@ window.PRODUCTS = [
     "weight": 0.14
   },
   {
-    "id": "p236",
+    "id": "p230",
     "image": "images/placeholder.svg",
     "brand": "Torriden",
     "nameRu": "Torriden Toner",
