@@ -439,7 +439,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p19",
-    "image": "images/21.webp",
+    "image": "images/19.png",
     "brand": "Dr. Althea",
     "nameRu": "Vitamin C Boosting Serum",
     "nameUz": "Vitamin C Boosting Serum",
@@ -3775,7 +3775,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p199",
-    "image": "images/placeholder.svg",
+    "image": "images/199.png",
     "brand": "Torriden",
     "nameRu": "Torriden Dive-In Mask",
     "nameUz": "Torriden Dive-In Mask",
@@ -3795,7 +3795,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p200",
-    "image": "images/placeholder.svg",
+    "image": "images/200.png",
     "brand": "Torriden",
     "nameRu": "Torriden Dive-In Set",
     "nameUz": "Torriden Dive-In Set",
@@ -3815,7 +3815,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p201",
-    "image": "images/placeholder.svg",
+    "image": "images/201.png",
     "brand": "Torriden",
     "nameRu": "Torriden Serum",
     "nameUz": "Torriden Serum",
@@ -3835,7 +3835,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p202",
-    "image": "images/placeholder.svg",
+    "image": "images/202.png",
     "brand": "Torriden",
     "nameRu": "Torriden Toner Pad",
     "nameUz": "Torriden Toner Pad",
@@ -3855,7 +3855,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p203",
-    "image": "images/placeholder.svg",
+    "image": "images/203.png",
     "brand": "Tree Hut",
     "nameRu": "Tree Hut Moroccan Rose Shea Sugar Scrub",
     "nameUz": "Tree Hut Moroccan Rose Shea Sugar Scrub",
@@ -3875,7 +3875,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p204",
-    "image": "images/placeholder.svg",
+    "image": "images/204.png",
     "brand": "",
     "nameRu": "Vanilla Jazz Belle de Parfum",
     "nameUz": "Vanilla Jazz Belle de Parfum",
@@ -3895,7 +3895,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p205",
-    "image": "images/placeholder.svg",
+    "image": "images/205.png",
     "brand": "",
     "nameRu": "Vibrating Gua Sha Massager",
     "nameUz": "Vibrating Gua Sha Massager",
@@ -3915,7 +3915,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p206",
-    "image": "images/placeholder.svg",
+    "image": "images/206.png",
     "brand": "VT",
     "nameRu": "VT Glow Ampoule",
     "nameUz": "VT Glow Ampoule",
@@ -3935,7 +3935,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p207",
-    "image": "images/placeholder.svg",
+    "image": "images/207.png",
     "brand": "VT",
     "nameRu": "VT PDRN Cream",
     "nameUz": "VT PDRN Cream",
@@ -3955,7 +3955,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p208",
-    "image": "images/placeholder.svg",
+    "image": "images/208.png",
     "brand": "VT",
     "nameRu": "VT PDRN Sun Cream SPF50+",
     "nameUz": "VT PDRN Sun Cream SPF50+",
@@ -3975,7 +3975,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p209",
-    "image": "images/placeholder.svg",
+    "image": "images/209.png",
     "brand": "WellDerma",
     "nameRu": "WellDerma Collagen Foam Cleanser",
     "nameUz": "WellDerma Collagen Foam Cleanser",
@@ -3995,7 +3995,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p210",
-    "image": "images/placeholder.svg",
+    "image": "images/210.png",
     "brand": "X5",
     "nameRu": "X5 Collagen Cream",
     "nameUz": "X5 Collagen Cream",
@@ -4420,7 +4420,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p230",
-    "image": "images/placeholder.svg",
+    "image": "images/230.png",
     "brand": "Zara",
     "nameRu": "Zara Orchid 90 мл (оригинал, Испания)",
     "nameUz": "Zara Orchid 90 ml (original, Ispaniya)",
@@ -4439,7 +4439,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p236",
-    "image": "images/placeholder.svg",
+    "image": "images/236.png",
     "brand": "Torriden",
     "nameRu": "Torriden Toner",
     "nameUz": "Torriden Toner",
@@ -4458,7 +4458,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p231",
-    "image": "images/placeholder.svg",
+    "image": "images/231.png",
     "brand": "Torriden",
     "nameRu": "Torriden Cream",
     "nameUz": "Torriden Krem",
@@ -4477,7 +4477,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p232",
-    "image": "images/placeholder.svg",
+    "image": "images/232.png",
     "brand": "Torriden",
     "nameRu": "Torriden Foam Cleanser",
     "nameUz": "Torriden Penka",
