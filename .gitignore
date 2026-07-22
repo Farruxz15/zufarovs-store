@@ -7,3 +7,5 @@ __pycache__/
 bot.log
 bot-error.log
 orders.jsonl
+products.js.bak
+wire_cards.py
