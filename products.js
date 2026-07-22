@@ -669,7 +669,7 @@ window.PRODUCTS = [
     "shortRu": "Тон-ап CC солнцезащитный крем с глутатионом, SPF50+. Защищает, осветляет и выравнивает тон.",
     "shortUz": "Glutation tarkibli CC quyoshdan himoya kremi: teri rangini tenglashtiradi va SPF50+ himoya beradi.",
     "useRu": "Наносить днём как финал ухода за 15–20 мин до выхода.",
-    "useUz": "",
+    "useUz": "Kunduzi parvarishning yakuniy bosqichi sifatida, tashqariga chiqishdan 15–20 daqiqa oldin surting.",
     "imported": true,
     "weight": 0.1
   },
@@ -689,7 +689,7 @@ window.PRODUCTS = [
     "shortRu": "Насыщенный крем для сухой кожи с пантенолом и церамидами: восстанавливает и укрепляет барьер.",
     "shortUz": "Quruq teri uchun yangi ultra-namlantiruvchi krem.",
     "useRu": "Наносить на очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -709,7 +709,7 @@ window.PRODUCTS = [
     "shortRu": "Кремовый тонер с центеллой (Cica) для чувствительной кожи: успокаивает, укрепляет барьер, увлажняет.",
     "shortUz": "Kremsimon toner — teri to‘sig‘ini mustahkamlaydi va namlaydi.",
     "useRu": "Нанести на очищенную кожу ладонями до сыворотки.",
-    "useUz": "",
+    "useUz": "Zardobdan oldin tozalangan teriga kaft bilan surting.",
     "imported": true,
     "weight": 0.25
   },
@@ -729,7 +729,7 @@ window.PRODUCTS = [
     "shortRu": "Барьер-крем с капсулами церамидов (4%), холестерином и жирными кислотами. Вариант с подарком.",
     "shortUz": "Teri to‘sig‘ini tiklovchi namlantiruvchi krem, sovg‘ali (padarkali) variant.",
     "useRu": "Финал ухода утром и вечером — распределить и вбить до впитывания.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun parvarishning oxirida — tekis taqsimlab, shimilguncha singdiring.",
     "imported": true,
     "weight": 0.15
   },
@@ -749,7 +749,7 @@ window.PRODUCTS = [
     "shortRu": "Тот же барьер-крем Atobarrier 365, объём 80 мл: церамиды 4%, укрепление барьера, увлажнение.",
     "shortUz": "Eng katta 80 ml hajm, sovg‘asiz variant — tiklovchi namlantiruvchi krem.",
     "useRu": "Наносить утром и вечером как завершающий этап ухода.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun parvarishning yakuniy bosqichi sifatida surting.",
     "imported": true,
     "weight": 0.13
   },
@@ -769,7 +769,7 @@ window.PRODUCTS = [
     "shortRu": "Набор Atobarrier 365 для восстановления барьера сухой и чувствительной кожи. Состав уточнить.",
     "shortUz": "Aestura to‘plam (set) variant.",
     "useRu": "По инструкции к каждому средству набора.",
-    "useUz": "",
+    "useUz": "To‘plamdagi har bir vosita yo‘riqnomasiga muvofiq foydalaning.",
     "imported": true,
     "weight": 0.15
   },
@@ -789,7 +789,7 @@ window.PRODUCTS = [
     "shortRu": "Увлажняющая пенка с PDRN (ДНК лосося) и гиалуроновой кислотой. Мягко очищает, pH 6.",
     "shortUz": "PDRN tarkibli tozalovchi penka: terini quritmasdan tozalaydi.",
     "useRu": "Вспенить с водой, помассировать, смыть. Можно как маска-пенка 1 мин.",
-    "useUz": "",
+    "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving. Ko‘pikli niqob sifatida 1 daqiqa ushlab turish mumkin.",
     "imported": true,
     "weight": 0.2
   },
@@ -809,7 +809,7 @@ window.PRODUCTS = [
     "shortRu": "Мист с PDRN и гиалуроновой кислотой: увлажняет, освежает и придаёт сияние в течение дня.",
     "shortUz": "PDRN + gialuron kislotali mist: kun davomida namlik va yoritish.",
     "useRu": "Распылять на лицо поверх ухода или макияжа при необходимости.",
-    "useUz": "",
+    "useUz": "Kerak bo‘lganda parvarish yoki pardoz ustidan yuzga purkang.",
     "imported": true,
     "weight": 0.08
   },
@@ -829,7 +829,7 @@ window.PRODUCTS = [
     "shortRu": "Сыворотка с PDRN (ДНК лосося) для восстановления, упругости и сияния. Комплект 1+1 с маской.",
     "shortUz": "Anua PDRN serumi 1+1, maskasi bilan (pachka).",
     "useRu": "Несколько капель на очищенную кожу утром и вечером до крема.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun kremdan oldin tozalangan teriga bir necha tomchi surting.",
     "imported": true,
     "weight": 0.1
   },
@@ -849,7 +849,7 @@ window.PRODUCTS = [
     "shortRu": "Набор линии PDRN для увлажнения и восстановления кожи. Состав набора уточнить.",
     "shortUz": "Anua PDRN nabori (30 ml krem + 30 ml serum).",
     "useRu": "По инструкции к каждому средству набора.",
-    "useUz": "",
+    "useUz": "To‘plamdagi har bir vosita yo‘riqnomasiga muvofiq foydalaning.",
     "imported": true,
     "weight": 0.15
   },
@@ -869,7 +869,7 @@ window.PRODUCTS = [
     "shortRu": "Мягкая пенка с экстрактом персика и слабокислым pH: деликатно очищает и выравнивает тон.",
     "shortUz": "Shaftolili tozalovchi penka: yumshoq va yoqimli hidli.",
     "useRu": "Вспенить с водой, помассировать и смыть тёплой водой.",
-    "useUz": "",
+    "useUz": "Suv bilan ko‘piklab, massaj qiling va iliq suv bilan yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -889,7 +889,7 @@ window.PRODUCTS = [
     "shortRu": "Натуральное очищающее мыло-баттер ручной работы: мягко очищает и питает без пересушивания.",
     "shortUz": "Tabiiy tarkibli tozalovchi vosita (bar/penka).",
     "useRu": "Вспенить, нанести на влажную кожу, помассировать и смыть.",
-    "useUz": "",
+    "useUz": "Ko‘piklab, nam teriga surting, massaj qiling va yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -909,7 +909,7 @@ window.PRODUCTS = [
     "shortRu": "Гидрофильное масло для снятия макияжа и SPF: растворяет загрязнения, легко смывается.",
     "shortUz": "Arencia gidrofil yog'i (cleansing oil) 200 ml.",
     "useRu": "На сухую кожу, помассировать, эмульгировать водой и смыть.",
-    "useUz": "",
+    "useUz": "Quruq teriga surting, massaj qiling, suv qo‘shib emulsiyalang va yuving.",
     "imported": true,
     "weight": 0.25
   },
@@ -929,7 +929,7 @@ window.PRODUCTS = [
     "shortRu": "Пенка-маска 2-в-1: очищает и ухаживает как маска, оставляя кожу мягкой.",
     "shortUz": "Niqob-penka: tozalaydi va terini parvarish qiladi.",
     "useRu": "Нанести на влажную кожу; как маска — 1–2 мин и смыть.",
-    "useUz": "",
+    "useUz": "Nam teriga surting; niqob sifatida 1–2 daqiqa ushlab, so‘ng yuving.",
     "imported": true,
     "weight": 0.15
   },
@@ -949,7 +949,7 @@ window.PRODUCTS = [
     "shortRu": "Спрей-скейлинг для кожи головы с розмарином и мятой: освежает, очищает поры, помогает при выпадении.",
     "shortUz": "Soch to‘kilishini kamaytiruvchi va soch terisini parvarishlovchi sprey.",
     "useRu": "Распылить на кожу головы и помассировать; можно без смывания.",
-    "useUz": "",
+    "useUz": "Bosh terisiga purkang va massaj qiling; yuvmasa ham bo‘ladi.",
     "imported": true,
     "weight": 0.35
   },
@@ -969,7 +969,7 @@ window.PRODUCTS = [
     "shortRu": "Гель-тонер с PDRN: интенсивно увлажняет, восстанавливает и укрепляет кожу.",
     "shortUz": "Axis Triple PDRN gel toner.",
     "useRu": "Нанести на очищенную кожу ладонями до сыворотки.",
-    "useUz": "",
+    "useUz": "Zardobdan oldin tozalangan teriga kaft bilan surting.",
     "imported": true,
     "weight": 0.25
   },
@@ -989,7 +989,7 @@ window.PRODUCTS = [
     "shortRu": "Мягкое гидрофильное масло: растворяет макияж и SPF, легко смывается, для чувствительной кожи.",
     "shortUz": "Gidrofil yog‘: makiyaj va g‘ovak kirini eritib tozalaydi.",
     "useRu": "На сухую кожу, помассировать, эмульгировать водой и смыть.",
-    "useUz": "",
+    "useUz": "Quruq teriga surting, massaj qiling, suv qo‘shib emulsiyalang va yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -1009,7 +1009,7 @@ window.PRODUCTS = [
     "shortRu": "Успокаивающий увлажняющий крем для чувствительной кожи: укрепляет барьер, снимает сухость.",
     "shortUz": "Yengil namlantiruvchi yuz kremi, kundalik parvarish uchun.",
     "useRu": "Наносить на очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -1029,7 +1029,7 @@ window.PRODUCTS = [
     "shortRu": "Биотин (витамин B7) в добавке для укрепления волос, кожи и ногтей. Поддерживает рост и плотность волос, снижает ломкость ногтей, улучшает состояние кожи. Курсовой приём.",
     "shortUz": "Soch, teri va tirnoqni mustahkamlovchi biotin qo‘shimchasi.",
     "useRu": "Принимать по инструкции на упаковке, обычно 1 капсула/таблетка в день во время еды. Для видимого результата — курс 2–3 месяца.",
-    "useUz": "",
+    "useUz": "Qadoqdagi yo‘riqnomaga muvofiq, odatda kuniga 1 kapsula/tabletka ovqat vaqtida qabul qiling. Ko‘zga ko‘rinarli natija uchun 2–3 oylik kurs.",
     "imported": true,
     "weight": 0.35
   },
@@ -1049,7 +1049,7 @@ window.PRODUCTS = [
     "shortRu": "Ароматический мист для тела и волос: лёгкий стойкий аромат и свежесть.",
     "shortUz": "Soch va badan uchun xushbo‘y mist.",
     "useRu": "Распылять на тело и волосы при необходимости.",
-    "useUz": "",
+    "useUz": "Kerak bo‘lganda tana va sochga purkang.",
     "imported": true,
     "weight": 0.35
   },
@@ -1069,7 +1069,7 @@ window.PRODUCTS = [
     "shortRu": "Набор для лифтинга: подтягивает контур, повышает упругость, разглаживает кожу. Состав уточнить.",
     "shortUz": "BOH 3D lifting to'plami: toner, serum, cream mist, krem, ko'z krem, patch, sherbetli gidrofil.",
     "useRu": "По инструкции к каждому средству набора, утром и вечером.",
-    "useUz": "",
+    "useUz": "To‘plamdagi har bir vosita yo‘riqnomasiga muvofiq, ertalab va kechqurun foydalaning.",
     "imported": true,
     "weight": 0.15
   },
@@ -1089,7 +1089,7 @@ window.PRODUCTS = [
     "shortRu": "Коллагеновые патчи для глаз: увлажняют, разглаживают морщинки и уменьшают отёчность.",
     "shortUz": "BOH kollagenli ko'z atrofi patchi — birinchi ishlatishdayoq effekt beradi.",
     "useRu": "Наложить под глаза на 20–30 мин, снять, остатки вбить.",
-    "useUz": "",
+    "useUz": "Ko‘z ostiga 20–30 daqiqaga qo‘ying, oling va qoldig‘ini singdiring.",
     "imported": true,
     "weight": 0.15
   },
@@ -1109,7 +1109,7 @@ window.PRODUCTS = [
     "shortRu": "Антивозрастной набор с NAD: восстанавливает, повышает упругость и сияние. Состав уточнить.",
     "shortUz": "BOH Heal NAD Prizcell nabori (krem + serum).",
     "useRu": "По инструкции к каждому средству набора.",
-    "useUz": "",
+    "useUz": "To‘plamdagi har bir vosita yo‘riqnomasiga muvofiq foydalaning.",
     "imported": true,
     "weight": 0.15
   },
@@ -1129,7 +1129,7 @@ window.PRODUCTS = [
     "shortRu": "Лифтинг-сыворотка с PLGA: подтягивает, повышает плотность и упругость кожи.",
     "shortUz": "BOH lifting PLGA serumi — terini taranglashtiradi (PLGA + peptidlar).",
     "useRu": "Несколько капель на очищенную кожу утром и вечером до крема.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun kremdan oldin tozalangan teriga bir necha tomchi surting.",
     "imported": true,
     "weight": 0.1
   },
@@ -1149,7 +1149,7 @@ window.PRODUCTS = [
     "shortRu": "Щербет-бальзам для снятия макияжа: тает на коже, растворяет загрязнения и SPF, не пересушивает.",
     "shortUz": "Sherbet teksturali gidrofil tozalagich: makiyajni yaxshi eritadi.",
     "useRu": "На сухую кожу, помассировать, эмульгировать водой и смыть.",
-    "useUz": "",
+    "useUz": "Quruq teriga surting, massaj qiling, suv qo‘shib emulsiyalang va yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -1169,7 +1169,7 @@ window.PRODUCTS = [
     "shortRu": "Кальций для детей — добавка для здорового роста костей и зубов. Поддерживает формирование скелета в период активного роста, часто в комплексе с витамином D для лучшего усвоения.",
     "shortUz": "Bolalar suyak va tishlarining o‘sishi uchun kalsiy qo‘shimchasi.",
     "useRu": "Давать ребёнку по инструкции на упаковке с учётом возраста. Перед приёмом желательно проконсультироваться с педиатром.",
-    "useUz": "",
+    "useUz": "Bolaga yoshiga qarab qadoqdagi yo‘riqnomaga muvofiq bering. Qabuldan oldin pediatr bilan maslahatlashgan ma’qul.",
     "imported": true,
     "weight": 0.3
   },
@@ -1189,7 +1189,7 @@ window.PRODUCTS = [
     "shortRu": "Карбокси-маска с эффектом карбонизации (CO₂): при нанесении образует пузырьки, усиливая микроциркуляцию и насыщение кожи кислородом. Освежает, тонизирует и придаёт сияние тусклой и уставшей коже.",
     "shortUz": "Karboksi (carboxy) maska pachkasi.",
     "useRu": "Нанести на очищенную кожу, оставить на 10–15 минут до появления пузырьков, затем смыть тёплой водой. 1–2 раза в неделю.",
-    "useUz": "",
+    "useUz": "Tozalangan teriga surting, pufakchalar paydo bo‘lguncha 10–15 daqiqa ushlab turing, so‘ng iliq suv bilan yuving. Haftasiga 1–2 marta.",
     "imported": true,
     "weight": 0.15
   },
@@ -1209,7 +1209,7 @@ window.PRODUCTS = [
     "shortRu": "Солнцезащитный крем для пор и пигментации SPF50+, мини 10 мл: матирует и защищает.",
     "shortUz": "Sinov (mini) hajmdagi 10 ml quyoshdan himoya kremi — g‘ovak va dog‘larga.",
     "useRu": "Наносить за 15–20 мин до выхода, обновлять каждые 2–3 часа.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
     "weight": 0.06
   },
@@ -1229,7 +1229,7 @@ window.PRODUCTS = [
     "shortRu": "Солнцезащитный крем SPF50+ для проблемной кожи: контроль жирности, защита, уход за порами.",
     "shortUz": "G‘ovaklar va qora dog‘larga qarshi quyoshdan himoya kremi.",
     "useRu": "Наносить как финал ухода за 15–20 мин до выхода.",
-    "useUz": "",
+    "useUz": "Parvarishning yakuniy bosqichi sifatida, tashqariga chiqishdan 15–20 daqiqa oldin surting.",
     "imported": true,
     "weight": 0.1
   },
@@ -1249,7 +1249,7 @@ window.PRODUCTS = [
     "shortRu": "Лёгкий водянистый солнцезащитный крем SPF50+: увлажняет, без липкости и белых следов.",
     "shortUz": "Suvli, yengil tekstura — teriga tez singadi, yopishqoq emas.",
     "useRu": "Наносить за 15–20 мин до выхода, обновлять каждые 2–3 часа.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
     "weight": 0.1
   },
@@ -1269,7 +1269,7 @@ window.PRODUCTS = [
     "shortRu": "Крем с центеллой (мадекассозид): успокаивает, восстанавливает и укрепляет барьер кожи.",
     "shortUz": "Sentella (Madecassoside) tarkibli tinchlantiruvchi va tiklovchi krem.",
     "useRu": "Наносить на очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -1289,7 +1289,7 @@ window.PRODUCTS = [
     "shortRu": "Крем с церамидами для восстановления защитного барьера: глубоко увлажняет и снимает сухость.",
     "shortUz": "Cerabase — 3 xil variantdagi krem.",
     "useRu": "Наносить на очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -1309,7 +1309,7 @@ window.PRODUCTS = [
     "shortRu": "Увлажняющий лосьон для сухой и чувствительной кожи лица и тела: без отдушек, некомедогенный.",
     "shortUz": "Sezgir teri uchun dermatologik namlantiruvchi loson.",
     "useRu": "Наносить на кожу по мере необходимости, в т.ч. после душа.",
-    "useUz": "",
+    "useUz": "Kerak bo‘lganda, jumladan dushdan so‘ng teriga surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -1329,7 +1329,7 @@ window.PRODUCTS = [
     "shortRu": "Консилер Kill Cover с высоким кроющим покрытием: маскирует несовершенства и тёмные круги, стойкий.",
     "shortUz": "Yuqori qoplamli konsiler — dog‘ va ko‘z ostini yashiradi.",
     "useRu": "Точечно нанести на нужные зоны и растушевать.",
-    "useUz": "",
+    "useUz": "Kerakli joylarga nuqtali surtib, tekislab yoying.",
     "imported": true,
     "weight": 0.08
   },
@@ -1349,7 +1349,7 @@ window.PRODUCTS = [
     "shortRu": "Кушон Kill Cover: плотное покрытие, маскирует несовершенства, ровный полуматовый финиш.",
     "shortUz": "Yuqori qoplamli kushon: yuzni tekislaydi, uzoq davom etadi; ichida qo‘shimcha zapaska va kosmetichka bor.",
     "useRu": "Нанести спонжем похлопывающими движениями, при необходимости в 2 слоя.",
-    "useUz": "",
+    "useUz": "Spong bilan yengil urib surting, kerak bo‘lsa 2 qatlam qiling.",
     "imported": true,
     "weight": 0.08
   },
@@ -1369,7 +1369,7 @@ window.PRODUCTS = [
     "shortRu": "Кушон Kill Cover в лимитированном наборе с косметичкой: плотное стойкое покрытие.",
     "shortUz": "Limitlangan to‘plam: kushon + sovg‘a sifatida kosmetichka.",
     "useRu": "Нанести спонжем похлопывающими движениями.",
-    "useUz": "",
+    "useUz": "Splong bilan yengil urib surting.",
     "imported": true,
     "weight": 0.08
   },
@@ -1389,7 +1389,7 @@ window.PRODUCTS = [
     "shortRu": "Матовый кушон Kill Cover (оттенки 19N/21N): матовый финиш, высокое покрытие, контроль жирности.",
     "shortUz": "Matoviy tugatuvchi kushon, zapaskasi bilan; 19N va 21N tuslari mavjud.",
     "useRu": "Нанести спонжем похлопывающими движениями.",
-    "useUz": "",
+    "useUz": "Splong bilan yengil urib surting.",
     "imported": true,
     "weight": 0.08
   },
@@ -1409,7 +1409,7 @@ window.PRODUCTS = [
     "shortRu": "Ампульный мист: увлажняет, успокаивает и освежает кожу в течение дня.",
     "shortUz": "Olive Youngdagi N1 dermatologiya brendi: terini nam, mayin va yorqin qiladi.",
     "useRu": "Распылять на лицо поверх ухода или макияжа при необходимости.",
-    "useUz": "",
+    "useUz": "Kerak bo‘lganda parvarish yoki pardoz ustidan yuzga purkang.",
     "imported": true,
     "weight": 0.3
   },
@@ -1429,7 +1429,7 @@ window.PRODUCTS = [
     "shortRu": "Многофункциональный крем с коллагеном для упругости и увлажнения. Питает, разглаживает, повышает эластичность и сокращает видимость мелких морщин. Подходит для ежедневного ухода за зрелой и сухой кожей.",
     "shortUz": "Kollagen tarkibli krem: elastiklikni saqlaydi, mayda ajinlarni kamaytiradi, terini namlaydi.",
     "useRu": "Наносить на очищенную кожу лица утром и вечером как завершающий этап ухода, мягко распределяя до впитывания.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun parvarishning yakuniy bosqichi sifatida tozalangan yuz terisiga surting, shimilguncha yumshoq taqsimlang.",
     "imported": true,
     "weight": 0.15
   },
@@ -1449,7 +1449,7 @@ window.PRODUCTS = [
     "shortRu": "Освежающий дезодорант с цитрусовым ароматом, унисекс. Нейтрализует запах и дарит ощущение прохлады и свежести в течение дня.",
     "shortUz": "Sovutuvchi sitrus hidli unisex dezodrant — ayol va erkaklar uchun.",
     "useRu": "Наносить на чистую сухую кожу подмышек. При необходимости обновлять в течение дня.",
-    "useUz": "",
+    "useUz": "Qo‘ltiq ostining toza, quruq terisiga surting. Kerak bo‘lganda kun davomida yangilab turing.",
     "imported": true,
     "weight": 0.3
   },
@@ -1469,7 +1469,7 @@ window.PRODUCTS = [
     "shortRu": "Крем для депиляции — безболезненно удаляет нежелательные волосы, растворяя их у поверхности кожи. Оставляет кожу гладкой, подходит для рук, ног и других зон.",
     "shortUz": "Depilyatsiya (soch oldiruvchi) krem.",
     "useRu": "Нанести ровным слоем, выдержать указанное на упаковке время (обычно 5–10 мин), снять волосы вместе с кремом и смыть водой. Перед первым применением сделать тест на небольшом участке.",
-    "useUz": "",
+    "useUz": "Tekis qatlam qilib surting, qadoqda ko‘rsatilgan vaqt (odatda 5–10 daqiqa) ushlab turing, tuklarni krem bilan birga oling va suv bilan yuving. Birinchi marta ishlatishdan oldin kichik joyda sinab ko‘ring.",
     "imported": true,
     "weight": 0.3
   },
@@ -1489,7 +1489,7 @@ window.PRODUCTS = [
     "shortRu": "Классическое очищающее средство с кремовым компонентом: мягко очищает и увлажняет кожу.",
     "shortUz": "Original Dove gigiena mahsuloti.",
     "useRu": "Нанести на влажную кожу, вспенить и смыть.",
-    "useUz": "",
+    "useUz": "Nam teriga surting, ko‘piklab yuving.",
     "imported": true,
     "weight": 0.3
   },
@@ -1509,7 +1509,7 @@ window.PRODUCTS = [
     "shortRu": "Успокаивающая сыворотка 345 Relief: снимает раздражение и покраснения, увлажняет.",
     "shortUz": "Teri to‘sig‘ini mustahkamlovchi va tinchlantiruvchi \"345\" serumi.",
     "useRu": "Несколько капель на очищенную кожу утром и вечером до крема.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun kremdan oldin tozalangan teriga bir necha tomchi surting.",
     "imported": true,
     "weight": 0.1
   },
@@ -1529,7 +1529,7 @@ window.PRODUCTS = [
     "shortRu": "Увлажняющий набор Aqua Marine с морскими минералами. Состав уточнить.",
     "shortUz": "Dr.Althea Aqua Marine nabori (serum 75k, krem 75k, mist 105k).",
     "useRu": "По инструкции к средствам набора.",
-    "useUz": "",
+    "useUz": "To‘plamdagi vositalar yo‘riqnomasiga muvofiq foydalaning.",
     "imported": true,
     "weight": 0.15
   },
@@ -1549,7 +1549,7 @@ window.PRODUCTS = [
     "shortRu": "Гидрофильное масло: снимает макияж и SPF, легко смывается.",
     "shortUz": "Gidrofil yog‘: suvga chidamli makiyajni tozalaydi.",
     "useRu": "На сухую кожу, помассировать, эмульгировать и смыть.",
-    "useUz": "",
+    "useUz": "Quruq teriga surting, massaj qiling, suv bilan emulsiyalab yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -1569,7 +1569,7 @@ window.PRODUCTS = [
     "shortRu": "Гель для умывания: мягко очищает, не пересушивая кожу.",
     "shortUz": "Dr.Althea gel cleanser (penka).",
     "useRu": "Вспенить с водой, помассировать и смыть.",
-    "useUz": "",
+    "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -1589,7 +1589,7 @@ window.PRODUCTS = [
     "shortRu": "Пенка для жирной кожи: контролирует себум и очищает поры.",
     "shortUz": "Ortiqcha sebumni tozalovchi penka — yog‘li teri uchun.",
     "useRu": "Вспенить с водой, помассировать и смыть утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -1609,7 +1609,7 @@ window.PRODUCTS = [
     "shortRu": "Солнцезащитный крем SPF50+: лёгкая защита от UVA/UVB на каждый день.",
     "shortUz": "Kundalik quyoshdan himoya kremi, terini namlaydi va himoyalaydi.",
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
     "weight": 0.1
   },
@@ -1629,7 +1629,7 @@ window.PRODUCTS = [
     "shortRu": "Энзимная пудра для умывания: мягко отшелушивает, очищает поры, выравнивает текстуру.",
     "shortUz": "Ferment (enzyme) kukun-tozalagich: teri g‘ovaklarini yumshoq tozalaydi.",
     "useRu": "Вспенить с водой в ладонях, помассировать и смыть.",
-    "useUz": "",
+    "useUz": "Kaftda suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -1649,7 +1649,7 @@ window.PRODUCTS = [
     "shortRu": "Шампунь Folligen против выпадения: укрепляет корни, оздоравливает кожу головы.",
     "shortUz": "Soch to‘kilishiga qarshi va soch ildizini mustahkamlovchi shampun.",
     "useRu": "На влажные волосы, вспенить, помассировать кожу головы и смыть.",
-    "useUz": "",
+    "useUz": "Nam sochga surting, ko‘piklab, bosh terisini massaj qiling va yuving.",
     "imported": true,
     "weight": 0.35
   },
@@ -1669,7 +1669,7 @@ window.PRODUCTS = [
     "shortRu": "Тон-ап солнцезащитный крем SPF50+ с центеллой: защищает и выравнивает тон.",
     "shortUz": "Tone-up effekti bilan yuzni tiniqlashtiruvchi quyoshdan himoya kremi.",
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
     "weight": 0.1
   },
@@ -1689,7 +1689,7 @@ window.PRODUCTS = [
     "shortRu": "Пилинг-гель: мягко скатывает ороговевшие клетки, выравнивает текстуру.",
     "shortUz": "Dr.G peeling gel (120+120+10 gr).",
     "useRu": "Помассировать до скатывания, смыть. 1–2 раза в неделю.",
-    "useUz": "",
+    "useUz": "Yumaloqchalar paydo bo‘lguncha massaj qiling va yuving. Haftasiga 1–2 marta.",
     "imported": true,
     "weight": 0.2
   },
@@ -1709,7 +1709,7 @@ window.PRODUCTS = [
     "shortRu": "Набор ухода за кожей. Состав уточнить.",
     "shortUz": "Dr.G parvarish to‘plami (set).",
     "useRu": "По инструкции к средствам набора.",
-    "useUz": "",
+    "useUz": "To‘plamdagi vositalar yo‘riqnomasiga muvofiq foydalaning.",
     "imported": true,
     "weight": 0.3
   },
@@ -1729,7 +1729,7 @@ window.PRODUCTS = [
     "shortRu": "Детский мультивитамин с минералами: поддерживает иммунитет и рост.",
     "shortUz": "Bolalar uchun multivitamin va mineral: immunitet, o‘sish va ishtahani qo‘llab-quvvatlaydi.",
     "useRu": "Давать по инструкции с учётом возраста; при необходимости — консультация педиатра.",
-    "useUz": "",
+    "useUz": "Yoshiga qarab yo‘riqnomaga muvofiq bering; kerak bo‘lsa pediatr bilan maslahatlashing.",
     "imported": true,
     "weight": 0.3
   },
@@ -1749,7 +1749,7 @@ window.PRODUCTS = [
     "shortRu": "Натуральное мыло с козьим молоком — мягко очищает и питает кожу. Козье молоко смягчает, увлажняет и успокаивает, подходит для чувствительной и сухой кожи лица и тела.",
     "shortUz": "Echki sutli sovun (donasi).",
     "useRu": "Вспенить в руках или на мочалке, нанести на влажную кожу, помассировать и смыть тёплой водой.",
-    "useUz": "",
+    "useUz": "Qo‘lda yoki yuvg‘ichda ko‘piklab, nam teriga surting, massaj qiling va iliq suv bilan yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -1769,7 +1769,7 @@ window.PRODUCTS = [
     "shortRu": "Солнцезащитный крем: защита от UVA/UVB, лёгкая текстура.",
     "shortUz": "Eclado SPF krem.",
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
     "weight": 0.1
   },
@@ -1789,7 +1789,7 @@ window.PRODUCTS = [
     "shortRu": "EMS-прибор для лифтинга лица: микротоки и электростимуляция тонизируют мышцы, улучшают контур и упругость кожи, усиливают проникновение уходовых средств. Домашняя альтернатива салонным процедурам.",
     "shortUz": "EMS + galvanik + issiqlik texnologiyali yuz uchun lifting/parvarish qurilmasi.",
     "useRu": "Нанести проводящий гель или сыворотку, вести прибор по массажным линиям по инструкции, 5–10 минут за сеанс, несколько раз в неделю.",
-    "useUz": "",
+    "useUz": "O‘tkazuvchi gel yoki zardob surting, qurilmani yo‘riqnomaga muvofiq massaj chiziqlari bo‘ylab yuriting, seansiga 5–10 daqiqa, haftasiga bir necha marta.",
     "imported": true,
     "weight": 0.15
   },
@@ -1809,7 +1809,7 @@ window.PRODUCTS = [
     "shortRu": "Средство Etude House. Уточнить конкретный продукт для точного описания.",
     "shortUz": "Etude House brendi mahsuloti (nalichida).",
     "useRu": "По инструкции к средству.",
-    "useUz": "",
+    "useUz": "Vosita yo‘riqnomasiga muvofiq foydalaning.",
     "imported": true,
     "weight": 0.3
   },
@@ -1829,7 +1829,7 @@ window.PRODUCTS = [
     "shortRu": "Семейный солнцезащитный крем: защита от UVA/UVB для всей семьи, мягкая формула.",
     "shortUz": "Family SPF krem.",
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
     "weight": 0.1
   },
@@ -1849,7 +1849,7 @@ window.PRODUCTS = [
     "shortRu": "Парфюмерный набор Fleur Mood: несколько ароматов, удобно пробовать и носить. Хорош в подарок.",
     "shortUz": "Kichik hajmli parfyum to‘plami.",
     "useRu": "Распылять на точки пульса с 15–20 см.",
-    "useUz": "",
+    "useUz": "Puls nuqtalariga 15–20 sm masofadan purkang.",
     "imported": true,
     "weight": 0.3
   },
@@ -1869,7 +1869,7 @@ window.PRODUCTS = [
     "shortRu": "Стик-крем для ухода за ступнями. Интенсивно смягчает огрубевшую кожу, увлажняет пятки, помогает при сухости и трещинах. Формат стика — наносится без рук, гигиенично и удобно.",
     "shortUz": "Tovonni silliqlaydi va yorilishini davolaydigan stik krem.",
     "useRu": "Наносить на чистую сухую кожу стоп и пяток, при необходимости на ночь. Регулярно для стойкого результата.",
-    "useUz": "",
+    "useUz": "Oyoq va tovonlarning toza, quruq terisiga, kerak bo‘lsa kechasi surting. Barqaror natija uchun muntazam foydalaning.",
     "imported": true,
     "weight": 0.15
   },
@@ -1889,7 +1889,7 @@ window.PRODUCTS = [
     "shortRu": "Пенка-маска для умывания 2-в-1: очищает кожу от загрязнений и одновременно ухаживает как маска. Мягко удаляет себум и загрязнения, оставляя кожу свежей и увлажнённой.",
     "shortUz": "Niqob-tozalagich: teri g‘ovaklarini chuqur tozalaydi.",
     "useRu": "Нанести на влажную кожу, вспенить, помассировать; для эффекта маски оставить на 1–2 минуты, затем смыть тёплой водой.",
-    "useUz": "",
+    "useUz": "Nam teriga surting, ko‘piklab massaj qiling; niqob effekti uchun 1–2 daqiqa ushlab turing, so‘ng iliq suv bilan yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -1909,7 +1909,7 @@ window.PRODUCTS = [
     "shortRu": "Мягкая сыворотка с витамином C для сияния и ровного тона кожи. Осветляет пигментацию и постакне, выравнивает тон, даёт антиоксидантную защиту. Щадящая формула подходит для чувствительной кожи.",
     "shortUz": "Yumshoq C-vitaminli serum: teri rangini tiniqlashtiradi va yoritadi.",
     "useRu": "Нанести несколько капель на очищенную кожу утром и/или вечером до крема. Днём обязательно завершать уход солнцезащитой.",
-    "useUz": "",
+    "useUz": "Ertalab va/yoki kechqurun kremdan oldin tozalangan teriga bir necha tomchi surting. Kunduzi parvarishni albatta quyoshdan himoya vositasi bilan yakunlang.",
     "imported": true,
     "weight": 0.1
   },
@@ -1929,7 +1929,7 @@ window.PRODUCTS = [
     "shortRu": "Гидрофильное очищающее средство с увлажняющим эффектом. Растворяет макияж, SPF и себум, при контакте с водой легко смывается, не пересушивая кожу. Первый этап двойного очищения.",
     "shortUz": "Terini quritmaydigan, allergiya bermaydigan tozalagich — sezgir teriga.",
     "useRu": "Нанести на сухую кожу, помассировать, добавить воды до эмульгирования и смыть. Затем умыться пенкой.",
-    "useUz": "",
+    "useUz": "Quruq teriga surting, massaj qiling, emulsiyalanguncha suv qo‘shib yuving. So‘ng ko‘pik bilan yuvining.",
     "imported": true,
     "weight": 0.2
   },
@@ -1949,7 +1949,7 @@ window.PRODUCTS = [
     "shortRu": "Мягкое гидрофильное масло для деликатного снятия макияжа и загрязнений. Бережно очищает, подходит для чувствительной кожи, не оставляет ощущения стянутости.",
     "shortUz": "Barcha teriga mos yumshoq gidrofil tozalagich, ko‘zni achishtirmaydi.",
     "useRu": "Нанести на сухую кожу, помассировать, эмульгировать водой и смыть тёплой водой. Использовать как первый этап очищения.",
-    "useUz": "",
+    "useUz": "Quruq teriga surting, massaj qiling, suv bilan emulsiyalab iliq suvda yuving. Tozalashning birinchi bosqichi sifatida foydalaning.",
     "imported": true,
     "weight": 0.2
   },
@@ -1969,7 +1969,7 @@ window.PRODUCTS = [
     "shortRu": "Пенка для умывания: мягко очищает и увлажняет кожу.",
     "shortUz": "Goodal penka.",
     "useRu": "Вспенить с водой, помассировать и смыть.",
-    "useUz": "",
+    "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -1989,7 +1989,7 @@ window.PRODUCTS = [
     "shortRu": "Тонер: увлажняет, выравнивает тон и готовит кожу к уходу.",
     "shortUz": "Goodal toner.",
     "useRu": "На очищенную кожу ладонями или диском до сыворотки.",
-    "useUz": "",
+    "useUz": "Zardobdan oldin tozalangan teriga kaft yoki paxta disk bilan surting.",
     "imported": true,
     "weight": 0.25
   },
@@ -2009,7 +2009,7 @@ window.PRODUCTS = [
     "shortRu": "Коллаген (курс на 2 месяца) для кожи, волос и суставов: поддерживает упругость и увлажнённость.",
     "shortUz": "Gyeol collagen (2 oylik kurs, karopkada 12 ta).",
     "useRu": "Принимать по инструкции на упаковке, курсом.",
-    "useUz": "",
+    "useUz": "Qadoqdagi yo‘riqnomaga muvofiq, kurs bilan qabul qiling.",
     "imported": true,
     "weight": 0.3
   },
@@ -2029,7 +2029,7 @@ window.PRODUCTS = [
     "shortRu": "Стик-крем для пяток и локтей. Смягчает и увлажняет самые сухие и огрубевшие участки, помогает при шершавости и трещинах. Удобный формат стика для нанесения без рук.",
     "shortUz": "Tovon, tizza va tirsak qismlarini yumshatuvchi stik krem, yorilishlarga qarshi.",
     "useRu": "Наносить на чистую сухую кожу пяток и локтей ежедневно, при сильной сухости — несколько раз в день.",
-    "useUz": "",
+    "useUz": "Tovon va tirsaklarning toza, quruq terisiga har kuni, quruqlik kuchli bo‘lsa kuniga bir necha marta surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -2049,7 +2049,7 @@ window.PRODUCTS = [
     "shortRu": "Коллагеновая добавка для упругости кожи, здоровья волос и ногтей.",
     "shortUz": "Hurum collagen.",
     "useRu": "Принимать по инструкции на упаковке.",
-    "useUz": "",
+    "useUz": "Qadoqdagi yo‘riqnomaga muvofiq qabul qiling.",
     "imported": true,
     "weight": 0.3
   },
@@ -2069,7 +2069,7 @@ window.PRODUCTS = [
     "shortRu": "Крем с рисом: питает, выравнивает тон и придаёт коже сияние.",
     "shortUz": "41% guruch ekstrakti va keramidli krem: oziqlantiradi, namlaydi va teri rangini tiniqlashtiradi.",
     "useRu": "На очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -2089,7 +2089,7 @@ window.PRODUCTS = [
     "shortRu": "Лосьон с церамидами: восстанавливает барьер, глубоко увлажняет сухую кожу лица и тела.",
     "shortUz": "Butun tana uchun kuchli namlantiruvchi va tiklovchi loson.",
     "useRu": "Наносить после душа и по необходимости.",
-    "useUz": "",
+    "useUz": "Dushdan so‘ng va kerak bo‘lganda surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -2109,7 +2109,7 @@ window.PRODUCTS = [
     "shortRu": "Солнцезащитный крем SPF50+: высокая защита от UVA/UVB, комфортная текстура.",
     "shortUz": "Kuchli UV himoya beruvchi quyoshdan himoya vositasi.",
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
     "weight": 0.1
   },
@@ -2129,7 +2129,7 @@ window.PRODUCTS = [
     "shortRu": "Кальций в курсовой добавке (курс на 3 месяца) для укрепления костей, зубов и ногтей. Восполняет дефицит кальция, часто в комплексе с витамином D3 для усвоения.",
     "shortUz": "Suyak va tishlar uchun 3 oylik kalsiy kursi.",
     "useRu": "Принимать по инструкции на упаковке во время еды, курсом до 3 месяцев. При хронических состояниях — после консультации с врачом.",
-    "useUz": "",
+    "useUz": "Qadoqdagi yo‘riqnomaga muvofiq ovqat vaqtida, 3 oygacha kurs bilan qabul qiling. Surunkali holatlarda shifokor bilan maslahatlashgach.",
     "imported": true,
     "weight": 0.3
   },
@@ -2149,7 +2149,7 @@ window.PRODUCTS = [
     "shortRu": "Красный женьшень для детей в удобных стик-саше (30 шт). Поддерживает иммунитет, энергию и общий тонус растущего организма. Мягкая детская формула.",
     "shortUz": "Bolalar immunitetini mustahkamlovchi qizil jenshen, 30 ta stik (kuniga 1 mahal).",
     "useRu": "Давать по одному стику в день по инструкции с учётом возраста ребёнка. При необходимости проконсультироваться с педиатром.",
-    "useUz": "",
+    "useUz": "Bolaning yoshiga qarab yo‘riqnomaga muvofiq kuniga bitta stik bering. Kerak bo‘lganda pediatr bilan maslahatlashing.",
     "imported": true,
     "weight": 0.3
   },
@@ -2169,7 +2169,7 @@ window.PRODUCTS = [
     "shortRu": "Корейский бальзам для губ — увлажняет, смягчает и защищает губы от сухости и обветривания. Создаёт комфортное покрытие и лёгкий ухоженный блеск.",
     "shortUz": "Lablarni namlaydigan va parvarishlaydigan koreys lab balzami.",
     "useRu": "Наносить на губы по мере необходимости в течение дня и перед сном.",
-    "useUz": "",
+    "useUz": "Kun davomida va uxlashdan oldin kerak bo‘lganda lablarga surting.",
     "imported": true,
     "weight": 0.3
   },
@@ -2189,7 +2189,7 @@ window.PRODUCTS = [
     "shortRu": "Корейская очищающая пенка для умывания. Мягко и глубоко очищает кожу от загрязнений и себума, не пересушивая, оставляет ощущение свежести. Подходит для ежедневного ухода.",
     "shortUz": "Koreys ishlab chiqarilgan tozalovchi penka, katta hajmda.",
     "useRu": "Вспенить с водой, нанести на влажную кожу, помассировать и смыть тёплой водой утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun suv bilan ko‘piklab, nam teriga surting, massaj qiling va iliq suv bilan yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -2209,7 +2209,7 @@ window.PRODUCTS = [
     "shortRu": "Корейская краска для волос — стойкое окрашивание с ухаживающими компонентами, которые снижают повреждение и сохраняют мягкость волос. Насыщенный, равномерный цвет.",
     "shortUz": "Koreys ishlab chiqarilgan soch bo‘yog‘i.",
     "useRu": "Использовать строго по инструкции на упаковке; за 48 часов провести тест на аллергию. Выдержать указанное время и тщательно смыть.",
-    "useUz": "",
+    "useUz": "Qadoqdagi yo‘riqnomaga qat’iy amal qiling; 48 soat oldin allergiya testini o‘tkazing. Ko‘rsatilgan vaqt ushlab turing va yaxshilab yuving.",
     "imported": true,
     "weight": 0.35
   },
@@ -2229,7 +2229,7 @@ window.PRODUCTS = [
     "shortRu": "Корейская зубная паста для ежедневного ухода за полостью рта. Мягко очищает, освежает дыхание, ухаживает за дёснами и эмалью.",
     "shortUz": "Koreys ishlab chiqarilgan original tish pastasi.",
     "useRu": "Чистить зубы 2 раза в день, используя количество пасты размером с горошину.",
-    "useUz": "",
+    "useUz": "Kuniga 2 marta, no‘xatdek pasta ishlatib tish yuving.",
     "imported": true,
     "weight": 0.3
   },
@@ -2249,7 +2249,7 @@ window.PRODUCTS = [
     "shortRu": "Солнцезащита Anthelios SPF50+: высокая UVA/UVB-защита для чувствительной кожи.",
     "shortUz": "Sezgir teri uchun dermatologik quyoshdan himoya kremi, UVA+UVB himoyasi.",
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
     "weight": 0.1
   },
@@ -2269,7 +2269,7 @@ window.PRODUCTS = [
     "shortRu": "Микропенка Cellup: глубоко, но мягко очищает поры без пересушивания.",
     "shortUz": "Lagom Cellup micro foam cleanser.",
     "useRu": "Вспенить с водой, помассировать и смыть.",
-    "useUz": "",
+    "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -2289,7 +2289,7 @@ window.PRODUCTS = [
     "shortRu": "Насыщенный крем Cellus Deep Moisture: интенсивно увлажняет сухую кожу.",
     "shortUz": "Chuqur namlantiruvchi krem — quruq teri uchun.",
     "useRu": "На очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -2309,7 +2309,7 @@ window.PRODUCTS = [
     "shortRu": "Лёгкий крем Cellus Mild: увлажняет нормальную и комбинированную кожу.",
     "shortUz": "Yumshoq, sezgir teri uchun namlantiruvchi krem.",
     "useRu": "На очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -2329,7 +2329,7 @@ window.PRODUCTS = [
     "shortRu": "Крем с центеллой (Cica): успокаивает раздражение и укрепляет барьер.",
     "shortUz": "Lagom Cica krem.",
     "useRu": "На очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -2349,7 +2349,7 @@ window.PRODUCTS = [
     "shortRu": "Увлажняющая сыворотка: питает и выравнивает кожу перед кремом.",
     "shortUz": "Lagom serumi.",
     "useRu": "Несколько капель на очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga bir necha tomchi surting.",
     "imported": true,
     "weight": 0.1
   },
@@ -2369,7 +2369,7 @@ window.PRODUCTS = [
     "shortRu": "Набор ухода за кожей. Состав уточнить.",
     "shortUz": "Lagom parvarish to‘plami (set).",
     "useRu": "По инструкции к средствам набора.",
-    "useUz": "",
+    "useUz": "To‘plamdagi vositalar yo‘riqnomasiga muvofiq foydalaning.",
     "imported": true,
     "weight": 0.3
   },
@@ -2389,7 +2389,7 @@ window.PRODUCTS = [
     "shortRu": "Солнцезащитный гель SPF50+ PA++++: лёгкий, увлажняет, без белых следов.",
     "shortUz": "Yengil gel tekstura, kuchli SPF50+ himoya, kundalik foydalanish uchun.",
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
     "weight": 0.1
   },
@@ -2409,7 +2409,7 @@ window.PRODUCTS = [
     "shortRu": "Солнцезащитный стик: удобно наносить без рук и обновлять поверх макияжа.",
     "shortUz": "Lagom stickli SPF.",
     "useRu": "Нанести на кожу перед выходом и в течение дня.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan oldin va kun davomida teriga surting.",
     "imported": true,
     "weight": 0.1
   },
@@ -2429,7 +2429,7 @@ window.PRODUCTS = [
     "shortRu": "Тонер: увлажняет и подготавливает кожу к последующему уходу.",
     "shortUz": "Lagom toner.",
     "useRu": "На очищенную кожу ладонями или диском.",
-    "useUz": "",
+    "useUz": "Tozalangan teriga kaft yoki paxta disk bilan surting.",
     "imported": true,
     "weight": 0.25
   },
@@ -2449,7 +2449,7 @@ window.PRODUCTS = [
     "shortRu": "Крем White Moisture: увлажняет и выравнивает тон, придаёт сияние.",
     "shortUz": "Teri rangini tiniqlashtiruvchi namlantiruvchi krem.",
     "useRu": "На очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -2469,7 +2469,7 @@ window.PRODUCTS = [
     "shortRu": "Спрей-фиксатор макияжа. Закрепляет мейкап на весь день, предотвращает скатывание и потускнение, придаёт коже свежий финиш. Подходит для любой кожи.",
     "shortUz": "Makiyajni qotiradigan fiksator sprey.",
     "useRu": "Распылить на расстоянии 20–30 см на лицо после макияжа, держа глаза и рот закрытыми. При необходимости освежать в течение дня.",
-    "useUz": "",
+    "useUz": "Pardozdan so‘ng ko‘z va og‘izni yumib, yuzga 20–30 sm masofadan purkang. Kerak bo‘lganda kun davomida yangilab turing.",
     "imported": true,
     "weight": 0.08
   },
@@ -2489,7 +2489,7 @@ window.PRODUCTS = [
     "shortRu": "Гидрофильное масло Pure, 50 мл: растворяет макияж и SPF, легко смывается.",
     "shortUz": "Gidrofil tozalash yog‘i 50 ml: makiyajni yumshoq eritadi.",
     "useRu": "На сухую кожу, помассировать, эмульгировать и смыть.",
-    "useUz": "",
+    "useUz": "Quruq teriga surting, massaj qiling, suv bilan emulsiyalab yuving.",
     "imported": true,
     "weight": 0.1
   },
@@ -2509,7 +2509,7 @@ window.PRODUCTS = [
     "shortRu": "Солнцезащитный крем SPF50+: защита от UVA/UVB, ухаживающая текстура.",
     "shortUz": "Namlantiruvchi quyoshdan himoya kremi.",
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
     "weight": 0.1
   },
@@ -2529,7 +2529,7 @@ window.PRODUCTS = [
     "shortRu": "CC-крем: выравнивает тон, маскирует несовершенства, ухаживает за кожей.",
     "shortUz": "Medibeau CC krem — tabiiy o'simlik ekstraktli, namlaydi va yumshatadi. (narx postda ko'rsatilmagan)",
     "useRu": "На увлажнённую кожу после ухода; днём — с SPF.",
-    "useUz": "",
+    "useUz": "Parvarishdan so‘ng namlangan teriga surting; kunduzi SPF bilan birga.",
     "imported": true,
     "weight": 0.08
   },
@@ -2549,7 +2549,7 @@ window.PRODUCTS = [
     "shortRu": "Увлажняющая сыворотка: питает и выравнивает кожу перед кремом.",
     "shortUz": "Mediheal serumi (pachka).",
     "useRu": "Несколько капель на очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga bir necha tomchi surting.",
     "imported": true,
     "weight": 0.1
   },
@@ -2569,7 +2569,7 @@ window.PRODUCTS = [
     "shortRu": "Осветляющий крем против выраженной пигментации и тёмных пятен.",
     "shortUz": "Melanon — dog'/pigmentatsiyaga qarshi krem.",
     "useRu": "Наносить точечно на пигментные участки по инструкции; днём обязательно SPF. При активных компонентах — по рекомендации специалиста.",
-    "useUz": "",
+    "useUz": "Yo‘riqnomaga muvofiq pigmentli joylarga nuqtali surting; kunduzi albatta SPF. Faol komponentlarda mutaxassis tavsiyasiga ko‘ra.",
     "imported": true,
     "weight": 0.15
   },
@@ -2589,7 +2589,7 @@ window.PRODUCTS = [
     "shortRu": "Пенка с рисом, 180 мл: мягко очищает, выравнивает тон и придаёт сияние.",
     "shortUz": "Merikit guruchli oqartiruvchi penka (180 ml).",
     "useRu": "Вспенить с водой, помассировать и смыть.",
-    "useUz": "",
+    "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
     "weight": 0.23
   },
@@ -2609,7 +2609,7 @@ window.PRODUCTS = [
     "shortRu": "CC-крем с натуральным финишем: выравнивает тон кожи, маскирует лёгкие несовершенства и ухаживает за кожей. Даёт естественное покрытие и сияние без эффекта маски.",
     "shortUz": "Teri tonini tekislaydigan va namlaydigan CC krem.",
     "useRu": "Наносить на увлажнённую кожу после ухода, распределяя пальцами или спонжем. Днём сочетать с SPF.",
-    "useUz": "",
+    "useUz": "Parvarishdan so‘ng namlangan teriga barmoq yoki spong bilan taqsimlab surting. Kunduzi SPF bilan birga.",
     "imported": true,
     "weight": 0.15
   },
@@ -2629,7 +2629,7 @@ window.PRODUCTS = [
     "shortRu": "Пенка с витамином C, 300 г: очищает и придаёт коже свежесть и сияние.",
     "shortUz": "Nature Republic 300 gramlik vitamin C penka.",
     "useRu": "Вспенить с водой, помассировать и смыть.",
-    "useUz": "",
+    "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -2649,7 +2649,7 @@ window.PRODUCTS = [
     "shortRu": "Men. Дезодорант Cool Kick: свежесть и защита от запаха на весь день.",
     "shortUz": "Nivea Men Cool Kick — salqinlik beruvchi dezodrant.",
     "useRu": "Наносить на чистую сухую кожу подмышек.",
-    "useUz": "",
+    "useUz": "Qo‘ltiq ostining toza, quruq terisiga surting.",
     "imported": true,
     "weight": 0.3
   },
@@ -2669,7 +2669,7 @@ window.PRODUCTS = [
     "shortRu": "Осветляющая пенка: мягко очищает и выравнивает тон кожи.",
     "shortUz": "Teri rangini tiniqlashtiruvchi tozalovchi penka.",
     "useRu": "Вспенить с водой, помассировать и смыть.",
-    "useUz": "",
+    "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -2689,7 +2689,7 @@ window.PRODUCTS = [
     "shortRu": "Гидрофильное масло с бифидо и бакучиолом: очищает и ухаживает за кожей.",
     "shortUz": "Suvga chidamli makiyajni eritib tozalaydi; yog‘li va g‘ovak muammoli teri uchun, anti-age Bifida+Bakuchiol tarkibli.",
     "useRu": "На сухую кожу, помассировать, эмульгировать и смыть.",
-    "useUz": "",
+    "useUz": "Quruq teriga surting, massaj qiling, suv bilan emulsiyalab yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -2709,7 +2709,7 @@ window.PRODUCTS = [
     "shortRu": "Гидрофильное масло: растворяет макияж и SPF, легко смывается.",
     "shortUz": "G‘ovak va sebumni nazorat qiladi; Bifida bilan tiklaydi, Bakuchiol bilan anti-age.",
     "useRu": "На сухую кожу, помассировать, эмульгировать и смыть.",
-    "useUz": "",
+    "useUz": "Quruq teriga surting, massaj qiling, suv bilan emulsiyalab yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -2729,7 +2729,7 @@ window.PRODUCTS = [
     "shortRu": "Гидрофильное масло, 200 мл: мягко снимает макияж и загрязнения.",
     "shortUz": "Yog‘, SPF va suvga chidamli bo‘yovni eritib tozalaydi; kungaboqar va makkajo‘xori moyi bilan terini quritmaydi.",
     "useRu": "На сухую кожу, помассировать, эмульгировать и смыть.",
-    "useUz": "",
+    "useUz": "Quruq teriga surting, massaj qiling, suv bilan emulsiyalab yuving.",
     "imported": true,
     "weight": 0.25
   },
@@ -2749,7 +2749,7 @@ window.PRODUCTS = [
     "shortRu": "Солнцезащитная сыворотка SPF: лёгкая защита с уходовым эффектом.",
     "shortUz": "Serum shaklidagi yangi quyoshdan himoya vositasi, teriga serum kabi singadi.",
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
     "weight": 0.1
   },
@@ -2769,7 +2769,7 @@ window.PRODUCTS = [
     "shortRu": "Солнцезащитный стик: удобно наносить без рук и обновлять поверх макияжа.",
     "shortUz": "Ohui stickli SPF krem (pachkada 2 ta katta).",
     "useRu": "Нанести на кожу перед выходом и в течение дня.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan oldin va kun davomida teriga surting.",
     "imported": true,
     "weight": 0.1
   },
@@ -2789,7 +2789,7 @@ window.PRODUCTS = [
     "shortRu": "Омега-3 (рыбий жир) в курсовой добавке на 3 месяца. Поддерживает сердце и сосуды, работу мозга, зрение и здоровье кожи, восполняет дефицит незаменимых жирных кислот.",
     "shortUz": "Yurak, miya va umumiy salomatlik uchun 3 oylik Omega-3 kursi.",
     "useRu": "Принимать по инструкции на упаковке во время еды, курсом до 3 месяцев.",
-    "useUz": "",
+    "useUz": "Qadoqdagi yo‘riqnomaga muvofiq ovqat vaqtida, 3 oygacha kurs bilan qabul qiling.",
     "imported": true,
     "weight": 0.3
   },
@@ -2809,7 +2809,7 @@ window.PRODUCTS = [
     "shortRu": "Успокаивающая маска: снимает раздражение и покраснения, увлажняет чувствительную кожу.",
     "shortUz": "Tinchlantiruvchi niqob — qizarish va tirnash uchun.",
     "useRu": "Нанести на очищенную кожу на 10–20 мин, снять/смыть.",
-    "useUz": "",
+    "useUz": "Tozalangan teriga 10–20 daqiqaga surting, oling yoki yuving.",
     "imported": true,
     "weight": 0.15
   },
@@ -2829,7 +2829,7 @@ window.PRODUCTS = [
     "shortRu": "Аромат в стиле Victoria's Secret «Bombshell» — цветочно-фруктовое звучание с нотами пиона, грейпфрута и орхидеи. Яркий, женственный и стойкий парфюм для дня и вечера.",
     "shortUz": "Victoria‘s Secret Bombshell hidiga 99% o‘xshash pudrali, nozik atir.",
     "useRu": "Распылять на точки пульса — запястья, шею, за ушами — с расстояния 15–20 см.",
-    "useUz": "",
+    "useUz": "Puls nuqtalariga — bilak, bo‘yin, quloq orqasiga — 15–20 sm masofadan purkang.",
     "imported": true,
     "weight": 0.3
   },
@@ -2849,7 +2849,7 @@ window.PRODUCTS = [
     "shortRu": "Аромат в стиле Zara «Seoul», 100 мл. Современное, свежее звучание для ежедневного использования. Ненавязчивый и универсальный парфюм.",
     "shortUz": "Zara Seoul uslubidagi 100 ml parfyum.",
     "useRu": "Распылять на точки пульса с расстояния 15–20 см; при необходимости обновлять в течение дня.",
-    "useUz": "",
+    "useUz": "Puls nuqtalariga 15–20 sm masofadan purkang; kerak bo‘lganda kun davomida yangilang.",
     "imported": true,
     "weight": 0.15
   },
@@ -2869,7 +2869,7 @@ window.PRODUCTS = [
     "shortRu": "Аромат в стиле Zara, компактный формат 30 мл — удобно носить с собой. Лёгкое, актуальное звучание для повседневных образов.",
     "shortUz": "Zara uslubidagi 30 ml parfyum.",
     "useRu": "Распылять на точки пульса с расстояния 15–20 см.",
-    "useUz": "",
+    "useUz": "Puls nuqtalariga 15–20 sm masofadan purkang.",
     "imported": true,
     "weight": 0.08
   },
@@ -2889,7 +2889,7 @@ window.PRODUCTS = [
     "shortRu": "Парфюмерный набор в стиле Hermès — 4 миниатюры по 7,5 мл (Франция). Удобно попробовать несколько ароматов или носить с собой. Хороший вариант в подарок.",
     "shortUz": "Fransiyada ishlab chiqilgan 4 xil parfyum, har biri 7.5 ml.",
     "useRu": "Распылять на точки пульса с расстояния 15–20 см.",
-    "useUz": "",
+    "useUz": "Puls nuqtalariga 15–20 sm masofadan purkang.",
     "imported": true,
     "weight": 0.055
   },
@@ -2909,7 +2909,7 @@ window.PRODUCTS = [
     "shortRu": "Популярная сыворотка для лица для увлажнения и здорового сияния кожи. Улучшает тон и текстуру, подготавливает кожу к нанесению крема. Подходит для ежедневного ухода.",
     "shortUz": "Ko‘p so‘ralgan mashhur yuz serumi.",
     "useRu": "Нанести несколько капель на очищенную кожу утром и вечером до крема.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun kremdan oldin tozalangan teriga bir necha tomchi surting.",
     "imported": true,
     "weight": 0.1
   },
@@ -2929,7 +2929,7 @@ window.PRODUCTS = [
     "shortRu": "Гидрофильное масло для ухода за порами. Растворяет макияж, себум и загрязнения в порах, помогает при чёрных точках, не пересушивает кожу. Первый этап двойного очищения.",
     "shortUz": "Tozalash bilan birga g‘ovaklarni parvarish qiladi, sebumni kamaytiradi.",
     "useRu": "Нанести на сухую кожу, помассировать, эмульгировать водой и смыть. Затем умыться пенкой.",
-    "useUz": "",
+    "useUz": "Quruq teriga surting, massaj qiling, suv bilan emulsiyalab yuving. So‘ng ko‘pik bilan yuvining.",
     "imported": true,
     "weight": 0.2
   },
@@ -2949,7 +2949,7 @@ window.PRODUCTS = [
     "shortRu": "Тушь для ресниц: придаёт объём и длину, разделяет ресницы и подчёркивает взгляд. Стойкая формула держится весь день без осыпания.",
     "shortUz": "Kiprikka hajm va uzunlik beruvchi mashhur tush (mascara).",
     "useRu": "Прокрасить ресницы от корней к кончикам зигзагообразными движениями. Для объёма нанести второй слой.",
-    "useUz": "",
+    "useUz": "Kipriklarni ildizidan uchigacha zigzag harakatlar bilan bo‘yang. Hajm uchun ikkinchi qatlam surting.",
     "imported": true,
     "weight": 0.08
   },
@@ -2969,7 +2969,7 @@ window.PRODUCTS = [
     "shortRu": "Набор для двойного очищения: гидрофильное масло + пенка. Снимает макияж и очищает поры.",
     "shortUz": "Prmr gidrofil yog' + penka (2 ta, 1+1 pachka).",
     "useRu": "Сначала масло на сухую кожу, смыть; затем умыться пенкой.",
-    "useUz": "",
+    "useUz": "Avval quruq teriga moy surtib yuving; so‘ng ko‘pik bilan yuvining.",
     "imported": true,
     "weight": 0.2
   },
@@ -2989,7 +2989,7 @@ window.PRODUCTS = [
     "shortRu": "Пенка-пилинг: очищает и мягко отшелушивает, выравнивает текстуру кожи.",
     "shortUz": "Prmr penka peeling (2 ta pachka).",
     "useRu": "Вспенить, помассировать и смыть. 2–3 раза в неделю.",
-    "useUz": "",
+    "useUz": "Ko‘piklab, massaj qiling va yuving. Haftasiga 2–3 marta.",
     "imported": true,
     "weight": 0.2
   },
@@ -3009,7 +3009,7 @@ window.PRODUCTS = [
     "shortRu": "Пилинг-гель: скатывает ороговевшие клетки, придаёт коже гладкость и сияние.",
     "shortUz": "Prmr lyuks brend peeling geli — o'lik hujayralarni ketkazadi, tiniqlashtiradi. (narx postda yo'q)",
     "useRu": "Помассировать до скатывания, смыть. 1–2 раза в неделю.",
-    "useUz": "",
+    "useUz": "Yumaloqchalar paydo bo‘lguncha massaj qiling va yuving. Haftasiga 1–2 marta.",
     "imported": true,
     "weight": 0.2
   },
@@ -3029,7 +3029,7 @@ window.PRODUCTS = [
     "shortRu": "Сироп из красного женьшеня для иммунитета, энергии и тонуса. Помогает при усталости и повышенных нагрузках.",
     "shortUz": "Immunitet uchun qizil jenshen siropi.",
     "useRu": "Принимать по инструкции на упаковке, обычно 1–2 раза в день.",
-    "useUz": "",
+    "useUz": "Qadoqdagi yo‘riqnomaga muvofiq, odatda kuniga 1–2 marta qabul qiling.",
     "imported": true,
     "weight": 0.3
   },
@@ -3049,7 +3049,7 @@ window.PRODUCTS = [
     "shortRu": "Противопаразитное средство (от гельминтов) для профилактики и лечения глистных инвазий.",
     "shortUz": "Parazitga (qurt/gijja) qarshi dori.",
     "useRu": "Принимать строго по инструкции и по назначению врача; дозировку и курс не превышать.",
-    "useUz": "",
+    "useUz": "Yo‘riqnoma va shifokor tayinlaganiga qat’iy amal qiling; doza va kursdan oshirmang.",
     "imported": true,
     "weight": 0.3
   },
@@ -3069,7 +3069,7 @@ window.PRODUCTS = [
     "shortRu": "Пенка-маска с экстрактом томата: мягко очищает, выравнивает тон и придаёт сияние.",
     "shortUz": "Pomidorli jem-tozalovchi: teri g‘ovaklarini tozalaydi va yoritadi.",
     "useRu": "Нанести на влажную кожу, вспенить; как маска — оставить на 1–2 мин и смыть.",
-    "useUz": "",
+    "useUz": "Nam teriga surting, ko‘piklang; niqob sifatida 1–2 daqiqa ushlab, so‘ng yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -3089,7 +3089,7 @@ window.PRODUCTS = [
     "shortRu": "Активный крем с PDRN: восстанавливает, повышает упругость и увлажнённость кожи.",
     "shortUz": "PDRN tarkibli faol tiklovchi krem — teri sog‘lig‘ini yaxshilaydi.",
     "useRu": "На очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -3109,7 +3109,7 @@ window.PRODUCTS = [
     "shortRu": "Крем с PDRN (ДНК лосося): регенерирует, разглаживает и укрепляет кожу.",
     "shortUz": "PDRN tarkibli premium tiklovchi va namlantiruvchi krem.",
     "useRu": "На очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -3129,7 +3129,7 @@ window.PRODUCTS = [
     "shortRu": "Ампула двойного действия с PDRN: увлажняет, восстанавливает и повышает упругость.",
     "shortUz": "Rejuran Dual Effect ampula.",
     "useRu": "Несколько капель на очищенную кожу до крема.",
-    "useUz": "",
+    "useUz": "Kremdan oldin tozalangan teriga bir necha tomchi surting.",
     "imported": true,
     "weight": 0.1
   },
@@ -3149,7 +3149,7 @@ window.PRODUCTS = [
     "shortRu": "Маска с PDRN: интенсивно восстанавливает, увлажняет и разглаживает кожу.",
     "shortUz": "PDRN tarkibli niqob: teriga namlik va tiklanish beradi.",
     "useRu": "На очищенное лицо на 15–20 мин, снять, остатки вбить.",
-    "useUz": "",
+    "useUz": "Tozalangan yuzga 15–20 daqiqaga qo‘ying, oling va qoldig‘ini teriga singdiring.",
     "imported": true,
     "weight": 0.15
   },
@@ -3169,7 +3169,7 @@ window.PRODUCTS = [
     "shortRu": "Питательный крем Nutrive с PDRN: насыщает, восстанавливает и повышает эластичность.",
     "shortUz": "Oziqlantiruvchi PDRN krem — quruq va charchagan teriga.",
     "useRu": "На очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -3189,7 +3189,7 @@ window.PRODUCTS = [
     "shortRu": "Солнцезащитный стик SPF50+: удобно обновлять поверх макияжа, ухаживает за кожей.",
     "shortUz": "Stik shaklidagi quyoshdan himoya — makiyaj ustidan qayta surtishga qulay.",
     "useRu": "Нанести перед выходом и в течение дня.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan oldin va kun davomida surting.",
     "imported": true,
     "weight": 0.1
   },
@@ -3209,7 +3209,7 @@ window.PRODUCTS = [
     "shortRu": "Солнцезащитный крем премиум-текстуры SPF: защита от UVA/UVB, комфортное нанесение.",
     "shortUz": "Serumdek yengil teksturali premium quyoshdan himoya, SPFga injiq teri uchun ideal.",
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
     "weight": 0.1
   },
@@ -3229,7 +3229,7 @@ window.PRODUCTS = [
     "shortRu": "Эссенция с PDRN: увлажняет, восстанавливает и подготавливает кожу к уходу.",
     "shortUz": "Zaif va quruq teriga namlik beradi, tinchlantiradi va yorqinlikni oshiradi (sezgir teri uchun).",
     "useRu": "На очищенную кожу ладонями до сыворотки.",
-    "useUz": "",
+    "useUz": "Zardobdan oldin tozalangan teriga kaft bilan surting.",
     "imported": true,
     "weight": 0.1
   },
@@ -3249,7 +3249,7 @@ window.PRODUCTS = [
     "shortRu": "Крем Turnover с PDRN: обновляет кожу, выравнивает тон и текстуру.",
     "shortUz": "Teri yangilanishini (turnover) tezlashtiruvchi PDRN krem.",
     "useRu": "На очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -3269,7 +3269,7 @@ window.PRODUCTS = [
     "shortRu": "Солнцезащитный крем SPF50+ PA++++ с уходом: высокая защита и увлажнение.",
     "shortUz": "PDRN tarkibli premium quyoshdan himoya kremi, terini tiklaydi va himoyalaydi.",
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
     "weight": 0.1
   },
@@ -3289,7 +3289,7 @@ window.PRODUCTS = [
     "shortRu": "Клинический антиперспирант: усиленная защита от пота и запаха на длительное время.",
     "shortUz": "Kuchli himoya beruvchi (clinical) Rexona dezodrant.",
     "useRu": "На чистую сухую кожу подмышек на ночь или утром.",
-    "useUz": "",
+    "useUz": "Qo‘ltiq ostining toza, quruq terisiga kechasi yoki ertalab surting.",
     "imported": true,
     "weight": 0.3
   },
@@ -3309,7 +3309,7 @@ window.PRODUCTS = [
     "shortRu": "Солнцезащитный крем: защита от UVA/UVB, лёгкая текстура на каждый день.",
     "shortUz": "Ricocell SPF.",
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
     "weight": 0.1
   },
@@ -3329,7 +3329,7 @@ window.PRODUCTS = [
     "shortRu": "Матовый тинт для губ (2 оттенка): стойкий цвет и лёгкое велюровое покрытие.",
     "shortUz": "Romand matoviy lab bo‘yog‘i (lip tint), 2-kod tusi.",
     "useRu": "Нанести аппликатором на губы.",
-    "useUz": "",
+    "useUz": "Applikator bilan lablarga surting.",
     "imported": true,
     "weight": 0.08
   },
@@ -3349,7 +3349,7 @@ window.PRODUCTS = [
     "shortRu": "Детский солнцезащитный крем Birch Juice SPF, 60 мл: мягкая защита для нежной кожи.",
     "shortUz": "Bolalar terisiga mos yumshoq quyoshdan himoya kremi, 60 ml.",
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
     "weight": 0.11
   },
@@ -3369,7 +3369,7 @@ window.PRODUCTS = [
     "shortRu": "Солнцезащитный стик Birch Juice SPF50+: удобно наносить без рук.",
     "shortUz": "Qayin suvi tarkibli stik SPF — qo‘l tegmasdan surtish qulay.",
     "useRu": "Нанести перед выходом и в течение дня.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan oldin va kun davomida surting.",
     "imported": true,
     "weight": 0.1
   },
@@ -3389,7 +3389,7 @@ window.PRODUCTS = [
     "shortRu": "Крем Dokdo с морскими минералами: увлажняет и укрепляет барьер кожи.",
     "shortUz": "5 xil ceramide, 3 xil hyaluronic acid, panthenol va dengiz suvi bilan kuchli namlantiruvchi krem.",
     "useRu": "На очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -3409,7 +3409,7 @@ window.PRODUCTS = [
     "shortRu": "Набор кремов Dokdo (80+80+40 г): увлажнение и укрепление барьера. Выгодный комплект.",
     "shortUz": "Round Lab eng mashhur kremi — 80+80+40 g nabor (uchtaga bo'lib sotish mumkin).",
     "useRu": "На очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -3429,7 +3429,7 @@ window.PRODUCTS = [
     "shortRu": "Пенка для умывания: мягко очищает, не пересушивая кожу.",
     "shortUz": "Round Lab tozalovchi penka (ko'pik).",
     "useRu": "Вспенить с водой, помассировать и смыть.",
-    "useUz": "",
+    "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -3449,7 +3449,7 @@ window.PRODUCTS = [
     "shortRu": "Тонер: увлажняет и подготавливает кожу к последующему уходу.",
     "shortUz": "Round Lab brendidan barcha teri turiga mos toner.",
     "useRu": "На очищенную кожу ладонями или диском.",
-    "useUz": "",
+    "useUz": "Tozalangan teriga kaft yoki paxta disk bilan surting.",
     "imported": true,
     "weight": 0.25
   },
@@ -3469,7 +3469,7 @@ window.PRODUCTS = [
     "shortRu": "Увлажняющий крем: питает, смягчает и поддерживает комфорт кожи.",
     "shortUz": "Namlantiruvchi yuz kremi.",
     "useRu": "На очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -3489,7 +3489,7 @@ window.PRODUCTS = [
     "shortRu": "CC-крем: выравнивает тон, маскирует несовершенства, ухаживает за кожей.",
     "shortUz": "Ko‘pchilikka yoqqan CC krem — teri tonini tekislaydi va namlaydi.",
     "useRu": "На увлажнённую кожу после ухода; днём — с SPF.",
-    "useUz": "",
+    "useUz": "Parvarishdan so‘ng namlangan teriga surting; kunduzi SPF bilan birga.",
     "imported": true,
     "weight": 0.15
   },
@@ -3509,7 +3509,7 @@ window.PRODUCTS = [
     "shortRu": "Тонер с рисом и молочными протеинами: увлажняет, питает и выравнивает тон.",
     "shortUz": "Sutli-guruchli toner: terini namlaydi va yumshatadi.",
     "useRu": "На очищенную кожу ладонями или диском.",
-    "useUz": "",
+    "useUz": "Tozalangan teriga kaft yoki paxta disk bilan surting.",
     "imported": true,
     "weight": 0.25
   },
@@ -3529,7 +3529,7 @@ window.PRODUCTS = [
     "shortRu": "Солнцезащитный крем с центеллой SPF50+: успокаивает, защищает, невесомая текстура.",
     "shortUz": "Sentella tarkibli yengil \"air-fit\" quyoshdan himoya kremi, sezgir teriga mos.",
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
     "weight": 0.1
   },
@@ -3549,7 +3549,7 @@ window.PRODUCTS = [
     "shortRu": "Спрей-термозащита для волос: защищает от фена и утюжка, снижает ломкость, придаёт гладкость.",
     "shortUz": "Soch uchun termozashita (issiqdan himoya) spreyi.",
     "useRu": "Распылить на влажные или сухие волосы перед укладкой.",
-    "useUz": "",
+    "useUz": "Turmaklashdan oldin nam yoki quruq sochga purkang.",
     "imported": true,
     "weight": 0.35
   },
@@ -3569,7 +3569,7 @@ window.PRODUCTS = [
     "shortRu": "Солнцезащитный крем SPF50+ PA++++: высокая защита от UVA/UVB, лёгкая текстура на каждый день.",
     "shortUz": "SPF50+ / PA++++ — UVB va UVA nurlaridan himoya, quyoshda kuyish va erta qarishga qarshi.",
     "useRu": "Наносить за 15–20 мин до выхода, обновлять каждые 2–3 часа.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
     "weight": 0.1
   },
@@ -3589,7 +3589,7 @@ window.PRODUCTS = [
     "shortRu": "Набор 1+1: солнцезащитный стик SPF50+ и очищающая пенка. Стик удобно обновлять поверх макияжа.",
     "shortUz": "1+1 to‘plam: SPF50+ stik + tozalovchi penka; makiyaj ustidan qayta surtishga qulay.",
     "useRu": "Стик — на кожу перед выходом; пенка — умываться утром и вечером.",
-    "useUz": "",
+    "useUz": "Stik — tashqariga chiqishdan oldin teriga; ko‘pik — ertalab va kechqurun yuvinish uchun.",
     "imported": true,
     "weight": 0.1
   },
@@ -3609,7 +3609,7 @@ window.PRODUCTS = [
     "shortRu": "Крем с зелёным томатом: увлажняет, сужает поры и придаёт сияние.",
     "shortUz": "Green Tomato kremi (1+1 pachka).",
     "useRu": "На очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -3629,7 +3629,7 @@ window.PRODUCTS = [
     "shortRu": "Пенка-маска с зелёным томатом: очищает поры и выравнивает тон.",
     "shortUz": "Yashil pomidorli niqob-tozalagich: g‘ovaklarni tozalaydi va tinchlantiradi.",
     "useRu": "На влажную кожу; как маска — 1–2 мин и смыть.",
-    "useUz": "",
+    "useUz": "Nam teriga surting; niqob sifatida 1–2 daqiqa ushlab, yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -3649,7 +3649,7 @@ window.PRODUCTS = [
     "shortRu": "Сыворотка с зелёным томатом: антиоксидант, сужает поры, выравнивает тон.",
     "shortUz": "Green Tomato serumi (1+1 pachka).",
     "useRu": "Несколько капель на очищенную кожу до крема.",
-    "useUz": "",
+    "useUz": "Kremdan oldin tozalangan teriga bir necha tomchi surting.",
     "imported": true,
     "weight": 0.1
   },
@@ -3669,7 +3669,7 @@ window.PRODUCTS = [
     "shortRu": "Тонер с зелёным томатом: увлажняет, ухаживает за порами и тонизирует кожу.",
     "shortUz": "Yashil pomidorli toner: g‘ovaklarni toraytiradi va terini tenglashtiradi.",
     "useRu": "На очищенную кожу ладонями или диском.",
-    "useUz": "",
+    "useUz": "Tozalangan teriga kaft yoki paxta disk bilan surting.",
     "imported": true,
     "weight": 0.25
   },
@@ -3689,7 +3689,7 @@ window.PRODUCTS = [
     "shortRu": "Люксовый BB-крем: плотное покрытие + уход, ровный сияющий тон.",
     "shortUz": "Premium BB krem: yuqori qoplama, namlaydi va parvarishlaydi (katta gramda).",
     "useRu": "На увлажнённую кожу распределить спонжем или пальцами.",
-    "useUz": "",
+    "useUz": "Namlangan teriga spong yoki barmoq bilan taqsimlab surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -3709,7 +3709,7 @@ window.PRODUCTS = [
     "shortRu": "Кушон Mask Fit (оттенки 17/21): высокое покрытие и стойкость, естественный финиш.",
     "shortUz": "Yupqa, tabiiy qoplamli mashhur kushon; 17 va 21 tuslar mavjud.",
     "useRu": "Нанести спонжем похлопывающими движениями.",
-    "useUz": "",
+    "useUz": "Splong bilan yengil urib surting.",
     "imported": true,
     "weight": 0.08
   },
@@ -3729,7 +3729,7 @@ window.PRODUCTS = [
     "shortRu": "Тон-ап солнцезащитный крем (премиум Olive Young): SPF-защита + выравнивание тона и сияние.",
     "shortUz": "Tanalkadek yuzni tiniqlashtiruvchi tone-up quyoshdan himoya kremi.",
     "useRu": "Наносить днём как последний шаг ухода за 15–20 мин до выхода.",
-    "useUz": "",
+    "useUz": "Kunduzi parvarishning oxirgi bosqichi sifatida, tashqariga chiqishdan 15–20 daqiqa oldin surting.",
     "imported": true,
     "weight": 0.1
   },
@@ -3749,7 +3749,7 @@ window.PRODUCTS = [
     "shortRu": "Крем-ампула с пептидами: повышает упругость, разглаживает морщины, питает. 50+30 мл.",
     "shortUz": "Peptidli anti-age krem-ampula: namlaydi, yoritadi va ajinlarni kamaytiradi (2 haftada natija).",
     "useRu": "На очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.1
   },
@@ -3769,7 +3769,7 @@ window.PRODUCTS = [
     "shortRu": "Гидрофильное масло: мягко снимает макияж и SPF, не пересушивает.",
     "shortUz": "Torriden gidrofil tozalagich (+ penka).",
     "useRu": "На сухую кожу, помассировать, эмульгировать и смыть.",
-    "useUz": "",
+    "useUz": "Quruq teriga surting, massaj qiling, suv bilan emulsiyalab yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -3789,7 +3789,7 @@ window.PRODUCTS = [
     "shortRu": "Маска Dive-In с гиалуроновой кислотой: интенсивно увлажняет и успокаивает кожу.",
     "shortUz": "Torriden maska.",
     "useRu": "На очищенное лицо на 15–20 мин, снять, остатки вбить.",
-    "useUz": "",
+    "useUz": "Tozalangan yuzga 15–20 daqiqaga qo‘ying, oling va qoldig‘ini teriga singdiring.",
     "imported": true,
     "weight": 0.15
   },
@@ -3809,7 +3809,7 @@ window.PRODUCTS = [
     "shortRu": "Набор Dive-In с 5D-гиалуроновой кислотой для глубокого увлажнения. Состав уточнить.",
     "shortUz": "Torriden Dive-In to'plami (penka, toner va h.k.).",
     "useRu": "По инструкции к средствам набора.",
-    "useUz": "",
+    "useUz": "To‘plamdagi vositalar yo‘riqnomasiga muvofiq foydalaning.",
     "imported": true,
     "weight": 0.15
   },
@@ -3829,7 +3829,7 @@ window.PRODUCTS = [
     "shortRu": "Сыворотка Dive-In с гиалуроновой кислотой: глубоко увлажняет и разглаживает.",
     "shortUz": "Torriden serum.",
     "useRu": "Несколько капель на очищенную кожу до крема.",
-    "useUz": "",
+    "useUz": "Kremdan oldin tozalangan teriga bir necha tomchi surting.",
     "imported": true,
     "weight": 0.1
   },
@@ -3849,7 +3849,7 @@ window.PRODUCTS = [
     "shortRu": "Тонер-пэды Dive-In: увлажняют, освежают и мягко тонизируют кожу.",
     "shortUz": "Torriden toner pad (+ gel penka).",
     "useRu": "Протереть очищенную кожу пэдом; при желании оставить как мини-маску.",
-    "useUz": "",
+    "useUz": "Tozalangan terini pad bilan arting; xohlasangiz mini-niqob sifatida qoldiring.",
     "imported": true,
     "weight": 0.25
   },
@@ -3869,7 +3869,7 @@ window.PRODUCTS = [
     "shortRu": "Сахарный скраб для тела с ши и марокканской розой: отшелушивает и питает кожу.",
     "shortUz": "Shi moyi va shakar tarkibli tana skrabi, marokash atirgul hidli.",
     "useRu": "На влажную кожу в душе, помассировать и смыть.",
-    "useUz": "",
+    "useUz": "Dushda nam teriga surting, massaj qiling va yuving.",
     "imported": true,
     "weight": 0.3
   },
@@ -3889,7 +3889,7 @@ window.PRODUCTS = [
     "shortRu": "Парфюм Vanilla Jazz Belle — тёплый ванильно-сладкий аромат, уютный и стойкий.",
     "shortUz": "Vanilli shirin notali parfyum.",
     "useRu": "Распылять на точки пульса с расстояния 15–20 см.",
-    "useUz": "",
+    "useUz": "Puls nuqtalariga 15–20 sm masofadan purkang.",
     "imported": true,
     "weight": 0.3
   },
@@ -3909,7 +3909,7 @@ window.PRODUCTS = [
     "shortRu": "Вибро-массажёр гуаша для лица: улучшает микроциркуляцию, снимает отёчность, подтягивает контур.",
     "shortUz": "Vibratsiyali guasha tosh — yuz massaji, limfodrenaj va teri tonusi uchun.",
     "useRu": "Вести по массажным линиям 5–10 мин после крема или сыворотки.",
-    "useUz": "",
+    "useUz": "Krem yoki zardobdan so‘ng massaj chiziqlari bo‘ylab 5–10 daqiqa yuriting.",
     "imported": true,
     "weight": 0.15
   },
@@ -3929,7 +3929,7 @@ window.PRODUCTS = [
     "shortRu": "Ампула Glow: увлажняет, выравнивает тон и придаёт коже сияние.",
     "shortUz": "VT glow ampula.",
     "useRu": "Несколько капель на очищенную кожу до крема.",
-    "useUz": "",
+    "useUz": "Kremdan oldin tozalangan teriga bir necha tomchi surting.",
     "imported": true,
     "weight": 0.1
   },
@@ -3949,7 +3949,7 @@ window.PRODUCTS = [
     "shortRu": "Крем с PDRN: восстанавливает, повышает упругость и увлажняет кожу.",
     "shortUz": "PDRN tarkibli tiklovchi va namlantiruvchi krem.",
     "useRu": "На очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.3
   },
@@ -3969,7 +3969,7 @@ window.PRODUCTS = [
     "shortRu": "Солнцезащитный крем с PDRN SPF50+: защита от UVA/UVB + уходовый эффект.",
     "shortUz": "PDRN tarkibli namlantiruvchi quyoshdan himoya kremi.",
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
-    "useUz": "",
+    "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
     "weight": 0.1
   },
@@ -3989,7 +3989,7 @@ window.PRODUCTS = [
     "shortRu": "Пенка с коллагеном: мягко очищает и повышает упругость кожи.",
     "shortUz": "Kollagen tarkibli tozalovchi penka.",
     "useRu": "Вспенить с водой, помассировать и смыть.",
-    "useUz": "",
+    "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
     "weight": 0.2
   },
@@ -4009,7 +4009,7 @@ window.PRODUCTS = [
     "shortRu": "Крем с коллагеном X5: питает, повышает упругость и разглаживает кожу.",
     "shortUz": "X5 collagen krem (yangi).",
     "useRu": "На очищенную кожу утром и вечером.",
-    "useUz": "",
+    "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.15
   },
@@ -4029,7 +4029,7 @@ window.PRODUCTS = [
     "shortRu": "Аромадиффузор для дома: наполняет комнату ароматом и создаёт уютную атмосферу.",
     "shortUz": "Xona uchun xushbo‘y aromatizator.",
     "useRu": "Разместить в помещении; интенсивность — количеством палочек/масла.",
-    "useUz": "",
+    "useUz": "Xonaga joylashtiring; xushbo‘ylik darajasi — tayoqcha yoki moy miqdori bilan tartibga solinadi.",
     "imported": true,
     "weight": 0.3
   },
