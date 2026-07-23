@@ -1,7 +1,7 @@
 window.PRODUCTS = [
   {
     "id": "p01",
-    "image": "images/1.jpg",
+    "image": "images/1.png",
     "brand": "Beauty of Joseon",
     "nameRu": "Relief Sun: Rice + Probiotics SPF50+ PA++++",
     "nameUz": "Relief Sun: Rice + Probiotics SPF50+ PA++++",
@@ -222,7 +222,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p10",
-    "image": "images/10.webp",
+    "image": "images/10.png",
     "brand": "AXIS-Y",
     "nameRu": "Sunday Morning Refreshing Cleansing Foam",
     "nameUz": "Sunday Morning Refreshing Cleansing Foam",
@@ -3055,7 +3055,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p159",
-    "image": "images/placeholder.svg",
+    "image": "images/159.png",
     "brand": "",
     "nameRu": "Red Tomato Jam Mask Cleanser",
     "nameUz": "Red Tomato Jam Mask Cleanser",
@@ -3075,7 +3075,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p160",
-    "image": "images/placeholder.svg",
+    "image": "images/160.png",
     "brand": "Rejuran",
     "nameRu": "Rejuran Active Cream",
     "nameUz": "Rejuran Active Cream",
@@ -3095,7 +3095,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p161",
-    "image": "images/placeholder.svg",
+    "image": "images/161.png",
     "brand": "Rejuran",
     "nameRu": "Rejuran Cream (PDRN)",
     "nameUz": "Rejuran Cream (PDRN)",
@@ -3115,7 +3115,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p162",
-    "image": "images/placeholder.svg",
+    "image": "images/162.png",
     "brand": "Rejuran",
     "nameRu": "Rejuran Dual Effect Ampoule",
     "nameUz": "Rejuran Dual Effect Ampoule",
@@ -3135,7 +3135,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p163",
-    "image": "images/placeholder.svg",
+    "image": "images/163.png",
     "brand": "Rejuran",
     "nameRu": "Rejuran Mask",
     "nameUz": "Rejuran Mask",
@@ -3155,7 +3155,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p164",
-    "image": "images/placeholder.svg",
+    "image": "images/164.png",
     "brand": "Rejuran",
     "nameRu": "Rejuran Nutrive Cream",
     "nameUz": "Rejuran Nutrive Cream",
@@ -3195,7 +3195,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p166",
-    "image": "images/placeholder.svg",
+    "image": "images/166.png",
     "brand": "Rejuran",
     "nameRu": "Rejuran Sunscreen (premium tekstura)",
     "nameUz": "Rejuran Sunscreen (premium tekstura)",
@@ -3215,7 +3215,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p167",
-    "image": "images/placeholder.svg",
+    "image": "images/167.png",
     "brand": "Rejuran",
     "nameRu": "Rejuran Treatment Essence",
     "nameUz": "Rejuran Treatment Essence",
@@ -3235,7 +3235,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p168",
-    "image": "images/placeholder.svg",
+    "image": "images/168.png",
     "brand": "Rejuran",
     "nameRu": "Rejuran Turnover Cream PDRN",
     "nameUz": "Rejuran Turnover Cream PDRN",
@@ -3255,7 +3255,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p169",
-    "image": "images/placeholder.svg",
+    "image": "images/169.png",
     "brand": "Rejuran",
     "nameRu": "Rejuran UV Protection Cream SPF50+ PA++++",
     "nameUz": "Rejuran UV Protection Cream SPF50+ PA++++",
@@ -3275,7 +3275,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p170",
-    "image": "images/placeholder.svg",
+    "image": "images/170.png",
     "brand": "Rexona",
     "nameRu": "Rexona Clinical Deodorant",
     "nameUz": "Rexona Clinical Deodorant",
@@ -3295,7 +3295,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p171",
-    "image": "images/placeholder.svg",
+    "image": "images/171.png",
     "brand": "Ricocell",
     "nameRu": "Ricocell Sun Cream SPF",
     "nameUz": "Ricocell Sun Cream SPF",
@@ -3315,7 +3315,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p172",
-    "image": "images/placeholder.svg",
+    "image": "images/172.png",
     "brand": "Romand",
     "nameRu": "Romand Lip Tint (matoviy, 2-tus)",
     "nameUz": "Romand Lip Tint (matoviy, 2-tus)",
@@ -3335,7 +3335,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p173",
-    "image": "images/placeholder.svg",
+    "image": "images/173.png",
     "brand": "Round Lab",
     "nameRu": "Round Lab Birch Juice Sun Cream (детский), 60 мл",
     "nameUz": "Round Lab Birch Juice Sun Cream (bolalar uchun) 60 ml",
@@ -3355,7 +3355,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p174",
-    "image": "images/placeholder.svg",
+    "image": "images/174.png",
     "brand": "Round Lab",
     "nameRu": "Round Lab Birch Juice Sun Stick SPF50+",
     "nameUz": "Round Lab Birch Juice Sun Stick SPF50+",
@@ -3375,7 +3375,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p177",
-    "image": "images/placeholder.svg",
+    "image": "images/177.png",
     "brand": "Round Lab",
     "nameRu": "Round Lab Dokdo Cream",
     "nameUz": "Round Lab Dokdo Cream",
@@ -3395,7 +3395,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p178",
-    "image": "images/placeholder.svg",
+    "image": "images/178.png",
     "brand": "Round Lab",
     "nameRu": "Round Lab Dokdo Cream Set (80+80+40 g)",
     "nameUz": "Round Lab Dokdo Cream Set (80+80+40 g)",
@@ -3415,7 +3415,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p179",
-    "image": "images/placeholder.svg",
+    "image": "images/179.png",
     "brand": "Round Lab",
     "nameRu": "Round Lab Foam Cleanser (пенка)",
     "nameUz": "Round Lab Foam Cleanser (penka)",
@@ -3435,7 +3435,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p181",
-    "image": "images/placeholder.svg",
+    "image": "images/181.png",
     "brand": "Round Lab",
     "nameRu": "Round Lab Toner",
     "nameUz": "Round Lab Toner",
@@ -3455,7 +3455,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p182",
-    "image": "images/placeholder.svg",
+    "image": "images/182.png",
     "brand": "S.Nature",
     "nameRu": "S.Nature Cream",
     "nameUz": "S.Nature Cream",
@@ -3475,7 +3475,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p183",
-    "image": "images/placeholder.svg",
+    "image": "images/183.png",
     "brand": "Selfut",
     "nameRu": "Selfut CC Cream",
     "nameUz": "Selfut CC Cream",
@@ -3495,7 +3495,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p184",
-    "image": "images/placeholder.svg",
+    "image": "images/184.png",
     "brand": "Shingmulnara",
     "nameRu": "Shingmulnara Milk Rice Toner",
     "nameUz": "Shingmulnara Milk Rice Toner",
@@ -3515,7 +3515,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p185",
-    "image": "images/placeholder.svg",
+    "image": "images/185.png",
     "brand": "SKIN1004",
     "nameRu": "SKIN1004 Madagascar Centella Air-Fit Suncream Plus SPF50+",
     "nameUz": "SKIN1004 Madagascar Centella Air-Fit Suncream Plus SPF50+",
@@ -3535,7 +3535,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p186",
-    "image": "images/placeholder.svg",
+    "image": "images/186.png",
     "brand": "",
     "nameRu": "Спрей-термозащита для волос",
     "nameUz": "Soch uchun termozashita sprey",
@@ -3555,7 +3555,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p187",
-    "image": "images/placeholder.svg",
+    "image": "images/187.png",
     "brand": "",
     "nameRu": "Sun Cream SPF50+ PA++++",
     "nameUz": "Sun Cream SPF50+ PA++++",
@@ -3595,7 +3595,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p189",
-    "image": "images/placeholder.svg",
+    "image": "images/189.png",
     "brand": "SungBoon Editor",
     "nameRu": "SungBoon Editor Green Tomato Cream",
     "nameUz": "SungBoon Editor Green Tomato Cream",
@@ -3615,7 +3615,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p190",
-    "image": "images/placeholder.svg",
+    "image": "images/190.png",
     "brand": "SungBoon Editor",
     "nameRu": "SungBoon Editor Green Tomato Mask Cleanser",
     "nameUz": "SungBoon Editor Green Tomato Mask Cleanser",
@@ -3635,7 +3635,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p191",
-    "image": "images/placeholder.svg",
+    "image": "images/191.png",
     "brand": "SungBoon Editor",
     "nameRu": "SungBoon Editor Green Tomato Serum",
     "nameUz": "SungBoon Editor Green Tomato Serum",
@@ -3655,7 +3655,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p192",
-    "image": "images/placeholder.svg",
+    "image": "images/192.png",
     "brand": "SungBoon Editor",
     "nameRu": "SungBoon Editor Green Tomato Toner",
     "nameUz": "SungBoon Editor Green Tomato Toner",
@@ -3675,7 +3675,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p193",
-    "image": "images/placeholder.svg",
+    "image": "images/193.png",
     "brand": "The History of Whoo",
     "nameRu": "The History of Whoo Luxury BB Cream",
     "nameUz": "The History of Whoo Luxury BB Cream",
@@ -3695,7 +3695,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p195",
-    "image": "images/placeholder.svg",
+    "image": "images/195.png",
     "brand": "TIRTIR",
     "nameRu": "TIRTIR Mask Fit Cushion (17/21)",
     "nameUz": "TIRTIR Mask Fit Cushion (17/21)",
@@ -3715,7 +3715,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p196",
-    "image": "images/placeholder.svg",
+    "image": "images/196.png",
     "brand": "",
     "nameRu": "Tone-Up Sun Cream (Olive Young premium)",
     "nameUz": "Tone-Up Sun Cream (Olive Young premium)",
@@ -3735,7 +3735,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p197",
-    "image": "images/placeholder.svg",
+    "image": "images/197.png",
     "brand": "TonyMoly",
     "nameRu": "TonyMoly Bio EX Cell Peptide Fill Up Cream Ampoule (50ml+30ml)",
     "nameUz": "TonyMoly Bio EX Cell Peptide Fill Up Cream Ampoule (50ml+30ml)",
@@ -4035,7 +4035,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p212",
-    "image": "images/placeholder.svg",
+    "image": "images/212.png",
     "brand": "Growus",
     "nameRu": "Growus Hair Balm",
     "nameUz": "Growus soch balzami",
@@ -4218,7 +4218,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p220",
-    "image": "images/placeholder.svg",
+    "image": "images/220.png",
     "brand": "The History of Whoo",
     "nameRu": "The History of Whoo Luxury BB Cream SPF20/PA++ (пробники, 120 шт)",
     "nameUz": "The History of Whoo Luxury BB Cream SPF20/PA++ (probnik, 120 dona)",
@@ -4282,7 +4282,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p223",
-    "image": "images/placeholder.svg",
+    "image": "images/223.png",
     "brand": "Romand",
     "nameRu": "Romand Vegan Foundation",
     "nameUz": "Romand vegan ten (tonal asos)",
@@ -4305,7 +4305,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p224",
-    "image": "images/placeholder.svg",
+    "image": "images/224.png",
     "brand": "Romand",
     "nameRu": "Romand Better Than Palette (веган)",
     "nameUz": "Romand ko‘z uchun palette (vegan)",
@@ -4325,7 +4325,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p225",
-    "image": "images/placeholder.svg",
+    "image": "images/225.png",
     "brand": "Romand",
     "nameRu": "Romand Glasting Water Tint (14)",
     "nameUz": "Romand Glasting Water tint (14-kod)",
@@ -4344,7 +4344,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p226",
-    "image": "images/placeholder.svg",
+    "image": "images/226.png",
     "brand": "Romand",
     "nameRu": "Romand Zero Velvet Tint (06)",
     "nameUz": "Romand matoviy velvet pomada (06-kod)",
@@ -4363,7 +4363,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p227",
-    "image": "images/placeholder.svg",
+    "image": "images/227.png",
     "brand": "Romand",
     "nameRu": "Romand Glasting Melting Balm (06)",
     "nameUz": "Romand pomada (06-kod)",
