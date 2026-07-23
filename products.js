@@ -655,7 +655,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p28",
-    "image": "images/placeholder.svg",
+    "image": "images/28.png",
     "brand": "Abib",
     "nameRu": "Abib Glutathione CC Sun Cream SPF50+",
     "nameUz": "Abib Glutathione CC Sun Cream SPF50+",
@@ -675,7 +675,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p29",
-    "image": "images/placeholder.svg",
+    "image": "images/29.png",
     "brand": "Abib",
     "nameRu": "Abib Ultra Moisturizing Cream (для сухой кожи)",
     "nameUz": "Abib Ultra Moisturizing Cream (quruq teri uchun)",
@@ -695,7 +695,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p30",
-    "image": "images/placeholder.svg",
+    "image": "images/30.png",
     "brand": "Aestura",
     "nameRu": "Aestura A-Cica Dual Barrier Creamy Toner",
     "nameUz": "Aestura A-Cica Dual Barrier Creamy Toner",
@@ -735,7 +735,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p32",
-    "image": "images/placeholder.svg",
+    "image": "images/32.png",
     "brand": "Aestura",
     "nameRu": "Aestura Atobarrier 365 Cream, 80 мл",
     "nameUz": "Aestura Atobarrier 365 Cream 80 ml (sovg‘asiz)",
@@ -755,7 +755,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p33",
-    "image": "images/placeholder.svg",
+    "image": "images/33.png",
     "brand": "Aestura",
     "nameRu": "Aestura Atobarrier 365 Set",
     "nameUz": "Aestura Atobarrier 365 Set",
@@ -775,7 +775,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p34",
-    "image": "images/placeholder.svg",
+    "image": "images/34.png",
     "brand": "Anua",
     "nameRu": "Anua PDRN Foam Cleanser",
     "nameUz": "Anua PDRN Foam Cleanser",
@@ -795,7 +795,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p35",
-    "image": "images/placeholder.svg",
+    "image": "images/35.png",
     "brand": "Anua",
     "nameRu": "Anua PDRN Hyaluronic Acid Mist 30 ml",
     "nameUz": "Anua PDRN Hyaluronic Acid Mist 30 ml",
@@ -815,7 +815,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p36",
-    "image": "images/placeholder.svg",
+    "image": "images/36.png",
     "brand": "Anua",
     "nameRu": "Anua PDRN Serum (1+1 + maska)",
     "nameUz": "Anua PDRN Serum (1+1 + maska)",
@@ -835,7 +835,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p37",
-    "image": "images/placeholder.svg",
+    "image": "images/37.png",
     "brand": "Anua",
     "nameRu": "Anua PDRN Set",
     "nameUz": "Anua PDRN Set",
@@ -855,7 +855,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p38",
-    "image": "images/placeholder.svg",
+    "image": "images/38.png",
     "brand": "Anua",
     "nameRu": "Anua Peach Foam Cleanser",
     "nameUz": "Anua Peach Foam Cleanser",
@@ -875,7 +875,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p39",
-    "image": "images/placeholder.svg",
+    "image": "images/39.png",
     "brand": "Arencia",
     "nameRu": "Arencia Cleansing Bar/Foam",
     "nameUz": "Arencia Cleansing Bar/Foam",
@@ -895,7 +895,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p40",
-    "image": "images/placeholder.svg",
+    "image": "images/40.png",
     "brand": "Arencia",
     "nameRu": "Arencia Cleansing Oil 200 ml",
     "nameUz": "Arencia Cleansing Oil 200 ml",
@@ -915,7 +915,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p41",
-    "image": "images/placeholder.svg",
+    "image": "images/41.png",
     "brand": "Arencia",
     "nameRu": "Arencia Mask Foam Cleanser",
     "nameUz": "Arencia Mask Foam Cleanser",
@@ -935,7 +935,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p42",
-    "image": "images/placeholder.svg",
+    "image": "images/42.png",
     "brand": "Aromatica",
     "nameRu": "Aromatica Scalp Scaling Spray (soch to‘kilishiga)",
     "nameUz": "Aromatica Scalp Scaling Spray (soch to‘kilishiga)",
@@ -955,7 +955,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p43",
-    "image": "images/placeholder.svg",
+    "image": "images/43.png",
     "brand": "Axis",
     "nameRu": "Axis PDRN Triple Gel Toner",
     "nameUz": "Axis PDRN Triple Gel Toner",
@@ -975,7 +975,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p46",
-    "image": "images/placeholder.svg",
+    "image": "images/46.png",
     "brand": "Beplain",
     "nameRu": "Beplain Cleansing Oil (гидрофильное масло)",
     "nameUz": "Beplain Cleansing Oil (gidrofil)",
@@ -995,7 +995,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p47",
-    "image": "images/placeholder.svg",
+    "image": "images/47.png",
     "brand": "Beplain",
     "nameRu": "Beplain Cream",
     "nameUz": "Beplain Cream",
@@ -1015,7 +1015,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p48",
-    "image": "images/placeholder.svg",
+    "image": "images/48.png",
     "brand": "",
     "nameRu": "Биотин (для волос, кожи и ногтей)",
     "nameUz": "Biotin (soch/teri/tirnoq uchun)",
@@ -1035,7 +1035,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p49",
-    "image": "images/placeholder.svg",
+    "image": "images/49.png",
     "brand": "Body Fantasies",
     "nameRu": "Body Fantasies Body & Hair Mist",
     "nameUz": "Body Fantasies Body & Hair Mist",
@@ -1055,7 +1055,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p50",
-    "image": "images/placeholder.svg",
+    "image": "images/50.png",
     "brand": "BOH",
     "nameRu": "BOH 3D Lifting Set",
     "nameUz": "BOH 3D Lifting Set",
@@ -1075,7 +1075,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p51",
-    "image": "images/placeholder.svg",
+    "image": "images/51.png",
     "brand": "BOH",
     "nameRu": "BOH Collagen Eye Patch",
     "nameUz": "BOH Collagen Eye Patch",
@@ -1095,7 +1095,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p52",
-    "image": "images/placeholder.svg",
+    "image": "images/52.png",
     "brand": "BOH",
     "nameRu": "BOH Heal NAD Prizcell Set",
     "nameUz": "BOH Heal NAD Prizcell Set",
@@ -1115,7 +1115,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p53",
-    "image": "images/placeholder.svg",
+    "image": "images/53.png",
     "brand": "BOH",
     "nameRu": "BOH PLGA Lifting Serum",
     "nameUz": "BOH PLGA Lifting Serum",
@@ -1135,7 +1135,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p54",
-    "image": "images/placeholder.svg",
+    "image": "images/54.png",
     "brand": "BOH",
     "nameRu": "BOH Sherbet Cleanser",
     "nameUz": "BOH Sherbet Cleanser",
@@ -1175,7 +1175,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p56",
-    "image": "images/placeholder.svg",
+    "image": "images/56.png",
     "brand": "",
     "nameRu": "Carboxy Mask",
     "nameUz": "Carboxy Mask",
@@ -1195,7 +1195,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p57",
-    "image": "images/placeholder.svg",
+    "image": "images/57.png",
     "brand": "Celimax",
     "nameRu": "Celimax Pore Dark Spot Sun Cream 10 ml",
     "nameUz": "Celimax Pore Dark Spot Sun Cream 10 ml",
@@ -1235,7 +1235,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p59",
-    "image": "images/placeholder.svg",
+    "image": "images/59.png",
     "brand": "Celimax",
     "nameRu": "Celimax Watery Sun Cream SPF50+",
     "nameUz": "Celimax Watery Sun Cream SPF50+",
@@ -1255,7 +1255,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p60",
-    "image": "images/placeholder.svg",
+    "image": "images/60.png",
     "brand": "Centellian24",
     "nameRu": "Centellian24 Madeca Cream",
     "nameUz": "Centellian24 Madeca Cream",
@@ -1275,7 +1275,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p61",
-    "image": "images/placeholder.svg",
+    "image": "images/61.png",
     "brand": "Cerabase",
     "nameRu": "Cerabase Cream",
     "nameUz": "Cerabase Cream",
@@ -1295,7 +1295,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p62",
-    "image": "images/placeholder.svg",
+    "image": "images/62.png",
     "brand": "Cetaphil",
     "nameRu": "Cetaphil Moisturizing Lotion",
     "nameUz": "Cetaphil Moisturizing Lotion",
@@ -1315,7 +1315,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p63",
-    "image": "images/placeholder.svg",
+    "image": "images/63.png",
     "brand": "Clio",
     "nameRu": "Clio Kill Cover Concealer",
     "nameUz": "Clio Kill Cover Concealer",
@@ -1335,7 +1335,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p64",
-    "image": "images/placeholder.svg",
+    "image": "images/64.png",
     "brand": "Clio",
     "nameRu": "Clio Kill Cover Cushion",
     "nameUz": "Clio Kill Cover Cushion",
@@ -1355,7 +1355,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p65",
-    "image": "images/placeholder.svg",
+    "image": "images/65.png",
     "brand": "Clio",
     "nameRu": "Clio Kill Cover Cushion (limited set + kosmetichka)",
     "nameUz": "Clio Kill Cover Cushion (limited set + kosmetichka)",
@@ -1375,7 +1375,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p66",
-    "image": "images/placeholder.svg",
+    "image": "images/66.png",
     "brand": "Clio",
     "nameRu": "Clio Kill Cover Mat Cushion (19N/21N)",
     "nameUz": "Clio Kill Cover Mat Cushion (19N/21N)",
@@ -1395,7 +1395,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p67",
-    "image": "images/placeholder.svg",
+    "image": "images/67.png",
     "brand": "CNP",
     "nameRu": "CNP Laboratory Ampule Mist",
     "nameUz": "CNP Laboratory Ampule Mist",
@@ -1415,7 +1415,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p68",
-    "image": "images/placeholder.svg",
+    "image": "images/68.png",
     "brand": "",
     "nameRu": "Collagen Multi-Function Cream",
     "nameUz": "Collagen Multi-Function Cream",
@@ -1435,7 +1435,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p69",
-    "image": "images/placeholder.svg",
+    "image": "images/69.png",
     "brand": "",
     "nameRu": "Cooling Citrus Deodorant (unisex)",
     "nameUz": "Cooling Citrus Deodorant (unisex)",
@@ -1455,7 +1455,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p70",
-    "image": "images/placeholder.svg",
+    "image": "images/70.png",
     "brand": "",
     "nameRu": "Крем для депиляции",
     "nameUz": "Depilyatsiya kremi (soch oldiruvchi)",
@@ -1475,7 +1475,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p71",
-    "image": "images/placeholder.svg",
+    "image": "images/71.png",
     "brand": "Dove",
     "nameRu": "Dove (original)",
     "nameUz": "Dove (original)",
@@ -1535,7 +1535,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p78",
-    "image": "images/placeholder.svg",
+    "image": "images/78.png",
     "brand": "Dr.Althea",
     "nameRu": "Dr.Althea Cleansing Oil",
     "nameUz": "Dr.Althea Cleansing Oil",
