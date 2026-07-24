@@ -1080,7 +1080,7 @@ window.PRODUCTS = [
     "nameRu": "BOH Collagen Eye Patch",
     "nameUz": "BOH Collagen Eye Patch",
     "category": "mask",
-    "price": 133000,
+    "price": 97000,
     "volume": "",
     "skin": [
       "all"
@@ -3040,7 +3040,7 @@ window.PRODUCTS = [
     "nameRu": "Qurt/Gijja dori (parazitga qarshi)",
     "nameUz": "Qurt/Gijja dori (parazitga qarshi)",
     "category": "other",
-    "price": 12000,
+    "price": 8000,
     "volume": "",
     "skin": [
       "all"
@@ -4549,6 +4549,250 @@ window.PRODUCTS = [
     "shortUz": "Terini jadal namlantirish va tiklash uchun 4 donalik krem-maska to‘plami.",
     "useRu": "Нанесите на очищенную кожу плотным слоем на 10–15 минут, затем смойте или вбейте остатки.",
     "useUz": "Tozalangan teriga qalin qatlam qilib 10–15 daqiqaga surting, so‘ng yuving yoki qoldig‘ini singdiring.",
+    "weight": 0.15
+  },
+  {
+    "id": "p238",
+    "image": "images/placeholder.svg",
+    "brand": "VT",
+    "nameRu": "VT PDRN Capsule Cream",
+    "nameUz": "VT PDRN Capsule Cream",
+    "category": "cream",
+    "price": 136000,
+    "volume": "50 мл",
+    "skin": [
+      "all"
+    ],
+    "concerns": [],
+    "shortRu": "Капсульный крем с PDRN для восстановления и упругости кожи. Капсулы раскрываются при нанесении.",
+    "shortUz": "Terini tiklash va elastikligi uchun PDRN kapsulali krem. Kapsulalar surtganda ochiladi.",
+    "useRu": "Наносите на очищенную кожу утром и вечером как завершающий этап ухода.",
+    "useUz": "Tozalangan teriga ertalab va kechqurun parvarishning yakuniy bosqichida surting.",
+    "weight": 0.15
+  },
+  {
+    "id": "p239",
+    "image": "images/placeholder.svg",
+    "brand": "",
+    "nameRu": "Age Cushion + запаска (большой объём)",
+    "nameUz": "Age Cushion + zapaska (katta gramm)",
+    "category": "makeup",
+    "price": 105000,
+    "volume": "кушон + запаска",
+    "skin": [
+      "all"
+    ],
+    "concerns": [
+      "dullness"
+    ],
+    "shortRu": "Тональный кушон с уходовым составом, в комплекте сменный блок увеличенного объёма.",
+    "shortUz": "Parvarish tarkibli tonal kushon, to‘plamda kattaroq hajmli zapaska bor.",
+    "useRu": "Наносите спонжем похлопывающими движениями на подготовленную кожу, при необходимости повторите слой.",
+    "useUz": "Tayyorlangan teriga spong bilan urib-urib surting, kerak bo‘lsa qatlamni takrorlang.",
+    "weight": 0.25
+  },
+  {
+    "id": "p240",
+    "image": "images/placeholder.svg",
+    "brand": "BOH",
+    "nameRu": "BOH 3D Lifting Serum",
+    "nameUz": "BOH 3D Lifting Serum",
+    "category": "serum",
+    "price": 136000,
+    "volume": "—",
+    "skin": [
+      "all"
+    ],
+    "concerns": [
+      "wrinkles"
+    ],
+    "shortRu": "Сыворотка из линейки 3D Lifting: работает на упругость и чёткость контура лица.",
+    "shortUz": "3D Lifting liniyasidagi zardob: terining elastikligi va yuz konturi uchun.",
+    "useRu": "Наносите 2–3 капли на очищенную кожу до крема, утром и вечером.",
+    "useUz": "Tozalangan teriga kremdan oldin 2–3 tomchi, ertalab va kechqurun surting.",
+    "weight": 0.1
+  },
+  {
+    "id": "p241",
+    "image": "images/placeholder.svg",
+    "brand": "BOH",
+    "nameRu": "BOH 3D Lifting Cream Mist",
+    "nameUz": "BOH 3D Lifting Cream Mist",
+    "category": "moisture",
+    "price": 113000,
+    "volume": "—",
+    "skin": [
+      "all"
+    ],
+    "concerns": [
+      "dehydration"
+    ],
+    "shortRu": "Кремовый мист для увлажнения и лифтинг-эффекта в течение дня.",
+    "shortUz": "Kun davomida namlantirish va lifting effekti uchun kremsimon mist.",
+    "useRu": "Распыляйте на лицо с расстояния 20 см в любое время дня, в том числе поверх макияжа.",
+    "useUz": "Kun davomida, hatto makiyaj ustidan ham, 20 sm masofadan yuzga purkang.",
+    "weight": 0.15
+  },
+  {
+    "id": "p242",
+    "image": "images/placeholder.svg",
+    "brand": "BOH",
+    "nameRu": "BOH 3D Lifting Cream",
+    "nameUz": "BOH 3D Lifting Krem",
+    "category": "cream",
+    "price": 150000,
+    "volume": "—",
+    "skin": [
+      "all"
+    ],
+    "concerns": [
+      "wrinkles"
+    ],
+    "shortRu": "Плотный лифтинг-крем из линейки 3D Lifting для возрастного ухода.",
+    "shortUz": "3D Lifting liniyasidagi yosh parvarishi uchun quyuq lifting krem.",
+    "useRu": "Наносите на лицо и шею как финальный этап ухода утром и вечером.",
+    "useUz": "Ertalab va kechqurun parvarishning yakuniy bosqichida yuz va bo‘yinga surting.",
+    "weight": 0.15
+  },
+  {
+    "id": "p243",
+    "image": "images/placeholder.svg",
+    "brand": "BOH",
+    "nameRu": "BOH 3D Lifting Eye Cream (1+1, 2 шт)",
+    "nameUz": "BOH 3D Lifting Ko‘z Kremi (1+1, 2 dona)",
+    "category": "cream",
+    "price": 138000,
+    "volume": "2 dona",
+    "skin": [
+      "all"
+    ],
+    "concerns": [
+      "wrinkles"
+    ],
+    "shortRu": "Крем для кожи вокруг глаз, упаковка 1+1 — цена указана за две штуки.",
+    "shortUz": "Ko‘z atrofi uchun krem, 1+1 to‘plam — narx ikkitasi uchun.",
+    "useRu": "Наносите безымянным пальцем по орбитальной кости утром и вечером.",
+    "useUz": "Ertalab va kechqurun nomsiz barmoq bilan ko‘z suyagi bo‘ylab surting.",
+    "weight": 0.1
+  },
+  {
+    "id": "p244",
+    "image": "images/placeholder.svg",
+    "brand": "",
+    "nameRu": "Мини-набор люкс: Mamonde + Aestura + Laneige + Hanyul",
+    "nameUz": "Lyuks mini to‘plam: Mamonde + Aestura + Laneige + Hanyul",
+    "category": "set",
+    "price": 70000,
+    "volume": "4 dona mini",
+    "skin": [
+      "all"
+    ],
+    "concerns": [],
+    "shortRu": "Набор миниатюр люксовых средств: пробиотический крем Mamonde, барьерный крем Aestura, гиалуроновый крем Laneige и пенка Hanyul.",
+    "shortUz": "Lyuks vositalar mini to‘plami: Mamonde probiotik krem, Aestura bariyer krem, Laneige gialuron krem va Hanyul penka.",
+    "useRu": "Удобно для теста средств или в поездку: используйте по назначению каждого продукта.",
+    "useUz": "Vositalarni sinab ko‘rish yoki safar uchun qulay: har bir mahsulotni o‘z vazifasiga ko‘ra ishlating.",
+    "weight": 0.2
+  },
+  {
+    "id": "p245",
+    "image": "images/placeholder.svg",
+    "brand": "",
+    "nameRu": "Коллаген усиленный, 3 пачки",
+    "nameUz": "Kuchaytirilgan Kollagen, 3 pachka",
+    "category": "other",
+    "price": 195000,
+    "volume": "3 pachka",
+    "skin": [
+      "all"
+    ],
+    "concerns": [],
+    "shortRu": "Питьевой коллаген тройной концентрации. Цена указана за 3 пачки.",
+    "shortUz": "Uch karra kuchaytirilgan ichimlik kollagen. Narx 3 pachka uchun.",
+    "useRu": "Принимайте по инструкции на упаковке, обычно 1 пакетик в день.",
+    "useUz": "Qadoqdagi ko‘rsatmaga ko‘ra, odatda kuniga 1 paketdan iching.",
+    "weight": 0.4
+  },
+  {
+    "id": "p246",
+    "image": "images/placeholder.svg",
+    "brand": "",
+    "nameRu": "Мелатонин",
+    "nameUz": "Melatonin",
+    "category": "other",
+    "price": 160000,
+    "volume": "—",
+    "skin": [
+      "all"
+    ],
+    "concerns": [],
+    "shortRu": "Добавка мелатонина для нормализации сна.",
+    "shortUz": "Uyquni yaxshilash uchun melatonin qo‘shimchasi.",
+    "useRu": "Принимайте по инструкции на упаковке за 30–60 минут до сна.",
+    "useUz": "Qadoqdagi ko‘rsatmaga ko‘ra uyqudan 30–60 daqiqa oldin iching.",
+    "weight": 0.15
+  },
+  {
+    "id": "p247",
+    "image": "images/placeholder.svg",
+    "brand": "",
+    "nameRu": "Noscarna",
+    "nameUz": "Noscarna",
+    "category": "other",
+    "price": 160000,
+    "volume": "—",
+    "skin": [
+      "all"
+    ],
+    "concerns": [],
+    "shortRu": "Средство против рубцов и постакне.",
+    "shortUz": "Chandiq va postakne uchun vosita.",
+    "useRu": "Наносите точечно на проблемный участок по инструкции.",
+    "useUz": "Muammoli joyga ko‘rsatmaga ko‘ra nuqtali surting.",
+    "weight": 0.1
+  },
+  {
+    "id": "p248",
+    "image": "images/placeholder.svg",
+    "brand": "",
+    "nameRu": "Acnon",
+    "nameUz": "Acnon",
+    "category": "other",
+    "price": 96000,
+    "volume": "—",
+    "skin": [
+      "oily",
+      "combination"
+    ],
+    "concerns": [
+      "acne"
+    ],
+    "shortRu": "Средство для проблемной кожи, склонной к высыпаниям.",
+    "shortUz": "Toshmaga moyil muammoli teri uchun vosita.",
+    "useRu": "Наносите точечно на воспаления по инструкции на упаковке.",
+    "useUz": "Yalliglangan joylarga qadoqdagi ko‘rsatmaga ko‘ra nuqtali surting.",
+    "weight": 0.1
+  },
+  {
+    "id": "p249",
+    "image": "images/placeholder.svg",
+    "brand": "",
+    "nameRu": "Acclean",
+    "nameUz": "Acclean",
+    "category": "cleanser",
+    "price": 96000,
+    "volume": "—",
+    "skin": [
+      "oily",
+      "combination"
+    ],
+    "concerns": [
+      "acne"
+    ],
+    "shortRu": "Очищающее средство для проблемной кожи.",
+    "shortUz": "Muammoli teri uchun tozalovchi vosita.",
+    "useRu": "Используйте утром и вечером, вспенив на влажной коже, затем смойте.",
+    "useUz": "Ertalab va kechqurun nam teriga ko‘pirtirib ishlating, so‘ng yuving.",
     "weight": 0.15
   }
 ];
