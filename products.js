@@ -2255,7 +2255,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p115",
-    "image": "images/placeholder.svg",
+    "image": "images/p115.jpg",
     "brand": "Lagom",
     "nameRu": "Lagom Cellup Micro Foam Cleanser",
     "nameUz": "Lagom Cellup Micro Foam Cleanser",
@@ -2275,7 +2275,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p117",
-    "image": "images/placeholder.svg",
+    "image": "images/p117.jpg",
     "brand": "Lagom",
     "nameRu": "Lagom Cellus Deep Moisture Cream",
     "nameUz": "Lagom Cellus Deep Moisture Cream",
@@ -2295,7 +2295,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p118",
-    "image": "images/placeholder.svg",
+    "image": "images/p118.jpg",
     "brand": "Lagom",
     "nameRu": "Lagom Cellus Mild Cream",
     "nameUz": "Lagom Cellus Mild Cream",
@@ -2315,7 +2315,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p119",
-    "image": "images/placeholder.svg",
+    "image": "images/p119.jpg",
     "brand": "Lagom",
     "nameRu": "Lagom Cica Cream",
     "nameUz": "Lagom Cica Cream",
@@ -2335,7 +2335,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p121",
-    "image": "images/placeholder.svg",
+    "image": "images/p121.jpg",
     "brand": "Lagom",
     "nameRu": "Lagom Serum",
     "nameUz": "Lagom Serum",
@@ -2355,7 +2355,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p122",
-    "image": "images/placeholder.svg",
+    "image": "images/p122.jpg",
     "brand": "Lagom",
     "nameRu": "Lagom Skincare Set",
     "nameUz": "Lagom Skincare Set",
@@ -2375,7 +2375,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p123",
-    "image": "images/placeholder.svg",
+    "image": "images/p123.jpg",
     "brand": "Lagom",
     "nameRu": "Lagom Sun Gel SPF50+ PA++++",
     "nameUz": "Lagom Sun Gel SPF50+ PA++++",
