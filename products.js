@@ -715,7 +715,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p31",
-    "image": "images/placeholder.svg",
+    "image": "images/p31.png",
     "brand": "Aestura",
     "nameRu": "Aestura Atobarrier 365 Cream (подарок)",
     "nameUz": "Aestura Atobarrier 365 Cream (sovg‘ali to‘plam)",
@@ -1495,7 +1495,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p75",
-    "image": "images/placeholder.svg",
+    "image": "images/p75.png",
     "brand": "Dr.Althea",
     "nameRu": "Dr.Althea 345 Relief Serum",
     "nameUz": "Dr.Althea 345 Relief Serum",
@@ -1515,7 +1515,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p76",
-    "image": "images/placeholder.svg",
+    "image": "images/p76.png",
     "brand": "Dr.Althea",
     "nameRu": "Dr.Althea Aqua Marine Set",
     "nameUz": "Dr.Althea Aqua Marine Set",
@@ -1555,7 +1555,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p80",
-    "image": "images/placeholder.svg",
+    "image": "images/p80.png",
     "brand": "Dr.Althea",
     "nameRu": "Dr.Althea Gel Cleanser",
     "nameUz": "Dr.Althea Gel Cleanser",
@@ -1575,7 +1575,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p81",
-    "image": "images/placeholder.svg",
+    "image": "images/p81.png",
     "brand": "Dr.Althea",
     "nameRu": "Dr.Althea Sebum Cleanser",
     "nameUz": "Dr.Althea Sebum Cleanser",
@@ -1595,7 +1595,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p82",
-    "image": "images/placeholder.svg",
+    "image": "images/p82.png",
     "brand": "Dr.Althea",
     "nameRu": "Dr.Althea Sun Cream SPF50+",
     "nameUz": "Dr.Althea Sun Cream SPF50+",
@@ -1615,7 +1615,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p83",
-    "image": "images/placeholder.svg",
+    "image": "images/p83.png",
     "brand": "Dr.CPU",
     "nameRu": "Dr.CPU Enzyme Powder Wash",
     "nameUz": "Dr.CPU Enzyme Powder Wash",
@@ -1635,7 +1635,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p84",
-    "image": "images/placeholder.svg",
+    "image": "images/p84.png",
     "brand": "Dr.FORHAIR",
     "nameRu": "Dr.FORHAIR Folligen Shampoo",
     "nameUz": "Dr.FORHAIR Folligen Shampoo",
@@ -1655,7 +1655,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p85",
-    "image": "images/placeholder.svg",
+    "image": "images/p85.png",
     "brand": "Dr.G",
     "nameRu": "Dr.G Green Mild Up Sun Tone-Up SPF50+",
     "nameUz": "Dr.G Green Mild Up Sun Tone-Up SPF50+",
@@ -1675,7 +1675,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p86",
-    "image": "images/placeholder.svg",
+    "image": "images/p86.png",
     "brand": "Dr.G",
     "nameRu": "Dr.G Peeling Gel",
     "nameUz": "Dr.G Peeling Gel",
@@ -1695,7 +1695,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p87",
-    "image": "images/placeholder.svg",
+    "image": "images/p87.png",
     "brand": "Dr.G",
     "nameRu": "Dr.G Skincare Set",
     "nameUz": "Dr.G Skincare Set",
@@ -1715,7 +1715,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p88",
-    "image": "images/placeholder.svg",
+    "image": "images/p88.png",
     "brand": "Dr.POY",
     "nameRu": "Dr.POY Wellkicker Kids Multivitamin & Mineral",
     "nameUz": "Dr.POY Wellkicker Kids Multivitamin & Mineral",
@@ -1755,7 +1755,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p90",
-    "image": "images/placeholder.svg",
+    "image": "images/p90.png",
     "brand": "Eclado",
     "nameRu": "Eclado Sun Cream SPF",
     "nameUz": "Eclado Sun Cream SPF",
@@ -1775,7 +1775,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p91",
-    "image": "images/placeholder.svg",
+    "image": "images/p91.png",
     "brand": "",
     "nameRu": "EMS Face Lifting Device",
     "nameUz": "EMS Face Lifting Device",
@@ -1795,7 +1795,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p92",
-    "image": "images/placeholder.svg",
+    "image": "images/p92.png",
     "brand": "Etude House",
     "nameRu": "Etude House mahsuloti",
     "nameUz": "Etude House mahsuloti",
@@ -1815,7 +1815,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p93",
-    "image": "images/placeholder.svg",
+    "image": "images/p93.png",
     "brand": "Family",
     "nameRu": "Family Sun Cream SPF",
     "nameUz": "Family Sun Cream SPF",
@@ -1835,7 +1835,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p94",
-    "image": "images/placeholder.svg",
+    "image": "images/p94.png",
     "brand": "Fleur",
     "nameRu": "Fleur Mood Perfume Set",
     "nameUz": "Fleur Mood Perfume Set",
@@ -1855,7 +1855,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p95",
-    "image": "images/placeholder.svg",
+    "image": "images/p95.png",
     "brand": "",
     "nameRu": "Foot Care Stick Cream",
     "nameUz": "Foot Care Stick Cream",
@@ -1875,7 +1875,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p96",
-    "image": "images/placeholder.svg",
+    "image": "images/p96.png",
     "brand": "",
     "nameRu": "Fully Mask Cleanser",
     "nameUz": "Fully Mask Cleanser",
@@ -1895,7 +1895,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p97",
-    "image": "images/placeholder.svg",
+    "image": "images/p97.png",
     "brand": "",
     "nameRu": "Gentle Vitamin C Serum",
     "nameUz": "Gentle Vitamin C Serum",
@@ -1955,7 +1955,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p100",
-    "image": "images/placeholder.svg",
+    "image": "images/p100.png",
     "brand": "Goodal",
     "nameRu": "Goodal Foam Cleanser (пенка)",
     "nameUz": "Goodal Foam Cleanser (penka)",
@@ -1975,7 +1975,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p101",
-    "image": "images/placeholder.svg",
+    "image": "images/p101.png",
     "brand": "Goodal",
     "nameRu": "Goodal Toner",
     "nameUz": "Goodal Toner",
@@ -1995,7 +1995,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p102",
-    "image": "images/placeholder.svg",
+    "image": "images/p102.png",
     "brand": "Gyeol",
     "nameRu": "Gyeol Collagen (2 oylik)",
     "nameUz": "Gyeol Collagen (2 oylik)",
@@ -2015,7 +2015,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p103",
-    "image": "images/placeholder.svg",
+    "image": "images/p103.png",
     "brand": "",
     "nameRu": "Heel & Elbow Stick Cream",
     "nameUz": "Heel & Elbow Stick Cream",
@@ -2035,7 +2035,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p104",
-    "image": "images/placeholder.svg",
+    "image": "images/p104.png",
     "brand": "Hurum",
     "nameRu": "Hurum Collagen",
     "nameUz": "Hurum Collagen",
@@ -2055,7 +2055,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p105",
-    "image": "images/placeholder.svg",
+    "image": "images/p105.png",
     "brand": "I'm From",
     "nameRu": "I'm From Rice Cream",
     "nameUz": "I'm From Rice Cream",
@@ -2075,7 +2075,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p106",
-    "image": "images/placeholder.svg",
+    "image": "images/p106.png",
     "brand": "Illiyoon",
     "nameRu": "Illiyoon Ultra Repair Lotion",
     "nameUz": "Illiyoon Ultra Repair Lotion",
@@ -2095,7 +2095,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p107",
-    "image": "images/placeholder.svg",
+    "image": "images/p107.png",
     "brand": "IOPE",
     "nameRu": "IOPE UV Shield Sun Protector SPF50+",
     "nameUz": "IOPE UV Shield Sun Protector SPF50+",
@@ -2135,7 +2135,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p109",
-    "image": "images/placeholder.svg",
+    "image": "images/p109.png",
     "brand": "",
     "nameRu": "Kids Qizil Jenshen (Red Ginseng) 30 stik",
     "nameUz": "Kids Qizil Jenshen (Red Ginseng) 30 stik",
@@ -2235,7 +2235,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p114",
-    "image": "images/placeholder.svg",
+    "image": "images/p114.png",
     "brand": "La Roche-Posay",
     "nameRu": "La Roche-Posay Anthelios UVA+UVB SPF50+",
     "nameUz": "La Roche-Posay Anthelios UVA+UVB SPF50+",
