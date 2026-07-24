@@ -1,7 +1,7 @@
 window.PRODUCTS = [
   {
     "id": "p01",
-    "image": "images/1.jpg",
+    "image": "images/1.png",
     "brand": "Beauty of Joseon",
     "nameRu": "Relief Sun: Rice + Probiotics SPF50+ PA++++",
     "nameUz": "Relief Sun: Rice + Probiotics SPF50+ PA++++",
@@ -148,7 +148,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p07",
-    "image": "images/7.jpg",
+    "image": "images/7.png",
     "brand": "AXIS-Y",
     "nameRu": "Complete No-Stress Physical Sunscreen SPF50+ PA++++",
     "nameUz": "Complete No-Stress Physical Sunscreen SPF50+ PA++++",
@@ -172,7 +172,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p08",
-    "image": "images/8.jpg",
+    "image": "images/8.png",
     "brand": "AXIS-Y",
     "nameRu": "TXA 2.5% Intensive Brightening Cream",
     "nameUz": "TXA 2.5% Intensive Brightening Cream",
@@ -222,7 +222,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p10",
-    "image": "images/10.jpg",
+    "image": "images/10.png",
     "brand": "AXIS-Y",
     "nameRu": "Sunday Morning Refreshing Cleansing Foam",
     "nameUz": "Sunday Morning Refreshing Cleansing Foam",
@@ -439,7 +439,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p19",
-    "image": "images/19.jpg",
+    "image": "images/19.png",
     "brand": "Dr. Althea",
     "nameRu": "Vitamin C Boosting Serum",
     "nameUz": "Vitamin C Boosting Serum",
@@ -655,7 +655,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p28",
-    "image": "images/28.jpg",
+    "image": "images/28.png",
     "brand": "Abib",
     "nameRu": "Abib Glutathione CC Sun Cream SPF50+",
     "nameUz": "Abib Glutathione CC Sun Cream SPF50+",
@@ -675,7 +675,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p29",
-    "image": "images/29.jpg",
+    "image": "images/29.png",
     "brand": "Abib",
     "nameRu": "Abib Ultra Moisturizing Cream (для сухой кожи)",
     "nameUz": "Abib Ultra Moisturizing Cream (quruq teri uchun)",
@@ -695,7 +695,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p30",
-    "image": "images/30.jpg",
+    "image": "images/30.png",
     "brand": "Aestura",
     "nameRu": "Aestura A-Cica Dual Barrier Creamy Toner",
     "nameUz": "Aestura A-Cica Dual Barrier Creamy Toner",
@@ -715,7 +715,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p31",
-    "image": "images/p31.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Aestura",
     "nameRu": "Aestura Atobarrier 365 Cream (подарок)",
     "nameUz": "Aestura Atobarrier 365 Cream (sovg‘ali to‘plam)",
@@ -735,7 +735,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p32",
-    "image": "images/32.jpg",
+    "image": "images/32.png",
     "brand": "Aestura",
     "nameRu": "Aestura Atobarrier 365 Cream, 80 мл",
     "nameUz": "Aestura Atobarrier 365 Cream 80 ml (sovg‘asiz)",
@@ -755,7 +755,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p33",
-    "image": "images/33.jpg",
+    "image": "images/33.png",
     "brand": "Aestura",
     "nameRu": "Aestura Atobarrier 365 Set",
     "nameUz": "Aestura Atobarrier 365 Set",
@@ -775,7 +775,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p34",
-    "image": "images/34.jpg",
+    "image": "images/34.png",
     "brand": "Anua",
     "nameRu": "Anua PDRN Foam Cleanser",
     "nameUz": "Anua PDRN Foam Cleanser",
@@ -795,7 +795,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p35",
-    "image": "images/35.jpg",
+    "image": "images/35.png",
     "brand": "Anua",
     "nameRu": "Anua PDRN Hyaluronic Acid Mist 30 ml",
     "nameUz": "Anua PDRN Hyaluronic Acid Mist 30 ml",
@@ -815,7 +815,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p36",
-    "image": "images/36.jpg",
+    "image": "images/36.png",
     "brand": "Anua",
     "nameRu": "Anua PDRN Serum (1+1 + maska)",
     "nameUz": "Anua PDRN Serum (1+1 + maska)",
@@ -835,7 +835,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p37",
-    "image": "images/37.jpg",
+    "image": "images/37.png",
     "brand": "Anua",
     "nameRu": "Anua PDRN Set",
     "nameUz": "Anua PDRN Set",
@@ -855,7 +855,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p38",
-    "image": "images/38.jpg",
+    "image": "images/38.png",
     "brand": "Anua",
     "nameRu": "Anua Peach Foam Cleanser",
     "nameUz": "Anua Peach Foam Cleanser",
@@ -875,7 +875,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p39",
-    "image": "images/39.jpg",
+    "image": "images/39.png",
     "brand": "Arencia",
     "nameRu": "Arencia Cleansing Bar/Foam",
     "nameUz": "Arencia Cleansing Bar/Foam",
@@ -895,7 +895,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p40",
-    "image": "images/40.jpg",
+    "image": "images/40.png",
     "brand": "Arencia",
     "nameRu": "Arencia Cleansing Oil 200 ml",
     "nameUz": "Arencia Cleansing Oil 200 ml",
@@ -915,7 +915,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p41",
-    "image": "images/41.jpg",
+    "image": "images/41.png",
     "brand": "Arencia",
     "nameRu": "Arencia Mask Foam Cleanser",
     "nameUz": "Arencia Mask Foam Cleanser",
@@ -935,7 +935,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p42",
-    "image": "images/42.jpg",
+    "image": "images/42.png",
     "brand": "Aromatica",
     "nameRu": "Aromatica Scalp Scaling Spray (soch to‘kilishiga)",
     "nameUz": "Aromatica Scalp Scaling Spray (soch to‘kilishiga)",
@@ -955,7 +955,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p43",
-    "image": "images/43.jpg",
+    "image": "images/43.png",
     "brand": "Axis",
     "nameRu": "Axis PDRN Triple Gel Toner",
     "nameUz": "Axis PDRN Triple Gel Toner",
@@ -975,7 +975,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p46",
-    "image": "images/46.jpg",
+    "image": "images/46.png",
     "brand": "Beplain",
     "nameRu": "Beplain Cleansing Oil (гидрофильное масло)",
     "nameUz": "Beplain Cleansing Oil (gidrofil)",
@@ -995,7 +995,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p47",
-    "image": "images/47.jpg",
+    "image": "images/47.png",
     "brand": "Beplain",
     "nameRu": "Beplain Cream",
     "nameUz": "Beplain Cream",
@@ -1015,7 +1015,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p48",
-    "image": "images/48.jpg",
+    "image": "images/48.png",
     "brand": "",
     "nameRu": "Биотин (для волос, кожи и ногтей)",
     "nameUz": "Biotin (soch/teri/tirnoq uchun)",
@@ -1035,7 +1035,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p49",
-    "image": "images/49.jpg",
+    "image": "images/49.png",
     "brand": "Body Fantasies",
     "nameRu": "Body Fantasies Body & Hair Mist",
     "nameUz": "Body Fantasies Body & Hair Mist",
@@ -1055,7 +1055,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p50",
-    "image": "images/50.jpg",
+    "image": "images/50.png",
     "brand": "BOH",
     "nameRu": "BOH 3D Lifting Set",
     "nameUz": "BOH 3D Lifting Set",
@@ -1075,7 +1075,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p51",
-    "image": "images/51.jpg",
+    "image": "images/51.png",
     "brand": "BOH",
     "nameRu": "BOH Collagen Eye Patch",
     "nameUz": "BOH Collagen Eye Patch",
@@ -1095,7 +1095,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p52",
-    "image": "images/52.jpg",
+    "image": "images/52.png",
     "brand": "BOH",
     "nameRu": "BOH Heal NAD Prizcell Set",
     "nameUz": "BOH Heal NAD Prizcell Set",
@@ -1115,7 +1115,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p53",
-    "image": "images/53.jpg",
+    "image": "images/53.png",
     "brand": "BOH",
     "nameRu": "BOH PLGA Lifting Serum",
     "nameUz": "BOH PLGA Lifting Serum",
@@ -1135,7 +1135,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p54",
-    "image": "images/54.jpg",
+    "image": "images/54.png",
     "brand": "BOH",
     "nameRu": "BOH Sherbet Cleanser",
     "nameUz": "BOH Sherbet Cleanser",
@@ -1175,7 +1175,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p56",
-    "image": "images/56.jpg",
+    "image": "images/56.png",
     "brand": "",
     "nameRu": "Carboxy Mask",
     "nameUz": "Carboxy Mask",
@@ -1195,7 +1195,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p57",
-    "image": "images/57.jpg",
+    "image": "images/57.png",
     "brand": "Celimax",
     "nameRu": "Celimax Pore Dark Spot Sun Cream 10 ml",
     "nameUz": "Celimax Pore Dark Spot Sun Cream 10 ml",
@@ -1235,7 +1235,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p59",
-    "image": "images/59.jpg",
+    "image": "images/59.png",
     "brand": "Celimax",
     "nameRu": "Celimax Watery Sun Cream SPF50+",
     "nameUz": "Celimax Watery Sun Cream SPF50+",
@@ -1255,7 +1255,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p60",
-    "image": "images/60.jpg",
+    "image": "images/60.png",
     "brand": "Centellian24",
     "nameRu": "Centellian24 Madeca Cream",
     "nameUz": "Centellian24 Madeca Cream",
@@ -1275,7 +1275,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p61",
-    "image": "images/61.jpg",
+    "image": "images/61.png",
     "brand": "Cerabase",
     "nameRu": "Cerabase Cream",
     "nameUz": "Cerabase Cream",
@@ -1295,7 +1295,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p62",
-    "image": "images/62.jpg",
+    "image": "images/62.png",
     "brand": "Cetaphil",
     "nameRu": "Cetaphil Moisturizing Lotion",
     "nameUz": "Cetaphil Moisturizing Lotion",
@@ -1315,7 +1315,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p63",
-    "image": "images/63.jpg",
+    "image": "images/63.png",
     "brand": "Clio",
     "nameRu": "Clio Kill Cover Concealer",
     "nameUz": "Clio Kill Cover Concealer",
@@ -1335,7 +1335,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p64",
-    "image": "images/64.jpg",
+    "image": "images/64.png",
     "brand": "Clio",
     "nameRu": "Clio Kill Cover Cushion",
     "nameUz": "Clio Kill Cover Cushion",
@@ -1355,7 +1355,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p65",
-    "image": "images/65.jpg",
+    "image": "images/65.png",
     "brand": "Clio",
     "nameRu": "Clio Kill Cover Cushion (limited set + kosmetichka)",
     "nameUz": "Clio Kill Cover Cushion (limited set + kosmetichka)",
@@ -1375,7 +1375,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p66",
-    "image": "images/66.jpg",
+    "image": "images/66.png",
     "brand": "Clio",
     "nameRu": "Clio Kill Cover Mat Cushion (19N/21N)",
     "nameUz": "Clio Kill Cover Mat Cushion (19N/21N)",
@@ -1395,7 +1395,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p67",
-    "image": "images/67.jpg",
+    "image": "images/67.png",
     "brand": "CNP",
     "nameRu": "CNP Laboratory Ampule Mist",
     "nameUz": "CNP Laboratory Ampule Mist",
@@ -1415,7 +1415,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p68",
-    "image": "images/68.jpg",
+    "image": "images/68.png",
     "brand": "",
     "nameRu": "Collagen Multi-Function Cream",
     "nameUz": "Collagen Multi-Function Cream",
@@ -1435,7 +1435,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p69",
-    "image": "images/69.jpg",
+    "image": "images/69.png",
     "brand": "",
     "nameRu": "Cooling Citrus Deodorant (unisex)",
     "nameUz": "Cooling Citrus Deodorant (unisex)",
@@ -1455,7 +1455,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p70",
-    "image": "images/70.jpg",
+    "image": "images/70.png",
     "brand": "",
     "nameRu": "Крем для депиляции",
     "nameUz": "Depilyatsiya kremi (soch oldiruvchi)",
@@ -1475,7 +1475,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p71",
-    "image": "images/71.jpg",
+    "image": "images/71.png",
     "brand": "Dove",
     "nameRu": "Dove (original)",
     "nameUz": "Dove (original)",
@@ -1495,7 +1495,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p75",
-    "image": "images/p75.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Dr.Althea",
     "nameRu": "Dr.Althea 345 Relief Serum",
     "nameUz": "Dr.Althea 345 Relief Serum",
@@ -1515,7 +1515,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p76",
-    "image": "images/p76.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Dr.Althea",
     "nameRu": "Dr.Althea Aqua Marine Set",
     "nameUz": "Dr.Althea Aqua Marine Set",
@@ -1535,7 +1535,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p78",
-    "image": "images/78.jpg",
+    "image": "images/78.png",
     "brand": "Dr.Althea",
     "nameRu": "Dr.Althea Cleansing Oil",
     "nameUz": "Dr.Althea Cleansing Oil",
@@ -1555,7 +1555,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p80",
-    "image": "images/p80.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Dr.Althea",
     "nameRu": "Dr.Althea Gel Cleanser",
     "nameUz": "Dr.Althea Gel Cleanser",
@@ -1575,7 +1575,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p81",
-    "image": "images/p81.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Dr.Althea",
     "nameRu": "Dr.Althea Sebum Cleanser",
     "nameUz": "Dr.Althea Sebum Cleanser",
@@ -1595,7 +1595,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p82",
-    "image": "images/p82.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Dr.Althea",
     "nameRu": "Dr.Althea Sun Cream SPF50+",
     "nameUz": "Dr.Althea Sun Cream SPF50+",
@@ -1615,7 +1615,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p83",
-    "image": "images/p83.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Dr.CPU",
     "nameRu": "Dr.CPU Enzyme Powder Wash",
     "nameUz": "Dr.CPU Enzyme Powder Wash",
@@ -1635,7 +1635,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p84",
-    "image": "images/p84.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Dr.FORHAIR",
     "nameRu": "Dr.FORHAIR Folligen Shampoo",
     "nameUz": "Dr.FORHAIR Folligen Shampoo",
@@ -1655,7 +1655,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p85",
-    "image": "images/p85.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Dr.G",
     "nameRu": "Dr.G Green Mild Up Sun Tone-Up SPF50+",
     "nameUz": "Dr.G Green Mild Up Sun Tone-Up SPF50+",
@@ -1675,7 +1675,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p86",
-    "image": "images/p86.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Dr.G",
     "nameRu": "Dr.G Peeling Gel",
     "nameUz": "Dr.G Peeling Gel",
@@ -1695,7 +1695,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p87",
-    "image": "images/p87.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Dr.G",
     "nameRu": "Dr.G Skincare Set",
     "nameUz": "Dr.G Skincare Set",
@@ -1715,7 +1715,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p88",
-    "image": "images/p88.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Dr.POY",
     "nameRu": "Dr.POY Wellkicker Kids Multivitamin & Mineral",
     "nameUz": "Dr.POY Wellkicker Kids Multivitamin & Mineral",
@@ -1755,7 +1755,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p90",
-    "image": "images/p90.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Eclado",
     "nameRu": "Eclado Sun Cream SPF",
     "nameUz": "Eclado Sun Cream SPF",
@@ -1775,7 +1775,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p91",
-    "image": "images/p91.jpg",
+    "image": "images/placeholder.svg",
     "brand": "",
     "nameRu": "EMS Face Lifting Device",
     "nameUz": "EMS Face Lifting Device",
@@ -1795,7 +1795,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p92",
-    "image": "images/p92.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Etude House",
     "nameRu": "Etude House mahsuloti",
     "nameUz": "Etude House mahsuloti",
@@ -1815,7 +1815,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p93",
-    "image": "images/p93.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Family",
     "nameRu": "Family Sun Cream SPF",
     "nameUz": "Family Sun Cream SPF",
@@ -1835,7 +1835,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p94",
-    "image": "images/p94.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Fleur",
     "nameRu": "Fleur Mood Perfume Set",
     "nameUz": "Fleur Mood Perfume Set",
@@ -1855,7 +1855,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p95",
-    "image": "images/p95.jpg",
+    "image": "images/placeholder.svg",
     "brand": "",
     "nameRu": "Foot Care Stick Cream",
     "nameUz": "Foot Care Stick Cream",
@@ -1875,7 +1875,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p96",
-    "image": "images/p96.jpg",
+    "image": "images/placeholder.svg",
     "brand": "",
     "nameRu": "Fully Mask Cleanser",
     "nameUz": "Fully Mask Cleanser",
@@ -1895,7 +1895,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p97",
-    "image": "images/p97.jpg",
+    "image": "images/placeholder.svg",
     "brand": "",
     "nameRu": "Gentle Vitamin C Serum",
     "nameUz": "Gentle Vitamin C Serum",
@@ -1955,7 +1955,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p100",
-    "image": "images/p100.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Goodal",
     "nameRu": "Goodal Foam Cleanser (пенка)",
     "nameUz": "Goodal Foam Cleanser (penka)",
@@ -1975,7 +1975,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p101",
-    "image": "images/p101.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Goodal",
     "nameRu": "Goodal Toner",
     "nameUz": "Goodal Toner",
@@ -1995,7 +1995,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p102",
-    "image": "images/p102.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Gyeol",
     "nameRu": "Gyeol Collagen (2 oylik)",
     "nameUz": "Gyeol Collagen (2 oylik)",
@@ -2015,7 +2015,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p103",
-    "image": "images/p103.jpg",
+    "image": "images/placeholder.svg",
     "brand": "",
     "nameRu": "Heel & Elbow Stick Cream",
     "nameUz": "Heel & Elbow Stick Cream",
@@ -2035,7 +2035,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p104",
-    "image": "images/p104.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Hurum",
     "nameRu": "Hurum Collagen",
     "nameUz": "Hurum Collagen",
@@ -2055,7 +2055,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p105",
-    "image": "images/p105.jpg",
+    "image": "images/placeholder.svg",
     "brand": "I'm From",
     "nameRu": "I'm From Rice Cream",
     "nameUz": "I'm From Rice Cream",
@@ -2075,7 +2075,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p106",
-    "image": "images/p106.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Illiyoon",
     "nameRu": "Illiyoon Ultra Repair Lotion",
     "nameUz": "Illiyoon Ultra Repair Lotion",
@@ -2095,7 +2095,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p107",
-    "image": "images/p107.jpg",
+    "image": "images/placeholder.svg",
     "brand": "IOPE",
     "nameRu": "IOPE UV Shield Sun Protector SPF50+",
     "nameUz": "IOPE UV Shield Sun Protector SPF50+",
@@ -2135,7 +2135,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p109",
-    "image": "images/p109.jpg",
+    "image": "images/placeholder.svg",
     "brand": "",
     "nameRu": "Kids Qizil Jenshen (Red Ginseng) 30 stik",
     "nameUz": "Kids Qizil Jenshen (Red Ginseng) 30 stik",
@@ -2235,7 +2235,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p114",
-    "image": "images/p114.jpg",
+    "image": "images/placeholder.svg",
     "brand": "La Roche-Posay",
     "nameRu": "La Roche-Posay Anthelios UVA+UVB SPF50+",
     "nameUz": "La Roche-Posay Anthelios UVA+UVB SPF50+",
@@ -2255,7 +2255,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p115",
-    "image": "images/p115.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Lagom",
     "nameRu": "Lagom Cellup Micro Foam Cleanser",
     "nameUz": "Lagom Cellup Micro Foam Cleanser",
@@ -2275,7 +2275,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p117",
-    "image": "images/p117.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Lagom",
     "nameRu": "Lagom Cellus Deep Moisture Cream",
     "nameUz": "Lagom Cellus Deep Moisture Cream",
@@ -2295,7 +2295,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p118",
-    "image": "images/p118.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Lagom",
     "nameRu": "Lagom Cellus Mild Cream",
     "nameUz": "Lagom Cellus Mild Cream",
@@ -2315,7 +2315,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p119",
-    "image": "images/p119.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Lagom",
     "nameRu": "Lagom Cica Cream",
     "nameUz": "Lagom Cica Cream",
@@ -2335,7 +2335,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p121",
-    "image": "images/p121.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Lagom",
     "nameRu": "Lagom Serum",
     "nameUz": "Lagom Serum",
@@ -2355,7 +2355,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p122",
-    "image": "images/p122.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Lagom",
     "nameRu": "Lagom Skincare Set",
     "nameUz": "Lagom Skincare Set",
@@ -2375,7 +2375,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p123",
-    "image": "images/p123.jpg",
+    "image": "images/placeholder.svg",
     "brand": "Lagom",
     "nameRu": "Lagom Sun Gel SPF50+ PA++++",
     "nameUz": "Lagom Sun Gel SPF50+ PA++++",
@@ -3055,7 +3055,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p159",
-    "image": "images/159.jpg",
+    "image": "images/159.png",
     "brand": "",
     "nameRu": "Red Tomato Jam Mask Cleanser",
     "nameUz": "Red Tomato Jam Mask Cleanser",
@@ -3075,7 +3075,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p160",
-    "image": "images/160.jpg",
+    "image": "images/160.png",
     "brand": "Rejuran",
     "nameRu": "Rejuran Active Cream",
     "nameUz": "Rejuran Active Cream",
@@ -3095,7 +3095,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p161",
-    "image": "images/161.jpg",
+    "image": "images/161.png",
     "brand": "Rejuran",
     "nameRu": "Rejuran Cream (PDRN)",
     "nameUz": "Rejuran Cream (PDRN)",
@@ -3115,7 +3115,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p162",
-    "image": "images/162.jpg",
+    "image": "images/162.png",
     "brand": "Rejuran",
     "nameRu": "Rejuran Dual Effect Ampoule",
     "nameUz": "Rejuran Dual Effect Ampoule",
@@ -3135,7 +3135,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p163",
-    "image": "images/163.jpg",
+    "image": "images/163.png",
     "brand": "Rejuran",
     "nameRu": "Rejuran Mask",
     "nameUz": "Rejuran Mask",
@@ -3155,7 +3155,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p164",
-    "image": "images/164.jpg",
+    "image": "images/164.png",
     "brand": "Rejuran",
     "nameRu": "Rejuran Nutrive Cream",
     "nameUz": "Rejuran Nutrive Cream",
@@ -3195,7 +3195,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p166",
-    "image": "images/166.jpg",
+    "image": "images/166.png",
     "brand": "Rejuran",
     "nameRu": "Rejuran Sunscreen (premium tekstura)",
     "nameUz": "Rejuran Sunscreen (premium tekstura)",
@@ -3215,7 +3215,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p167",
-    "image": "images/167.jpg",
+    "image": "images/167.png",
     "brand": "Rejuran",
     "nameRu": "Rejuran Treatment Essence",
     "nameUz": "Rejuran Treatment Essence",
@@ -3235,7 +3235,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p168",
-    "image": "images/168.jpg",
+    "image": "images/168.png",
     "brand": "Rejuran",
     "nameRu": "Rejuran Turnover Cream PDRN",
     "nameUz": "Rejuran Turnover Cream PDRN",
@@ -3255,7 +3255,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p169",
-    "image": "images/169.jpg",
+    "image": "images/169.png",
     "brand": "Rejuran",
     "nameRu": "Rejuran UV Protection Cream SPF50+ PA++++",
     "nameUz": "Rejuran UV Protection Cream SPF50+ PA++++",
@@ -3275,7 +3275,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p170",
-    "image": "images/170.jpg",
+    "image": "images/170.png",
     "brand": "Rexona",
     "nameRu": "Rexona Clinical Deodorant",
     "nameUz": "Rexona Clinical Deodorant",
@@ -3295,7 +3295,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p171",
-    "image": "images/171.jpg",
+    "image": "images/171.png",
     "brand": "Ricocell",
     "nameRu": "Ricocell Sun Cream SPF",
     "nameUz": "Ricocell Sun Cream SPF",
@@ -3315,7 +3315,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p172",
-    "image": "images/172.jpg",
+    "image": "images/172.png",
     "brand": "Romand",
     "nameRu": "Romand Lip Tint (matoviy, 2-tus)",
     "nameUz": "Romand Lip Tint (matoviy, 2-tus)",
@@ -3335,7 +3335,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p173",
-    "image": "images/173.jpg",
+    "image": "images/173.png",
     "brand": "Round Lab",
     "nameRu": "Round Lab Birch Juice Sun Cream (детский), 60 мл",
     "nameUz": "Round Lab Birch Juice Sun Cream (bolalar uchun) 60 ml",
@@ -3355,7 +3355,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p174",
-    "image": "images/174.jpg",
+    "image": "images/174.png",
     "brand": "Round Lab",
     "nameRu": "Round Lab Birch Juice Sun Stick SPF50+",
     "nameUz": "Round Lab Birch Juice Sun Stick SPF50+",
@@ -3375,7 +3375,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p177",
-    "image": "images/177.jpg",
+    "image": "images/177.png",
     "brand": "Round Lab",
     "nameRu": "Round Lab Dokdo Cream",
     "nameUz": "Round Lab Dokdo Cream",
@@ -3395,7 +3395,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p178",
-    "image": "images/178.jpg",
+    "image": "images/178.png",
     "brand": "Round Lab",
     "nameRu": "Round Lab Dokdo Cream Set (80+80+40 g)",
     "nameUz": "Round Lab Dokdo Cream Set (80+80+40 g)",
@@ -3415,7 +3415,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p179",
-    "image": "images/179.jpg",
+    "image": "images/179.png",
     "brand": "Round Lab",
     "nameRu": "Round Lab Foam Cleanser (пенка)",
     "nameUz": "Round Lab Foam Cleanser (penka)",
@@ -3435,7 +3435,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p181",
-    "image": "images/181.jpg",
+    "image": "images/181.png",
     "brand": "Round Lab",
     "nameRu": "Round Lab Toner",
     "nameUz": "Round Lab Toner",
@@ -3455,7 +3455,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p182",
-    "image": "images/182.jpg",
+    "image": "images/182.png",
     "brand": "S.Nature",
     "nameRu": "S.Nature Cream",
     "nameUz": "S.Nature Cream",
@@ -3475,7 +3475,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p183",
-    "image": "images/183.jpg",
+    "image": "images/183.png",
     "brand": "Selfut",
     "nameRu": "Selfut CC Cream",
     "nameUz": "Selfut CC Cream",
@@ -3495,7 +3495,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p184",
-    "image": "images/184.jpg",
+    "image": "images/184.png",
     "brand": "Shingmulnara",
     "nameRu": "Shingmulnara Milk Rice Toner",
     "nameUz": "Shingmulnara Milk Rice Toner",
@@ -3515,7 +3515,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p185",
-    "image": "images/185.jpg",
+    "image": "images/185.png",
     "brand": "SKIN1004",
     "nameRu": "SKIN1004 Madagascar Centella Air-Fit Suncream Plus SPF50+",
     "nameUz": "SKIN1004 Madagascar Centella Air-Fit Suncream Plus SPF50+",
@@ -3535,7 +3535,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p186",
-    "image": "images/186.jpg",
+    "image": "images/186.png",
     "brand": "",
     "nameRu": "Спрей-термозащита для волос",
     "nameUz": "Soch uchun termozashita sprey",
@@ -3555,7 +3555,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p187",
-    "image": "images/187.jpg",
+    "image": "images/187.png",
     "brand": "",
     "nameRu": "Sun Cream SPF50+ PA++++",
     "nameUz": "Sun Cream SPF50+ PA++++",
@@ -3595,7 +3595,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p189",
-    "image": "images/189.jpg",
+    "image": "images/189.png",
     "brand": "SungBoon Editor",
     "nameRu": "SungBoon Editor Green Tomato Cream",
     "nameUz": "SungBoon Editor Green Tomato Cream",
@@ -3615,7 +3615,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p190",
-    "image": "images/190.jpg",
+    "image": "images/190.png",
     "brand": "SungBoon Editor",
     "nameRu": "SungBoon Editor Green Tomato Mask Cleanser",
     "nameUz": "SungBoon Editor Green Tomato Mask Cleanser",
@@ -3635,7 +3635,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p191",
-    "image": "images/191.jpg",
+    "image": "images/191.png",
     "brand": "SungBoon Editor",
     "nameRu": "SungBoon Editor Green Tomato Serum",
     "nameUz": "SungBoon Editor Green Tomato Serum",
@@ -3655,7 +3655,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p192",
-    "image": "images/192.jpg",
+    "image": "images/192.png",
     "brand": "SungBoon Editor",
     "nameRu": "SungBoon Editor Green Tomato Toner",
     "nameUz": "SungBoon Editor Green Tomato Toner",
@@ -3675,7 +3675,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p193",
-    "image": "images/193.jpg",
+    "image": "images/193.png",
     "brand": "The History of Whoo",
     "nameRu": "The History of Whoo Luxury BB Cream",
     "nameUz": "The History of Whoo Luxury BB Cream",
@@ -3695,7 +3695,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p195",
-    "image": "images/195.jpg",
+    "image": "images/195.png",
     "brand": "TIRTIR",
     "nameRu": "TIRTIR Mask Fit Cushion (17/21)",
     "nameUz": "TIRTIR Mask Fit Cushion (17/21)",
@@ -3715,7 +3715,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p196",
-    "image": "images/196.jpg",
+    "image": "images/196.png",
     "brand": "",
     "nameRu": "Tone-Up Sun Cream (Olive Young premium)",
     "nameUz": "Tone-Up Sun Cream (Olive Young premium)",
@@ -3735,7 +3735,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p197",
-    "image": "images/197.jpg",
+    "image": "images/197.png",
     "brand": "TonyMoly",
     "nameRu": "TonyMoly Bio EX Cell Peptide Fill Up Cream Ampoule (50ml+30ml)",
     "nameUz": "TonyMoly Bio EX Cell Peptide Fill Up Cream Ampoule (50ml+30ml)",
@@ -3775,7 +3775,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p199",
-    "image": "images/199.jpg",
+    "image": "images/199.png",
     "brand": "Torriden",
     "nameRu": "Torriden Dive-In Mask",
     "nameUz": "Torriden Dive-In Mask",
@@ -3795,7 +3795,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p200",
-    "image": "images/200.jpg",
+    "image": "images/200.png",
     "brand": "Torriden",
     "nameRu": "Torriden Dive-In Set",
     "nameUz": "Torriden Dive-In Set",
@@ -3815,7 +3815,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p201",
-    "image": "images/201.jpg",
+    "image": "images/201.png",
     "brand": "Torriden",
     "nameRu": "Torriden Serum",
     "nameUz": "Torriden Serum",
@@ -3835,7 +3835,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p202",
-    "image": "images/202.jpg",
+    "image": "images/202.png",
     "brand": "Torriden",
     "nameRu": "Torriden Toner Pad",
     "nameUz": "Torriden Toner Pad",
@@ -3855,7 +3855,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p203",
-    "image": "images/203.jpg",
+    "image": "images/203.png",
     "brand": "Tree Hut",
     "nameRu": "Tree Hut Moroccan Rose Shea Sugar Scrub",
     "nameUz": "Tree Hut Moroccan Rose Shea Sugar Scrub",
@@ -3875,7 +3875,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p204",
-    "image": "images/204.jpg",
+    "image": "images/204.png",
     "brand": "",
     "nameRu": "Vanilla Jazz Belle de Parfum",
     "nameUz": "Vanilla Jazz Belle de Parfum",
@@ -3895,7 +3895,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p205",
-    "image": "images/205.jpg",
+    "image": "images/205.png",
     "brand": "",
     "nameRu": "Vibrating Gua Sha Massager",
     "nameUz": "Vibrating Gua Sha Massager",
@@ -3915,7 +3915,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p206",
-    "image": "images/206.jpg",
+    "image": "images/206.png",
     "brand": "VT",
     "nameRu": "VT Glow Ampoule",
     "nameUz": "VT Glow Ampoule",
@@ -3935,7 +3935,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p207",
-    "image": "images/207.jpg",
+    "image": "images/207.png",
     "brand": "VT",
     "nameRu": "VT PDRN Cream",
     "nameUz": "VT PDRN Cream",
@@ -3955,7 +3955,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p208",
-    "image": "images/208.jpg",
+    "image": "images/208.png",
     "brand": "VT",
     "nameRu": "VT PDRN Sun Cream SPF50+",
     "nameUz": "VT PDRN Sun Cream SPF50+",
@@ -3975,7 +3975,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p209",
-    "image": "images/209.jpg",
+    "image": "images/209.png",
     "brand": "WellDerma",
     "nameRu": "WellDerma Collagen Foam Cleanser",
     "nameUz": "WellDerma Collagen Foam Cleanser",
@@ -3995,7 +3995,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p210",
-    "image": "images/210.jpg",
+    "image": "images/210.png",
     "brand": "X5",
     "nameRu": "X5 Collagen Cream",
     "nameUz": "X5 Collagen Cream",
@@ -4035,7 +4035,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p212",
-    "image": "images/212.jpg",
+    "image": "images/212.png",
     "brand": "Growus",
     "nameRu": "Growus Hair Balm",
     "nameUz": "Growus soch balzami",
@@ -4218,7 +4218,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p220",
-    "image": "images/220.jpg",
+    "image": "images/220.png",
     "brand": "The History of Whoo",
     "nameRu": "The History of Whoo Luxury BB Cream SPF20/PA++ (пробники, 120 шт)",
     "nameUz": "The History of Whoo Luxury BB Cream SPF20/PA++ (probnik, 120 dona)",
@@ -4282,7 +4282,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p223",
-    "image": "images/223.jpg",
+    "image": "images/223.png",
     "brand": "Romand",
     "nameRu": "Romand Vegan Foundation",
     "nameUz": "Romand vegan ten (tonal asos)",
@@ -4305,7 +4305,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p224",
-    "image": "images/224.jpg",
+    "image": "images/224.png",
     "brand": "Romand",
     "nameRu": "Romand Better Than Palette (веган)",
     "nameUz": "Romand ko‘z uchun palette (vegan)",
@@ -4325,7 +4325,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p225",
-    "image": "images/225.jpg",
+    "image": "images/225.png",
     "brand": "Romand",
     "nameRu": "Romand Glasting Water Tint (14)",
     "nameUz": "Romand Glasting Water tint (14-kod)",
@@ -4344,7 +4344,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p226",
-    "image": "images/226.jpg",
+    "image": "images/226.png",
     "brand": "Romand",
     "nameRu": "Romand Zero Velvet Tint (06)",
     "nameUz": "Romand matoviy velvet pomada (06-kod)",
@@ -4363,7 +4363,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p227",
-    "image": "images/227.jpg",
+    "image": "images/227.png",
     "brand": "Romand",
     "nameRu": "Romand Glasting Melting Balm (06)",
     "nameUz": "Romand pomada (06-kod)",
@@ -4420,7 +4420,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p230",
-    "image": "images/230.jpg",
+    "image": "images/230.png",
     "brand": "Zara",
     "nameRu": "Zara Orchid 90 мл (оригинал, Испания)",
     "nameUz": "Zara Orchid 90 ml (original, Ispaniya)",
@@ -4439,7 +4439,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p236",
-    "image": "images/236.jpg",
+    "image": "images/236.png",
     "brand": "Torriden",
     "nameRu": "Torriden Toner",
     "nameUz": "Torriden Toner",
@@ -4458,7 +4458,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p231",
-    "image": "images/231.jpg",
+    "image": "images/231.png",
     "brand": "Torriden",
     "nameRu": "Torriden Cream",
     "nameUz": "Torriden Krem",
@@ -4477,7 +4477,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p232",
-    "image": "images/232.jpg",
+    "image": "images/232.png",
     "brand": "Torriden",
     "nameRu": "Torriden Foam Cleanser",
     "nameUz": "Torriden Penka",
