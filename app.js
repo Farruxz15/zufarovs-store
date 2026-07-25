@@ -1,5 +1,36 @@
 const tg=window.Telegram?.WebApp;
-if(tg){tg.ready();tg.expand();tg.setHeaderColor?.('#f7f4ef');tg.setBackgroundColor?.('#f7f4ef');}
+if(tg){tg.ready();tg.expand();}
+
+/* ---- Тема: светлая / тёмная ---- */
+const THEME_BG={light:'#f7f4ef',dark:'#141312'};
+function systemTheme(){
+  if(tg?.colorScheme) return tg.colorScheme;
+  return window.matchMedia?.('(prefers-color-scheme: dark)').matches?'dark':'light';
+}
+function applyTheme(t){
+  const theme=t==='dark'?'dark':'light';
+  document.documentElement.setAttribute('data-theme',theme);
+  const bg=THEME_BG[theme];
+  document.querySelector('meta[name="theme-color"]')?.setAttribute('content',bg);
+  tg?.setHeaderColor?.(bg); tg?.setBackgroundColor?.(bg);
+  const btn=document.querySelector('#themeBtn');
+  if(btn){btn.textContent=theme==='dark'?'☀️':'🌙';btn.setAttribute('aria-label',theme==='dark'?'Светлая тема':'Тёмная тема');}
+}
+// стартовая тема: ручной выбор > Telegram/система
+let theme=localStorage.getItem('theme')||systemTheme();
+applyTheme(theme);
+// если пользователь не выбирал вручную — следуем за Telegram/системой
+if(!localStorage.getItem('theme')){
+  tg?.onEvent?.('themeChanged',()=>{ if(!localStorage.getItem('theme')) applyTheme(systemTheme()); });
+  window.matchMedia?.('(prefers-color-scheme: dark)').addEventListener?.('change',e=>{
+    if(!localStorage.getItem('theme')) applyTheme(e.matches?'dark':'light');
+  });
+}
+document.querySelector('#themeBtn')?.addEventListener('click',()=>{
+  theme=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';
+  localStorage.setItem('theme',theme);
+  applyTheme(theme);
+});
 
 let lang=localStorage.getItem('lang')||'ru';
 let cart=JSON.parse(localStorage.getItem('cart')||'{}');
