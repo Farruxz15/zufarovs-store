@@ -91,3 +91,5 @@
 @media(min-width:700px){.filter-sheet{left:50%;right:auto;transform:translateX(-50%);width:min(620px,100%)}}
 .topbar-actions{display:flex;align-items:center;gap:7px}
 .topbar-actions>button{width:42px;height:42px;padding:0;border:1px solid var(--line);border-radius:14px;background:var(--surface);color:var(--ink);font:inherit;font-size:16px;font-weight:800;line-height:1;display:grid;place-items:center;-webkit-appearance:none;appearance:none}
+#heroCatalog,#catalogTitle,#favoritesShortcut{display:none!important}
+.hero-banner-actions{grid-template-columns:1fr}
