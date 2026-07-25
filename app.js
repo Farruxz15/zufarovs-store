@@ -212,6 +212,15 @@ document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',(
 document.querySelector('#homeButton').onclick=()=>switchView('catalog');
 document.querySelector('#search').oninput=renderCatalog;
 document.querySelector('#searchClear').onclick=()=>{const s=document.querySelector('#search');s.value='';renderCatalog();s.focus()};
+document.querySelector('#searchBtn').onclick=()=>{
+  if(!document.querySelector('#catalog').classList.contains('active'))switchView('catalog');
+  document.querySelector('#searchBar').classList.remove('hidden');
+  requestAnimationFrame(()=>document.querySelector('#search').focus());
+  haptic();
+};
+function closeSearch(){const s=document.querySelector('#search');s.value='';renderCatalog();document.querySelector('#searchBar').classList.add('hidden')}
+document.querySelector('#searchCancel').onclick=closeSearch;
+document.querySelector('#search').addEventListener('keydown',e=>{if(e.key==='Escape')closeSearch()});
 document.querySelector('#filterBtn').onclick=openFilters;
 document.querySelector('#filterClose').onclick=closeFilters;
 document.querySelector('#filterBackdrop').onclick=closeFilters;

@@ -13,6 +13,7 @@
 </head>
 <body>
   <div class="app-shell">
+    <div class="header-stack">
     <header class="topbar">
       <button class="icon-button" id="homeButton" aria-label="Главная">Z</button>
       <div class="brand-lockup">
@@ -20,10 +21,20 @@
         <h1>ZUFAROVS’ STORE</h1>
       </div>
       <div class="topbar-actions">
+        <button id="searchBtn" class="theme-button" aria-label="Поиск">⌕</button>
         <button id="themeBtn" class="theme-button" aria-label="Тема">🌙</button>
         <button id="langBtn" class="lang-button" aria-label="Сменить язык">RU</button>
       </div>
     </header>
+    <div id="searchBar" class="search-bar hidden">
+      <div class="search-wrap">
+        <span>⌕</span>
+        <input id="search" autocomplete="off" placeholder="Поиск по названию или задаче">
+        <button id="searchClear" class="search-clear hidden" aria-label="Очистить">×</button>
+      </div>
+      <button id="searchCancel" class="search-cancel" aria-label="Закрыть поиск">✕</button>
+    </div>
+    </div>
 
     <main>
       <section class="hero-banner-section" id="homeHero">
@@ -57,11 +68,6 @@
           <button class="text-button" data-view="favorites" id="favoritesShortcut">Избранное</button>
         </div>
 
-        <div class="search-wrap">
-          <span>⌕</span>
-          <input id="search" autocomplete="off" placeholder="Поиск по названию или задаче">
-          <button id="searchClear" class="search-clear hidden" aria-label="Очистить">×</button>
-        </div>
         <div id="categoryChips" class="category-strip"></div>
         <div class="catalog-toolbar">
           <button id="filterBtn" class="filter-button">
