@@ -93,3 +93,6 @@
 .topbar-actions>button{width:42px;height:42px;padding:0;border:1px solid var(--line);border-radius:14px;background:var(--surface);color:var(--ink);font:inherit;font-size:16px;font-weight:800;line-height:1;display:grid;place-items:center;-webkit-appearance:none;appearance:none}
 #heroCatalog,#catalogTitle,#favoritesShortcut{display:none!important}
 .hero-banner-actions{grid-template-columns:1fr}
+.brand-lockup h1{font-size:15px;letter-spacing:-.2px}
+.topbar{gap:8px}
+#catalog .section-heading{display:none!important}
