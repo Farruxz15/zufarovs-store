@@ -4794,5 +4794,91 @@ window.PRODUCTS = [
     "useRu": "Используйте утром и вечером, вспенив на влажной коже, затем смойте.",
     "useUz": "Ertalab va kechqurun nam teriga ko‘pirtirib ishlating, so‘ng yuving.",
     "weight": 0.15
+  },
+  {
+    "id": "p250",
+    "image": "images/placeholder.svg",
+    "brand": "Manyo",
+    "nameRu": "Manyo Pure Cleansing Oil (набор 200 мл + 200 мл + косметичка)",
+    "nameUz": "Manyo Pure Cleansing Oil (to‘plam 200 ml + 200 ml + kosmetichka)",
+    "category": "cleanser",
+    "price": 215000,
+    "volume": "200 мл + 200 мл",
+    "skin": [
+      "all"
+    ],
+    "concerns": [],
+    "shortRu": "Набор гидрофильного масла Manyo Pure: 2 флакона по 200 мл + косметичка. Растворяет макияж и SPF.",
+    "shortUz": "Manyo Pure gidrofil tozalash yog‘i to‘plami: 200 ml x2 + kosmetichka.",
+    "useRu": "На сухую кожу, помассировать, эмульгировать водой и смыть.",
+    "useUz": "Quruq teriga surting, massaj qiling, suv bilan yuving.",
+    "imported": true,
+    "weight": 0.5
+  },
+  {
+    "id": "p251",
+    "image": "images/placeholder.svg",
+    "brand": "Clio",
+    "nameRu": "Clio Kill Cover High Glow Cushion (SPF50)",
+    "nameUz": "Clio Kill Cover High Glow Cushion (SPF50)",
+    "category": "makeup",
+    "price": 150000,
+    "volume": "",
+    "skin": [
+      "all"
+    ],
+    "concerns": [],
+    "shortRu": "Кушон Kill Cover с сияющим (glow) финишем, стойкое покрытие, SPF50. В комплекте запаска.",
+    "shortUz": "Kill Cover kushoni: nurli finish, uzoq davom etadi, SPF50. Ichida zapaska bor.",
+    "useRu": "Нанести спонжем похлопывающими движениями.",
+    "useUz": "Spong bilan yengil urib surting.",
+    "imported": true,
+    "weight": 0.08
+  },
+  {
+    "id": "p252",
+    "image": "images/placeholder.svg",
+    "brand": "Mediheal",
+    "nameRu": "Mediheal маска (упаковка 10 шт)",
+    "nameUz": "Mediheal niqob (10 dona qadoq)",
+    "category": "mask",
+    "price": 90000,
+    "volume": "10 шт",
+    "skin": [
+      "all"
+    ],
+    "concerns": [
+      "dehydration",
+      "dullness"
+    ],
+    "shortRu": "Тканевые маски Mediheal, упаковка 10 штук. Увлажнение и уход.",
+    "shortUz": "Mediheal mato niqoblari, 10 donalik qadoq.",
+    "useRu": "На очищенную кожу на 15–20 минут, остатки вбить.",
+    "useUz": "Tozalangan teriga 15–20 daqiqaga qo‘ying.",
+    "imported": true,
+    "weight": 0.25
+  },
+  {
+    "id": "p253",
+    "image": "images/placeholder.svg",
+    "brand": "Dr.Ceuracle",
+    "nameRu": "Dr.Ceuracle SPF, 50 мл",
+    "nameUz": "Dr.Ceuracle SPF, 50 ml",
+    "category": "spf",
+    "price": 150000,
+    "volume": "50 мл",
+    "skin": [
+      "all",
+      "sensitive"
+    ],
+    "concerns": [
+      "pigmentation"
+    ],
+    "shortRu": "Солнцезащитный крем Dr.Ceuracle, 50 мл. Срок до 2028 г.",
+    "shortUz": "Dr.Ceuracle quyoshdan himoya kremi, 50 ml. Muddati 2028 yilgacha.",
+    "useRu": "Утром как финальный шаг ухода, обновлять днём.",
+    "useUz": "Ertalab oxirgi bosqichda surting.",
+    "imported": true,
+    "weight": 0.08
   }
 ];
