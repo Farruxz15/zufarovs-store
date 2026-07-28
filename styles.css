@@ -115,3 +115,23 @@
 .brand-lockup h1{font-size:15px;letter-spacing:-.2px}
 .topbar{gap:8px}
 #catalog .section-heading{display:none!important}
+
+/* ── единый набор иконок (симметрия верх/низ) ── */
+.top-ico{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;display:block}
+.nav-ico{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;display:block}
+.bottom-nav button{gap:3px}
+
+/* ── отзывы покупателей ── */
+.reviews-section{padding:4px 16px 10px}
+.reviews-head{display:flex;flex-direction:column;margin-bottom:12px}
+.reviews-head .eyebrow{margin-bottom:2px}
+.reviews-head h2{font-family:'Playfair Display',serif;font-size:23px;line-height:1.1;margin:0}
+.reviews-row{display:flex;gap:12px;overflow-x:auto;scrollbar-width:none;margin:0 -16px;padding:2px 16px 6px}
+.reviews-row::-webkit-scrollbar{display:none}
+.review-card{flex:0 0 262px;background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:16px;display:flex;flex-direction:column;gap:9px;box-shadow:0 6px 18px rgba(43,37,31,.04)}
+.review-top{display:flex;align-items:center;gap:11px}
+.review-avatar{flex:0 0 40px;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:var(--accent-soft);color:var(--green);font-weight:800;font-size:16px}
+.review-name{font-weight:800;font-size:14px;line-height:1.2}
+.review-stars{color:var(--gold);font-size:13px;letter-spacing:2px;margin-top:2px}
+.review-text{font-size:13px;line-height:1.5;color:var(--muted);display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+@media(min-width:700px){.review-card{flex:0 0 300px}}

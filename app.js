@@ -3,6 +3,8 @@ if(tg){tg.ready();tg.expand();}
 
 /* ---- Тема: светлая / тёмная ---- */
 const THEME_BG={light:'#f7f4ef',dark:'#141312'};
+const ICON_MOON='<svg class="top-ico" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/></svg>';
+const ICON_SUN='<svg class="top-ico" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>';
 function systemTheme(){
   if(tg?.colorScheme) return tg.colorScheme;
   return window.matchMedia?.('(prefers-color-scheme: dark)').matches?'dark':'light';
@@ -14,7 +16,7 @@ function applyTheme(t){
   document.querySelector('meta[name="theme-color"]')?.setAttribute('content',bg);
   tg?.setHeaderColor?.(bg); tg?.setBackgroundColor?.(bg);
   const btn=document.querySelector('#themeBtn');
-  if(btn){btn.textContent=theme==='dark'?'☀️':'🌙';btn.setAttribute('aria-label',theme==='dark'?'Светлая тема':'Тёмная тема');}
+  if(btn){btn.innerHTML=theme==='dark'?ICON_SUN:ICON_MOON;btn.setAttribute('aria-label',theme==='dark'?'Светлая тема':'Тёмная тема');}
 }
 // стартовая тема: ручной выбор > Telegram/система
 let theme=localStorage.getItem('theme')||systemTheme();
@@ -195,7 +197,7 @@ function labelTag(x){const all={dry:'Сухая кожа',oily:'Жирная к�
 function syncModalFavorite(){const b=document.querySelector('#modalFavorite');const active=currentProduct&&favorites.has(currentProduct.id);b.textContent=active?'♥':'♡';b.classList.toggle('active',active)}
 function closeModal(){document.querySelector('#modal').classList.remove('open');document.body.style.overflow='';syncNative()}
 
-function switchView(id){currentView=id;document.querySelectorAll('.view').forEach(v=>v.classList.toggle('active',v.id===id));document.querySelectorAll('.bottom-nav button').forEach(b=>b.classList.toggle('active',b.dataset.view===id));document.querySelector('#homeHero').classList.toggle('hidden',id!=='catalog');if(id==='favorites')renderFavorites();if(id==='cart')renderCart();window.scrollTo({top:0,behavior:'smooth'});haptic();syncNative()}
+function switchView(id){currentView=id;document.querySelectorAll('.view').forEach(v=>v.classList.toggle('active',v.id===id));document.querySelectorAll('.bottom-nav button').forEach(b=>b.classList.toggle('active',b.dataset.view===id));document.querySelector('#homeHero').classList.toggle('hidden',id!=='catalog');document.querySelector('#homeReviews')?.classList.toggle('hidden',id!=='catalog');if(id==='favorites')renderFavorites();if(id==='cart')renderCart();window.scrollTo({top:0,behavior:'smooth'});haptic();syncNative()}
 
 /* ---------- Нативные кнопки Telegram (MainButton / BackButton) ---------- */
 function anyOverlayOpen(){return['#modal','#filterSheet','#ordersModal'].some(s=>document.querySelector(s)?.classList.contains('open'))}
@@ -281,8 +283,36 @@ function renderOrders(){
 function openOrders(){renderOrders();document.querySelector('#ordersModal').classList.add('open');document.body.style.overflow='hidden';syncNative()}
 function closeOrders(){document.querySelector('#ordersModal').classList.remove('open');document.body.style.overflow='';syncNative()}
 
+/* ---------- Отзывы покупателей ---------- */
+const REVIEWS={
+ ru:{title:'Отзывы покупателей',eyebrow:'ОТЗЫВЫ',items:[
+  {name:'Дилноза',stars:5,text:'Кожа стала заметно ровнее за 3 недели. Всё оригинал, упаковка целая, доставка быстрая.'},
+  {name:'Малика',stars:5,text:'Подобрала уход через квиз — попадание идеальное. Тон выровнялся, покраснения ушли.'},
+  {name:'Ирода',stars:5,text:'Заказываю уже второй раз. Цены честные, консультант всегда на связи. Рекомендую!'},
+  {name:'Севара',stars:4,text:'Хорошая корейская косметика, приятные текстуры. Ждала доставку чуть дольше, но всё ок.'},
+  {name:'Нигора',stars:5,text:'Сыворотка просто топ, кожа сияет. Спасибо за подробную инструкцию по применению.'}
+ ]},
+ uz:{title:'Xaridorlar fikri',eyebrow:'IZOHLAR',items:[
+  {name:'Dilnoza',stars:5,text:'3 haftada teri sezilarli darajada tekislandi. Hammasi original, qadoq butun, yetkazish tez.'},
+  {name:'Malika',stars:5,text:'Quiz orqali parvarish tanladim — juda mos keldi. Rang tekislandi, qizarish yo‘qoldi.'},
+  {name:'Iroda',stars:5,text:'Ikkinchi marta buyurtma qilyapman. Narxlar halol, konsultant doim aloqada. Tavsiya qilaman!'},
+  {name:'Sevara',stars:4,text:'Yaxshi koreys kosmetikasi, teksturasi yoqimli. Yetkazishni biroz kutdim, lekin hammasi zo‘r.'},
+  {name:'Nigora',stars:5,text:'Serum juda zo‘r, teri porlaydi. Qo‘llash bo‘yicha batafsil yo‘riqnoma uchun rahmat.'}
+ ]}
+};
+function reviewCard(r){
+ const stars='★'.repeat(r.stars)+'☆'.repeat(5-r.stars);
+ return `<article class="review-card"><div class="review-top"><div class="review-avatar">${r.name.charAt(0)}</div><div><div class="review-name">${r.name}</div><div class="review-stars">${stars}</div></div></div><p class="review-text">${r.text}</p></article>`;
+}
+function renderReviews(){
+ const data=REVIEWS[lang]||REVIEWS.ru;
+ document.querySelector('#reviewsEyebrow').textContent=data.eyebrow;
+ document.querySelector('#reviewsTitle').textContent=data.title;
+ document.querySelector('#reviewsRow').innerHTML=data.items.map(reviewCard).join('');
+}
+
 function applyLanguage(){
- document.documentElement.lang=lang;document.querySelector('#langBtn').textContent=lang.toUpperCase();document.querySelector('#heroBadge').textContent=tr().heroBadge;document.querySelector('#heroTitle').textContent=tr().heroTitle;document.querySelector('#heroText').textContent=tr().heroText;document.querySelector('#heroQuiz').textContent=tr().heroQuiz;document.querySelector('#heroCatalog').textContent=tr().heroCatalog;document.querySelector('#catalogEyebrow').textContent=PRODUCTS.length+' '+tr().count;document.querySelector('#catalogTitle').textContent=tr().catalog;document.querySelector('#favoritesShortcut').textContent=tr().fav;document.querySelector('#search').placeholder=tr().search;document.querySelector('#favoritesTitle').textContent=tr().fav;document.querySelector('#cartTitle').textContent=tr().cart;document.querySelector('#itemsLabel').textContent=tr().items;document.querySelector('#deliveryLabel').textContent=tr().delivery;document.querySelector('#weightLabel').textContent=tr().weightLabel;document.querySelector('#kgFeeLabel').textContent=tr().kgFeeLabel;document.querySelector('#weightNote').textContent=tr().weightNote;document.querySelector('#totalLabel').textContent=tr().total;document.querySelector('#deliveryNote').textContent=tr().deliveryNote;document.querySelector('#checkout').textContent=tr().checkout;document.querySelector('#navCatalog').textContent=tr().catalog;document.querySelector('#navQuiz').textContent=tr().navQuiz;document.querySelector('#navFavorites').textContent=tr().fav;document.querySelector('#navCart').textContent=tr().cart;document.querySelector('#benefitSummary').textContent=tr().detailsBenefits;document.querySelector('#useSummary').textContent=tr().detailsUse;document.querySelector('#volumeLabel').textContent=tr().volume;document.querySelector('#originLabel').textContent=tr().origin;document.querySelector('#modalAdd').textContent=tr().add;document.querySelector('#quizIntroTitle').textContent=tr().quizIntroTitle;document.querySelector('#quizIntroText').textContent=tr().quizIntroText;document.querySelector('#startQuiz').textContent=tr().start;document.querySelector('#filterBtnLabel').textContent=tr().filters;document.querySelector('#filterSheetTitle').textContent=tr().filters;document.querySelector('#filterSkinLabel').textContent=tr().skinLabel;document.querySelector('#filterConcernLabel').textContent=tr().concernLabel;document.querySelector('#filterSortLabel').textContent=tr().sortLabel;document.querySelector('#filterReset').textContent=tr().reset;document.querySelector('#filterApply').textContent=tr().apply;document.querySelector('#clearCart').textContent=tr().clearCart;document.querySelector('#ordersShortcut').textContent=tr().ordersLink;renderCategories();renderCatalog();renderFilters();renderFavorites();renderCart();showQuizStep();if(currentProduct)openProduct(currentProduct.id);
+ document.documentElement.lang=lang;document.querySelector('#langBtn').textContent=lang.toUpperCase();document.querySelector('#heroBadge').textContent=tr().heroBadge;document.querySelector('#heroTitle').textContent=tr().heroTitle;document.querySelector('#heroText').textContent=tr().heroText;document.querySelector('#heroQuiz').textContent=tr().heroQuiz;document.querySelector('#heroCatalog').textContent=tr().heroCatalog;document.querySelector('#catalogEyebrow').textContent=PRODUCTS.length+' '+tr().count;document.querySelector('#catalogTitle').textContent=tr().catalog;document.querySelector('#favoritesShortcut').textContent=tr().fav;document.querySelector('#search').placeholder=tr().search;document.querySelector('#favoritesTitle').textContent=tr().fav;document.querySelector('#cartTitle').textContent=tr().cart;document.querySelector('#itemsLabel').textContent=tr().items;document.querySelector('#deliveryLabel').textContent=tr().delivery;document.querySelector('#weightLabel').textContent=tr().weightLabel;document.querySelector('#kgFeeLabel').textContent=tr().kgFeeLabel;document.querySelector('#weightNote').textContent=tr().weightNote;document.querySelector('#totalLabel').textContent=tr().total;document.querySelector('#deliveryNote').textContent=tr().deliveryNote;document.querySelector('#checkout').textContent=tr().checkout;document.querySelector('#navCatalog').textContent=tr().catalog;document.querySelector('#navQuiz').textContent=tr().navQuiz;document.querySelector('#navFavorites').textContent=tr().fav;document.querySelector('#navCart').textContent=tr().cart;document.querySelector('#benefitSummary').textContent=tr().detailsBenefits;document.querySelector('#useSummary').textContent=tr().detailsUse;document.querySelector('#volumeLabel').textContent=tr().volume;document.querySelector('#originLabel').textContent=tr().origin;document.querySelector('#modalAdd').textContent=tr().add;document.querySelector('#quizIntroTitle').textContent=tr().quizIntroTitle;document.querySelector('#quizIntroText').textContent=tr().quizIntroText;document.querySelector('#startQuiz').textContent=tr().start;document.querySelector('#filterBtnLabel').textContent=tr().filters;document.querySelector('#filterSheetTitle').textContent=tr().filters;document.querySelector('#filterSkinLabel').textContent=tr().skinLabel;document.querySelector('#filterConcernLabel').textContent=tr().concernLabel;document.querySelector('#filterSortLabel').textContent=tr().sortLabel;document.querySelector('#filterReset').textContent=tr().reset;document.querySelector('#filterApply').textContent=tr().apply;document.querySelector('#clearCart').textContent=tr().clearCart;document.querySelector('#ordersShortcut').textContent=tr().ordersLink;renderCategories();renderCatalog();renderFilters();renderFavorites();renderCart();showQuizStep();renderReviews();if(currentProduct)openProduct(currentProduct.id);
 }
 
 document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>switchView(b.dataset.view)));
