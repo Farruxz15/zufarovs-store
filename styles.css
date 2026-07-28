@@ -156,3 +156,12 @@
 .pay-option{border:1px solid var(--line);background:var(--surface);border-radius:14px;padding:14px 10px;font-weight:800;color:var(--muted);display:flex;align-items:center;justify-content:center;gap:6px;font-size:14px}
 .pay-option.active{border-color:var(--green);background:var(--accent-soft);color:var(--green)}
 .pay-option:active{transform:scale(.98)}
+
+/* ── форма контакта при оформлении ── */
+.checkout-form{display:grid;gap:14px;margin-top:6px}
+.checkout-form .field{display:grid;gap:7px}
+.checkout-form .field span{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:800}
+.checkout-form input{border:1px solid var(--line);background:var(--surface);border-radius:14px;padding:14px;font-size:16px;color:var(--ink);outline:0}
+.checkout-form input:focus{border-color:var(--green)}
+.checkout-form .secondary{margin-top:-2px}
+.checkout-form .delivery-note{margin:2px 0}

@@ -64,9 +64,17 @@ async def web_order(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
     d['total']=d['subtotal']+d['kg_fee']
     d['lang']=data.get('lang','ru')
     d['pay_method']=data.get('payMethod')  # 'cash' | 'card' — выбрано в мини-аппе
-    kb=ReplyKeyboardMarkup([[KeyboardButton('📱 Отправить мой контакт',request_contact=True)]],resize_keyboard=True,one_time_keyboard=True)
+    d['name']=(data.get('name') or '').strip()
+    d['phone']=(data.get('phone') or '').strip()
     weight_line=f"\nВес: {d['weight']} кг · доплата за вес: {money(d['kg_fee'])} сум" if d['kg_fee'] else ""
-    await update.effective_message.reply_text(f"🛒 *Корзина*\n\n{items_text(d)}\n\nТовары: {money(d['subtotal'])} сум{weight_line}\nИтого: *{money(d['total'])} сум*\n_Доставка (Яндекс / BTS Express) оплачивается курьеру отдельно._\n\nОтправьте контакт одной кнопкой.",parse_mode='Markdown',reply_markup=kb)
+    summary=f"🛒 *Корзина*\n\n{items_text(d)}\n\nТовары: {money(d['subtotal'])} сум{weight_line}\nИтого: *{money(d['total'])} сум*\n_Доставка (Яндекс / BTS Express) оплачивается курьеру отдельно._"
+    if d['name'] and d['phone']:
+        # контакт уже собран в мини-аппе — просим только геолокацию
+        kb=ReplyKeyboardMarkup([[KeyboardButton('📍 Отправить геолокацию',request_location=True)],['✍️ Ввести адрес']],resize_keyboard=True,one_time_keyboard=True)
+        await update.effective_message.reply_text(f"{summary}\n\n👤 {d['name']}\n📱 {d['phone']}\n\nТеперь отправьте геолокацию одной кнопкой или введите адрес.",parse_mode='Markdown',reply_markup=kb)
+        return ADDRESS
+    kb=ReplyKeyboardMarkup([[KeyboardButton('📱 Отправить мой контакт',request_contact=True)]],resize_keyboard=True,one_time_keyboard=True)
+    await update.effective_message.reply_text(f"{summary}\n\nОтправьте контакт одной кнопкой.",parse_mode='Markdown',reply_markup=kb)
     return CONTACT
 
 async def contact(update:Update,ctx:ContextTypes.DEFAULT_TYPE):

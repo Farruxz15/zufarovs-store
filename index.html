@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=12">
+  <link rel="stylesheet" href="styles.css?v=13">
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
@@ -217,6 +217,23 @@
     </article>
   </div>
 
+  <div id="checkoutSheet" class="modal" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" id="checkoutBackdrop"></div>
+    <article class="filter-sheet">
+      <div class="filter-sheet-head">
+        <h2 id="checkoutTitle">Ваши данные</h2>
+        <button id="checkoutClose" class="sheet-close-inline" aria-label="Закрыть">×</button>
+      </div>
+      <div class="checkout-form">
+        <label class="field"><span id="nameFieldLabel">Имя</span><input id="buyerName" type="text" autocomplete="name" placeholder="Ваше имя"></label>
+        <label class="field"><span id="phoneFieldLabel">Телефон</span><input id="buyerPhone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+998 90 123 45 67"></label>
+        <button id="grabContact" class="secondary wide">📱 Взять номер из Telegram</button>
+        <p class="delivery-note" id="checkoutHint">Геолокацию отправите в чате бота следующим шагом.</p>
+        <button id="checkoutSubmit" class="primary wide">Отправить заказ</button>
+      </div>
+    </article>
+  </div>
+
   <div id="shotLightbox" class="shot-lightbox" role="dialog" aria-modal="true">
     <button id="shotLightboxClose" class="shot-lightbox-close" aria-label="Закрыть">×</button>
     <img id="shotLightboxImg" alt="Отзыв из Telegram">
@@ -224,7 +241,7 @@
 
   <div id="toast" class="toast" role="status"></div>
   <script src="products.js"></script>
-  <script src="app.js?v=15"></script>
+  <script src="app.js?v=16"></script>
 <p style="text-align:center;padding:0 16px 90px;font-size:12px"><a href="katalog.html" style="color:#746f68">Каталог товаров</a></p>
 </body>
 </html>

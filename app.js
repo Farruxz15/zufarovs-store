@@ -201,9 +201,10 @@ function closeModal(){document.querySelector('#modal').classList.remove('open');
 function switchView(id){currentView=id;document.querySelectorAll('.view').forEach(v=>v.classList.toggle('active',v.id===id));document.querySelectorAll('.bottom-nav button').forEach(b=>b.classList.toggle('active',b.dataset.view===id));document.querySelector('#homeHero').classList.toggle('hidden',id!=='catalog');if(id==='favorites')renderFavorites();if(id==='reviews')renderReviewShots();if(id==='cart')renderCart();window.scrollTo({top:0,behavior:'smooth'});haptic();syncNative()}
 
 /* ---------- Нативные кнопки Telegram (MainButton / BackButton) ---------- */
-function anyOverlayOpen(){return['#modal','#filterSheet','#ordersModal'].some(s=>document.querySelector(s)?.classList.contains('open'))}
+function anyOverlayOpen(){return['#modal','#filterSheet','#ordersModal','#checkoutSheet'].some(s=>document.querySelector(s)?.classList.contains('open'))}
 function handleBack(){
  if(document.querySelector('#shotLightbox').classList.contains('open'))return closeShot();
+ if(document.querySelector('#checkoutSheet').classList.contains('open'))return closeCheckout();
  if(document.querySelector('#ordersModal').classList.contains('open'))return closeOrders();
  if(document.querySelector('#filterSheet').classList.contains('open'))return closeFilters();
  if(document.querySelector('#modal').classList.contains('open'))return closeModal();
@@ -244,8 +245,15 @@ function routineBlock(title,items){return `<div class="routine-section"><h3>${ti
 function addRoutine(){routine.forEach(p=>cart[p.id]=(cart[p.id]||0)+1);save();renderCart();toast(tr().added);switchView('cart')}
 function restartQuiz(){quizStep=-1;quizAnswers={skin:null,concerns:[],goal:null};showQuizStep()}
 
-function checkout(){
- const items=Object.entries(cart).map(([id,qty])=>{const p=PRODUCTS.find(x=>x.id===id);return p?{id:p.id,name:pName(p),qty,price:p.price}:null}).filter(Boolean);if(!items.length){toast(tr().emptyCart);return}const subtotal=items.reduce((s,i)=>s+i.price*i.qty,0);const weight=Object.entries(cart).reduce((s,[id,q])=>{const p=PRODUCTS.find(x=>x.id===id);return s+((p?.weight??DEFAULT_WEIGHT)*q)},0);const kgFee=kgFeeSum(weight);const payload={type:'order',lang,items,subtotal,weight:Math.round(weight*100)/100,kgFeeUsd:KG_FEE_USD,usdRate:USD_RATE,kgFee,total:subtotal+kgFee,payMethod,payment:PAY_TEXT[payMethod]||PAY_TEXT.cash};saveOrderHistory(payload);
+function checkout(){openCheckout();}
+function submitOrder(){
+ const c=CHECKOUT_I18N[lang]||CHECKOUT_I18N.ru;
+ const name=document.querySelector('#buyerName').value.trim();
+ const phone=document.querySelector('#buyerPhone').value.trim();
+ if(!name){toast(c.needName);document.querySelector('#buyerName').focus();return}
+ if(phone.replace(/\D/g,'').length<7){toast(c.needPhone);document.querySelector('#buyerPhone').focus();return}
+ localStorage.setItem('buyerName',name);localStorage.setItem('buyerPhone',phone);
+ const items=Object.entries(cart).map(([id,qty])=>{const p=PRODUCTS.find(x=>x.id===id);return p?{id:p.id,name:pName(p),qty,price:p.price}:null}).filter(Boolean);if(!items.length){toast(tr().emptyCart);return}const subtotal=items.reduce((s,i)=>s+i.price*i.qty,0);const weight=Object.entries(cart).reduce((s,[id,q])=>{const p=PRODUCTS.find(x=>x.id===id);return s+((p?.weight??DEFAULT_WEIGHT)*q)},0);const kgFee=kgFeeSum(weight);const payload={type:'order',lang,name,phone,items,subtotal,weight:Math.round(weight*100)/100,kgFeeUsd:KG_FEE_USD,usdRate:USD_RATE,kgFee,total:subtotal+kgFee,payMethod,payment:PAY_TEXT[payMethod]||PAY_TEXT.cash};saveOrderHistory(payload);
  let json=JSON.stringify(payload);
  // Telegram.sendData не принимает больше 4096 байт — постепенно ужимаем названия
  for(const cut of [40,20,8,0]){
@@ -313,6 +321,46 @@ const PAY_TEXT={cash:'Наличными при получении',card:'Кар
 function updatePayUI(){document.querySelectorAll('.pay-option').forEach(b=>b.classList.toggle('active',b.dataset.pay===payMethod))}
 function setPay(m){payMethod=m;localStorage.setItem('payMethod',m);updatePayUI();haptic()}
 
+/* ---------- Форма контакта (имя + телефон) в аппе ---------- */
+const CHECKOUT_I18N={
+ ru:{title:'Ваши данные',name:'Имя',phone:'Телефон',namePh:'Ваше имя',phonePh:'+998 90 123 45 67',grab:'📱 Взять номер из Telegram',hint:'Геолокацию отправите в чате бота следующим шагом.',submit:'Отправить заказ',needName:'Введите имя',needPhone:'Введите телефон',noContact:'Введите номер вручную'},
+ uz:{title:'Ma’lumotlaringiz',name:'Ism',phone:'Telefon',namePh:'Ismingiz',phonePh:'+998 90 123 45 67',grab:'📱 Telegramdan raqamni olish',hint:'Geolokatsiyani keyingi qadamda bot chatida yuborasiz.',submit:'Buyurtmani yuborish',needName:'Ismni kiriting',needPhone:'Telefon raqamini kiriting',noContact:'Raqamni qo‘lda kiriting'}
+};
+function openCheckout(){
+ if(!Object.keys(cart).length){toast(tr().emptyCart);return}
+ const c=CHECKOUT_I18N[lang]||CHECKOUT_I18N.ru;
+ document.querySelector('#checkoutTitle').textContent=c.title;
+ document.querySelector('#nameFieldLabel').textContent=c.name;
+ document.querySelector('#phoneFieldLabel').textContent=c.phone;
+ document.querySelector('#buyerName').placeholder=c.namePh;
+ document.querySelector('#buyerPhone').placeholder=c.phonePh;
+ document.querySelector('#grabContact').textContent=c.grab;
+ document.querySelector('#checkoutHint').textContent=c.hint;
+ document.querySelector('#checkoutSubmit').textContent=c.submit;
+ // подставляем сохранённые данные или имя из Telegram
+ const tgUser=tg?.initDataUnsafe?.user;
+ const nameEl=document.querySelector('#buyerName'),phoneEl=document.querySelector('#buyerPhone');
+ if(!nameEl.value)nameEl.value=localStorage.getItem('buyerName')||[tgUser?.first_name,tgUser?.last_name].filter(Boolean).join(' ')||'';
+ if(!phoneEl.value)phoneEl.value=localStorage.getItem('buyerPhone')||'';
+ // кнопку «взять номер» показываем только если Telegram это умеет
+ document.querySelector('#grabContact').style.display=tg?.requestContact?'':'none';
+ document.querySelector('#checkoutSheet').classList.add('open');document.body.style.overflow='hidden';syncNative();
+ requestAnimationFrame(()=>{if(!nameEl.value)nameEl.focus()});
+}
+function closeCheckout(){document.querySelector('#checkoutSheet').classList.remove('open');document.body.style.overflow='';syncNative()}
+function grabContact(){
+ const c=CHECKOUT_I18N[lang]||CHECKOUT_I18N.ru;
+ if(!tg?.requestContact){toast(c.noContact);return}
+ try{tg.requestContact((ok,evt)=>{
+  if(!ok)return;
+  const ct=evt?.responseUnsafe?.contact||evt?.response?.contact||evt?.contact;
+  if(ct?.phone_number)document.querySelector('#buyerPhone').value=ct.phone_number;
+  const nm=document.querySelector('#buyerName');
+  if(!nm.value&&ct?.first_name)nm.value=[ct.first_name,ct.last_name].filter(Boolean).join(' ');
+  haptic();
+ });}catch(e){toast(c.noContact)}
+}
+
 const REVIEWS={
  ru:{title:'Отзывы покупателей',eyebrow:'ОТЗЫВЫ',navLabel:'Отзывы',viewTitle:'Отзывы',viewEyebrow:'TELEGRAM',empty:'Скоро здесь появятся скриншоты реальных отзывов из Telegram.',items:[
   {name:'Дилноза',stars:5,text:'Кожа стала заметно ровнее за 3 недели. Всё оригинал, упаковка целая, доставка быстрая.'},
@@ -363,6 +411,8 @@ document.querySelector('#modalAdd').onclick=()=>{if(currentProduct)addToCart(cur
 document.querySelector('#startQuiz').onclick=()=>{quizStep=0;showQuizStep()};document.querySelector('#quizNext').onclick=quizNext;document.querySelector('#quizBack').onclick=quizBack;document.querySelector('#addRoutine').onclick=addRoutine;document.querySelector('#restartQuiz').onclick=restartQuiz;document.querySelector('#checkout').onclick=checkout;
 document.querySelector('#ordersShortcut').onclick=openOrders;document.querySelector('#ordersClose').onclick=closeOrders;document.querySelector('#ordersBackdrop').onclick=closeOrders;
 document.querySelector('#shotLightboxClose').onclick=closeShot;document.querySelector('#shotLightbox').addEventListener('click',e=>{if(e.target.id!=='shotLightboxImg')closeShot()});
+document.querySelector('#checkoutSubmit').onclick=submitOrder;document.querySelector('#checkoutClose').onclick=closeCheckout;document.querySelector('#checkoutBackdrop').onclick=closeCheckout;document.querySelector('#grabContact').onclick=grabContact;
+document.querySelector('#buyerPhone').addEventListener('keydown',e=>{if(e.key==='Enter')submitOrder()});
 
 if(tg){tg.BackButton?.onClick?.(handleBack);tg.MainButton?.onClick?.(checkout);}
 applyLanguage();switchView('catalog');
