@@ -34,7 +34,7 @@ def consultant_keyboard():
     return InlineKeyboardMarkup([[InlineKeyboardButton('💬 Написать консультанту', url=f'https://t.me/{CONSULTANT}')]])
 
 def items_text(d):
-    return '\n'.join(f"• {x['name']} × {x['qty']} — {money(x['price']*x['qty'])} сум" for x in d['items'])
+    return '\n'.join(f"• {x.get('name') or x['id']} × {x['qty']} — {money(x['price']*x['qty'])} сум" for x in d['items'])
 
 def persist_order(d,user):
     row={'created_at':datetime.now().isoformat(timespec='seconds'),'telegram_id':user.id,'username':user.username,'items':d['items'],'subtotal':d['subtotal'],'weight':d.get('weight',0),'kg_fee':d.get('kg_fee',0),'total':d['total'],'name':d.get('name'),'phone':d.get('phone'),'address':d.get('address'),'payment':d.get('payment')}

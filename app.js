@@ -241,7 +241,21 @@ function addRoutine(){routine.forEach(p=>cart[p.id]=(cart[p.id]||0)+1);save();re
 function restartQuiz(){quizStep=-1;quizAnswers={skin:null,concerns:[],goal:null};showQuizStep()}
 
 function checkout(){
- const items=Object.entries(cart).map(([id,qty])=>{const p=PRODUCTS.find(x=>x.id===id);return p?{id:p.id,name:pName(p),qty,price:p.price}:null}).filter(Boolean);if(!items.length){toast(tr().emptyCart);return}const subtotal=items.reduce((s,i)=>s+i.price*i.qty,0);const weight=Object.entries(cart).reduce((s,[id,q])=>{const p=PRODUCTS.find(x=>x.id===id);return s+((p?.weight??DEFAULT_WEIGHT)*q)},0);const kgFee=kgFeeSum(weight);const payload={type:'order',lang,items,subtotal,weight:Math.round(weight*100)/100,kgFeeUsd:KG_FEE_USD,usdRate:USD_RATE,kgFee,total:subtotal+kgFee};saveOrderHistory(payload);if(tg?.sendData){tg.sendData(JSON.stringify(payload));tg.close()}else{navigator.clipboard?.writeText(JSON.stringify(payload));alert(lang==='ru'?'Откройте магазин внутри Telegram для оформления заказа.':'Buyurtma uchun do‘konni Telegram ichida oching.')}
+ const items=Object.entries(cart).map(([id,qty])=>{const p=PRODUCTS.find(x=>x.id===id);return p?{id:p.id,name:pName(p),qty,price:p.price}:null}).filter(Boolean);if(!items.length){toast(tr().emptyCart);return}const subtotal=items.reduce((s,i)=>s+i.price*i.qty,0);const weight=Object.entries(cart).reduce((s,[id,q])=>{const p=PRODUCTS.find(x=>x.id===id);return s+((p?.weight??DEFAULT_WEIGHT)*q)},0);const kgFee=kgFeeSum(weight);const payload={type:'order',lang,items,subtotal,weight:Math.round(weight*100)/100,kgFeeUsd:KG_FEE_USD,usdRate:USD_RATE,kgFee,total:subtotal+kgFee};saveOrderHistory(payload);
+ let json=JSON.stringify(payload);
+ // Telegram.sendData не принимает больше 4096 байт — постепенно ужимаем названия
+ for(const cut of [40,20,8,0]){
+  if(json.length<=4000)break;
+  json=JSON.stringify({...payload,items:items.map(i=>{const o={id:i.id,qty:i.qty,price:i.price};if(cut)o.name=String(i.name).slice(0,cut);return o})});
+ }
+ if(json.length>4096){alert(lang==='ru'?'Слишком много позиций в заказе для одной отправки. Разделите заказ на части или напишите консультанту.':'Buyurtmada juda ko‘p pozitsiya. Buyurtmani bo‘lib yuboring yoki konsultantga yozing.');return}
+ if(tg&&typeof tg.sendData==='function'){
+  try{tg.sendData(json)/* Telegram сам закрывает приложение */}
+  catch(e){alert((lang==='ru'?'Не удалось отправить заказ. ':'Buyurtma yuborilmadi. ')+(e&&e.message?e.message:e)+(lang==='ru'?'\n\nОткройте магазин через кнопку «🛍 Открыть магазин» и попробуйте снова.':'\n\nDo‘konni «🛍 Открыть магазин» tugmasi orqali oching va qayta urinib ko‘ring.'))}
+ }else{
+  navigator.clipboard?.writeText(json);
+  alert(lang==='ru'?'Откройте магазин внутри Telegram через кнопку «🛍 Открыть магазин», чтобы оформить заказ.':'Buyurtma uchun do‘konni Telegram ichida «🛍 Открыть магазин» tugmasi orqali oching.')
+ }
 }
 
 /* ---------- История заказов (localStorage) ---------- */
