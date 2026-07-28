@@ -15,7 +15,11 @@ CONSULTANT=os.getenv('CONSULTANT_USERNAME','Zufarovsstore').lstrip('@')
 CARD_NUMBER=os.getenv('CARD_NUMBER','').strip()
 CARD_HOLDER=os.getenv('CARD_HOLDER','Zufarova Sarvinoz')
 CARD_BANK=os.getenv('CARD_BANK','Uzcard')
-FREE_DELIVERY=200_000; DELIVERY_PRICE=30_000
+# Доставку курьер (Яндекс / BTS Express) берёт отдельно по своему тарифу,
+# поэтому в сумму заказа она не входит. Итог = товары + доплата за вес (10$/кг).
+KG_FEE_USD=int(os.getenv('KG_FEE_USD','10'))
+USD_RATE=int(os.getenv('USD_RATE','12200'))
+DEFAULT_WEIGHT=0.2
 ORDERS_FILE=Path(__file__).with_name('orders.jsonl')
 CONTACT, ADDRESS, HOME, PAYMENT, RECEIPT = range(5)
 
@@ -33,7 +37,7 @@ def items_text(d):
     return '\n'.join(f"• {x['name']} × {x['qty']} — {money(x['price']*x['qty'])} сум" for x in d['items'])
 
 def persist_order(d,user):
-    row={'created_at':datetime.now().isoformat(timespec='seconds'),'telegram_id':user.id,'username':user.username,'items':d['items'],'subtotal':d['subtotal'],'delivery':d['delivery'],'total':d['total'],'name':d.get('name'),'phone':d.get('phone'),'address':d.get('address'),'payment':d.get('payment')}
+    row={'created_at':datetime.now().isoformat(timespec='seconds'),'telegram_id':user.id,'username':user.username,'items':d['items'],'subtotal':d['subtotal'],'weight':d.get('weight',0),'kg_fee':d.get('kg_fee',0),'total':d['total'],'name':d.get('name'),'phone':d.get('phone'),'address':d.get('address'),'payment':d.get('payment')}
     with ORDERS_FILE.open('a',encoding='utf-8') as f:f.write(json.dumps(row,ensure_ascii=False)+'\n')
 
 async def start(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
@@ -52,9 +56,16 @@ async def web_order(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
         await update.effective_message.reply_text('Не удалось прочитать корзину. Откройте магазин заново.'); return ConversationHandler.END
     if data.get('type')!='order' or not data.get('items'):
         await update.effective_message.reply_text('Корзина пуста.'); return ConversationHandler.END
-    d=ctx.user_data;d.clear();d['items']=data['items'];d['subtotal']=sum(int(x['price'])*int(x['qty']) for x in d['items']);d['delivery']=0 if d['subtotal']>=FREE_DELIVERY else DELIVERY_PRICE;d['total']=d['subtotal']+d['delivery'];d['lang']=data.get('lang','ru')
+    d=ctx.user_data;d.clear();d['items']=data['items']
+    d['subtotal']=sum(int(x['price'])*int(x['qty']) for x in d['items'])
+    # вес и доплата за вес — берём из приложения, при отсутствии считаем сами (как во фронтенде)
+    d['weight']=round(float(data.get('weight') or 0),2)
+    d['kg_fee']=int(data.get('kgFee') or round(d['weight']*KG_FEE_USD*USD_RATE))
+    d['total']=d['subtotal']+d['kg_fee']
+    d['lang']=data.get('lang','ru')
     kb=ReplyKeyboardMarkup([[KeyboardButton('📱 Отправить мой контакт',request_contact=True)]],resize_keyboard=True,one_time_keyboard=True)
-    await update.effective_message.reply_text(f"🛒 *Корзина*\n\n{items_text(d)}\n\nИтого с доставкой: *{money(d['total'])} сум*\n\nОтправьте контакт одной кнопкой.",parse_mode='Markdown',reply_markup=kb)
+    weight_line=f"\nВес: {d['weight']} кг · доплата за вес: {money(d['kg_fee'])} сум" if d['kg_fee'] else ""
+    await update.effective_message.reply_text(f"🛒 *Корзина*\n\n{items_text(d)}\n\nТовары: {money(d['subtotal'])} сум{weight_line}\nИтого: *{money(d['total'])} сум*\n_Доставка (Яндекс / BTS Express) оплачивается курьеру отдельно._\n\nОтправьте контакт одной кнопкой.",parse_mode='Markdown',reply_markup=kb)
     return CONTACT
 
 async def contact(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
@@ -82,7 +93,8 @@ async def home(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
 
 async def ask_payment(m,ctx):
     d=ctx.user_data;kb=InlineKeyboardMarkup([[InlineKeyboardButton('💵 Наличными при получении',callback_data='pay:cash')],[InlineKeyboardButton('💳 Картой заранее',callback_data='pay:card')],[InlineKeyboardButton('❌ Отменить',callback_data='pay:cancel')]])
-    await m.reply_text(f"📋 *Ваш заказ*\n\n{items_text(d)}\n\nТовары: {money(d['subtotal'])} сум\nДоставка: {'бесплатно' if d['delivery']==0 else money(d['delivery'])+' сум'}\n*Итого: {money(d['total'])} сум*\n\n👤 {d['name']}\n📱 {d['phone']}\n📍 {d['address']}",parse_mode='Markdown',reply_markup=kb)
+    weight_line=f"\nДоплата за вес ({d['weight']} кг): {money(d['kg_fee'])} сум" if d.get('kg_fee') else ""
+    await m.reply_text(f"📋 *Ваш заказ*\n\n{items_text(d)}\n\nТовары: {money(d['subtotal'])} сум{weight_line}\n*Итого: {money(d['total'])} сум*\n_Доставка курьером оплачивается отдельно._\n\n👤 {d['name']}\n📱 {d['phone']}\n📍 {d['address']}",parse_mode='Markdown',reply_markup=kb)
     return PAYMENT
 
 async def payment(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
@@ -102,7 +114,8 @@ async def receipt(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
     d=ctx.user_data;await send_admin(ctx,update.effective_user,d,update.message.photo[-1].file_id);persist_order(d,update.effective_user);await update.message.reply_text('✅ Спасибо за заказ! Чек получен. Консультант проверит оплату и свяжется с вами.', reply_markup=store_keyboard()); d.clear(); return ConversationHandler.END
 
 async def send_admin(ctx,user,d,photo=None):
-    text=("🔔 *НОВЫЙ ЗАКАЗ*\n\n"+items_text(d)+f"\n\nТовары: {money(d['subtotal'])} сум\nДоставка: {money(d['delivery'])} сум\n*Итого: {money(d['total'])} сум*\nОплата: {d['payment']}\n\n👤 {d['name']}\n📱 `{d['phone']}`\n📍 {d['address']}\nTelegram: @{user.username or '—'} (ID {user.id})")
+    weight_line=f"\nВес: {d.get('weight',0)} кг · доплата: {money(d.get('kg_fee',0))} сум" if d.get('kg_fee') else ""
+    text=("🔔 *НОВЫЙ ЗАКАЗ*\n\n"+items_text(d)+f"\n\nТовары: {money(d['subtotal'])} сум{weight_line}\n*Итого: {money(d['total'])} сум*\n_+ доставка курьером (Яндекс / BTS) по тарифу_\nОплата: {d['payment']}\n\n👤 {d['name']}\n📱 `{d['phone']}`\n📍 {d['address']}\nTelegram: @{user.username or '—'} (ID {user.id})")
     if photo:await ctx.bot.send_photo(ADMIN_ID,photo,caption=text,parse_mode='Markdown')
     else:await ctx.bot.send_message(ADMIN_ID,text,parse_mode='Markdown')
     if d.get('lat') and d.get('lon'):await ctx.bot.send_location(ADMIN_ID,d['lat'],d['lon'])
