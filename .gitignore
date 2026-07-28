@@ -16,3 +16,4 @@ need_photos.csv
 .telegram_playwright_profile/
 # отладочный дамп страницы
 telegram_debug.html
+.claude/
