@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=11">
+  <link rel="stylesheet" href="styles.css?v=12">
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
@@ -133,6 +133,13 @@
           </div>
           <p class="delivery-note" id="weightNote">Дополнительно к доставке взимается 10$ за каждый килограмм веса заказа.</p>
           <p class="delivery-note" id="deliveryNote">Бесплатная доставка от 200 000 сум.</p>
+          <div class="pay-method">
+            <span class="eyebrow" id="payLabel">СПОСОБ ОПЛАТЫ</span>
+            <div class="pay-options">
+              <button class="pay-option active" data-pay="cash" id="payCash">💵 Наличными</button>
+              <button class="pay-option" data-pay="card" id="payCard">💳 Картой</button>
+            </div>
+          </div>
           <button id="checkout" class="primary wide">Оформить заказ</button>
           <button id="clearCart" class="text-button wide">Очистить корзину</button>
         </div>
@@ -217,7 +224,7 @@
 
   <div id="toast" class="toast" role="status"></div>
   <script src="products.js"></script>
-  <script src="app.js?v=13"></script>
+  <script src="app.js?v=14"></script>
 <p style="text-align:center;padding:0 16px 90px;font-size:12px"><a href="katalog.html" style="color:#746f68">Каталог товаров</a></p>
 </body>
 </html>

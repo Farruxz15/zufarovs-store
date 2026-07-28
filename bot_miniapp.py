@@ -63,6 +63,7 @@ async def web_order(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
     d['kg_fee']=int(data.get('kgFee') or round(d['weight']*KG_FEE_USD*USD_RATE))
     d['total']=d['subtotal']+d['kg_fee']
     d['lang']=data.get('lang','ru')
+    d['pay_method']=data.get('payMethod')  # 'cash' | 'card' — выбрано в мини-аппе
     kb=ReplyKeyboardMarkup([[KeyboardButton('📱 Отправить мой контакт',request_contact=True)]],resize_keyboard=True,one_time_keyboard=True)
     weight_line=f"\nВес: {d['weight']} кг · доплата за вес: {money(d['kg_fee'])} сум" if d['kg_fee'] else ""
     await update.effective_message.reply_text(f"🛒 *Корзина*\n\n{items_text(d)}\n\nТовары: {money(d['subtotal'])} сум{weight_line}\nИтого: *{money(d['total'])} сум*\n_Доставка (Яндекс / BTS Express) оплачивается курьеру отдельно._\n\nОтправьте контакт одной кнопкой.",parse_mode='Markdown',reply_markup=kb)
@@ -85,11 +86,29 @@ async def address(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
     if text=='✍️ Ввести адрес':
         await m.reply_text('Введите район, улицу и дом:',reply_markup=ReplyKeyboardRemove());return ADDRESS
     d['address']=text;d['lat']=d['lon']=None
-    return await ask_payment(m,ctx)
+    return await proceed_after_address(m,ctx)
 
 async def home(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
     extra=(update.message.text or '').strip();ctx.user_data['address']='📍 Геолокация'+(f' + {extra}' if extra!='—' else '')
-    return await ask_payment(update.message,ctx)
+    return await proceed_after_address(update.message,ctx)
+
+async def proceed_after_address(m,ctx):
+    """Если способ оплаты уже выбран в мини-аппе — не переспрашиваем."""
+    d=ctx.user_data;pm=d.get('pay_method')
+    if pm=='cash':
+        d['payment']='Наличными при получении'
+        await send_admin(ctx,m.from_user,d);persist_order(d,m.from_user)
+        await m.reply_text(f"✅ *Заказ принят!*\n\n{items_text(d)}\n\n*Итого: {money(d['total'])} сум*\n💵 Оплата: наличными при получении\n_Доставка курьером оплачивается отдельно._\n\nКонсультант скоро свяжется с вами.",parse_mode='Markdown',reply_markup=store_keyboard())
+        d.clear();return ConversationHandler.END
+    if pm=='card':
+        d['payment']='Карта заранее'
+        if not CARD_NUMBER:
+            await send_admin(ctx,m.from_user,d);persist_order(d,m.from_user)
+            await m.reply_text('✅ Заказ принят! Консультант свяжется с вами по оплате картой.',reply_markup=store_keyboard());d.clear();return ConversationHandler.END
+        await m.reply_text(f"💳 *Оплата картой*\n\n{items_text(d)}\n\nСумма к оплате: *{money(d['total'])} сум*\n\n`{CARD_NUMBER}`\n{CARD_HOLDER}\n{CARD_BANK}\n\nПосле перевода отправьте сюда фотографию чека.",parse_mode='Markdown',reply_markup=ReplyKeyboardRemove())
+        return RECEIPT
+    # способ не пришёл из аппа (старая версия) — спрашиваем в чате
+    return await ask_payment(m,ctx)
 
 async def ask_payment(m,ctx):
     d=ctx.user_data;kb=InlineKeyboardMarkup([[InlineKeyboardButton('💵 Наличными при получении',callback_data='pay:cash')],[InlineKeyboardButton('💳 Картой заранее',callback_data='pay:card')],[InlineKeyboardButton('❌ Отменить',callback_data='pay:cancel')]])
