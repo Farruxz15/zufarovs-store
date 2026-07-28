@@ -341,10 +341,12 @@ document.querySelector('#searchClear').onclick=()=>{const s=document.querySelect
 document.querySelector('#searchBtn').onclick=()=>{
   if(!document.querySelector('#catalog').classList.contains('active'))switchView('catalog');
   document.querySelector('#searchBar').classList.remove('hidden');
+  document.querySelector('#homeHero').classList.add('hidden'); // прячем баннер, чтобы товары были видны
   requestAnimationFrame(()=>document.querySelector('#search').focus());
+  window.scrollTo({top:0,behavior:'smooth'});
   haptic();
 };
-function closeSearch(){const s=document.querySelector('#search');s.value='';renderCatalog();document.querySelector('#searchBar').classList.add('hidden')}
+function closeSearch(){const s=document.querySelector('#search');s.value='';renderCatalog();document.querySelector('#searchBar').classList.add('hidden');document.querySelector('#homeHero').classList.toggle('hidden',currentView!=='catalog')}
 document.querySelector('#searchCancel').onclick=closeSearch;
 document.querySelector('#search').addEventListener('keydown',e=>{if(e.key==='Escape')closeSearch()});
 document.querySelector('#filterBtn').onclick=openFilters;
