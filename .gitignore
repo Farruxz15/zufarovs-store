@@ -11,3 +11,8 @@ products.js.bak
 wire_cards.py
 useRu_unique.json
 need_photos.csv
+
+# случайно попавший в репозиторий профиль браузера (Playwright/Telegram)
+.telegram_playwright_profile/
+# отладочный дамп страницы
+telegram_debug.html
