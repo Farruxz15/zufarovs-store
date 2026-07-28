@@ -141,6 +141,11 @@ async def cancel(update:Update,ctx:ContextTypes.DEFAULT_TYPE): ctx.user_data.cle
 
 def main():
     if not BOT_TOKEN:raise RuntimeError('BOT_TOKEN is empty')
+    if MINI_APP_URL:
+        logging.info('MINI_APP_URL = %s  (кнопка магазина будет показана)', MINI_APP_URL)
+    else:
+        logging.warning('MINI_APP_URL НЕ ЗАДАН — кнопка «🛍 Открыть магазин» НЕ появится, '
+                        'и заказы из мини-аппа НЕ будут доходить. Задайте MINI_APP_URL и перезапустите.')
     app=Application.builder().token(BOT_TOKEN).build()
     conv=ConversationHandler(entry_points=[MessageHandler(filters.StatusUpdate.WEB_APP_DATA,web_order)],states={CONTACT:[MessageHandler(filters.CONTACT|(filters.TEXT&~filters.COMMAND),contact)],ADDRESS:[MessageHandler(filters.LOCATION|(filters.TEXT&~filters.COMMAND),address)],HOME:[MessageHandler(filters.TEXT&~filters.COMMAND,home)],PAYMENT:[CallbackQueryHandler(payment,pattern='^pay:')],RECEIPT:[MessageHandler(filters.PHOTO|(filters.TEXT&~filters.COMMAND),receipt)]},fallbacks=[CommandHandler('cancel',cancel)],allow_reentry=True)
     app.add_handler(CommandHandler('start',start)); app.add_handler(CommandHandler('today',today)); app.add_handler(CommandHandler('orders',orders)); app.add_handler(conv)

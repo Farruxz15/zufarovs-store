@@ -250,8 +250,14 @@ function checkout(){
  }
  if(json.length>4096){alert(lang==='ru'?'Слишком много позиций в заказе для одной отправки. Разделите заказ на части или напишите консультанту.':'Buyurtmada juda ko‘p pozitsiya. Buyurtmani bo‘lib yuboring yoki konsultantga yozing.');return}
  if(tg&&typeof tg.sendData==='function'){
-  try{tg.sendData(json)/* Telegram сам закрывает приложение */}
-  catch(e){alert((lang==='ru'?'Не удалось отправить заказ. ':'Buyurtma yuborilmadi. ')+(e&&e.message?e.message:e)+(lang==='ru'?'\n\nОткройте магазин через кнопку «🛍 Открыть магазин» и попробуйте снова.':'\n\nDo‘konni «🛍 Открыть магазин» tugmasi orqali oching va qayta urinib ko‘ring.'))}
+  const wrongLaunchMsg=lang==='ru'
+   ?'Заказ не отправился. Похоже, магазин открыт через кнопку «Меню» или ссылку.\n\nЗакройте это окно и откройте магазин через кнопку «🛍 Открыть магазин» под полем ввода в чате бота — тогда заказ уйдёт.'
+   :'Buyurtma yuborilmadi. Do‘kon «Menu» tugmasi yoki havola orqali ochilgan bo‘lishi mumkin.\n\nBu oynani yoping va do‘konni bot chatidagi «🛍 Открыть магазин» tugmasi orqali oching — shunda buyurtma ketadi.';
+  try{
+   tg.sendData(json); // при правильном запуске Telegram сам закроет приложение
+   // если через 2 сек всё ещё открыто — sendData молча не сработал (открыто не через кнопку бота)
+   setTimeout(()=>alert(wrongLaunchMsg),2000);
+  }catch(e){alert(wrongLaunchMsg)}
  }else{
   navigator.clipboard?.writeText(json);
   alert(lang==='ru'?'Откройте магазин внутри Telegram через кнопку «🛍 Открыть магазин», чтобы оформить заказ.':'Buyurtma uchun do‘konni Telegram ichida «🛍 Открыть магазин» tugmasi orqali oching.')
