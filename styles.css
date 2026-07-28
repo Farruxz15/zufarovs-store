@@ -135,3 +135,15 @@
 .review-stars{color:var(--gold);font-size:13px;letter-spacing:2px;margin-top:2px}
 .review-text{font-size:13px;line-height:1.5;color:var(--muted);display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
 @media(min-width:700px){.review-card{flex:0 0 300px}}
+
+/* ── экран отзывов: скриншоты Telegram ── */
+.bottom-nav{grid-template-columns:repeat(5,1fr)}
+.review-shots{columns:2;column-gap:12px}
+.review-shot-btn{display:block;width:100%;margin:0 0 12px;padding:0;border:0;background:transparent;break-inside:avoid;-webkit-column-break-inside:avoid}
+.review-shot-btn img{display:block;width:100%;height:auto;border-radius:16px;border:1px solid var(--line);background:var(--surface-2);box-shadow:0 6px 18px rgba(43,37,31,.05)}
+.review-shot-btn:active img{transform:scale(.98)}
+@media(min-width:700px){.review-shots{columns:3}}
+.shot-lightbox{display:none;position:fixed;inset:0;z-index:90;background:rgba(10,9,8,.92);padding:24px;align-items:center;justify-content:center}
+.shot-lightbox.open{display:flex}
+.shot-lightbox img{max-width:100%;max-height:90vh;object-fit:contain;border-radius:14px}
+.shot-lightbox-close{position:absolute;top:calc(14px + var(--safe-bottom));right:16px;width:44px;height:44px;border:0;border-radius:50%;background:rgba(255,255,255,.16);color:#fff;font-size:26px;line-height:1}

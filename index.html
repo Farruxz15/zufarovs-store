@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=10">
+  <link rel="stylesheet" href="styles.css?v=11">
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
@@ -145,12 +145,18 @@
           <button id="clearCart" class="text-button wide">Очистить корзину</button>
         </div>
       </section>
+      <section id="reviews" class="view">
+        <div class="section-heading"><div><span class="eyebrow" id="reviewsViewEyebrow">TELEGRAM</span><h2 id="reviewsViewTitle">Отзывы</h2></div></div>
+        <div id="reviewShots" class="review-shots"></div>
+        <div id="reviewsViewEmpty" class="empty-state hidden"></div>
+      </section>
     </main>
 
     <nav class="bottom-nav" aria-label="Основная навигация">
       <button class="active" data-view="catalog"><svg class="nav-ico" viewBox="0 0 24 24"><path d="M3 10.7 12 3.5l9 7.2"/><path d="M5.2 9.3V20h13.6V9.3"/></svg><small id="navCatalog">Каталог</small></button>
       <button data-view="quiz"><svg class="nav-ico" viewBox="0 0 24 24"><path d="M12 4 13.8 10.2 20 12 13.8 13.8 12 20 10.2 13.8 4 12 10.2 10.2z"/></svg><small id="navQuiz">Подбор</small></button>
       <button data-view="favorites"><svg class="nav-ico" viewBox="0 0 24 24"><path d="M12 20.3 4.6 13a4.6 4.6 0 0 1 6.5-6.5l.9.9.9-.9A4.6 4.6 0 1 1 19.4 13z"/></svg><small id="navFavorites">Избранное</small></button>
+      <button data-view="reviews"><svg class="nav-ico" viewBox="0 0 24 24"><path d="M20 4H4a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h3v3l4-3h9a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1z"/></svg><small id="navReviews">Отзывы</small></button>
       <button data-view="cart" class="cart-nav"><svg class="nav-ico" viewBox="0 0 24 24"><path d="M6.5 8h11l-.8 11.2a1 1 0 0 1-1 .8H8.3a1 1 0 0 1-1-.8z"/><path d="M9 8V6.6a3 3 0 0 1 6 0V8"/></svg><small id="navCart">Корзина</small><b id="cartCount">0</b></button>
     </nav>
   </div>
@@ -212,9 +218,14 @@
     </article>
   </div>
 
+  <div id="shotLightbox" class="shot-lightbox" role="dialog" aria-modal="true">
+    <button id="shotLightboxClose" class="shot-lightbox-close" aria-label="Закрыть">×</button>
+    <img id="shotLightboxImg" alt="Отзыв из Telegram">
+  </div>
+
   <div id="toast" class="toast" role="status"></div>
   <script src="products.js"></script>
-  <script src="app.js?v=11"></script>
+  <script src="app.js?v=12"></script>
 <p style="text-align:center;padding:0 16px 90px;font-size:12px"><a href="katalog.html" style="color:#746f68">Каталог товаров</a></p>
 </body>
 </html>
