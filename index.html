@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=7">
+  <link rel="stylesheet" href="styles.css?v=9">
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
@@ -118,7 +118,7 @@
       </section>
 
       <section id="cart" class="view">
-        <div class="section-heading"><div><span class="eyebrow">CHECKOUT</span><h2 id="cartTitle">Корзина</h2></div></div>
+        <div class="section-heading"><div><span class="eyebrow">CHECKOUT</span><h2 id="cartTitle">Корзина</h2></div><button class="text-button" id="ordersShortcut">Мои заказы</button></div>
         <div id="cartItems" class="cart-list"></div>
         <div id="cartEmpty" class="empty-state hidden"></div>
         <div id="cartSummary" class="cart-summary">
@@ -160,6 +160,7 @@
         <details open><summary id="benefitSummary">Для чего это средство</summary><p id="modalBenefits"></p></details>
         <details><summary id="useSummary">Как использовать</summary><p id="modalUse"></p></details>
         <div class="product-meta"><div><span id="volumeLabel">Объём</span><strong id="modalVolume"></strong></div><div><span id="originLabel">Производство</span><strong>South Korea</strong></div></div>
+        <div id="relatedWrap" class="related-wrap hidden"><span class="eyebrow" id="relatedLabel">С этим берут</span><div id="relatedRow" class="related-row"></div></div>
         <button id="modalAdd" class="primary wide sticky-add">Добавить в корзину</button>
       </div>
     </article>
@@ -191,9 +192,21 @@
     </article>
   </div>
 
+  <div id="ordersModal" class="modal" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" id="ordersBackdrop"></div>
+    <article class="filter-sheet">
+      <div class="filter-sheet-head">
+        <h2 id="ordersTitle">Мои заказы</h2>
+        <button id="ordersClose" class="sheet-close-inline" aria-label="Закрыть">×</button>
+      </div>
+      <div id="ordersList" class="orders-list"></div>
+      <div id="ordersEmpty" class="empty-state hidden"></div>
+    </article>
+  </div>
+
   <div id="toast" class="toast" role="status"></div>
   <script src="products.js"></script>
-  <script src="app.js?v=6"></script>
+  <script src="app.js?v=8"></script>
 <p style="text-align:center;padding:0 16px 90px;font-size:12px"><a href="katalog.html" style="color:#746f68">Каталог товаров</a></p>
 </body>
 </html>
