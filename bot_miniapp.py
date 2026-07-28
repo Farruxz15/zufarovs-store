@@ -4,7 +4,7 @@ Python 3.10+, python-telegram-bot 22+
 import json, logging, os
 from datetime import datetime
 from pathlib import Path
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, KeyboardButton, ReplyKeyboardMarkup, ReplyKeyboardRemove, WebAppInfo
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, KeyboardButton, ReplyKeyboardMarkup, ReplyKeyboardRemove, WebAppInfo, MenuButtonDefault
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ConversationHandler, ContextTypes, filters
 
 logging.basicConfig(format='%(asctime)s | %(levelname)s | %(name)s | %(message)s', level=logging.INFO)
@@ -158,6 +158,15 @@ async def orders(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
 
 async def cancel(update:Update,ctx:ContextTypes.DEFAULT_TYPE): ctx.user_data.clear(); await update.message.reply_text('Заказ отменён. Магазин можно открыть кнопкой ниже.', reply_markup=store_keyboard()); return ConversationHandler.END
 
+async def post_init(app):
+    # Убираем голубую кнопку-меню «Магазин» рядом с полем ввода —
+    # остаётся только нижняя кнопка «🛍 Открыть магазин».
+    try:
+        await app.bot.set_chat_menu_button(menu_button=MenuButtonDefault())
+        logging.info('Menu button сброшен на стандартный (голубая кнопка «Магазин» убрана).')
+    except Exception as e:
+        logging.warning('Не удалось сбросить menu button: %s', e)
+
 def main():
     if not BOT_TOKEN:raise RuntimeError('BOT_TOKEN is empty')
     if MINI_APP_URL:
@@ -165,7 +174,7 @@ def main():
     else:
         logging.warning('MINI_APP_URL НЕ ЗАДАН — кнопка «🛍 Открыть магазин» НЕ появится, '
                         'и заказы из мини-аппа НЕ будут доходить. Задайте MINI_APP_URL и перезапустите.')
-    app=Application.builder().token(BOT_TOKEN).build()
+    app=Application.builder().token(BOT_TOKEN).post_init(post_init).build()
     conv=ConversationHandler(entry_points=[MessageHandler(filters.StatusUpdate.WEB_APP_DATA,web_order)],states={CONTACT:[MessageHandler(filters.CONTACT|(filters.TEXT&~filters.COMMAND),contact)],ADDRESS:[MessageHandler(filters.LOCATION|(filters.TEXT&~filters.COMMAND),address)],HOME:[MessageHandler(filters.TEXT&~filters.COMMAND,home)],PAYMENT:[CallbackQueryHandler(payment,pattern='^pay:')],RECEIPT:[MessageHandler(filters.PHOTO|(filters.TEXT&~filters.COMMAND),receipt)]},fallbacks=[CommandHandler('cancel',cancel)],allow_reentry=True)
     app.add_handler(CommandHandler('start',start)); app.add_handler(CommandHandler('today',today)); app.add_handler(CommandHandler('orders',orders)); app.add_handler(conv)
     print('Bot started');app.run_polling()
