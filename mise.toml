@@ -1,0 +1,7 @@
+# Отключаем проверку GitHub-attestations при установке Python
+# (иначе сборка на Railway/mise падает: "No GitHub artifact attestations").
+[settings]
+python.github_attestations = false
+
+[tools]
+python = "3.12"
