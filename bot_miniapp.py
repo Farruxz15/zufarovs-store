@@ -1,7 +1,7 @@
 """ZUFAROVS' STORE bot + Telegram Mini App checkout.
 Python 3.10+, python-telegram-bot 22+
 """
-import json, logging, os
+import json, logging, os, html
 from datetime import datetime
 from pathlib import Path
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, KeyboardButton, ReplyKeyboardMarkup, ReplyKeyboardRemove, WebAppInfo, MenuButtonDefault
@@ -35,6 +35,21 @@ def consultant_keyboard():
 
 def items_text(d):
     return '\n'.join(f"• {x.get('name') or x['id']} × {x['qty']} — {money(x['price']*x['qty'])} сум" for x in d['items'])
+
+def items_html(d):
+    return '\n'.join(f"• {html.escape(str(x.get('name') or x['id']))} × {x['qty']} — {money(x['price']*x['qty'])} сум" for x in d['items'])
+
+def card_message(total, with_items, d):
+    """Сообщение с реквизитами. Номер карты в <code> — копируется по нажатию в Telegram."""
+    items_block = f"{items_html(d)}\n\n" if with_items else ""
+    sum_label = "Сумма к оплате" if with_items else "Сумма"
+    return (
+        f"💳 <b>Оплата картой</b>\n\n{items_block}"
+        f"{sum_label}: <b>{money(total)} сум</b>\n\n"
+        f"<code>{html.escape(CARD_NUMBER)}</code>\n"
+        f"{html.escape(CARD_HOLDER)}\n{html.escape(CARD_BANK)}\n\n"
+        f"После перевода отправьте сюда фотографию чека."
+    )
 
 def persist_order(d,user):
     row={'created_at':datetime.now().isoformat(timespec='seconds'),'telegram_id':user.id,'username':user.username,'items':d['items'],'subtotal':d['subtotal'],'weight':d.get('weight',0),'kg_fee':d.get('kg_fee',0),'total':d['total'],'name':d.get('name'),'phone':d.get('phone'),'address':d.get('address'),'payment':d.get('payment')}
@@ -113,7 +128,7 @@ async def proceed_after_address(m,ctx):
         if not CARD_NUMBER:
             await send_admin(ctx,m.from_user,d);persist_order(d,m.from_user)
             await m.reply_text('✅ Заказ принят! Консультант свяжется с вами по оплате картой.',reply_markup=store_keyboard());d.clear();return ConversationHandler.END
-        await m.reply_text(f"💳 *Оплата картой*\n\n{items_text(d)}\n\nСумма к оплате: *{money(d['total'])} сум*\n\n`{CARD_NUMBER}`\n{CARD_HOLDER}\n{CARD_BANK}\n\nПосле перевода отправьте сюда фотографию чека.",parse_mode='Markdown',reply_markup=ReplyKeyboardRemove())
+        await m.reply_text(card_message(d['total'],True,d),parse_mode='HTML',reply_markup=ReplyKeyboardRemove())
         return RECEIPT
     # способ не пришёл из аппа (старая версия) — спрашиваем в чате
     return await ask_payment(m,ctx)
@@ -132,7 +147,7 @@ async def payment(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
     if not CARD_NUMBER:
         await q.answer('Номер карты не настроен',show_alert=True);return PAYMENT
     d['payment']='Карта заранее'
-    await q.edit_message_text(f"💳 *Оплата картой*\n\nСумма: *{money(d['total'])} сум*\n\n`{CARD_NUMBER}`\n{CARD_HOLDER}\n{CARD_BANK}\n\nПосле перевода отправьте сюда фотографию чека.",parse_mode='Markdown')
+    await q.edit_message_text(card_message(d['total'],False,d),parse_mode='HTML')
     return RECEIPT
 
 async def receipt(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
