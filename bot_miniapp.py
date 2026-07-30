@@ -66,7 +66,7 @@ def profit_block(d):
     pct=round(profit/d['subtotal']*100) if d['subtotal'] else 0
     lines=[f"\n\n➖➖➖➖➖\n📊 *Только для нас*",
            f"Закупка: {money(cost)} сум",
-           f"Вес ({d.get('weight',0)} кг × {KG_FEE_USD}$): {money(weight_cost)} сум",
+           f"Доставка из Кореи: {money(weight_cost)} сум",
            f"*Прибыль: {money(profit)} сум ({pct}%)*"]
     if unknown:
         lines.append(f"⚠️ нет закупки: {', '.join(unknown)} — прибыль занижена")
@@ -128,8 +128,7 @@ async def web_order(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
     d['pay_method']=data.get('payMethod')  # 'cash' | 'card' — выбрано в мини-аппе
     d['name']=(data.get('name') or '').strip()
     d['phone']=(data.get('phone') or '').strip()
-    weight_line=f"\nВес: {d['weight']} кг" if d['weight'] else ""
-    summary=f"🛒 *Корзина*\n\n{items_text(d)}\n\nТовары: {money(d['subtotal'])} сум{weight_line}\nИтого: *{money(d['total'])} сум*\n_Доставка (Яндекс / BTS Express) оплачивается курьеру отдельно._"
+    summary=f"🛒 *Корзина*\n\n{items_text(d)}\n\nТовары: {money(d['subtotal'])} сум\nИтого: *{money(d['total'])} сум*\n_Доставка (Яндекс / BTS Express) оплачивается курьеру отдельно._"
     if d['name'] and d['phone']:
         # контакт уже собран в мини-аппе — просим только геолокацию
         kb=ReplyKeyboardMarkup([[KeyboardButton('📍 Отправить геолокацию',request_location=True)],['✍️ Ввести адрес']],resize_keyboard=True,one_time_keyboard=True)
@@ -202,8 +201,7 @@ async def receipt(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
     d=ctx.user_data;await send_admin(ctx,update.effective_user,d,update.message.photo[-1].file_id);persist_order(d,update.effective_user);await update.message.reply_text('✅ Спасибо за заказ! Чек получен. Консультант проверит оплату и свяжется с вами.', reply_markup=store_keyboard()); d.clear(); return ConversationHandler.END
 
 async def send_admin(ctx,user,d,photo=None):
-    weight_line=f"\nВес (для упаковки): {d.get('weight',0)} кг" if d.get('weight') else ""
-    text=("🔔 *НОВЫЙ ЗАКАЗ*\n\n"+items_text(d)+f"\n\nТовары: {money(d['subtotal'])} сум{weight_line}\n*Итого: {money(d['total'])} сум*\n_+ доставка курьером (Яндекс / BTS) по тарифу_\nОплата: {d['payment']}\n\n👤 {d['name']}\n📱 `{d['phone']}`\n📍 {d['address']}\nTelegram: @{user.username or '—'} (ID {user.id})"+profit_block(d))
+    text=("🔔 *НОВЫЙ ЗАКАЗ*\n\n"+items_text(d)+f"\n\nТовары: {money(d['subtotal'])} сум\n*Итого: {money(d['total'])} сум*\n_+ доставка курьером (Яндекс / BTS) по тарифу_\nОплата: {d['payment']}\n\n👤 {d['name']}\n📱 `{d['phone']}`\n📍 {d['address']}\nTelegram: @{user.username or '—'} (ID {user.id})"+profit_block(d))
     for admin in ADMIN_IDS:
         try:
             if photo:await ctx.bot.send_photo(admin,photo,caption=text,parse_mode='Markdown')
