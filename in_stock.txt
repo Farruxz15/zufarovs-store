@@ -1,0 +1,37 @@
+# ТОВАРЫ В НАЛИЧИИ
+#
+# Всё, что перечислено здесь, продаётся с ценой и кнопкой «в корзину».
+# Всё остальное в каталоге показывается с надписью «Скоро», без цены.
+#
+# Одна позиция в строке. Писать можно как удобно:
+#   p01                  — по id товара
+#   Beauty of Joseon     — по бренду: попадут ВСЕ товары этого бренда
+#   Dokdo Cleanser       — по куску названия, регистр не важен
+#
+# Строки с # игнорируются — ими же удобно временно снимать товар с продажи.
+#
+# После правки этого файла запустить:
+#   python3 set_stock.py
+#
+# Скрипт покажет, что с чем совпало, предупредит о ненайденных строках
+# и сам пересчитает цены.
+#
+# ↓ вписывать товары ниже этой строки ↓
+Relief Sun: Rice + Probiotics SPF50+ PA++++
+1025 Dokdo Cleanser
+1025 Dokdo Lotion
+Birch Juice Moisturizing Cleanser
+Dark Spot Correcting Glow Serum
+Dark Spot Correcting Glow Toner
+Complete No-Stress Physical Sunscreen SPF50+ PA++++
+TXA 2.5% Intensive Brightening Cream
+Dark Spot Correcting Glow Cream
+Birch Juice Moisturizing Mild-Up Sunscreen SPF50+ PA
+Birch Juice Moisturizing Cream
+1025 Dokdo Cleansing Oil
+Birch Juice Moisturizing Sun Spray SPF50+ PA++++
+345 Relief Cream
+345 Relief Cream Mist
+Cellup Trial Kit — набор миниатюр
+Cellup Micro Pore Cleansing Oil
+Mask Fit Red Cushion SPF40 PA++ — оттенок 23N Sand

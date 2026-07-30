@@ -165,3 +165,8 @@
 .checkout-form input:focus{border-color:var(--green)}
 .checkout-form .secondary{margin-top:-2px}
 .checkout-form .delivery-note{margin:2px 0}
+
+/* товар не в наличии: вместо цены — «Скоро», кнопки добавления нет */
+.soon-badge{display:inline-block;padding:5px 10px;border-radius:999px;background:var(--soft);color:var(--muted);font-size:11px;font-weight:800;letter-spacing:.04em;text-transform:uppercase}
+.price-large .soon-badge{font-size:13px;padding:7px 14px}
+.related-price .soon-badge{font-size:9px;padding:3px 7px}

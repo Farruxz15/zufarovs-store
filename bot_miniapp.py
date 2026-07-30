@@ -9,21 +9,69 @@ from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQu
 
 logging.basicConfig(format='%(asctime)s | %(levelname)s | %(name)s | %(message)s', level=logging.INFO)
 BOT_TOKEN=os.getenv('BOT_TOKEN','').strip()
-ADMIN_ID=int(os.getenv('ADMIN_ID','8879836353'))
+# Кому уходят уведомления о заказах. Можно несколько ID через запятую,
+# например: ADMIN_ID=8879836353,123456789 (Фаррух + Сарвиноз).
+# Свой ID человек может узнать у бота @userinfobot.
+ADMIN_IDS=[int(x) for x in os.getenv('ADMIN_ID','8879836353').replace(' ','').split(',') if x]
+ADMIN_ID=ADMIN_IDS[0]
 MINI_APP_URL=os.getenv('MINI_APP_URL','').strip()
 CONSULTANT=os.getenv('CONSULTANT_USERNAME','Zufarovsstore').lstrip('@')
 CARD_NUMBER=os.getenv('CARD_NUMBER','').strip()
 CARD_HOLDER=os.getenv('CARD_HOLDER','Zufarova Sarvinoz')
 CARD_BANK=os.getenv('CARD_BANK','Uzcard')
 # Доставку курьер (Яндекс / BTS Express) берёт отдельно по своему тарифу,
-# поэтому в сумму заказа она не входит. Итог = товары + доплата за вес (10$/кг).
-KG_FEE_USD=int(os.getenv('KG_FEE_USD','10'))
-USD_RATE=int(os.getenv('USD_RATE','12200'))
+# поэтому в сумму заказа она не входит. Итог = только товары: стоимость веса
+# уже зашита в цену каждого товара (см. reprice.py).
 DEFAULT_WEIGHT=0.2
+# Ниже — только для внутреннего расчёта прибыли в уведомлении админу.
+# Клиенту эти цифры не показываются никогда. Значения держать
+# такими же, как константы в reprice.py.
+KG_FEE_USD=int(os.getenv('KG_FEE_USD','10'))
+USD_RATE=int(os.getenv('USD_RATE','12350'))
 ORDERS_FILE=Path(__file__).with_name('orders.jsonl')
 CONTACT, ADDRESS, HOME, PAYMENT, RECEIPT = range(5)
 
 def money(n): return f"{int(n):,}".replace(',',' ')
+
+def load_costs():
+    """Закупочные цены {id: сум}. В публичный репозиторий они не попадают.
+
+    На Railway — переменная окружения PRODUCT_COSTS (JSON), заполняется
+    командой: python3 export_costs.py
+    Локально — файл costs.json (он в .gitignore).
+    """
+    raw=os.getenv('PRODUCT_COSTS','').strip()
+    if raw:
+        try: return json.loads(raw)
+        except json.JSONDecodeError: logging.error('PRODUCT_COSTS не разобрался как JSON — прибыль считаться не будет')
+    f=Path(__file__).with_name('costs.json')
+    if f.exists():
+        try: return json.loads(f.read_text(encoding='utf-8'))
+        except json.JSONDecodeError: logging.error('costs.json битый — прибыль считаться не будет')
+    logging.warning('Закупочные цены недоступны: в уведомлении не будет блока прибыли')
+    return {}
+
+COSTS=load_costs()
+
+def profit_block(d):
+    """Служебный блок для админа: закупка, стоимость веса, прибыль."""
+    if not COSTS: return ''
+    cost=0; unknown=[]
+    for x in d['items']:
+        c=COSTS.get(x['id'])
+        if c is None: unknown.append(x.get('name') or x['id'])
+        else: cost+=int(c)*int(x['qty'])
+    weight_cost=round(float(d.get('weight') or 0)*KG_FEE_USD*USD_RATE)
+    profit=d['subtotal']-cost-weight_cost
+    pct=round(profit/d['subtotal']*100) if d['subtotal'] else 0
+    lines=[f"\n\n➖➖➖➖➖\n📊 *Только для нас*",
+           f"Закупка: {money(cost)} сум",
+           f"Вес ({d.get('weight',0)} кг × {KG_FEE_USD}$): {money(weight_cost)} сум",
+           f"*Прибыль: {money(profit)} сум ({pct}%)*"]
+    if unknown:
+        lines.append(f"⚠️ нет закупки: {', '.join(unknown)} — прибыль занижена")
+    return '\n'.join(lines)
+
 def store_keyboard():
     rows=[]
     if MINI_APP_URL:
@@ -52,7 +100,7 @@ def card_message(total, with_items, d):
     )
 
 def persist_order(d,user):
-    row={'created_at':datetime.now().isoformat(timespec='seconds'),'telegram_id':user.id,'username':user.username,'items':d['items'],'subtotal':d['subtotal'],'weight':d.get('weight',0),'kg_fee':d.get('kg_fee',0),'total':d['total'],'name':d.get('name'),'phone':d.get('phone'),'address':d.get('address'),'payment':d.get('payment')}
+    row={'created_at':datetime.now().isoformat(timespec='seconds'),'telegram_id':user.id,'username':user.username,'items':d['items'],'subtotal':d['subtotal'],'weight':d.get('weight',0),'total':d['total'],'name':d.get('name'),'phone':d.get('phone'),'address':d.get('address'),'payment':d.get('payment')}
     with ORDERS_FILE.open('a',encoding='utf-8') as f:f.write(json.dumps(row,ensure_ascii=False)+'\n')
 
 async def start(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
@@ -73,15 +121,14 @@ async def web_order(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
         await update.effective_message.reply_text('Корзина пуста.'); return ConversationHandler.END
     d=ctx.user_data;d.clear();d['items']=data['items']
     d['subtotal']=sum(int(x['price'])*int(x['qty']) for x in d['items'])
-    # вес и доплата за вес — берём из приложения, при отсутствии считаем сами (как во фронтенде)
+    # вес нужен только для упаковки: на сумму заказа он не влияет
     d['weight']=round(float(data.get('weight') or 0),2)
-    d['kg_fee']=int(data.get('kgFee') or round(d['weight']*KG_FEE_USD*USD_RATE))
-    d['total']=d['subtotal']+d['kg_fee']
+    d['total']=d['subtotal']
     d['lang']=data.get('lang','ru')
     d['pay_method']=data.get('payMethod')  # 'cash' | 'card' — выбрано в мини-аппе
     d['name']=(data.get('name') or '').strip()
     d['phone']=(data.get('phone') or '').strip()
-    weight_line=f"\nВес: {d['weight']} кг · доплата за вес: {money(d['kg_fee'])} сум" if d['kg_fee'] else ""
+    weight_line=f"\nВес: {d['weight']} кг" if d['weight'] else ""
     summary=f"🛒 *Корзина*\n\n{items_text(d)}\n\nТовары: {money(d['subtotal'])} сум{weight_line}\nИтого: *{money(d['total'])} сум*\n_Доставка (Яндекс / BTS Express) оплачивается курьеру отдельно._"
     if d['name'] and d['phone']:
         # контакт уже собран в мини-аппе — просим только геолокацию
@@ -135,8 +182,7 @@ async def proceed_after_address(m,ctx):
 
 async def ask_payment(m,ctx):
     d=ctx.user_data;kb=InlineKeyboardMarkup([[InlineKeyboardButton('💵 Наличными при получении',callback_data='pay:cash')],[InlineKeyboardButton('💳 Картой заранее',callback_data='pay:card')],[InlineKeyboardButton('❌ Отменить',callback_data='pay:cancel')]])
-    weight_line=f"\nДоплата за вес ({d['weight']} кг): {money(d['kg_fee'])} сум" if d.get('kg_fee') else ""
-    await m.reply_text(f"📋 *Ваш заказ*\n\n{items_text(d)}\n\nТовары: {money(d['subtotal'])} сум{weight_line}\n*Итого: {money(d['total'])} сум*\n_Доставка курьером оплачивается отдельно._\n\n👤 {d['name']}\n📱 {d['phone']}\n📍 {d['address']}",parse_mode='Markdown',reply_markup=kb)
+    await m.reply_text(f"📋 *Ваш заказ*\n\n{items_text(d)}\n\nТовары: {money(d['subtotal'])} сум\n*Итого: {money(d['total'])} сум*\n_Доставка курьером оплачивается отдельно._\n\n👤 {d['name']}\n📱 {d['phone']}\n📍 {d['address']}",parse_mode='Markdown',reply_markup=kb)
     return PAYMENT
 
 async def payment(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
@@ -156,14 +202,19 @@ async def receipt(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
     d=ctx.user_data;await send_admin(ctx,update.effective_user,d,update.message.photo[-1].file_id);persist_order(d,update.effective_user);await update.message.reply_text('✅ Спасибо за заказ! Чек получен. Консультант проверит оплату и свяжется с вами.', reply_markup=store_keyboard()); d.clear(); return ConversationHandler.END
 
 async def send_admin(ctx,user,d,photo=None):
-    weight_line=f"\nВес: {d.get('weight',0)} кг · доплата: {money(d.get('kg_fee',0))} сум" if d.get('kg_fee') else ""
-    text=("🔔 *НОВЫЙ ЗАКАЗ*\n\n"+items_text(d)+f"\n\nТовары: {money(d['subtotal'])} сум{weight_line}\n*Итого: {money(d['total'])} сум*\n_+ доставка курьером (Яндекс / BTS) по тарифу_\nОплата: {d['payment']}\n\n👤 {d['name']}\n📱 `{d['phone']}`\n📍 {d['address']}\nTelegram: @{user.username or '—'} (ID {user.id})")
-    if photo:await ctx.bot.send_photo(ADMIN_ID,photo,caption=text,parse_mode='Markdown')
-    else:await ctx.bot.send_message(ADMIN_ID,text,parse_mode='Markdown')
-    if d.get('lat') and d.get('lon'):await ctx.bot.send_location(ADMIN_ID,d['lat'],d['lon'])
+    weight_line=f"\nВес (для упаковки): {d.get('weight',0)} кг" if d.get('weight') else ""
+    text=("🔔 *НОВЫЙ ЗАКАЗ*\n\n"+items_text(d)+f"\n\nТовары: {money(d['subtotal'])} сум{weight_line}\n*Итого: {money(d['total'])} сум*\n_+ доставка курьером (Яндекс / BTS) по тарифу_\nОплата: {d['payment']}\n\n👤 {d['name']}\n📱 `{d['phone']}`\n📍 {d['address']}\nTelegram: @{user.username or '—'} (ID {user.id})"+profit_block(d))
+    for admin in ADMIN_IDS:
+        try:
+            if photo:await ctx.bot.send_photo(admin,photo,caption=text,parse_mode='Markdown')
+            else:await ctx.bot.send_message(admin,text,parse_mode='Markdown')
+            if d.get('lat') and d.get('lon'):await ctx.bot.send_location(admin,d['lat'],d['lon'])
+        except Exception:
+            # один недоступный получатель не должен ронять доставку остальным
+            logging.exception('Не удалось отправить заказ админу %s',admin)
 
 async def today(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
-    if update.effective_user.id!=ADMIN_ID:return
+    if update.effective_user.id not in ADMIN_IDS:return
     rows=[]
     if ORDERS_FILE.exists():
         for line in ORDERS_FILE.read_text(encoding='utf-8').splitlines():
@@ -173,7 +224,7 @@ async def today(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(f"📊 Сегодня\nЗаказов: {len(today_rows)}\nПродажи: {money(sum(r.get('total',0) for r in today_rows))} сум")
 
 async def orders(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
-    if update.effective_user.id!=ADMIN_ID:return
+    if update.effective_user.id not in ADMIN_IDS:return
     if not ORDERS_FILE.exists():await update.message.reply_text('Заказов пока нет.');return
     rows=[json.loads(x) for x in ORDERS_FILE.read_text(encoding='utf-8').splitlines() if x.strip()][-10:]
     text='🧾 Последние заказы\n\n'+'\n\n'.join(f"{r['created_at']} — {r['name']} — {money(r['total'])} сум" for r in reversed(rows))

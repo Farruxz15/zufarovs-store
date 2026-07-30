@@ -6,7 +6,7 @@ window.PRODUCTS = [
     "nameRu": "Relief Sun: Rice + Probiotics SPF50+ PA++++",
     "nameUz": "Relief Sun: Rice + Probiotics SPF50+ PA++++",
     "category": "spf",
-    "price": 83000,
+    "price": 119000,
     "volume": "50 мл",
     "skin": [
       "all",
@@ -30,7 +30,7 @@ window.PRODUCTS = [
     "nameRu": "1025 Dokdo Cleanser",
     "nameUz": "1025 Dokdo Cleanser",
     "category": "cleanser",
-    "price": 120000,
+    "price": 181000,
     "volume": "150 мл",
     "skin": [
       "all",
@@ -54,7 +54,7 @@ window.PRODUCTS = [
     "nameRu": "1025 Dokdo Lotion",
     "nameUz": "1025 Dokdo Lotion",
     "category": "moisture",
-    "price": 155000,
+    "price": 232000,
     "volume": "200 мл",
     "skin": [
       "dry",
@@ -79,7 +79,7 @@ window.PRODUCTS = [
     "nameRu": "Birch Juice Moisturizing Cleanser",
     "nameUz": "Birch Juice Moisturizing Cleanser",
     "category": "cleanser",
-    "price": 125000,
+    "price": 187000,
     "volume": "150 мл",
     "skin": [
       "dry",
@@ -103,7 +103,7 @@ window.PRODUCTS = [
     "nameRu": "Dark Spot Correcting Glow Serum",
     "nameUz": "Dark Spot Correcting Glow Serum",
     "category": "serum",
-    "price": 135000,
+    "price": 184000,
     "volume": "50 мл",
     "skin": [
       "all",
@@ -128,7 +128,7 @@ window.PRODUCTS = [
     "nameRu": "Dark Spot Correcting Glow Toner",
     "nameUz": "Dark Spot Correcting Glow Toner",
     "category": "toner",
-    "price": 145000,
+    "price": 208000,
     "volume": "125 мл",
     "skin": [
       "all",
@@ -153,7 +153,7 @@ window.PRODUCTS = [
     "nameRu": "Complete No-Stress Physical Sunscreen SPF50+ PA++++",
     "nameUz": "Complete No-Stress Physical Sunscreen SPF50+ PA++++",
     "category": "spf",
-    "price": 93000,
+    "price": 132000,
     "volume": "50 мл",
     "skin": [
       "oily",
@@ -177,7 +177,7 @@ window.PRODUCTS = [
     "nameRu": "TXA 2.5% Intensive Brightening Cream",
     "nameUz": "TXA 2.5% Intensive Brightening Cream",
     "category": "cream",
-    "price": 145000,
+    "price": 197000,
     "volume": "50 мл",
     "skin": [
       "all",
@@ -201,7 +201,7 @@ window.PRODUCTS = [
     "nameRu": "Dark Spot Correcting Glow Cream",
     "nameUz": "Dark Spot Correcting Glow Cream",
     "category": "cream",
-    "price": 150000,
+    "price": 203000,
     "volume": "50 мл",
     "skin": [
       "all",
@@ -227,7 +227,7 @@ window.PRODUCTS = [
     "nameRu": "Sunday Morning Refreshing Cleansing Foam",
     "nameUz": "Sunday Morning Refreshing Cleansing Foam",
     "category": "cleanser",
-    "price": 120000,
+    "price": null,
     "volume": "120 мл",
     "skin": [
       "normal",
@@ -242,7 +242,8 @@ window.PRODUCTS = [
     "shortUz": "Kundalik kir va ortiqcha sebumni tozalash uchun tetiklantiruvchi ko‘pik. Normal, aralash va yog‘li teriga mos.",
     "useRu": "Вспеньте небольшое количество во влажных ладонях, мягко массируйте лицо 30–60 секунд и смойте. После макияжа или водостойкого SPF используйте как второй этап очищения.",
     "useUz": "Oz miqdorni nam kaftda ko‘pirtiring, yuzni 30–60 soniya muloyim massaj qiling va yuving. Makiyaj yoki suvga chidamli SPFdan keyin ikkinchi bosqichda ishlating.",
-    "weight": 0.17
+    "weight": 0.17,
+    "soon": true
   },
   {
     "id": "p11",
@@ -251,7 +252,7 @@ window.PRODUCTS = [
     "nameRu": "Birch Juice Moisturizing Mild-Up Sunscreen SPF50+ PA++++",
     "nameUz": "Birch Juice Moisturizing Mild-Up Sunscreen SPF50+ PA++++",
     "category": "spf",
-    "price": 145000,
+    "price": 197000,
     "volume": "50 мл",
     "skin": [
       "sensitive",
@@ -276,7 +277,7 @@ window.PRODUCTS = [
     "nameRu": "1025 Dokdo Ampoule",
     "nameUz": "1025 Dokdo Ampoule",
     "category": "serum",
-    "price": 95000,
+    "price": null,
     "volume": "45 г",
     "skin": [
       "all",
@@ -291,7 +292,8 @@ window.PRODUCTS = [
     "shortUz": "Yengil gel teksturali konsentrlangan namlantiruvchi ampula. Quruqlik hissini kamaytirish va teri silliqligini qo‘llab-quvvatlashga yordam beradi.",
     "useRu": "После тонера нанесите 2–3 капли на лицо и мягко распределите. Затем используйте эмульсию или крем. Можно применять утром и вечером.",
     "useUz": "Tonerdan keyin yuzga 2–3 tomchi surting va muloyim taqsimlang. So‘ng emulsiya yoki krem ishlating. Ertalab va kechqurun qo‘llash mumkin.",
-    "weight": 0.095
+    "weight": 0.095,
+    "soon": true
   },
   {
     "id": "p13",
@@ -300,7 +302,7 @@ window.PRODUCTS = [
     "nameRu": "Birch Juice Moisturizing Cream",
     "nameUz": "Birch Juice Moisturizing Cream",
     "category": "cream",
-    "price": 180000,
+    "price": 245000,
     "volume": "80 мл",
     "skin": [
       "dry",
@@ -324,7 +326,7 @@ window.PRODUCTS = [
     "nameRu": "1025 Dokdo Cleansing Oil",
     "nameUz": "1025 Dokdo Cleansing Oil",
     "category": "cleanser",
-    "price": 120000,
+    "price": 189000,
     "volume": "200 мл",
     "skin": [
       "all",
@@ -346,7 +348,7 @@ window.PRODUCTS = [
     "nameRu": "Birch Juice Moisturizing Sun Spray SPF50+ PA++++",
     "nameUz": "Birch Juice Moisturizing Sun Spray SPF50+ PA++++",
     "category": "spf",
-    "price": 90000,
+    "price": 143000,
     "volume": "150 мл",
     "skin": [
       "all",
@@ -370,7 +372,7 @@ window.PRODUCTS = [
     "nameRu": "Cellup pH Cure Foam Cleanser",
     "nameUz": "Cellup pH Cure Foam Cleanser",
     "category": "cleanser",
-    "price": 62000,
+    "price": null,
     "volume": "120 мл",
     "skin": [
       "all",
@@ -385,7 +387,8 @@ window.PRODUCTS = [
     "shortUz": "Kundalik tozalash uchun teriga yaqin pH ga ega yumshoq ko‘pik, kuchli taranglik hissini qoldirmaslikka yordam beradi.",
     "useRu": "Вспеньте небольшое количество в ладонях, нанесите на влажное лицо, массируйте 30–60 секунд и смойте. Утром используйте самостоятельно, вечером — вторым этапом.",
     "useUz": "Oz miqdorni kaftda ko‘pirtiring, nam yuzga surting, 30–60 soniya massaj qiling va yuving. Ertalab alohida, kechqurun ikkinchi bosqichda ishlating.",
-    "weight": 0.17
+    "weight": 0.17,
+    "soon": true
   },
   {
     "id": "p17",
@@ -394,7 +397,7 @@ window.PRODUCTS = [
     "nameRu": "345 Relief Cream",
     "nameUz": "345 Relief Cream",
     "category": "cream",
-    "price": 125000,
+    "price": 172000,
     "volume": "50 мл",
     "skin": [
       "sensitive",
@@ -420,7 +423,7 @@ window.PRODUCTS = [
     "nameRu": "345 Relief Cream Mist",
     "nameUz": "345 Relief Cream Mist",
     "category": "toner",
-    "price": 70000,
+    "price": 104000,
     "volume": "60 мл",
     "skin": [
       "sensitive",
@@ -444,7 +447,7 @@ window.PRODUCTS = [
     "nameRu": "Vitamin C Boosting Serum",
     "nameUz": "Vitamin C Boosting Serum",
     "category": "serum",
-    "price": 168000,
+    "price": null,
     "volume": "30 мл",
     "skin": [
       "normal",
@@ -460,7 +463,8 @@ window.PRODUCTS = [
     "shortUz": "Xira teri, postakne va notekis rang uchun vitamin C li antioksidant serum. Sezgir terida yengil achishish berishi mumkin.",
     "useRu": "Нанесите 2–3 капли после тонера. Начните с 2–3 раз в неделю, затем увеличивайте частоту при хорошей переносимости. Не наносите на раздражённую кожу; днём обязательно используйте SPF.",
     "useUz": "Tonerdan keyin 2–3 tomchi surting. Haftasiga 2–3 martadan boshlang, yaxshi qabul qilinsa tezligini oshiring. Ta’sirlangan teriga surtmang; kunduzi SPF majburiy.",
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p20",
@@ -469,7 +473,7 @@ window.PRODUCTS = [
     "nameRu": "Cellup Trial Kit — набор миниатюр",
     "nameUz": "Cellup Trial Kit — mini to‘plam",
     "category": "set",
-    "price": 210000,
+    "price": 340000,
     "volume": "5 мини-средств",
     "skin": [
       "all"
@@ -491,7 +495,7 @@ window.PRODUCTS = [
     "nameRu": "Cellup Micro Pore Cleansing Oil",
     "nameUz": "Cellup Micro Pore Cleansing Oil",
     "category": "cleanser",
-    "price": 82000,
+    "price": 141000,
     "volume": "200 мл",
     "skin": [
       "all",
@@ -514,7 +518,7 @@ window.PRODUCTS = [
     "nameRu": "Mask Fit Red Cushion SPF40 PA++ — оттенок 23N Sand",
     "nameUz": "Mask Fit Red Cushion SPF40 PA++ — 23N Sand rangi",
     "category": "makeup",
-    "price": 195000,
+    "price": 254000,
     "volume": "18 г",
     "skin": [
       "all"
@@ -536,7 +540,7 @@ window.PRODUCTS = [
     "nameRu": "Niacinamide 10% + TXA 4% Serum",
     "nameUz": "Niacinamide 10% + TXA 4% Serum",
     "category": "serum",
-    "price": 200000,
+    "price": null,
     "volume": "30 мл",
     "skin": [
       "oily",
@@ -553,7 +557,8 @@ window.PRODUCTS = [
     "shortUz": "10% niatsinamid va 4% traneksam kislotali serum postakne, pigment dog‘lari va notekis rang uchun. Yuqori konsentratsiya sezgir terini ta’sirlantirishi mumkin.",
     "useRu": "Нанесите 2–3 капли после тонера. Начните через день или 2–3 раза в неделю, затем увеличивайте частоту при хорошей переносимости. Не наносите на повреждённую кожу; утром используйте SPF.",
     "useUz": "Tonerdan keyin 2–3 tomchi surting. Kun ora yoki haftasiga 2–3 martadan boshlang, yaxshi qabul qilinsa tezligini oshiring. Shikastlangan teriga surtmang; ertalab SPF ishlating.",
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p24",
@@ -562,7 +567,7 @@ window.PRODUCTS = [
     "nameRu": "Azelaic Acid 10% + Hyaluron Redness Soothing Serum",
     "nameUz": "Azelaic Acid 10% + Hyaluron Redness Soothing Serum",
     "category": "serum",
-    "price": 205000,
+    "price": null,
     "volume": "30 мл",
     "skin": [
       "oily",
@@ -578,7 +583,8 @@ window.PRODUCTS = [
     "shortUz": "10% azelain kislotasi va gialuron kislotali serum qizarish, yallig‘lanish va postakne uchun. Akne yoki rozatseani shifokor davolashini almashtirmaydi.",
     "useRu": "Начните с 2–3 применений в неделю на сухую кожу после тонера. Используйте 1–2 капли, затем крем. При выраженном жжении смойте и уменьшите частоту. Утром обязательно SPF.",
     "useUz": "Haftasiga 2–3 marta tonerdan keyin quruq teriga 1–2 tomchi surting, so‘ng krem. Kuchli achishish bo‘lsa yuving va tezligini kamaytiring. Ertalab SPF majburiy.",
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p25",
@@ -587,7 +593,7 @@ window.PRODUCTS = [
     "nameRu": "147 Barrier Cream",
     "nameUz": "147 Barrier Cream",
     "category": "cream",
-    "price": 130000,
+    "price": null,
     "volume": "50 мл",
     "skin": [
       "dry",
@@ -602,7 +608,8 @@ window.PRODUCTS = [
     "shortUz": "Normal, quruq va sezgir teri uchun keramid va namlantiruvchi komponentlarga ega zich barer kremi. Quruqlikni kamaytirish va himoya to‘sig‘ini qo‘llab-quvvatlaydi.",
     "useRu": "Наносите завершающим этапом утром и вечером. Для очень сухих участков используйте более плотный слой. Утром поверх нанесите SPF.",
     "useUz": "Ertalab va kechqurun yakuniy bosqichda surting. Juda quruq joylarga qalinroq qatlam qo‘llang. Ertalab ustidan SPF surting.",
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p26",
@@ -611,7 +618,7 @@ window.PRODUCTS = [
     "nameRu": "Pure Grinding Cleansing Balm",
     "nameUz": "Pure Grinding Cleansing Balm",
     "category": "cleanser",
-    "price": 90000,
+    "price": null,
     "volume": "50 мл",
     "skin": [
       "all",
@@ -624,7 +631,8 @@ window.PRODUCTS = [
     "shortUz": "Aylantiriladigan dozatorli tozalovchi balzam makiyaj, SPF va yog‘da eruvchi kirlarni eritadi. Kechki tozalashning birinchi bosqichi uchun.",
     "useRu": "Поверните механизм, чтобы выдать небольшое количество. Нанесите на сухое лицо сухими руками, массируйте около минуты, добавьте воду и эмульгируйте. Тщательно смойте и используйте пенку.",
     "useUz": "Mexanizmni aylantirib oz miqdor chiqaring. Quruq yuzga quruq qo‘l bilan surting, taxminan bir daqiqa massaj qiling, suv qo‘shib emulsiya qiling. Yaxshilab yuving va ko‘pik ishlating.",
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p27",
@@ -633,7 +641,7 @@ window.PRODUCTS = [
     "nameRu": "Персональный набор ухода",
     "nameUz": "Shaxsiy parvarish to‘plami",
     "category": "set",
-    "price": 390000,
+    "price": null,
     "volume": "3–5 средств",
     "skin": [
       "all"
@@ -651,7 +659,8 @@ window.PRODUCTS = [
     "shortUz": "Qisqa diagnostikadan so‘ng mijozning teri turi, asosiy ehtiyojlari va byudjetiga qarab katalog mahsulotlaridan tuziladigan individual to‘plam.",
     "useRu": "Каждое средство используется по отдельной схеме, указанной в карточке товара. Консультант поможет распределить этапы на утро и вечер и исключить нежелательные сочетания активов.",
     "useUz": "Har bir mahsulot o‘z kartochkasida ko‘rsatilgan sxema bo‘yicha ishlatiladi. Konsultant bosqichlarni ertalab va kechqurunga taqsimlash hamda mos kelmaydigan aktivlarni ajratishga yordam beradi.",
-    "weight": 0.5
+    "weight": 0.5,
+    "soon": true
   },
   {
     "id": "p28",
@@ -660,7 +669,7 @@ window.PRODUCTS = [
     "nameRu": "Abib Glutathione CC Sun Cream SPF50+",
     "nameUz": "Abib Glutathione CC Sun Cream SPF50+",
     "category": "spf",
-    "price": 105000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -671,7 +680,8 @@ window.PRODUCTS = [
     "useRu": "Наносить днём как финал ухода за 15–20 мин до выхода.",
     "useUz": "Kunduzi parvarishning yakuniy bosqichi sifatida, tashqariga chiqishdan 15–20 daqiqa oldin surting.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p29",
@@ -680,7 +690,7 @@ window.PRODUCTS = [
     "nameRu": "Abib Ultra Moisturizing Cream (для сухой кожи)",
     "nameUz": "Abib Ultra Moisturizing Cream (quruq teri uchun)",
     "category": "cream",
-    "price": 120000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -691,7 +701,8 @@ window.PRODUCTS = [
     "useRu": "Наносить на очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p30",
@@ -700,7 +711,7 @@ window.PRODUCTS = [
     "nameRu": "Aestura A-Cica Dual Barrier Creamy Toner",
     "nameUz": "Aestura A-Cica Dual Barrier Creamy Toner",
     "category": "toner",
-    "price": 95000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -711,7 +722,8 @@ window.PRODUCTS = [
     "useRu": "Нанести на очищенную кожу ладонями до сыворотки.",
     "useUz": "Zardobdan oldin tozalangan teriga kaft bilan surting.",
     "imported": true,
-    "weight": 0.25
+    "weight": 0.25,
+    "soon": true
   },
   {
     "id": "p31",
@@ -720,7 +732,7 @@ window.PRODUCTS = [
     "nameRu": "Aestura Atobarrier 365 Cream (подарок)",
     "nameUz": "Aestura Atobarrier 365 Cream (sovg‘ali to‘plam)",
     "category": "cream",
-    "price": 235000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -731,7 +743,8 @@ window.PRODUCTS = [
     "useRu": "Финал ухода утром и вечером — распределить и вбить до впитывания.",
     "useUz": "Ertalab va kechqurun parvarishning oxirida — tekis taqsimlab, shimilguncha singdiring.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p32",
@@ -740,7 +753,7 @@ window.PRODUCTS = [
     "nameRu": "Aestura Atobarrier 365 Cream, 80 мл",
     "nameUz": "Aestura Atobarrier 365 Cream 80 ml (sovg‘asiz)",
     "category": "cream",
-    "price": 200000,
+    "price": null,
     "volume": "80 мл",
     "skin": [
       "all"
@@ -751,7 +764,8 @@ window.PRODUCTS = [
     "useRu": "Наносить утром и вечером как завершающий этап ухода.",
     "useUz": "Ertalab va kechqurun parvarishning yakuniy bosqichi sifatida surting.",
     "imported": true,
-    "weight": 0.13
+    "weight": 0.13,
+    "soon": true
   },
   {
     "id": "p33",
@@ -760,7 +774,7 @@ window.PRODUCTS = [
     "nameRu": "Aestura Atobarrier 365 Set",
     "nameUz": "Aestura Atobarrier 365 Set",
     "category": "cream",
-    "price": 235000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -771,7 +785,8 @@ window.PRODUCTS = [
     "useRu": "По инструкции к каждому средству набора.",
     "useUz": "To‘plamdagi har bir vosita yo‘riqnomasiga muvofiq foydalaning.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p34",
@@ -780,7 +795,7 @@ window.PRODUCTS = [
     "nameRu": "Anua PDRN Foam Cleanser",
     "nameUz": "Anua PDRN Foam Cleanser",
     "category": "cleanser",
-    "price": 85000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -791,7 +806,8 @@ window.PRODUCTS = [
     "useRu": "Вспенить с водой, помассировать, смыть. Можно как маска-пенка 1 мин.",
     "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving. Ko‘pikli niqob sifatida 1 daqiqa ushlab turish mumkin.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p35",
@@ -800,7 +816,7 @@ window.PRODUCTS = [
     "nameRu": "Anua PDRN Hyaluronic Acid Mist 30 ml",
     "nameUz": "Anua PDRN Hyaluronic Acid Mist 30 ml",
     "category": "other",
-    "price": 94000,
+    "price": null,
     "volume": "30 мл",
     "skin": [
       "all"
@@ -811,7 +827,8 @@ window.PRODUCTS = [
     "useRu": "Распылять на лицо поверх ухода или макияжа при необходимости.",
     "useUz": "Kerak bo‘lganda parvarish yoki pardoz ustidan yuzga purkang.",
     "imported": true,
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p36",
@@ -820,7 +837,7 @@ window.PRODUCTS = [
     "nameRu": "Anua PDRN Serum (1+1 + maska)",
     "nameUz": "Anua PDRN Serum (1+1 + maska)",
     "category": "serum",
-    "price": 250000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -831,7 +848,8 @@ window.PRODUCTS = [
     "useRu": "Несколько капель на очищенную кожу утром и вечером до крема.",
     "useUz": "Ertalab va kechqurun kremdan oldin tozalangan teriga bir necha tomchi surting.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p37",
@@ -840,7 +858,7 @@ window.PRODUCTS = [
     "nameRu": "Anua PDRN Set",
     "nameUz": "Anua PDRN Set",
     "category": "cream",
-    "price": 215000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -851,7 +869,8 @@ window.PRODUCTS = [
     "useRu": "По инструкции к каждому средству набора.",
     "useUz": "To‘plamdagi har bir vosita yo‘riqnomasiga muvofiq foydalaning.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p38",
@@ -860,7 +879,7 @@ window.PRODUCTS = [
     "nameRu": "Anua Peach Foam Cleanser",
     "nameUz": "Anua Peach Foam Cleanser",
     "category": "cleanser",
-    "price": 80000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -871,7 +890,8 @@ window.PRODUCTS = [
     "useRu": "Вспенить с водой, помассировать и смыть тёплой водой.",
     "useUz": "Suv bilan ko‘piklab, massaj qiling va iliq suv bilan yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p39",
@@ -880,7 +900,7 @@ window.PRODUCTS = [
     "nameRu": "Arencia Cleansing Bar/Foam",
     "nameUz": "Arencia Cleansing Bar/Foam",
     "category": "cleanser",
-    "price": 95000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -891,7 +911,8 @@ window.PRODUCTS = [
     "useRu": "Вспенить, нанести на влажную кожу, помассировать и смыть.",
     "useUz": "Ko‘piklab, nam teriga surting, massaj qiling va yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p40",
@@ -900,7 +921,7 @@ window.PRODUCTS = [
     "nameRu": "Arencia Cleansing Oil 200 ml",
     "nameUz": "Arencia Cleansing Oil 200 ml",
     "category": "cleanser",
-    "price": 90000,
+    "price": null,
     "volume": "200 мл",
     "skin": [
       "all"
@@ -911,7 +932,8 @@ window.PRODUCTS = [
     "useRu": "На сухую кожу, помассировать, эмульгировать водой и смыть.",
     "useUz": "Quruq teriga surting, massaj qiling, suv qo‘shib emulsiyalang va yuving.",
     "imported": true,
-    "weight": 0.25
+    "weight": 0.25,
+    "soon": true
   },
   {
     "id": "p41",
@@ -920,7 +942,7 @@ window.PRODUCTS = [
     "nameRu": "Arencia Mask Foam Cleanser",
     "nameUz": "Arencia Mask Foam Cleanser",
     "category": "mask",
-    "price": 95000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -931,7 +953,8 @@ window.PRODUCTS = [
     "useRu": "Нанести на влажную кожу; как маска — 1–2 мин и смыть.",
     "useUz": "Nam teriga surting; niqob sifatida 1–2 daqiqa ushlab, so‘ng yuving.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p42",
@@ -940,7 +963,7 @@ window.PRODUCTS = [
     "nameRu": "Aromatica Scalp Scaling Spray (soch to‘kilishiga)",
     "nameUz": "Aromatica Scalp Scaling Spray (soch to‘kilishiga)",
     "category": "hair",
-    "price": 76000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -951,7 +974,8 @@ window.PRODUCTS = [
     "useRu": "Распылить на кожу головы и помассировать; можно без смывания.",
     "useUz": "Bosh terisiga purkang va massaj qiling; yuvmasa ham bo‘ladi.",
     "imported": true,
-    "weight": 0.35
+    "weight": 0.35,
+    "soon": true
   },
   {
     "id": "p43",
@@ -960,7 +984,7 @@ window.PRODUCTS = [
     "nameRu": "Axis PDRN Triple Gel Toner",
     "nameUz": "Axis PDRN Triple Gel Toner",
     "category": "toner",
-    "price": 110000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -971,7 +995,8 @@ window.PRODUCTS = [
     "useRu": "Нанести на очищенную кожу ладонями до сыворотки.",
     "useUz": "Zardobdan oldin tozalangan teriga kaft bilan surting.",
     "imported": true,
-    "weight": 0.25
+    "weight": 0.25,
+    "soon": true
   },
   {
     "id": "p46",
@@ -980,7 +1005,7 @@ window.PRODUCTS = [
     "nameRu": "Beplain Cleansing Oil (гидрофильное масло)",
     "nameUz": "Beplain Cleansing Oil (gidrofil)",
     "category": "cleanser",
-    "price": 106000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -991,7 +1016,8 @@ window.PRODUCTS = [
     "useRu": "На сухую кожу, помассировать, эмульгировать водой и смыть.",
     "useUz": "Quruq teriga surting, massaj qiling, suv qo‘shib emulsiyalang va yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p47",
@@ -1000,7 +1026,7 @@ window.PRODUCTS = [
     "nameRu": "Beplain Cream",
     "nameUz": "Beplain Cream",
     "category": "cream",
-    "price": 80000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1011,7 +1037,8 @@ window.PRODUCTS = [
     "useRu": "Наносить на очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p48",
@@ -1020,7 +1047,7 @@ window.PRODUCTS = [
     "nameRu": "Биотин (для волос, кожи и ногтей)",
     "nameUz": "Biotin (soch/teri/tirnoq uchun)",
     "category": "hair",
-    "price": 250000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1031,7 +1058,8 @@ window.PRODUCTS = [
     "useRu": "Принимать по инструкции на упаковке, обычно 1 капсула/таблетка в день во время еды. Для видимого результата — курс 2–3 месяца.",
     "useUz": "Qadoqdagi yo‘riqnomaga muvofiq, odatda kuniga 1 kapsula/tabletka ovqat vaqtida qabul qiling. Ko‘zga ko‘rinarli natija uchun 2–3 oylik kurs.",
     "imported": true,
-    "weight": 0.35
+    "weight": 0.35,
+    "soon": true
   },
   {
     "id": "p49",
@@ -1040,7 +1068,7 @@ window.PRODUCTS = [
     "nameRu": "Body Fantasies Body & Hair Mist",
     "nameUz": "Body Fantasies Body & Hair Mist",
     "category": "hair",
-    "price": 78000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1051,7 +1079,8 @@ window.PRODUCTS = [
     "useRu": "Распылять на тело и волосы при необходимости.",
     "useUz": "Kerak bo‘lganda tana va sochga purkang.",
     "imported": true,
-    "weight": 0.35
+    "weight": 0.35,
+    "soon": true
   },
   {
     "id": "p50",
@@ -1060,7 +1089,7 @@ window.PRODUCTS = [
     "nameRu": "BOH 3D Lifting Set",
     "nameUz": "BOH 3D Lifting Set",
     "category": "cream",
-    "price": 105000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1071,7 +1100,8 @@ window.PRODUCTS = [
     "useRu": "По инструкции к каждому средству набора, утром и вечером.",
     "useUz": "To‘plamdagi har bir vosita yo‘riqnomasiga muvofiq, ertalab va kechqurun foydalaning.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p51",
@@ -1080,7 +1110,7 @@ window.PRODUCTS = [
     "nameRu": "BOH Collagen Eye Patch",
     "nameUz": "BOH Collagen Eye Patch",
     "category": "mask",
-    "price": 97000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1091,7 +1121,8 @@ window.PRODUCTS = [
     "useRu": "Наложить под глаза на 20–30 мин, снять, остатки вбить.",
     "useUz": "Ko‘z ostiga 20–30 daqiqaga qo‘ying, oling va qoldig‘ini singdiring.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p52",
@@ -1100,7 +1131,7 @@ window.PRODUCTS = [
     "nameRu": "BOH Heal NAD Prizcell Set",
     "nameUz": "BOH Heal NAD Prizcell Set",
     "category": "cream",
-    "price": 160000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1111,7 +1142,8 @@ window.PRODUCTS = [
     "useRu": "По инструкции к каждому средству набора.",
     "useUz": "To‘plamdagi har bir vosita yo‘riqnomasiga muvofiq foydalaning.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p53",
@@ -1120,7 +1152,7 @@ window.PRODUCTS = [
     "nameRu": "BOH PLGA Lifting Serum",
     "nameUz": "BOH PLGA Lifting Serum",
     "category": "serum",
-    "price": 160000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1131,7 +1163,8 @@ window.PRODUCTS = [
     "useRu": "Несколько капель на очищенную кожу утром и вечером до крема.",
     "useUz": "Ertalab va kechqurun kremdan oldin tozalangan teriga bir necha tomchi surting.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p54",
@@ -1140,7 +1173,7 @@ window.PRODUCTS = [
     "nameRu": "BOH Sherbet Cleanser",
     "nameUz": "BOH Sherbet Cleanser",
     "category": "cleanser",
-    "price": 95000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1151,7 +1184,8 @@ window.PRODUCTS = [
     "useRu": "На сухую кожу, помассировать, эмульгировать водой и смыть.",
     "useUz": "Quruq teriga surting, massaj qiling, suv qo‘shib emulsiyalang va yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p55",
@@ -1160,7 +1194,7 @@ window.PRODUCTS = [
     "nameRu": "Кальций для детей",
     "nameUz": "Bolalar uchun kalsiy",
     "category": "other",
-    "price": 90000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1171,7 +1205,8 @@ window.PRODUCTS = [
     "useRu": "Давать ребёнку по инструкции на упаковке с учётом возраста. Перед приёмом желательно проконсультироваться с педиатром.",
     "useUz": "Bolaga yoshiga qarab qadoqdagi yo‘riqnomaga muvofiq bering. Qabuldan oldin pediatr bilan maslahatlashgan ma’qul.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.3,
+    "soon": true
   },
   {
     "id": "p56",
@@ -1180,7 +1215,7 @@ window.PRODUCTS = [
     "nameRu": "Carboxy Mask",
     "nameUz": "Carboxy Mask",
     "category": "mask",
-    "price": 75000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1191,7 +1226,8 @@ window.PRODUCTS = [
     "useRu": "Нанести на очищенную кожу, оставить на 10–15 минут до появления пузырьков, затем смыть тёплой водой. 1–2 раза в неделю.",
     "useUz": "Tozalangan teriga surting, pufakchalar paydo bo‘lguncha 10–15 daqiqa ushlab turing, so‘ng iliq suv bilan yuving. Haftasiga 1–2 marta.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p57",
@@ -1200,7 +1236,7 @@ window.PRODUCTS = [
     "nameRu": "Celimax Pore Dark Spot Sun Cream 10 ml",
     "nameUz": "Celimax Pore Dark Spot Sun Cream 10 ml",
     "category": "spf",
-    "price": 19000,
+    "price": null,
     "volume": "10 мл",
     "skin": [
       "all"
@@ -1211,7 +1247,8 @@ window.PRODUCTS = [
     "useRu": "Наносить за 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.06
+    "weight": 0.06,
+    "soon": true
   },
   {
     "id": "p58",
@@ -1220,7 +1257,7 @@ window.PRODUCTS = [
     "nameRu": "Celimax Pore Dark Spot Sun Cream SPF50+",
     "nameUz": "Celimax Pore Dark Spot Sun Cream SPF50+",
     "category": "spf",
-    "price": 90000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1231,7 +1268,8 @@ window.PRODUCTS = [
     "useRu": "Наносить как финал ухода за 15–20 мин до выхода.",
     "useUz": "Parvarishning yakuniy bosqichi sifatida, tashqariga chiqishdan 15–20 daqiqa oldin surting.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p59",
@@ -1240,7 +1278,7 @@ window.PRODUCTS = [
     "nameRu": "Celimax Watery Sun Cream SPF50+",
     "nameUz": "Celimax Watery Sun Cream SPF50+",
     "category": "spf",
-    "price": 97000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1251,7 +1289,8 @@ window.PRODUCTS = [
     "useRu": "Наносить за 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p60",
@@ -1260,7 +1299,7 @@ window.PRODUCTS = [
     "nameRu": "Centellian24 Madeca Cream",
     "nameUz": "Centellian24 Madeca Cream",
     "category": "cream",
-    "price": 85000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1271,7 +1310,8 @@ window.PRODUCTS = [
     "useRu": "Наносить на очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p61",
@@ -1280,7 +1320,7 @@ window.PRODUCTS = [
     "nameRu": "Cerabase Cream",
     "nameUz": "Cerabase Cream",
     "category": "cream",
-    "price": 60000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1291,7 +1331,8 @@ window.PRODUCTS = [
     "useRu": "Наносить на очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p62",
@@ -1300,7 +1341,7 @@ window.PRODUCTS = [
     "nameRu": "Cetaphil Moisturizing Lotion",
     "nameUz": "Cetaphil Moisturizing Lotion",
     "category": "cream",
-    "price": 115000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1311,7 +1352,8 @@ window.PRODUCTS = [
     "useRu": "Наносить на кожу по мере необходимости, в т.ч. после душа.",
     "useUz": "Kerak bo‘lganda, jumladan dushdan so‘ng teriga surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p63",
@@ -1320,7 +1362,7 @@ window.PRODUCTS = [
     "nameRu": "Clio Kill Cover Concealer",
     "nameUz": "Clio Kill Cover Concealer",
     "category": "makeup",
-    "price": 89000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1331,7 +1373,8 @@ window.PRODUCTS = [
     "useRu": "Точечно нанести на нужные зоны и растушевать.",
     "useUz": "Kerakli joylarga nuqtali surtib, tekislab yoying.",
     "imported": true,
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p64",
@@ -1340,7 +1383,7 @@ window.PRODUCTS = [
     "nameRu": "Clio Kill Cover Cushion",
     "nameUz": "Clio Kill Cover Cushion",
     "category": "makeup",
-    "price": 150000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1351,7 +1394,8 @@ window.PRODUCTS = [
     "useRu": "Нанести спонжем похлопывающими движениями, при необходимости в 2 слоя.",
     "useUz": "Spong bilan yengil urib surting, kerak bo‘lsa 2 qatlam qiling.",
     "imported": true,
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p65",
@@ -1360,7 +1404,7 @@ window.PRODUCTS = [
     "nameRu": "Clio Kill Cover Cushion (limited set + kosmetichka)",
     "nameUz": "Clio Kill Cover Cushion (limited set + kosmetichka)",
     "category": "makeup",
-    "price": 130000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1371,7 +1415,8 @@ window.PRODUCTS = [
     "useRu": "Нанести спонжем похлопывающими движениями.",
     "useUz": "Splong bilan yengil urib surting.",
     "imported": true,
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p66",
@@ -1380,7 +1425,7 @@ window.PRODUCTS = [
     "nameRu": "Clio Kill Cover Mat Cushion (19N/21N)",
     "nameUz": "Clio Kill Cover Mat Cushion (19N/21N)",
     "category": "makeup",
-    "price": 150000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1391,7 +1436,8 @@ window.PRODUCTS = [
     "useRu": "Нанести спонжем похлопывающими движениями.",
     "useUz": "Splong bilan yengil urib surting.",
     "imported": true,
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p67",
@@ -1400,7 +1446,7 @@ window.PRODUCTS = [
     "nameRu": "CNP Laboratory Ampule Mist",
     "nameUz": "CNP Laboratory Ampule Mist",
     "category": "other",
-    "price": 90000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1411,7 +1457,8 @@ window.PRODUCTS = [
     "useRu": "Распылять на лицо поверх ухода или макияжа при необходимости.",
     "useUz": "Kerak bo‘lganda parvarish yoki pardoz ustidan yuzga purkang.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.3,
+    "soon": true
   },
   {
     "id": "p68",
@@ -1420,7 +1467,7 @@ window.PRODUCTS = [
     "nameRu": "Collagen Multi-Function Cream",
     "nameUz": "Collagen Multi-Function Cream",
     "category": "cream",
-    "price": 115000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1431,7 +1478,8 @@ window.PRODUCTS = [
     "useRu": "Наносить на очищенную кожу лица утром и вечером как завершающий этап ухода, мягко распределяя до впитывания.",
     "useUz": "Ertalab va kechqurun parvarishning yakuniy bosqichi sifatida tozalangan yuz terisiga surting, shimilguncha yumshoq taqsimlang.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p69",
@@ -1440,7 +1488,7 @@ window.PRODUCTS = [
     "nameRu": "Cooling Citrus Deodorant (unisex)",
     "nameUz": "Cooling Citrus Deodorant (unisex)",
     "category": "other",
-    "price": 80000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1451,7 +1499,8 @@ window.PRODUCTS = [
     "useRu": "Наносить на чистую сухую кожу подмышек. При необходимости обновлять в течение дня.",
     "useUz": "Qo‘ltiq ostining toza, quruq terisiga surting. Kerak bo‘lganda kun davomida yangilab turing.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.3,
+    "soon": true
   },
   {
     "id": "p70",
@@ -1460,7 +1509,7 @@ window.PRODUCTS = [
     "nameRu": "Крем для депиляции",
     "nameUz": "Depilyatsiya kremi (soch oldiruvchi)",
     "category": "other",
-    "price": 50000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1471,7 +1520,8 @@ window.PRODUCTS = [
     "useRu": "Нанести ровным слоем, выдержать указанное на упаковке время (обычно 5–10 мин), снять волосы вместе с кремом и смыть водой. Перед первым применением сделать тест на небольшом участке.",
     "useUz": "Tekis qatlam qilib surting, qadoqda ko‘rsatilgan vaqt (odatda 5–10 daqiqa) ushlab turing, tuklarni krem bilan birga oling va suv bilan yuving. Birinchi marta ishlatishdan oldin kichik joyda sinab ko‘ring.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p71",
@@ -1480,7 +1530,7 @@ window.PRODUCTS = [
     "nameRu": "Dove (original)",
     "nameUz": "Dove (original)",
     "category": "other",
-    "price": 65000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1491,7 +1541,8 @@ window.PRODUCTS = [
     "useRu": "Нанести на влажную кожу, вспенить и смыть.",
     "useUz": "Nam teriga surting, ko‘piklab yuving.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.3,
+    "soon": true
   },
   {
     "id": "p75",
@@ -1500,7 +1551,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.Althea 345 Relief Serum",
     "nameUz": "Dr.Althea 345 Relief Serum",
     "category": "serum",
-    "price": 96000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1511,7 +1562,8 @@ window.PRODUCTS = [
     "useRu": "Несколько капель на очищенную кожу утром и вечером до крема.",
     "useUz": "Ertalab va kechqurun kremdan oldin tozalangan teriga bir necha tomchi surting.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p76",
@@ -1520,7 +1572,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.Althea Aqua Marine Set",
     "nameUz": "Dr.Althea Aqua Marine Set",
     "category": "cream",
-    "price": 105000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1531,7 +1583,8 @@ window.PRODUCTS = [
     "useRu": "По инструкции к средствам набора.",
     "useUz": "To‘plamdagi vositalar yo‘riqnomasiga muvofiq foydalaning.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p78",
@@ -1540,7 +1593,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.Althea Cleansing Oil",
     "nameUz": "Dr.Althea Cleansing Oil",
     "category": "cleanser",
-    "price": 95000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1551,7 +1604,8 @@ window.PRODUCTS = [
     "useRu": "На сухую кожу, помассировать, эмульгировать и смыть.",
     "useUz": "Quruq teriga surting, massaj qiling, suv bilan emulsiyalab yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p80",
@@ -1560,7 +1614,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.Althea Gel Cleanser",
     "nameUz": "Dr.Althea Gel Cleanser",
     "category": "cleanser",
-    "price": 64000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1571,7 +1625,8 @@ window.PRODUCTS = [
     "useRu": "Вспенить с водой, помассировать и смыть.",
     "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p81",
@@ -1580,7 +1635,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.Althea Sebum Cleanser",
     "nameUz": "Dr.Althea Sebum Cleanser",
     "category": "cleanser",
-    "price": 85000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1591,7 +1646,8 @@ window.PRODUCTS = [
     "useRu": "Вспенить с водой, помассировать и смыть утром и вечером.",
     "useUz": "Ertalab va kechqurun suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p82",
@@ -1600,7 +1656,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.Althea Sun Cream SPF50+",
     "nameUz": "Dr.Althea Sun Cream SPF50+",
     "category": "spf",
-    "price": 93000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1611,7 +1667,8 @@ window.PRODUCTS = [
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p83",
@@ -1620,7 +1677,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.CPU Enzyme Powder Wash",
     "nameUz": "Dr.CPU Enzyme Powder Wash",
     "category": "cleanser",
-    "price": 70000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1631,7 +1688,8 @@ window.PRODUCTS = [
     "useRu": "Вспенить с водой в ладонях, помассировать и смыть.",
     "useUz": "Kaftda suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p84",
@@ -1640,7 +1698,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.FORHAIR Folligen Shampoo",
     "nameUz": "Dr.FORHAIR Folligen Shampoo",
     "category": "hair",
-    "price": 120000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1651,7 +1709,8 @@ window.PRODUCTS = [
     "useRu": "На влажные волосы, вспенить, помассировать кожу головы и смыть.",
     "useUz": "Nam sochga surting, ko‘piklab, bosh terisini massaj qiling va yuving.",
     "imported": true,
-    "weight": 0.35
+    "weight": 0.35,
+    "soon": true
   },
   {
     "id": "p85",
@@ -1660,7 +1719,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.G Green Mild Up Sun Tone-Up SPF50+",
     "nameUz": "Dr.G Green Mild Up Sun Tone-Up SPF50+",
     "category": "spf",
-    "price": 130000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1671,7 +1730,8 @@ window.PRODUCTS = [
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p86",
@@ -1680,7 +1740,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.G Peeling Gel",
     "nameUz": "Dr.G Peeling Gel",
     "category": "cleanser",
-    "price": 190000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1691,7 +1751,8 @@ window.PRODUCTS = [
     "useRu": "Помассировать до скатывания, смыть. 1–2 раза в неделю.",
     "useUz": "Yumaloqchalar paydo bo‘lguncha massaj qiling va yuving. Haftasiga 1–2 marta.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p87",
@@ -1700,7 +1761,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.G Skincare Set",
     "nameUz": "Dr.G Skincare Set",
     "category": "other",
-    "price": 240000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1711,7 +1772,8 @@ window.PRODUCTS = [
     "useRu": "По инструкции к средствам набора.",
     "useUz": "To‘plamdagi vositalar yo‘riqnomasiga muvofiq foydalaning.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.3,
+    "soon": true
   },
   {
     "id": "p88",
@@ -1720,7 +1782,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.POY Wellkicker Kids Multivitamin & Mineral",
     "nameUz": "Dr.POY Wellkicker Kids Multivitamin & Mineral",
     "category": "other",
-    "price": 90000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1731,7 +1793,8 @@ window.PRODUCTS = [
     "useRu": "Давать по инструкции с учётом возраста; при необходимости — консультация педиатра.",
     "useUz": "Yoshiga qarab yo‘riqnomaga muvofiq bering; kerak bo‘lsa pediatr bilan maslahatlashing.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.3,
+    "soon": true
   },
   {
     "id": "p89",
@@ -1740,7 +1803,7 @@ window.PRODUCTS = [
     "nameRu": "Echki sutli sovun (goat milk soap)",
     "nameUz": "Echki sutli sovun (goat milk soap)",
     "category": "cleanser",
-    "price": 10000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1751,7 +1814,8 @@ window.PRODUCTS = [
     "useRu": "Вспенить в руках или на мочалке, нанести на влажную кожу, помассировать и смыть тёплой водой.",
     "useUz": "Qo‘lda yoki yuvg‘ichda ko‘piklab, nam teriga surting, massaj qiling va iliq suv bilan yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.12,
+    "soon": true
   },
   {
     "id": "p90",
@@ -1760,7 +1824,7 @@ window.PRODUCTS = [
     "nameRu": "Eclado Sun Cream SPF",
     "nameUz": "Eclado Sun Cream SPF",
     "category": "spf",
-    "price": 180000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1771,7 +1835,8 @@ window.PRODUCTS = [
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p91",
@@ -1780,7 +1845,7 @@ window.PRODUCTS = [
     "nameRu": "EMS Face Lifting Device",
     "nameUz": "EMS Face Lifting Device",
     "category": "cream",
-    "price": 550000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1791,7 +1856,8 @@ window.PRODUCTS = [
     "useRu": "Нанести проводящий гель или сыворотку, вести прибор по массажным линиям по инструкции, 5–10 минут за сеанс, несколько раз в неделю.",
     "useUz": "O‘tkazuvchi gel yoki zardob surting, qurilmani yo‘riqnomaga muvofiq massaj chiziqlari bo‘ylab yuriting, seansiga 5–10 daqiqa, haftasiga bir necha marta.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p92",
@@ -1800,7 +1866,7 @@ window.PRODUCTS = [
     "nameRu": "Etude House mahsuloti",
     "nameUz": "Etude House mahsuloti",
     "category": "other",
-    "price": 40000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1811,7 +1877,8 @@ window.PRODUCTS = [
     "useRu": "По инструкции к средству.",
     "useUz": "Vosita yo‘riqnomasiga muvofiq foydalaning.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p93",
@@ -1820,7 +1887,7 @@ window.PRODUCTS = [
     "nameRu": "Family Sun Cream SPF",
     "nameUz": "Family Sun Cream SPF",
     "category": "spf",
-    "price": 70000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1831,7 +1898,8 @@ window.PRODUCTS = [
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p94",
@@ -1840,7 +1908,7 @@ window.PRODUCTS = [
     "nameRu": "Fleur Mood Perfume Set",
     "nameUz": "Fleur Mood Perfume Set",
     "category": "other",
-    "price": 30000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1851,7 +1919,8 @@ window.PRODUCTS = [
     "useRu": "Распылять на точки пульса с 15–20 см.",
     "useUz": "Puls nuqtalariga 15–20 sm masofadan purkang.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.3,
+    "soon": true
   },
   {
     "id": "p95",
@@ -1860,7 +1929,7 @@ window.PRODUCTS = [
     "nameRu": "Foot Care Stick Cream",
     "nameUz": "Foot Care Stick Cream",
     "category": "cream",
-    "price": 35000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1871,7 +1940,8 @@ window.PRODUCTS = [
     "useRu": "Наносить на чистую сухую кожу стоп и пяток, при необходимости на ночь. Регулярно для стойкого результата.",
     "useUz": "Oyoq va tovonlarning toza, quruq terisiga, kerak bo‘lsa kechasi surting. Barqaror natija uchun muntazam foydalaning.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p96",
@@ -1880,7 +1950,7 @@ window.PRODUCTS = [
     "nameRu": "Fully Mask Cleanser",
     "nameUz": "Fully Mask Cleanser",
     "category": "cleanser",
-    "price": 100000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1891,7 +1961,8 @@ window.PRODUCTS = [
     "useRu": "Нанести на влажную кожу, вспенить, помассировать; для эффекта маски оставить на 1–2 минуты, затем смыть тёплой водой.",
     "useUz": "Nam teriga surting, ko‘piklab massaj qiling; niqob effekti uchun 1–2 daqiqa ushlab turing, so‘ng iliq suv bilan yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p97",
@@ -1900,7 +1971,7 @@ window.PRODUCTS = [
     "nameRu": "Gentle Vitamin C Serum",
     "nameUz": "Gentle Vitamin C Serum",
     "category": "serum",
-    "price": 100000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1911,7 +1982,8 @@ window.PRODUCTS = [
     "useRu": "Нанести несколько капель на очищенную кожу утром и/или вечером до крема. Днём обязательно завершать уход солнцезащитой.",
     "useUz": "Ertalab va/yoki kechqurun kremdan oldin tozalangan teriga bir necha tomchi surting. Kunduzi parvarishni albatta quyoshdan himoya vositasi bilan yakunlang.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p98",
@@ -1920,7 +1992,7 @@ window.PRODUCTS = [
     "nameRu": "Гидрофильное очищающее масло (увлажняющее)",
     "nameUz": "Gidrofil tozalagich (namlantiruvchi)",
     "category": "cleanser",
-    "price": 110000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1931,7 +2003,8 @@ window.PRODUCTS = [
     "useRu": "Нанести на сухую кожу, помассировать, добавить воды до эмульгирования и смыть. Затем умыться пенкой.",
     "useUz": "Quruq teriga surting, massaj qiling, emulsiyalanguncha suv qo‘shib yuving. So‘ng ko‘pik bilan yuvining.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p99",
@@ -1940,7 +2013,7 @@ window.PRODUCTS = [
     "nameRu": "Гидрофильное очищающее масло (мягкое)",
     "nameUz": "Gidrofil tozalagich (yumshoq)",
     "category": "cleanser",
-    "price": 110000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1951,7 +2024,8 @@ window.PRODUCTS = [
     "useRu": "Нанести на сухую кожу, помассировать, эмульгировать водой и смыть тёплой водой. Использовать как первый этап очищения.",
     "useUz": "Quruq teriga surting, massaj qiling, suv bilan emulsiyalab iliq suvda yuving. Tozalashning birinchi bosqichi sifatida foydalaning.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p100",
@@ -1960,7 +2034,7 @@ window.PRODUCTS = [
     "nameRu": "Goodal Foam Cleanser (пенка)",
     "nameUz": "Goodal Foam Cleanser (penka)",
     "category": "cleanser",
-    "price": 70000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1971,7 +2045,8 @@ window.PRODUCTS = [
     "useRu": "Вспенить с водой, помассировать и смыть.",
     "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p101",
@@ -1980,7 +2055,7 @@ window.PRODUCTS = [
     "nameRu": "Goodal Toner",
     "nameUz": "Goodal Toner",
     "category": "toner",
-    "price": 110000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -1991,7 +2066,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу ладонями или диском до сыворотки.",
     "useUz": "Zardobdan oldin tozalangan teriga kaft yoki paxta disk bilan surting.",
     "imported": true,
-    "weight": 0.25
+    "weight": 0.25,
+    "soon": true
   },
   {
     "id": "p102",
@@ -2000,7 +2076,7 @@ window.PRODUCTS = [
     "nameRu": "Gyeol Collagen (2 oylik)",
     "nameUz": "Gyeol Collagen (2 oylik)",
     "category": "other",
-    "price": 100000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2011,7 +2087,8 @@ window.PRODUCTS = [
     "useRu": "Принимать по инструкции на упаковке, курсом.",
     "useUz": "Qadoqdagi yo‘riqnomaga muvofiq, kurs bilan qabul qiling.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.3,
+    "soon": true
   },
   {
     "id": "p103",
@@ -2020,7 +2097,7 @@ window.PRODUCTS = [
     "nameRu": "Heel & Elbow Stick Cream",
     "nameUz": "Heel & Elbow Stick Cream",
     "category": "cream",
-    "price": 35000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2031,7 +2108,8 @@ window.PRODUCTS = [
     "useRu": "Наносить на чистую сухую кожу пяток и локтей ежедневно, при сильной сухости — несколько раз в день.",
     "useUz": "Tovon va tirsaklarning toza, quruq terisiga har kuni, quruqlik kuchli bo‘lsa kuniga bir necha marta surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p104",
@@ -2040,7 +2118,7 @@ window.PRODUCTS = [
     "nameRu": "Hurum Collagen",
     "nameUz": "Hurum Collagen",
     "category": "other",
-    "price": 115000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2051,7 +2129,8 @@ window.PRODUCTS = [
     "useRu": "Принимать по инструкции на упаковке.",
     "useUz": "Qadoqdagi yo‘riqnomaga muvofiq qabul qiling.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.3,
+    "soon": true
   },
   {
     "id": "p105",
@@ -2060,7 +2139,7 @@ window.PRODUCTS = [
     "nameRu": "I'm From Rice Cream",
     "nameUz": "I'm From Rice Cream",
     "category": "cream",
-    "price": 100000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2071,7 +2150,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p106",
@@ -2080,7 +2160,7 @@ window.PRODUCTS = [
     "nameRu": "Illiyoon Ultra Repair Lotion",
     "nameUz": "Illiyoon Ultra Repair Lotion",
     "category": "cream",
-    "price": 145000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2091,7 +2171,8 @@ window.PRODUCTS = [
     "useRu": "Наносить после душа и по необходимости.",
     "useUz": "Dushdan so‘ng va kerak bo‘lganda surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p107",
@@ -2100,7 +2181,7 @@ window.PRODUCTS = [
     "nameRu": "IOPE UV Shield Sun Protector SPF50+",
     "nameUz": "IOPE UV Shield Sun Protector SPF50+",
     "category": "spf",
-    "price": 50000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2111,7 +2192,8 @@ window.PRODUCTS = [
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p108",
@@ -2120,7 +2202,7 @@ window.PRODUCTS = [
     "nameRu": "Kalsiy (3 oylik kurs)",
     "nameUz": "Kalsiy (3 oylik kurs)",
     "category": "other",
-    "price": 116000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2131,7 +2213,8 @@ window.PRODUCTS = [
     "useRu": "Принимать по инструкции на упаковке во время еды, курсом до 3 месяцев. При хронических состояниях — после консультации с врачом.",
     "useUz": "Qadoqdagi yo‘riqnomaga muvofiq ovqat vaqtida, 3 oygacha kurs bilan qabul qiling. Surunkali holatlarda shifokor bilan maslahatlashgach.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.3,
+    "soon": true
   },
   {
     "id": "p109",
@@ -2140,7 +2223,7 @@ window.PRODUCTS = [
     "nameRu": "Kids Qizil Jenshen (Red Ginseng) 30 stik",
     "nameUz": "Kids Qizil Jenshen (Red Ginseng) 30 stik",
     "category": "other",
-    "price": 120000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2151,7 +2234,8 @@ window.PRODUCTS = [
     "useRu": "Давать по одному стику в день по инструкции с учётом возраста ребёнка. При необходимости проконсультироваться с педиатром.",
     "useUz": "Bolaning yoshiga qarab yo‘riqnomaga muvofiq kuniga bitta stik bering. Kerak bo‘lganda pediatr bilan maslahatlashing.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.3,
+    "soon": true
   },
   {
     "id": "p110",
@@ -2160,7 +2244,7 @@ window.PRODUCTS = [
     "nameRu": "Koreys lab balzami (lip balm)",
     "nameUz": "Koreys lab balzami (lip balm)",
     "category": "other",
-    "price": 20000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2171,7 +2255,8 @@ window.PRODUCTS = [
     "useRu": "Наносить на губы по мере необходимости в течение дня и перед сном.",
     "useUz": "Kun davomida va uxlashdan oldin kerak bo‘lganda lablarga surting.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.02,
+    "soon": true
   },
   {
     "id": "p111",
@@ -2180,7 +2265,7 @@ window.PRODUCTS = [
     "nameRu": "Корейская очищающая пенка",
     "nameUz": "Koreys penka (tozalovchi ko‘pik)",
     "category": "cleanser",
-    "price": 30000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2191,7 +2276,8 @@ window.PRODUCTS = [
     "useRu": "Вспенить с водой, нанести на влажную кожу, помассировать и смыть тёплой водой утром и вечером.",
     "useUz": "Ertalab va kechqurun suv bilan ko‘piklab, nam teriga surting, massaj qiling va iliq suv bilan yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.18,
+    "soon": true
   },
   {
     "id": "p112",
@@ -2200,7 +2286,7 @@ window.PRODUCTS = [
     "nameRu": "Корейская краска для волос",
     "nameUz": "Koreys soch bo‘yog‘i",
     "category": "hair",
-    "price": 38000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2211,7 +2297,8 @@ window.PRODUCTS = [
     "useRu": "Использовать строго по инструкции на упаковке; за 48 часов провести тест на аллергию. Выдержать указанное время и тщательно смыть.",
     "useUz": "Qadoqdagi yo‘riqnomaga qat’iy amal qiling; 48 soat oldin allergiya testini o‘tkazing. Ko‘rsatilgan vaqt ushlab turing va yaxshilab yuving.",
     "imported": true,
-    "weight": 0.35
+    "weight": 0.25,
+    "soon": true
   },
   {
     "id": "p113",
@@ -2220,7 +2307,7 @@ window.PRODUCTS = [
     "nameRu": "Koreys tish pastasi",
     "nameUz": "Koreys tish pastasi",
     "category": "other",
-    "price": 15000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2231,7 +2318,8 @@ window.PRODUCTS = [
     "useRu": "Чистить зубы 2 раза в день, используя количество пасты размером с горошину.",
     "useUz": "Kuniga 2 marta, no‘xatdek pasta ishlatib tish yuving.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.18,
+    "soon": true
   },
   {
     "id": "p114",
@@ -2240,7 +2328,7 @@ window.PRODUCTS = [
     "nameRu": "La Roche-Posay Anthelios UVA+UVB SPF50+",
     "nameUz": "La Roche-Posay Anthelios UVA+UVB SPF50+",
     "category": "spf",
-    "price": 250000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2251,7 +2339,8 @@ window.PRODUCTS = [
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p115",
@@ -2260,7 +2349,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Cellup Micro Foam Cleanser",
     "nameUz": "Lagom Cellup Micro Foam Cleanser",
     "category": "cleanser",
-    "price": 68000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2271,7 +2360,8 @@ window.PRODUCTS = [
     "useRu": "Вспенить с водой, помассировать и смыть.",
     "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p117",
@@ -2280,7 +2370,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Cellus Deep Moisture Cream",
     "nameUz": "Lagom Cellus Deep Moisture Cream",
     "category": "cream",
-    "price": 135000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2291,7 +2381,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p118",
@@ -2300,7 +2391,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Cellus Mild Cream",
     "nameUz": "Lagom Cellus Mild Cream",
     "category": "cream",
-    "price": 140000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2311,7 +2402,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p119",
@@ -2320,7 +2412,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Cica Cream",
     "nameUz": "Lagom Cica Cream",
     "category": "cream",
-    "price": 118000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2331,7 +2423,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p121",
@@ -2340,7 +2433,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Serum",
     "nameUz": "Lagom Serum",
     "category": "serum",
-    "price": 120000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2351,7 +2444,8 @@ window.PRODUCTS = [
     "useRu": "Несколько капель на очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga bir necha tomchi surting.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p122",
@@ -2360,7 +2454,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Skincare Set",
     "nameUz": "Lagom Skincare Set",
     "category": "other",
-    "price": 135000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2371,7 +2465,8 @@ window.PRODUCTS = [
     "useRu": "По инструкции к средствам набора.",
     "useUz": "To‘plamdagi vositalar yo‘riqnomasiga muvofiq foydalaning.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.3,
+    "soon": true
   },
   {
     "id": "p123",
@@ -2380,7 +2475,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Sun Gel SPF50+ PA++++",
     "nameUz": "Lagom Sun Gel SPF50+ PA++++",
     "category": "spf",
-    "price": 110000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2391,7 +2486,8 @@ window.PRODUCTS = [
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p124",
@@ -2400,7 +2496,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Sun Stick SPF",
     "nameUz": "Lagom Sun Stick SPF",
     "category": "spf",
-    "price": 110000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2411,7 +2507,8 @@ window.PRODUCTS = [
     "useRu": "Нанести на кожу перед выходом и в течение дня.",
     "useUz": "Tashqariga chiqishdan oldin va kun davomida teriga surting.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p125",
@@ -2420,7 +2517,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Toner",
     "nameUz": "Lagom Toner",
     "category": "toner",
-    "price": 110000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2431,7 +2528,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу ладонями или диском.",
     "useUz": "Tozalangan teriga kaft yoki paxta disk bilan surting.",
     "imported": true,
-    "weight": 0.25
+    "weight": 0.25,
+    "soon": true
   },
   {
     "id": "p126",
@@ -2440,7 +2538,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom White Moisture Cream",
     "nameUz": "Lagom White Moisture Cream",
     "category": "cream",
-    "price": 130000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2451,7 +2549,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p127",
@@ -2460,7 +2559,7 @@ window.PRODUCTS = [
     "nameRu": "Makeup Fixer Spray (fiksator)",
     "nameUz": "Makeup Fixer Spray (fiksator)",
     "category": "makeup",
-    "price": 110000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2471,7 +2570,8 @@ window.PRODUCTS = [
     "useRu": "Распылить на расстоянии 20–30 см на лицо после макияжа, держа глаза и рот закрытыми. При необходимости освежать в течение дня.",
     "useUz": "Pardozdan so‘ng ko‘z va og‘izni yumib, yuzga 20–30 sm masofadan purkang. Kerak bo‘lganda kun davomida yangilab turing.",
     "imported": true,
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p128",
@@ -2480,7 +2580,7 @@ window.PRODUCTS = [
     "nameRu": "Manyo Pure Cleansing Oil 50 ml",
     "nameUz": "Manyo Pure Cleansing Oil 50 ml",
     "category": "cleanser",
-    "price": 42000,
+    "price": null,
     "volume": "50 мл",
     "skin": [
       "all"
@@ -2491,7 +2591,8 @@ window.PRODUCTS = [
     "useRu": "На сухую кожу, помассировать, эмульгировать и смыть.",
     "useUz": "Quruq teriga surting, massaj qiling, suv bilan emulsiyalab yuving.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p129",
@@ -2500,7 +2601,7 @@ window.PRODUCTS = [
     "nameRu": "Medi-Peel Sun Cream SPF50+",
     "nameUz": "Medi-Peel Sun Cream SPF50+",
     "category": "spf",
-    "price": 45000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2511,7 +2612,8 @@ window.PRODUCTS = [
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p130",
@@ -2520,7 +2622,7 @@ window.PRODUCTS = [
     "nameRu": "Medibeau CC Cream",
     "nameUz": "Medibeau CC Cream",
     "category": "makeup",
-    "price": 40000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2531,7 +2633,8 @@ window.PRODUCTS = [
     "useRu": "На увлажнённую кожу после ухода; днём — с SPF.",
     "useUz": "Parvarishdan so‘ng namlangan teriga surting; kunduzi SPF bilan birga.",
     "imported": true,
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p131",
@@ -2540,7 +2643,7 @@ window.PRODUCTS = [
     "nameRu": "Mediheal Serum",
     "nameUz": "Mediheal Serum",
     "category": "serum",
-    "price": 185000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2551,7 +2654,8 @@ window.PRODUCTS = [
     "useRu": "Несколько капель на очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga bir necha tomchi surting.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p132",
@@ -2560,7 +2664,7 @@ window.PRODUCTS = [
     "nameRu": "Melanon Cream",
     "nameUz": "Melanon Cream",
     "category": "cream",
-    "price": 60000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2571,7 +2675,8 @@ window.PRODUCTS = [
     "useRu": "Наносить точечно на пигментные участки по инструкции; днём обязательно SPF. При активных компонентах — по рекомендации специалиста.",
     "useUz": "Yo‘riqnomaga muvofiq pigmentli joylarga nuqtali surting; kunduzi albatta SPF. Faol komponentlarda mutaxassis tavsiyasiga ko‘ra.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p133",
@@ -2580,7 +2685,7 @@ window.PRODUCTS = [
     "nameRu": "Merikit Rice Brightening Foam (180 ml)",
     "nameUz": "Merikit Rice Brightening Foam (180 ml)",
     "category": "cleanser",
-    "price": 55000,
+    "price": null,
     "volume": "180 мл",
     "skin": [
       "all"
@@ -2591,7 +2696,8 @@ window.PRODUCTS = [
     "useRu": "Вспенить с водой, помассировать и смыть.",
     "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
-    "weight": 0.23
+    "weight": 0.23,
+    "soon": true
   },
   {
     "id": "p135",
@@ -2600,7 +2706,7 @@ window.PRODUCTS = [
     "nameRu": "Natural Skin CC Cream",
     "nameUz": "Natural Skin CC Cream",
     "category": "cream",
-    "price": 78000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2611,7 +2717,8 @@ window.PRODUCTS = [
     "useRu": "Наносить на увлажнённую кожу после ухода, распределяя пальцами или спонжем. Днём сочетать с SPF.",
     "useUz": "Parvarishdan so‘ng namlangan teriga barmoq yoki spong bilan taqsimlab surting. Kunduzi SPF bilan birga.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p136",
@@ -2620,7 +2727,7 @@ window.PRODUCTS = [
     "nameRu": "Nature Republic Vitamin C Foam Cleanser (300 g)",
     "nameUz": "Nature Republic Vitamin C Foam Cleanser (300 g)",
     "category": "cleanser",
-    "price": 45000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2631,7 +2738,8 @@ window.PRODUCTS = [
     "useRu": "Вспенить с водой, помассировать и смыть.",
     "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p137",
@@ -2640,7 +2748,7 @@ window.PRODUCTS = [
     "nameRu": "Nivea Men Cool Kick Deodorant",
     "nameUz": "Nivea Men Cool Kick Deodorant",
     "category": "other",
-    "price": 60000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2651,7 +2759,8 @@ window.PRODUCTS = [
     "useRu": "Наносить на чистую сухую кожу подмышек.",
     "useUz": "Qo‘ltiq ostining toza, quruq terisiga surting.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p139",
@@ -2660,7 +2769,7 @@ window.PRODUCTS = [
     "nameRu": "Numbuzin Brightening Foam Cleanser",
     "nameUz": "Numbuzin Brightening Foam Cleanser",
     "category": "cleanser",
-    "price": 40000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2671,7 +2780,8 @@ window.PRODUCTS = [
     "useRu": "Вспенить с водой, помассировать и смыть.",
     "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.16,
+    "soon": true
   },
   {
     "id": "p140",
@@ -2680,7 +2790,7 @@ window.PRODUCTS = [
     "nameRu": "Numbuzin Cleansing Oil (Bifida + Bakuchiol)",
     "nameUz": "Numbuzin Cleansing Oil (Bifida + Bakuchiol)",
     "category": "cleanser",
-    "price": 110000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2691,7 +2801,8 @@ window.PRODUCTS = [
     "useRu": "На сухую кожу, помассировать, эмульгировать и смыть.",
     "useUz": "Quruq teriga surting, massaj qiling, suv bilan emulsiyalab yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p141",
@@ -2700,7 +2811,7 @@ window.PRODUCTS = [
     "nameRu": "Numbuzin Cleansing Oil (гидрофильное масло)",
     "nameUz": "Numbuzin Cleansing Oil (gidrofil)",
     "category": "cleanser",
-    "price": 110000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2711,7 +2822,8 @@ window.PRODUCTS = [
     "useRu": "На сухую кожу, помассировать, эмульгировать и смыть.",
     "useUz": "Quruq teriga surting, massaj qiling, suv bilan emulsiyalab yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p142",
@@ -2720,7 +2832,7 @@ window.PRODUCTS = [
     "nameRu": "Numbuzin Cleansing Oil 200 ml",
     "nameUz": "Numbuzin Cleansing Oil 200 ml",
     "category": "cleanser",
-    "price": 110000,
+    "price": null,
     "volume": "200 мл",
     "skin": [
       "all"
@@ -2731,7 +2843,8 @@ window.PRODUCTS = [
     "useRu": "На сухую кожу, помассировать, эмульгировать и смыть.",
     "useUz": "Quruq teriga surting, massaj qiling, suv bilan emulsiyalab yuving.",
     "imported": true,
-    "weight": 0.25
+    "weight": 0.25,
+    "soon": true
   },
   {
     "id": "p143",
@@ -2740,7 +2853,7 @@ window.PRODUCTS = [
     "nameRu": "Numbuzin Sun Serum SPF++++",
     "nameUz": "Numbuzin Sun Serum SPF++++",
     "category": "spf",
-    "price": 130000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2751,7 +2864,8 @@ window.PRODUCTS = [
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p144",
@@ -2760,7 +2874,7 @@ window.PRODUCTS = [
     "nameRu": "Ohui Sun Stick SPF",
     "nameUz": "Ohui Sun Stick SPF",
     "category": "spf",
-    "price": 155000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2771,7 +2885,8 @@ window.PRODUCTS = [
     "useRu": "Нанести на кожу перед выходом и в течение дня.",
     "useUz": "Tashqariga chiqishdan oldin va kun davomida teriga surting.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p145",
@@ -2780,7 +2895,7 @@ window.PRODUCTS = [
     "nameRu": "Omega-3 (3 oylik kurs)",
     "nameUz": "Omega-3 (3 oylik kurs)",
     "category": "other",
-    "price": 325000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2791,7 +2906,8 @@ window.PRODUCTS = [
     "useRu": "Принимать по инструкции на упаковке во время еды, курсом до 3 месяцев.",
     "useUz": "Qadoqdagi yo‘riqnomaga muvofiq ovqat vaqtida, 3 oygacha kurs bilan qabul qiling.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.3,
+    "soon": true
   },
   {
     "id": "p146",
@@ -2800,7 +2916,7 @@ window.PRODUCTS = [
     "nameRu": "P.Calm Mask",
     "nameUz": "P.Calm Mask",
     "category": "mask",
-    "price": 131000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2811,7 +2927,8 @@ window.PRODUCTS = [
     "useRu": "Нанести на очищенную кожу на 10–20 мин, снять/смыть.",
     "useUz": "Tozalangan teriga 10–20 daqiqaga surting, oling yoki yuving.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p147",
@@ -2820,7 +2937,7 @@ window.PRODUCTS = [
     "nameRu": "Парфюм в стиле \"Bombshell\" (99% схожесть)",
     "nameUz": "Parfyum \"Bombshell\" tipida (99% o‘xshash)",
     "category": "other",
-    "price": 310000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2831,7 +2948,8 @@ window.PRODUCTS = [
     "useRu": "Распылять на точки пульса — запястья, шею, за ушами — с расстояния 15–20 см.",
     "useUz": "Puls nuqtalariga — bilak, bo‘yin, quloq orqasiga — 15–20 sm masofadan purkang.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.3,
+    "soon": true
   },
   {
     "id": "p148",
@@ -2840,7 +2958,7 @@ window.PRODUCTS = [
     "nameRu": "Парфюм в стиле \"Zara Seoul\", 100 мл",
     "nameUz": "Parfyum \"Zara Seoul\" tipida 100 ml",
     "category": "other",
-    "price": 310000,
+    "price": null,
     "volume": "100 мл",
     "skin": [
       "all"
@@ -2851,7 +2969,8 @@ window.PRODUCTS = [
     "useRu": "Распылять на точки пульса с расстояния 15–20 см; при необходимости обновлять в течение дня.",
     "useUz": "Puls nuqtalariga 15–20 sm masofadan purkang; kerak bo‘lganda kun davomida yangilang.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p149",
@@ -2860,7 +2979,7 @@ window.PRODUCTS = [
     "nameRu": "Парфюм в стиле \"Zara\", 30 мл",
     "nameUz": "Parfyum \"Zara\" tipida 30 ml",
     "category": "other",
-    "price": 210000,
+    "price": null,
     "volume": "30 мл",
     "skin": [
       "all"
@@ -2871,7 +2990,8 @@ window.PRODUCTS = [
     "useRu": "Распылять на точки пульса с расстояния 15–20 см.",
     "useUz": "Puls nuqtalariga 15–20 sm masofadan purkang.",
     "imported": true,
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p150",
@@ -2880,7 +3000,7 @@ window.PRODUCTS = [
     "nameRu": "Парфюмерный набор в стиле \"Hermès\" (4×7.5 мл, Франция)",
     "nameUz": "Parfyum set \"Hermes\" tipida (4x7.5 ml, France)",
     "category": "other",
-    "price": 225000,
+    "price": null,
     "volume": "5 мл",
     "skin": [
       "all"
@@ -2891,7 +3011,8 @@ window.PRODUCTS = [
     "useRu": "Распылять на точки пульса с расстояния 15–20 см.",
     "useUz": "Puls nuqtalariga 15–20 sm masofadan purkang.",
     "imported": true,
-    "weight": 0.055
+    "weight": 0.055,
+    "soon": true
   },
   {
     "id": "p151",
@@ -2900,7 +3021,7 @@ window.PRODUCTS = [
     "nameRu": "Popular Face Serum",
     "nameUz": "Popular Face Serum",
     "category": "serum",
-    "price": 50000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2911,7 +3032,8 @@ window.PRODUCTS = [
     "useRu": "Нанести несколько капель на очищенную кожу утром и вечером до крема.",
     "useUz": "Ertalab va kechqurun kremdan oldin tozalangan teriga bir necha tomchi surting.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p152",
@@ -2920,7 +3042,7 @@ window.PRODUCTS = [
     "nameRu": "Pore Care Cleansing Oil",
     "nameUz": "Pore Care Cleansing Oil",
     "category": "cleanser",
-    "price": 110000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2931,7 +3053,8 @@ window.PRODUCTS = [
     "useRu": "Нанести на сухую кожу, помассировать, эмульгировать водой и смыть. Затем умыться пенкой.",
     "useUz": "Quruq teriga surting, massaj qiling, suv bilan emulsiyalab yuving. So‘ng ko‘pik bilan yuvining.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p153",
@@ -2940,7 +3063,7 @@ window.PRODUCTS = [
     "nameRu": "Princess Mascara",
     "nameUz": "Princess Mascara",
     "category": "makeup",
-    "price": 35000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2951,7 +3074,8 @@ window.PRODUCTS = [
     "useRu": "Прокрасить ресницы от корней к кончикам зигзагообразными движениями. Для объёма нанести второй слой.",
     "useUz": "Kipriklarni ildizidan uchigacha zigzag harakatlar bilan bo‘yang. Hajm uchun ikkinchi qatlam surting.",
     "imported": true,
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p154",
@@ -2960,7 +3084,7 @@ window.PRODUCTS = [
     "nameRu": "Prmr Cleansing Oil + Foam Set",
     "nameUz": "Prmr Cleansing Oil + Foam Set",
     "category": "cleanser",
-    "price": 175000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2971,7 +3095,8 @@ window.PRODUCTS = [
     "useRu": "Сначала масло на сухую кожу, смыть; затем умыться пенкой.",
     "useUz": "Avval quruq teriga moy surtib yuving; so‘ng ko‘pik bilan yuvining.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p155",
@@ -2980,7 +3105,7 @@ window.PRODUCTS = [
     "nameRu": "Prmr Peeling Foam",
     "nameUz": "Prmr Peeling Foam",
     "category": "cleanser",
-    "price": 130000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -2991,7 +3116,8 @@ window.PRODUCTS = [
     "useRu": "Вспенить, помассировать и смыть. 2–3 раза в неделю.",
     "useUz": "Ko‘piklab, massaj qiling va yuving. Haftasiga 2–3 marta.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p156",
@@ -3000,7 +3126,7 @@ window.PRODUCTS = [
     "nameRu": "Prmr Peeling Gel",
     "nameUz": "Prmr Peeling Gel",
     "category": "cleanser",
-    "price": 45000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3011,7 +3137,8 @@ window.PRODUCTS = [
     "useRu": "Помассировать до скатывания, смыть. 1–2 раза в неделю.",
     "useUz": "Yumaloqchalar paydo bo‘lguncha massaj qiling va yuving. Haftasiga 1–2 marta.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p157",
@@ -3020,7 +3147,7 @@ window.PRODUCTS = [
     "nameRu": "Qizil Jenshen (Red Ginseng) sirop",
     "nameUz": "Qizil Jenshen (Red Ginseng) sirop",
     "category": "other",
-    "price": 75000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3031,7 +3158,8 @@ window.PRODUCTS = [
     "useRu": "Принимать по инструкции на упаковке, обычно 1–2 раза в день.",
     "useUz": "Qadoqdagi yo‘riqnomaga muvofiq, odatda kuniga 1–2 marta qabul qiling.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.3,
+    "soon": true
   },
   {
     "id": "p158",
@@ -3040,7 +3168,7 @@ window.PRODUCTS = [
     "nameRu": "Qurt/Gijja dori (parazitga qarshi)",
     "nameUz": "Qurt/Gijja dori (parazitga qarshi)",
     "category": "other",
-    "price": 8000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3051,7 +3179,8 @@ window.PRODUCTS = [
     "useRu": "Принимать строго по инструкции и по назначению врача; дозировку и курс не превышать.",
     "useUz": "Yo‘riqnoma va shifokor tayinlaganiga qat’iy amal qiling; doza va kursdan oshirmang.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.03,
+    "soon": true
   },
   {
     "id": "p159",
@@ -3060,7 +3189,7 @@ window.PRODUCTS = [
     "nameRu": "Red Tomato Jam Mask Cleanser",
     "nameUz": "Red Tomato Jam Mask Cleanser",
     "category": "cleanser",
-    "price": 100000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3071,7 +3200,8 @@ window.PRODUCTS = [
     "useRu": "Нанести на влажную кожу, вспенить; как маска — оставить на 1–2 мин и смыть.",
     "useUz": "Nam teriga surting, ko‘piklang; niqob sifatida 1–2 daqiqa ushlab, so‘ng yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p160",
@@ -3080,7 +3210,7 @@ window.PRODUCTS = [
     "nameRu": "Rejuran Active Cream",
     "nameUz": "Rejuran Active Cream",
     "category": "cream",
-    "price": 165000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3091,7 +3221,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p161",
@@ -3100,7 +3231,7 @@ window.PRODUCTS = [
     "nameRu": "Rejuran Cream (PDRN)",
     "nameUz": "Rejuran Cream (PDRN)",
     "category": "cream",
-    "price": 220000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3111,7 +3242,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p162",
@@ -3120,7 +3252,7 @@ window.PRODUCTS = [
     "nameRu": "Rejuran Dual Effect Ampoule",
     "nameUz": "Rejuran Dual Effect Ampoule",
     "category": "serum",
-    "price": 245000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3131,7 +3263,8 @@ window.PRODUCTS = [
     "useRu": "Несколько капель на очищенную кожу до крема.",
     "useUz": "Kremdan oldin tozalangan teriga bir necha tomchi surting.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p163",
@@ -3140,7 +3273,7 @@ window.PRODUCTS = [
     "nameRu": "Rejuran Mask",
     "nameUz": "Rejuran Mask",
     "category": "mask",
-    "price": 85000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3151,7 +3284,8 @@ window.PRODUCTS = [
     "useRu": "На очищенное лицо на 15–20 мин, снять, остатки вбить.",
     "useUz": "Tozalangan yuzga 15–20 daqiqaga qo‘ying, oling va qoldig‘ini teriga singdiring.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p164",
@@ -3160,7 +3294,7 @@ window.PRODUCTS = [
     "nameRu": "Rejuran Nutrive Cream",
     "nameUz": "Rejuran Nutrive Cream",
     "category": "cream",
-    "price": 220000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3171,7 +3305,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p165",
@@ -3180,7 +3315,7 @@ window.PRODUCTS = [
     "nameRu": "Rejuran Sun Stick SPF50+",
     "nameUz": "Rejuran Sun Stick SPF50+",
     "category": "spf",
-    "price": 160000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3191,7 +3326,8 @@ window.PRODUCTS = [
     "useRu": "Нанести перед выходом и в течение дня.",
     "useUz": "Tashqariga chiqishdan oldin va kun davomida surting.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p166",
@@ -3200,7 +3336,7 @@ window.PRODUCTS = [
     "nameRu": "Rejuran Sunscreen (premium tekstura)",
     "nameUz": "Rejuran Sunscreen (premium tekstura)",
     "category": "spf",
-    "price": 170000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3211,7 +3347,8 @@ window.PRODUCTS = [
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p167",
@@ -3220,7 +3357,7 @@ window.PRODUCTS = [
     "nameRu": "Rejuran Treatment Essence",
     "nameUz": "Rejuran Treatment Essence",
     "category": "serum",
-    "price": 240000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3231,7 +3368,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу ладонями до сыворотки.",
     "useUz": "Zardobdan oldin tozalangan teriga kaft bilan surting.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p168",
@@ -3240,7 +3378,7 @@ window.PRODUCTS = [
     "nameRu": "Rejuran Turnover Cream PDRN",
     "nameUz": "Rejuran Turnover Cream PDRN",
     "category": "cream",
-    "price": 165000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3251,7 +3389,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p169",
@@ -3260,7 +3399,7 @@ window.PRODUCTS = [
     "nameRu": "Rejuran UV Protection Cream SPF50+ PA++++",
     "nameUz": "Rejuran UV Protection Cream SPF50+ PA++++",
     "category": "spf",
-    "price": 135000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3271,7 +3410,8 @@ window.PRODUCTS = [
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p170",
@@ -3280,7 +3420,7 @@ window.PRODUCTS = [
     "nameRu": "Rexona Clinical Deodorant",
     "nameUz": "Rexona Clinical Deodorant",
     "category": "other",
-    "price": 45000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3291,7 +3431,8 @@ window.PRODUCTS = [
     "useRu": "На чистую сухую кожу подмышек на ночь или утром.",
     "useUz": "Qo‘ltiq ostining toza, quruq terisiga kechasi yoki ertalab surting.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p171",
@@ -3300,7 +3441,7 @@ window.PRODUCTS = [
     "nameRu": "Ricocell Sun Cream SPF",
     "nameUz": "Ricocell Sun Cream SPF",
     "category": "spf",
-    "price": 35000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3311,7 +3452,8 @@ window.PRODUCTS = [
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p172",
@@ -3320,7 +3462,7 @@ window.PRODUCTS = [
     "nameRu": "Romand Lip Tint (matoviy, 2-tus)",
     "nameUz": "Romand Lip Tint (matoviy, 2-tus)",
     "category": "makeup",
-    "price": 65000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3331,7 +3473,8 @@ window.PRODUCTS = [
     "useRu": "Нанести аппликатором на губы.",
     "useUz": "Applikator bilan lablarga surting.",
     "imported": true,
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p173",
@@ -3340,7 +3483,7 @@ window.PRODUCTS = [
     "nameRu": "Round Lab Birch Juice Sun Cream (детский), 60 мл",
     "nameUz": "Round Lab Birch Juice Sun Cream (bolalar uchun) 60 ml",
     "category": "spf",
-    "price": 120000,
+    "price": null,
     "volume": "60 мл",
     "skin": [
       "all"
@@ -3351,7 +3494,8 @@ window.PRODUCTS = [
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.11
+    "weight": 0.11,
+    "soon": true
   },
   {
     "id": "p174",
@@ -3360,7 +3504,7 @@ window.PRODUCTS = [
     "nameRu": "Round Lab Birch Juice Sun Stick SPF50+",
     "nameUz": "Round Lab Birch Juice Sun Stick SPF50+",
     "category": "spf",
-    "price": 96000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3371,7 +3515,8 @@ window.PRODUCTS = [
     "useRu": "Нанести перед выходом и в течение дня.",
     "useUz": "Tashqariga chiqishdan oldin va kun davomida surting.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p177",
@@ -3380,7 +3525,7 @@ window.PRODUCTS = [
     "nameRu": "Round Lab Dokdo Cream",
     "nameUz": "Round Lab Dokdo Cream",
     "category": "cream",
-    "price": 120000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3391,7 +3536,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p178",
@@ -3400,7 +3546,7 @@ window.PRODUCTS = [
     "nameRu": "Round Lab Dokdo Cream Set (80+80+40 g)",
     "nameUz": "Round Lab Dokdo Cream Set (80+80+40 g)",
     "category": "cream",
-    "price": 240000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3411,7 +3557,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p179",
@@ -3420,7 +3567,7 @@ window.PRODUCTS = [
     "nameRu": "Round Lab Foam Cleanser (пенка)",
     "nameUz": "Round Lab Foam Cleanser (penka)",
     "category": "cleanser",
-    "price": 70000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3431,7 +3578,8 @@ window.PRODUCTS = [
     "useRu": "Вспенить с водой, помассировать и смыть.",
     "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p181",
@@ -3440,7 +3588,7 @@ window.PRODUCTS = [
     "nameRu": "Round Lab Toner",
     "nameUz": "Round Lab Toner",
     "category": "toner",
-    "price": 80000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3451,7 +3599,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу ладонями или диском.",
     "useUz": "Tozalangan teriga kaft yoki paxta disk bilan surting.",
     "imported": true,
-    "weight": 0.25
+    "weight": 0.25,
+    "soon": true
   },
   {
     "id": "p182",
@@ -3460,7 +3609,7 @@ window.PRODUCTS = [
     "nameRu": "S.Nature Cream",
     "nameUz": "S.Nature Cream",
     "category": "cream",
-    "price": 95000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3471,7 +3620,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p183",
@@ -3480,7 +3630,7 @@ window.PRODUCTS = [
     "nameRu": "Selfut CC Cream",
     "nameUz": "Selfut CC Cream",
     "category": "cream",
-    "price": 180000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3491,7 +3641,8 @@ window.PRODUCTS = [
     "useRu": "На увлажнённую кожу после ухода; днём — с SPF.",
     "useUz": "Parvarishdan so‘ng namlangan teriga surting; kunduzi SPF bilan birga.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p184",
@@ -3500,7 +3651,7 @@ window.PRODUCTS = [
     "nameRu": "Shingmulnara Milk Rice Toner",
     "nameUz": "Shingmulnara Milk Rice Toner",
     "category": "toner",
-    "price": 100000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3511,7 +3662,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу ладонями или диском.",
     "useUz": "Tozalangan teriga kaft yoki paxta disk bilan surting.",
     "imported": true,
-    "weight": 0.25
+    "weight": 0.25,
+    "soon": true
   },
   {
     "id": "p185",
@@ -3520,7 +3672,7 @@ window.PRODUCTS = [
     "nameRu": "SKIN1004 Madagascar Centella Air-Fit Suncream Plus SPF50+",
     "nameUz": "SKIN1004 Madagascar Centella Air-Fit Suncream Plus SPF50+",
     "category": "spf",
-    "price": 90000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3531,7 +3683,8 @@ window.PRODUCTS = [
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p186",
@@ -3540,7 +3693,7 @@ window.PRODUCTS = [
     "nameRu": "Спрей-термозащита для волос",
     "nameUz": "Soch uchun termozashita sprey",
     "category": "hair",
-    "price": 100000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3551,7 +3704,8 @@ window.PRODUCTS = [
     "useRu": "Распылить на влажные или сухие волосы перед укладкой.",
     "useUz": "Turmaklashdan oldin nam yoki quruq sochga purkang.",
     "imported": true,
-    "weight": 0.35
+    "weight": 0.35,
+    "soon": true
   },
   {
     "id": "p187",
@@ -3560,7 +3714,7 @@ window.PRODUCTS = [
     "nameRu": "Sun Cream SPF50+ PA++++",
     "nameUz": "Sun Cream SPF50+ PA++++",
     "category": "spf",
-    "price": 140000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3571,7 +3725,8 @@ window.PRODUCTS = [
     "useRu": "Наносить за 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p188",
@@ -3580,7 +3735,7 @@ window.PRODUCTS = [
     "nameRu": "Sun Stick SPF50+ + Cleansing Foam (1+1 set)",
     "nameUz": "Sun Stick SPF50+ + Cleansing Foam (1+1 set)",
     "category": "spf",
-    "price": 155000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3591,7 +3746,8 @@ window.PRODUCTS = [
     "useRu": "Стик — на кожу перед выходом; пенка — умываться утром и вечером.",
     "useUz": "Stik — tashqariga chiqishdan oldin teriga; ko‘pik — ertalab va kechqurun yuvinish uchun.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p189",
@@ -3600,7 +3756,7 @@ window.PRODUCTS = [
     "nameRu": "SungBoon Editor Green Tomato Cream",
     "nameUz": "SungBoon Editor Green Tomato Cream",
     "category": "cream",
-    "price": 185000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3611,7 +3767,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p190",
@@ -3620,7 +3777,7 @@ window.PRODUCTS = [
     "nameRu": "SungBoon Editor Green Tomato Mask Cleanser",
     "nameUz": "SungBoon Editor Green Tomato Mask Cleanser",
     "category": "cleanser",
-    "price": 100000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3631,7 +3788,8 @@ window.PRODUCTS = [
     "useRu": "На влажную кожу; как маска — 1–2 мин и смыть.",
     "useUz": "Nam teriga surting; niqob sifatida 1–2 daqiqa ushlab, yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p191",
@@ -3640,7 +3798,7 @@ window.PRODUCTS = [
     "nameRu": "SungBoon Editor Green Tomato Serum",
     "nameUz": "SungBoon Editor Green Tomato Serum",
     "category": "serum",
-    "price": 85000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3651,7 +3809,8 @@ window.PRODUCTS = [
     "useRu": "Несколько капель на очищенную кожу до крема.",
     "useUz": "Kremdan oldin tozalangan teriga bir necha tomchi surting.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p192",
@@ -3660,7 +3819,7 @@ window.PRODUCTS = [
     "nameRu": "SungBoon Editor Green Tomato Toner",
     "nameUz": "SungBoon Editor Green Tomato Toner",
     "category": "toner",
-    "price": 110000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3671,7 +3830,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу ладонями или диском.",
     "useUz": "Tozalangan teriga kaft yoki paxta disk bilan surting.",
     "imported": true,
-    "weight": 0.25
+    "weight": 0.25,
+    "soon": true
   },
   {
     "id": "p193",
@@ -3680,7 +3840,7 @@ window.PRODUCTS = [
     "nameRu": "The History of Whoo Luxury BB Cream",
     "nameUz": "The History of Whoo Luxury BB Cream",
     "category": "cream",
-    "price": 150000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3691,7 +3851,8 @@ window.PRODUCTS = [
     "useRu": "На увлажнённую кожу распределить спонжем или пальцами.",
     "useUz": "Namlangan teriga spong yoki barmoq bilan taqsimlab surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p195",
@@ -3700,7 +3861,7 @@ window.PRODUCTS = [
     "nameRu": "TIRTIR Mask Fit Cushion (17/21)",
     "nameUz": "TIRTIR Mask Fit Cushion (17/21)",
     "category": "makeup",
-    "price": 125000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3711,7 +3872,8 @@ window.PRODUCTS = [
     "useRu": "Нанести спонжем похлопывающими движениями.",
     "useUz": "Splong bilan yengil urib surting.",
     "imported": true,
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p196",
@@ -3720,7 +3882,7 @@ window.PRODUCTS = [
     "nameRu": "Tone-Up Sun Cream (Olive Young premium)",
     "nameUz": "Tone-Up Sun Cream (Olive Young premium)",
     "category": "spf",
-    "price": 130000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3731,7 +3893,8 @@ window.PRODUCTS = [
     "useRu": "Наносить днём как последний шаг ухода за 15–20 мин до выхода.",
     "useUz": "Kunduzi parvarishning oxirgi bosqichi sifatida, tashqariga chiqishdan 15–20 daqiqa oldin surting.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p197",
@@ -3740,7 +3903,7 @@ window.PRODUCTS = [
     "nameRu": "TonyMoly Bio EX Cell Peptide Fill Up Cream Ampoule (50ml+30ml)",
     "nameUz": "TonyMoly Bio EX Cell Peptide Fill Up Cream Ampoule (50ml+30ml)",
     "category": "cream",
-    "price": 899000,
+    "price": null,
     "volume": "50 мл",
     "skin": [
       "all"
@@ -3751,7 +3914,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p198",
@@ -3760,7 +3924,7 @@ window.PRODUCTS = [
     "nameRu": "Torriden Cleansing Oil (гидрофильное масло)",
     "nameUz": "Torriden Cleansing Oil (gidrofil)",
     "category": "cleanser",
-    "price": 100000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3771,7 +3935,8 @@ window.PRODUCTS = [
     "useRu": "На сухую кожу, помассировать, эмульгировать и смыть.",
     "useUz": "Quruq teriga surting, massaj qiling, suv bilan emulsiyalab yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p199",
@@ -3780,7 +3945,7 @@ window.PRODUCTS = [
     "nameRu": "Torriden Dive-In Mask",
     "nameUz": "Torriden Dive-In Mask",
     "category": "mask",
-    "price": 30000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3791,7 +3956,8 @@ window.PRODUCTS = [
     "useRu": "На очищенное лицо на 15–20 мин, снять, остатки вбить.",
     "useUz": "Tozalangan yuzga 15–20 daqiqaga qo‘ying, oling va qoldig‘ini teriga singdiring.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.03,
+    "soon": true
   },
   {
     "id": "p200",
@@ -3800,7 +3966,7 @@ window.PRODUCTS = [
     "nameRu": "Torriden Dive-In Set",
     "nameUz": "Torriden Dive-In Set",
     "category": "cream",
-    "price": 120000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3811,7 +3977,8 @@ window.PRODUCTS = [
     "useRu": "По инструкции к средствам набора.",
     "useUz": "To‘plamdagi vositalar yo‘riqnomasiga muvofiq foydalaning.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p201",
@@ -3820,7 +3987,7 @@ window.PRODUCTS = [
     "nameRu": "Torriden Serum",
     "nameUz": "Torriden Serum",
     "category": "serum",
-    "price": 100000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3831,7 +3998,8 @@ window.PRODUCTS = [
     "useRu": "Несколько капель на очищенную кожу до крема.",
     "useUz": "Kremdan oldin tozalangan teriga bir necha tomchi surting.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p202",
@@ -3840,7 +4008,7 @@ window.PRODUCTS = [
     "nameRu": "Torriden Toner Pad",
     "nameUz": "Torriden Toner Pad",
     "category": "toner",
-    "price": 100000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3851,7 +4019,8 @@ window.PRODUCTS = [
     "useRu": "Протереть очищенную кожу пэдом; при желании оставить как мини-маску.",
     "useUz": "Tozalangan terini pad bilan arting; xohlasangiz mini-niqob sifatida qoldiring.",
     "imported": true,
-    "weight": 0.25
+    "weight": 0.25,
+    "soon": true
   },
   {
     "id": "p203",
@@ -3860,7 +4029,7 @@ window.PRODUCTS = [
     "nameRu": "Tree Hut Moroccan Rose Shea Sugar Scrub",
     "nameUz": "Tree Hut Moroccan Rose Shea Sugar Scrub",
     "category": "other",
-    "price": 185000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3871,7 +4040,8 @@ window.PRODUCTS = [
     "useRu": "На влажную кожу в душе, помассировать и смыть.",
     "useUz": "Dushda nam teriga surting, massaj qiling va yuving.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.3,
+    "soon": true
   },
   {
     "id": "p204",
@@ -3880,7 +4050,7 @@ window.PRODUCTS = [
     "nameRu": "Vanilla Jazz Belle de Parfum",
     "nameUz": "Vanilla Jazz Belle de Parfum",
     "category": "other",
-    "price": 40000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3891,7 +4061,8 @@ window.PRODUCTS = [
     "useRu": "Распылять на точки пульса с расстояния 15–20 см.",
     "useUz": "Puls nuqtalariga 15–20 sm masofadan purkang.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p205",
@@ -3900,7 +4071,7 @@ window.PRODUCTS = [
     "nameRu": "Vibrating Gua Sha Massager",
     "nameUz": "Vibrating Gua Sha Massager",
     "category": "cream",
-    "price": 140000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3911,7 +4082,8 @@ window.PRODUCTS = [
     "useRu": "Вести по массажным линиям 5–10 мин после крема или сыворотки.",
     "useUz": "Krem yoki zardobdan so‘ng massaj chiziqlari bo‘ylab 5–10 daqiqa yuriting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p206",
@@ -3920,7 +4092,7 @@ window.PRODUCTS = [
     "nameRu": "VT Glow Ampoule",
     "nameUz": "VT Glow Ampoule",
     "category": "serum",
-    "price": 125000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3931,7 +4103,8 @@ window.PRODUCTS = [
     "useRu": "Несколько капель на очищенную кожу до крема.",
     "useUz": "Kremdan oldin tozalangan teriga bir necha tomchi surting.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p207",
@@ -3940,7 +4113,7 @@ window.PRODUCTS = [
     "nameRu": "VT PDRN Cream",
     "nameUz": "VT PDRN Cream",
     "category": "other",
-    "price": 70000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3951,7 +4124,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.3,
+    "soon": true
   },
   {
     "id": "p208",
@@ -3960,7 +4134,7 @@ window.PRODUCTS = [
     "nameRu": "VT PDRN Sun Cream SPF50+",
     "nameUz": "VT PDRN Sun Cream SPF50+",
     "category": "spf",
-    "price": 70000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3971,7 +4145,8 @@ window.PRODUCTS = [
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p209",
@@ -3980,7 +4155,7 @@ window.PRODUCTS = [
     "nameRu": "WellDerma Collagen Foam Cleanser",
     "nameUz": "WellDerma Collagen Foam Cleanser",
     "category": "cleanser",
-    "price": 50000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -3991,7 +4166,8 @@ window.PRODUCTS = [
     "useRu": "Вспенить с водой, помассировать и смыть.",
     "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p210",
@@ -4000,7 +4176,7 @@ window.PRODUCTS = [
     "nameRu": "X5 Collagen Cream",
     "nameUz": "X5 Collagen Cream",
     "category": "cream",
-    "price": 50000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -4011,7 +4187,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p211",
@@ -4020,7 +4197,7 @@ window.PRODUCTS = [
     "nameRu": "Xona aromatizatori (aroma diffuzer)",
     "nameUz": "Xona aromatizatori (aroma diffuzer)",
     "category": "other",
-    "price": 30000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -4031,7 +4208,8 @@ window.PRODUCTS = [
     "useRu": "Разместить в помещении; интенсивность — количеством палочек/масла.",
     "useUz": "Xonaga joylashtiring; xushbo‘ylik darajasi — tayoqcha yoki moy miqdori bilan tartibga solinadi.",
     "imported": true,
-    "weight": 0.3
+    "weight": 0.3,
+    "soon": true
   },
   {
     "id": "p212",
@@ -4040,7 +4218,7 @@ window.PRODUCTS = [
     "nameRu": "Growus Hair Balm",
     "nameUz": "Growus soch balzami",
     "category": "hair",
-    "price": 100000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -4052,7 +4230,8 @@ window.PRODUCTS = [
     "shortUz": "Shikastlangan va quruq sochlar uchun balzam. Uzunlikni silliqlaydi, tarashni yengillashtiradi va yaltiroqlik beradi. Bo‘yalgan va kimyoviy ishlov berilgan sochlarga mos.",
     "useRu": "Нанесите на влажные волосы по длине, отступив от корней, оставьте на 2–3 минуты и тщательно смойте.",
     "useUz": "Nam sochga ildizdan chekinib, uzunlik bo‘ylab surting, 2–3 daqiqa ushlab turing va yaxshilab yuving.",
-    "weight": 0.35
+    "weight": 0.35,
+    "soon": true
   },
   {
     "id": "p213",
@@ -4061,7 +4240,7 @@ window.PRODUCTS = [
     "nameRu": "Mediheal PDRN Ampoule",
     "nameUz": "Mediheal PDRN ampulasi",
     "category": "serum",
-    "price": 185000,
+    "price": null,
     "volume": "",
     "skin": [
       "all",
@@ -4076,7 +4255,8 @@ window.PRODUCTS = [
     "shortUz": "PDRN kompleksli ampula sarumi. Terini tiklash va elastikligini qo‘llab-quvvatlashga qaratilgan, rangni tekislashga yordam beradi.",
     "useRu": "После тоника нанесите несколько капель на лицо, распределите похлопывающими движениями, затем закрепите кремом.",
     "useUz": "Tonikdan keyin bir necha tomchini yuzga surting, yengil urib singdiring, so‘ng krem bilan mustahkamlang.",
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p214",
@@ -4085,7 +4265,7 @@ window.PRODUCTS = [
     "nameRu": "Mediheal Madecassoside Ampoule",
     "nameUz": "Mediheal Madecassoside ampulasi",
     "category": "serum",
-    "price": 185000,
+    "price": null,
     "volume": "",
     "skin": [
       "sensitive",
@@ -4099,7 +4279,8 @@ window.PRODUCTS = [
     "shortUz": "Sentelladan olingan madekassosidli tinchlantiruvchi ampula. Qizarish va tirnalish hissini kamaytiradi, sezgir teriga mos.",
     "useRu": "Наносите утром и вечером после тоника на очищенную кожу, уделяя внимание участкам с покраснением.",
     "useUz": "Ertalab va kechqurun tonikdan so‘ng tozalangan teriga, ayniqsa qizargan joylarga surting.",
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p215",
@@ -4108,7 +4289,7 @@ window.PRODUCTS = [
     "nameRu": "Mediheal Vitamin C Ampoule",
     "nameUz": "Mediheal Vitamin C ampulasi",
     "category": "serum",
-    "price": 185000,
+    "price": null,
     "volume": "",
     "skin": [
       "all",
@@ -4122,7 +4303,8 @@ window.PRODUCTS = [
     "shortUz": "Xira va notekis rangli teri uchun C vitaminli ampula. Teriga yorqinlik berishga va pigmentatsiyani vizual tekislashga yordam beradi.",
     "useRu": "Используйте вечером или утром; при утреннем применении обязателен SPF.",
     "useUz": "Kechqurun yoki ertalab ishlating; ertalab qo‘llasangiz, SPF majburiy.",
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p216",
@@ -4131,7 +4313,7 @@ window.PRODUCTS = [
     "nameRu": "Mediheal Collagen Ampoule",
     "nameUz": "Mediheal Collagen ampulasi",
     "category": "serum",
-    "price": 185000,
+    "price": null,
     "volume": "",
     "skin": [
       "all",
@@ -4144,7 +4326,8 @@ window.PRODUCTS = [
     "shortUz": "Teri zichligi va elastikligi uchun kollagenli ampula. Tortilganlik va namlanganlik hissini beradi.",
     "useRu": "Нанесите после тоника, распределите по лицу и шее, закрепите кремом.",
     "useUz": "Tonikdan keyin surting, yuz va bo‘yinga tarqating, krem bilan mustahkamlang.",
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p217",
@@ -4153,7 +4336,7 @@ window.PRODUCTS = [
     "nameRu": "Лечебный шампунь + тоник для корней (набор)",
     "nameUz": "Lichebniy shampun + soch ildizi toniki (nabor)",
     "category": "hair",
-    "price": 120000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -4165,7 +4348,8 @@ window.PRODUCTS = [
     "shortUz": "Soch to‘kilishiga qarshi nabor: bosh terisini tozalovchi shampun va ildizga sepiladigan yuvilmaydigan tonik. Yog‘lanish va qazg‘oqda yordam beradi.",
     "useRu": "Мойте голову шампунем 2–3 раза в неделю, затем на подсушенные корни нанесите тоник и слегка помассируйте.",
     "useUz": "Haftasiga 2–3 marta shampun bilan yuving, so‘ng biroz qurigan ildizga tonik sepib, yengil massaj qiling.",
-    "weight": 0.35
+    "weight": 0.35,
+    "soon": true
   },
   {
     "id": "p218",
@@ -4174,7 +4358,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.G Red Blemish Clear Soothing Cream",
     "nameUz": "Dr.G Red Blemish tinchlantiruvchi krem",
     "category": "cream",
-    "price": 85000,
+    "price": null,
     "volume": "",
     "skin": [
       "sensitive",
@@ -4191,7 +4375,8 @@ window.PRODUCTS = [
     "useRu": "Наносите как завершающий этап ухода утром и вечером.",
     "useUz": "Ertalab va kechqurun parvarishning yakuniy bosqichida surting.",
     "oldPrice": 130000,
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p219",
@@ -4200,7 +4385,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.G Cleansing Foam",
     "nameUz": "Dr.G yuvinish ko‘pigi (penka)",
     "category": "cleanser",
-    "price": 65000,
+    "price": null,
     "volume": "",
     "skin": [
       "all",
@@ -4214,7 +4399,8 @@ window.PRODUCTS = [
     "useRu": "Вспеньте в ладонях, помассируйте лицо 30–60 секунд и смойте тёплой водой.",
     "useUz": "Kaftda ko‘pirtiring, yuzni 30–60 soniya massaj qiling va iliq suv bilan yuving.",
     "oldPrice": 68000,
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p220",
@@ -4223,7 +4409,7 @@ window.PRODUCTS = [
     "nameRu": "The History of Whoo Luxury BB Cream SPF20/PA++ (пробники, 120 шт)",
     "nameUz": "The History of Whoo Luxury BB Cream SPF20/PA++ (probnik, 120 dona)",
     "category": "makeup",
-    "price": 130000,
+    "price": null,
     "volume": "120 dona",
     "skin": [
       "all",
@@ -4237,7 +4423,8 @@ window.PRODUCTS = [
     "shortUz": "Lyuks BB kremning probnik pachkasi: ton + parvarish bir mahsulotda, SPF20/PA++. Rangni tekislaydi, yengil qoplaydi, donalab sotish mumkin.",
     "useRu": "Нанесите тонким слоем на увлажнённую кожу после ухода, растушуйте пальцами или спонжем.",
     "useUz": "Parvarishdan so‘ng nam teriga yupqa qatlam bilan surting, barmoq yoki spanj bilan tekislang.",
-    "weight": 0.29
+    "weight": 0.29,
+    "soon": true
   },
   {
     "id": "p221",
@@ -4246,7 +4433,7 @@ window.PRODUCTS = [
     "nameRu": "BB-крем (пробник, 1 шт) — акция",
     "nameUz": "BB krem (probnik, 1 dona) — aksiya",
     "category": "makeup",
-    "price": 25000,
+    "price": null,
     "volume": "1 dona",
     "skin": [
       "all"
@@ -4259,7 +4446,8 @@ window.PRODUCTS = [
     "useRu": "Нанесите точечно и растушуйте по лицу после увлажняющего этапа.",
     "useUz": "Namlantirishdan keyin nuqtalab surting va yuz bo‘ylab tekislang.",
     "oldPrice": 80000,
-    "weight": 0.052
+    "weight": 0.052,
+    "soon": true
   },
   {
     "id": "p222",
@@ -4268,7 +4456,7 @@ window.PRODUCTS = [
     "nameRu": "Peripera Ink Velvet Lip Tint",
     "nameUz": "Peripera Ink Velvet lab tinti",
     "category": "makeup",
-    "price": 48000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -4278,7 +4466,8 @@ window.PRODUCTS = [
     "shortUz": "To‘yingan pigment va chidamli qoplamaga ega matoviy tint. Tekis yotadi, labni og‘irlashtirmaydi.",
     "useRu": "Нанесите от центра губ к краям; при необходимости распределите пальцем.",
     "useUz": "Lab markazidan chetiga qarab surting; kerak bo‘lsa barmoq bilan tekislang.",
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p223",
@@ -4287,7 +4476,7 @@ window.PRODUCTS = [
     "nameRu": "Romand Vegan Foundation",
     "nameUz": "Romand vegan ten (tonal asos)",
     "category": "makeup",
-    "price": 145000,
+    "price": null,
     "volume": "",
     "skin": [
       "all",
@@ -4301,7 +4490,8 @@ window.PRODUCTS = [
     "useRu": "Наносите спонжем или кистью тонкими слоями, начиная с центра лица.",
     "useUz": "Yuz markazidan boshlab, spanj yoki mo‘yqalam bilan yupqa qatlamlarda surting.",
     "oldPrice": 175000,
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p224",
@@ -4310,7 +4500,7 @@ window.PRODUCTS = [
     "nameRu": "Romand Better Than Palette (веган)",
     "nameUz": "Romand ko‘z uchun palette (vegan)",
     "category": "makeup",
-    "price": 145000,
+    "price": null,
     "volume": "",
     "skin": [
       "all",
@@ -4321,7 +4511,8 @@ window.PRODUCTS = [
     "shortUz": "Yaxshi pigmentli vegan soya paletkasi. Soyalar to‘kilmaydi, tekis yotadi va mo‘yqalamga yaxshi olinadi.",
     "useRu": "Наберите тени кистью, распределите по подвижному веку, растушуйте границы.",
     "useUz": "Mo‘yqalam bilan oling, harakatchan qovoqqa surting va chegaralarini tekislang.",
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p225",
@@ -4330,7 +4521,7 @@ window.PRODUCTS = [
     "nameRu": "Romand Glasting Water Tint (14)",
     "nameUz": "Romand Glasting Water tint (14-kod)",
     "category": "makeup",
-    "price": 65000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -4340,7 +4531,8 @@ window.PRODUCTS = [
     "shortUz": "Nam va yaltiroq finishli vegan tint. «Shishasimon» lab effektini beradi va quritmaydi.",
     "useRu": "Нанесите аппликатором в один-два слоя.",
     "useUz": "Applikator bilan bir-ikki qatlam surting.",
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p226",
@@ -4349,7 +4541,7 @@ window.PRODUCTS = [
     "nameRu": "Romand Zero Velvet Tint (06)",
     "nameUz": "Romand matoviy velvet pomada (06-kod)",
     "category": "makeup",
-    "price": 65000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -4359,7 +4551,8 @@ window.PRODUCTS = [
     "shortUz": "Matoviy chidamli tint: gapirganda va ovqatlanganda o‘chib ketmaydi, qoplamasi baxmaldek.",
     "useRu": "Наносите от центра губ, при желании промокните салфеткой для более матового финиша.",
     "useUz": "Lab markazidan surting; ko‘proq matoviylik uchun salfetka bilan biroz artib oling.",
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p227",
@@ -4368,7 +4561,7 @@ window.PRODUCTS = [
     "nameRu": "Romand Glasting Melting Balm (06)",
     "nameUz": "Romand pomada (06-kod)",
     "category": "makeup",
-    "price": 65000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -4378,7 +4571,8 @@ window.PRODUCTS = [
     "shortUz": "Yumshoq yaltiroqlik va qulay teksturaga ega parvarishli pomada. Eng ko‘p so‘raladigan ranglardan biri.",
     "useRu": "Наносите прямо из стика, при необходимости обновляйте в течение дня.",
     "useUz": "To‘g‘ridan-to‘g‘ri stikdan surting, kun davomida kerak bo‘lsa yangilang.",
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p228",
@@ -4387,7 +4581,7 @@ window.PRODUCTS = [
     "nameRu": "Body Fantasies Body & Hair Mist 236 мл",
     "nameUz": "Body Fantasies soch va badan misti 236 ml",
     "category": "hair",
-    "price": 115000,
+    "price": null,
     "volume": "236 мл",
     "skin": [
       "all"
@@ -4397,7 +4591,8 @@ window.PRODUCTS = [
     "shortUz": "Katta hajmli tana va soch misti. Yengil, chidamli hid; sochga ham, kiyimga ham sepish mumkin.",
     "useRu": "Распылите с расстояния 20–30 см на тело или волосы.",
     "useUz": "20–30 sm masofadan tana yoki sochga sepiladi.",
-    "weight": 0.286
+    "weight": 0.286,
+    "soon": true
   },
   {
     "id": "p229",
@@ -4406,7 +4601,7 @@ window.PRODUCTS = [
     "nameRu": "Lacto-Fit Gold (пробиотик)",
     "nameUz": "Lacto-Fit Gold (probiotik)",
     "category": "other",
-    "price": 90000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -4416,7 +4611,8 @@ window.PRODUCTS = [
     "shortUz": "Hazmni qo‘llab-quvvatlash uchun kukun sashelaridagi koreys probiotigi. Mashhur BAD, kurs bilan qabul qilinadi.",
     "useRu": "Один саше в день, до или после еды. Это БАД, а не лекарство; при хронических заболеваниях и беременности проконсультируйтесь с врачом.",
     "useUz": "Kuniga bitta sashe, ovqatdan oldin yoki keyin. Bu dori emas, BAD; surunkali kasallik va homiladorlikda shifokor bilan maslahatlashing.",
-    "weight": 0.3
+    "weight": 0.3,
+    "soon": true
   },
   {
     "id": "p230",
@@ -4425,7 +4621,7 @@ window.PRODUCTS = [
     "nameRu": "Zara Orchid 90 мл (оригинал, Испания)",
     "nameUz": "Zara Orchid 90 ml (original, Ispaniya)",
     "category": "other",
-    "price": 310000,
+    "price": null,
     "volume": "90 мл",
     "skin": [
       "all"
@@ -4435,7 +4631,8 @@ window.PRODUCTS = [
     "shortUz": "Original ispan parfyumi Zara Orchid, turk versiyasi emas. Chidamli gulli hid.",
     "useRu": "Распылите на точки пульса: запястья, шея, за ушами.",
     "useUz": "Puls nuqtalariga sepiladi: bilak, bo‘yin, quloq ortiga.",
-    "weight": 0.14
+    "weight": 0.14,
+    "soon": true
   },
   {
     "id": "p236",
@@ -4444,7 +4641,7 @@ window.PRODUCTS = [
     "nameRu": "Torriden Toner",
     "nameUz": "Torriden Toner",
     "category": "toner",
-    "price": 100000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -4454,7 +4651,8 @@ window.PRODUCTS = [
     "shortUz": "Past molekulyar gialuron kislotali namlantiruvchi toner. Terini keyingi bosqichlarga tayyorlaydi.",
     "useRu": "После умывания нанесите на ватный диск или ладони и распределите по лицу похлопывающими движениями.",
     "useUz": "Yuvingandan so‘ng paxta disk yoki kaftga olib, yuzga sekin urib singdiring.",
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p231",
@@ -4463,7 +4661,7 @@ window.PRODUCTS = [
     "nameRu": "Torriden Cream",
     "nameUz": "Torriden Krem",
     "category": "cream",
-    "price": 110000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -4473,7 +4671,8 @@ window.PRODUCTS = [
     "shortUz": "Parvarishni yakunlovchi yengil namlantiruvchi krem. Teri bariyerini mustahkamlaydi va namlikni ushlab turadi.",
     "useRu": "Наносите утром и вечером на очищенную кожу как финальный шаг ухода.",
     "useUz": "Ertalab va kechqurun tozalangan teriga parvarishning oxirgi bosqichi sifatida surting.",
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p232",
@@ -4482,7 +4681,7 @@ window.PRODUCTS = [
     "nameRu": "Torriden Foam Cleanser",
     "nameUz": "Torriden Penka",
     "category": "cleanser",
-    "price": 65000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -4492,7 +4691,8 @@ window.PRODUCTS = [
     "shortUz": "Kundalik yuvinish uchun yumshoq penka. Terini tortishtirmasdan tozalaydi.",
     "useRu": "Вспеньте небольшое количество в ладонях, помассируйте лицо и смойте тёплой водой.",
     "useUz": "Ozgina miqdorni kaftda ko‘pirtiring, yuzga massaj qiling va iliq suv bilan yuving.",
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p234",
@@ -4501,7 +4701,7 @@ window.PRODUCTS = [
     "nameRu": "Ohui Peeling",
     "nameUz": "Ohui Peeling",
     "category": "other",
-    "price": 60000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -4511,7 +4711,8 @@ window.PRODUCTS = [
     "shortUz": "O‘lik hujayralarni yumshoq tozalab, teri teksturasini tekislaydigan peeling.",
     "useRu": "Используйте 1–2 раза в неделю на сухую очищенную кожу, избегая области глаз, затем смойте.",
     "useUz": "Haftasiga 1–2 marta quruq va tozalangan teriga qo‘llang, ko‘z atrofidan saqlaning, so‘ng yuving.",
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p235",
@@ -4520,7 +4721,7 @@ window.PRODUCTS = [
     "nameRu": "Numbuzin Sheet Mask",
     "nameUz": "Numbuzin Maska",
     "category": "mask",
-    "price": 26000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -4530,7 +4731,8 @@ window.PRODUCTS = [
     "shortUz": "Tozalashdan keyin terini jadal namlantirish va tiklash uchun mato maska.",
     "useRu": "Нанесите на очищенное лицо на 15–20 минут, снимите и вбейте остатки эссенции.",
     "useUz": "Tozalangan yuzga 15–20 daqiqaga qo‘ying, oling va qolgan essensiyani teriga singdiring.",
-    "weight": 0.15
+    "weight": 0.03,
+    "soon": true
   },
   {
     "id": "p237",
@@ -4539,7 +4741,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.Althea Крем-маска (упаковка 4 шт)",
     "nameUz": "Dr.Althea Krem-maska (4 dona)",
     "category": "mask",
-    "price": 55000,
+    "price": null,
     "volume": "4 dona",
     "skin": [
       "all"
@@ -4549,7 +4751,8 @@ window.PRODUCTS = [
     "shortUz": "Terini jadal namlantirish va tiklash uchun 4 donalik krem-maska to‘plami.",
     "useRu": "Нанесите на очищенную кожу плотным слоем на 10–15 минут, затем смойте или вбейте остатки.",
     "useUz": "Tozalangan teriga qalin qatlam qilib 10–15 daqiqaga surting, so‘ng yuving yoki qoldig‘ini singdiring.",
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p238",
@@ -4558,7 +4761,7 @@ window.PRODUCTS = [
     "nameRu": "VT PDRN Capsule Cream",
     "nameUz": "VT PDRN Capsule Cream",
     "category": "cream",
-    "price": 136000,
+    "price": null,
     "volume": "50 мл",
     "skin": [
       "all"
@@ -4568,7 +4771,8 @@ window.PRODUCTS = [
     "shortUz": "Terini tiklash va elastikligi uchun PDRN kapsulali krem. Kapsulalar surtganda ochiladi.",
     "useRu": "Наносите на очищенную кожу утром и вечером как завершающий этап ухода.",
     "useUz": "Tozalangan teriga ertalab va kechqurun parvarishning yakuniy bosqichida surting.",
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p239",
@@ -4577,7 +4781,7 @@ window.PRODUCTS = [
     "nameRu": "Age Cushion + запаска (большой объём)",
     "nameUz": "Age Cushion + zapaska (katta gramm)",
     "category": "makeup",
-    "price": 105000,
+    "price": null,
     "volume": "кушон + запаска",
     "skin": [
       "all"
@@ -4589,7 +4793,8 @@ window.PRODUCTS = [
     "shortUz": "Parvarish tarkibli tonal kushon, to‘plamda kattaroq hajmli zapaska bor.",
     "useRu": "Наносите спонжем похлопывающими движениями на подготовленную кожу, при необходимости повторите слой.",
     "useUz": "Tayyorlangan teriga spong bilan urib-urib surting, kerak bo‘lsa qatlamni takrorlang.",
-    "weight": 0.25
+    "weight": 0.25,
+    "soon": true
   },
   {
     "id": "p240",
@@ -4598,7 +4803,7 @@ window.PRODUCTS = [
     "nameRu": "BOH 3D Lifting Serum",
     "nameUz": "BOH 3D Lifting Serum",
     "category": "serum",
-    "price": 136000,
+    "price": null,
     "volume": "—",
     "skin": [
       "all"
@@ -4610,7 +4815,8 @@ window.PRODUCTS = [
     "shortUz": "3D Lifting liniyasidagi zardob: terining elastikligi va yuz konturi uchun.",
     "useRu": "Наносите 2–3 капли на очищенную кожу до крема, утром и вечером.",
     "useUz": "Tozalangan teriga kremdan oldin 2–3 tomchi, ertalab va kechqurun surting.",
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p241",
@@ -4619,7 +4825,7 @@ window.PRODUCTS = [
     "nameRu": "BOH 3D Lifting Cream Mist",
     "nameUz": "BOH 3D Lifting Cream Mist",
     "category": "moisture",
-    "price": 113000,
+    "price": null,
     "volume": "—",
     "skin": [
       "all"
@@ -4631,7 +4837,8 @@ window.PRODUCTS = [
     "shortUz": "Kun davomida namlantirish va lifting effekti uchun kremsimon mist.",
     "useRu": "Распыляйте на лицо с расстояния 20 см в любое время дня, в том числе поверх макияжа.",
     "useUz": "Kun davomida, hatto makiyaj ustidan ham, 20 sm masofadan yuzga purkang.",
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p242",
@@ -4640,7 +4847,7 @@ window.PRODUCTS = [
     "nameRu": "BOH 3D Lifting Cream",
     "nameUz": "BOH 3D Lifting Krem",
     "category": "cream",
-    "price": 150000,
+    "price": null,
     "volume": "—",
     "skin": [
       "all"
@@ -4652,7 +4859,8 @@ window.PRODUCTS = [
     "shortUz": "3D Lifting liniyasidagi yosh parvarishi uchun quyuq lifting krem.",
     "useRu": "Наносите на лицо и шею как финальный этап ухода утром и вечером.",
     "useUz": "Ertalab va kechqurun parvarishning yakuniy bosqichida yuz va bo‘yinga surting.",
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p243",
@@ -4661,7 +4869,7 @@ window.PRODUCTS = [
     "nameRu": "BOH 3D Lifting Eye Cream (1+1, 2 шт)",
     "nameUz": "BOH 3D Lifting Ko‘z Kremi (1+1, 2 dona)",
     "category": "cream",
-    "price": 138000,
+    "price": null,
     "volume": "2 dona",
     "skin": [
       "all"
@@ -4673,7 +4881,8 @@ window.PRODUCTS = [
     "shortUz": "Ko‘z atrofi uchun krem, 1+1 to‘plam — narx ikkitasi uchun.",
     "useRu": "Наносите безымянным пальцем по орбитальной кости утром и вечером.",
     "useUz": "Ertalab va kechqurun nomsiz barmoq bilan ko‘z suyagi bo‘ylab surting.",
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p244",
@@ -4682,7 +4891,7 @@ window.PRODUCTS = [
     "nameRu": "Мини-набор люкс: Mamonde + Aestura + Laneige + Hanyul",
     "nameUz": "Lyuks mini to‘plam: Mamonde + Aestura + Laneige + Hanyul",
     "category": "set",
-    "price": 70000,
+    "price": null,
     "volume": "4 dona mini",
     "skin": [
       "all"
@@ -4692,7 +4901,8 @@ window.PRODUCTS = [
     "shortUz": "Lyuks vositalar mini to‘plami: Mamonde probiotik krem, Aestura bariyer krem, Laneige gialuron krem va Hanyul penka.",
     "useRu": "Удобно для теста средств или в поездку: используйте по назначению каждого продукта.",
     "useUz": "Vositalarni sinab ko‘rish yoki safar uchun qulay: har bir mahsulotni o‘z vazifasiga ko‘ra ishlating.",
-    "weight": 0.2
+    "weight": 0.2,
+    "soon": true
   },
   {
     "id": "p245",
@@ -4701,7 +4911,7 @@ window.PRODUCTS = [
     "nameRu": "Коллаген усиленный, 3 пачки",
     "nameUz": "Kuchaytirilgan Kollagen, 3 pachka",
     "category": "other",
-    "price": 195000,
+    "price": null,
     "volume": "3 pachka",
     "skin": [
       "all"
@@ -4711,7 +4921,8 @@ window.PRODUCTS = [
     "shortUz": "Uch karra kuchaytirilgan ichimlik kollagen. Narx 3 pachka uchun.",
     "useRu": "Принимайте по инструкции на упаковке, обычно 1 пакетик в день.",
     "useUz": "Qadoqdagi ko‘rsatmaga ko‘ra, odatda kuniga 1 paketdan iching.",
-    "weight": 0.4
+    "weight": 0.4,
+    "soon": true
   },
   {
     "id": "p246",
@@ -4720,7 +4931,7 @@ window.PRODUCTS = [
     "nameRu": "Мелатонин",
     "nameUz": "Melatonin",
     "category": "other",
-    "price": 160000,
+    "price": null,
     "volume": "—",
     "skin": [
       "all"
@@ -4730,7 +4941,8 @@ window.PRODUCTS = [
     "shortUz": "Uyquni yaxshilash uchun melatonin qo‘shimchasi.",
     "useRu": "Принимайте по инструкции на упаковке за 30–60 минут до сна.",
     "useUz": "Qadoqdagi ko‘rsatmaga ko‘ra uyqudan 30–60 daqiqa oldin iching.",
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p247",
@@ -4739,7 +4951,7 @@ window.PRODUCTS = [
     "nameRu": "Noscarna",
     "nameUz": "Noscarna",
     "category": "other",
-    "price": 160000,
+    "price": null,
     "volume": "—",
     "skin": [
       "all"
@@ -4749,7 +4961,8 @@ window.PRODUCTS = [
     "shortUz": "Chandiq va postakne uchun vosita.",
     "useRu": "Наносите точечно на проблемный участок по инструкции.",
     "useUz": "Muammoli joyga ko‘rsatmaga ko‘ra nuqtali surting.",
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p248",
@@ -4758,7 +4971,7 @@ window.PRODUCTS = [
     "nameRu": "Acnon",
     "nameUz": "Acnon",
     "category": "other",
-    "price": 96000,
+    "price": null,
     "volume": "—",
     "skin": [
       "oily",
@@ -4771,7 +4984,8 @@ window.PRODUCTS = [
     "shortUz": "Toshmaga moyil muammoli teri uchun vosita.",
     "useRu": "Наносите точечно на воспаления по инструкции на упаковке.",
     "useUz": "Yalliglangan joylarga qadoqdagi ko‘rsatmaga ko‘ra nuqtali surting.",
-    "weight": 0.1
+    "weight": 0.1,
+    "soon": true
   },
   {
     "id": "p249",
@@ -4780,7 +4994,7 @@ window.PRODUCTS = [
     "nameRu": "Acclean",
     "nameUz": "Acclean",
     "category": "cleanser",
-    "price": 96000,
+    "price": null,
     "volume": "—",
     "skin": [
       "oily",
@@ -4793,7 +5007,8 @@ window.PRODUCTS = [
     "shortUz": "Muammoli teri uchun tozalovchi vosita.",
     "useRu": "Используйте утром и вечером, вспенив на влажной коже, затем смойте.",
     "useUz": "Ertalab va kechqurun nam teriga ko‘pirtirib ishlating, so‘ng yuving.",
-    "weight": 0.15
+    "weight": 0.15,
+    "soon": true
   },
   {
     "id": "p250",
@@ -4802,7 +5017,7 @@ window.PRODUCTS = [
     "nameRu": "Manyo Pure Cleansing Oil (набор 200 мл + 200 мл + косметичка)",
     "nameUz": "Manyo Pure Cleansing Oil (to‘plam 200 ml + 200 ml + kosmetichka)",
     "category": "cleanser",
-    "price": 215000,
+    "price": null,
     "volume": "200 мл + 200 мл",
     "skin": [
       "all"
@@ -4813,7 +5028,8 @@ window.PRODUCTS = [
     "useRu": "На сухую кожу, помассировать, эмульгировать водой и смыть.",
     "useUz": "Quruq teriga surting, massaj qiling, suv bilan yuving.",
     "imported": true,
-    "weight": 0.5
+    "weight": 0.5,
+    "soon": true
   },
   {
     "id": "p251",
@@ -4822,7 +5038,7 @@ window.PRODUCTS = [
     "nameRu": "Clio Kill Cover High Glow Cushion (SPF50)",
     "nameUz": "Clio Kill Cover High Glow Cushion (SPF50)",
     "category": "makeup",
-    "price": 150000,
+    "price": null,
     "volume": "",
     "skin": [
       "all"
@@ -4833,7 +5049,8 @@ window.PRODUCTS = [
     "useRu": "Нанести спонжем похлопывающими движениями.",
     "useUz": "Spong bilan yengil urib surting.",
     "imported": true,
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   },
   {
     "id": "p252",
@@ -4842,7 +5059,7 @@ window.PRODUCTS = [
     "nameRu": "Mediheal маска (упаковка 10 шт)",
     "nameUz": "Mediheal niqob (10 dona qadoq)",
     "category": "mask",
-    "price": 90000,
+    "price": null,
     "volume": "10 шт",
     "skin": [
       "all"
@@ -4856,7 +5073,8 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу на 15–20 минут, остатки вбить.",
     "useUz": "Tozalangan teriga 15–20 daqiqaga qo‘ying.",
     "imported": true,
-    "weight": 0.25
+    "weight": 0.25,
+    "soon": true
   },
   {
     "id": "p253",
@@ -4865,7 +5083,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.Ceuracle SPF, 50 мл",
     "nameUz": "Dr.Ceuracle SPF, 50 ml",
     "category": "spf",
-    "price": 150000,
+    "price": null,
     "volume": "50 мл",
     "skin": [
       "all",
@@ -4879,6 +5097,7 @@ window.PRODUCTS = [
     "useRu": "Утром как финальный шаг ухода, обновлять днём.",
     "useUz": "Ertalab oxirgi bosqichda surting.",
     "imported": true,
-    "weight": 0.08
+    "weight": 0.08,
+    "soon": true
   }
 ];

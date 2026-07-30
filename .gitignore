@@ -8,6 +8,8 @@ bot.log
 bot-error.log
 orders.jsonl
 products.js.bak
+# закупочные цены — репозиторий публичный, маржа не должна туда попасть
+costs.json
 wire_cards.py
 useRu_unique.json
 need_photos.csv
@@ -17,3 +19,4 @@ need_photos.csv
 # отладочный дамп страницы
 telegram_debug.html
 .claude/
+bot.env
