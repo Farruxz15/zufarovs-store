@@ -6,7 +6,7 @@ window.PRODUCTS = [
     "nameRu": "Relief Sun: Rice + Probiotics SPF50+ PA++++",
     "nameUz": "Relief Sun: Rice + Probiotics SPF50+ PA++++",
     "category": "spf",
-    "price": 119000,
+    "price": 91000,
     "volume": "50 мл",
     "skin": [
       "all",
@@ -30,7 +30,7 @@ window.PRODUCTS = [
     "nameRu": "1025 Dokdo Cleanser",
     "nameUz": "1025 Dokdo Cleanser",
     "category": "cleanser",
-    "price": 118000,
+    "price": 119000,
     "volume": "150 мл",
     "skin": [
       "all",
@@ -73,30 +73,6 @@ window.PRODUCTS = [
     "weight": 0.25
   },
   {
-    "id": "p04",
-    "image": "images/4.webp",
-    "brand": "Round Lab",
-    "nameRu": "Birch Juice Moisturizing Cleanser",
-    "nameUz": "Birch Juice Moisturizing Cleanser",
-    "category": "cleanser",
-    "price": 187000,
-    "volume": "150 мл",
-    "skin": [
-      "dry",
-      "sensitive",
-      "normal"
-    ],
-    "concerns": [
-      "dehydration",
-      "redness"
-    ],
-    "shortRu": "Мягкая увлажняющая пенка с берёзовым соком для кожи, склонной к сухости и стянутости после умывания.",
-    "shortUz": "Yuvinishdan keyin quruqlik va taranglikka moyil teri uchun qayin sharbati bilan yumshoq namlantiruvchi ko‘pik.",
-    "useRu": "Вспеньте небольшое количество в ладонях, нанесите на влажное лицо, массируйте около 30 секунд и смойте тёплой водой. Не используйте слишком горячую воду.",
-    "useUz": "Oz miqdorni kaftda ko‘pirtiring, nam yuzga surting, taxminan 30 soniya massaj qiling va iliq suv bilan yuving. Juda issiq suv ishlatmang.",
-    "weight": 0.2
-  },
-  {
     "id": "p05",
     "image": "images/5(2).jpeg",
     "brand": "AXIS-Y",
@@ -128,7 +104,7 @@ window.PRODUCTS = [
     "nameRu": "Dark Spot Correcting Glow Toner",
     "nameUz": "Dark Spot Correcting Glow Toner",
     "category": "toner",
-    "price": 146000,
+    "price": 162000,
     "volume": "125 мл",
     "skin": [
       "all",
@@ -227,7 +203,7 @@ window.PRODUCTS = [
     "nameRu": "Sunday Morning Refreshing Cleansing Foam",
     "nameUz": "Sunday Morning Refreshing Cleansing Foam",
     "category": "cleanser",
-    "price": null,
+    "price": 114000,
     "volume": "120 мл",
     "skin": [
       "normal",
@@ -252,7 +228,7 @@ window.PRODUCTS = [
     "nameRu": "Birch Juice Moisturizing Mild-Up Sunscreen SPF50+ PA++++",
     "nameUz": "Birch Juice Moisturizing Mild-Up Sunscreen SPF50+ PA++++",
     "category": "spf",
-    "price": 197000,
+    "price": 128000,
     "volume": "50 мл",
     "skin": [
       "sensitive",
@@ -277,7 +253,7 @@ window.PRODUCTS = [
     "nameRu": "1025 Dokdo Ampoule",
     "nameUz": "1025 Dokdo Ampoule",
     "category": "serum",
-    "price": null,
+    "price": 134000,
     "volume": "45 г",
     "skin": [
       "all",
@@ -348,7 +324,7 @@ window.PRODUCTS = [
     "nameRu": "Birch Juice Moisturizing Sun Spray SPF50+ PA++++",
     "nameUz": "Birch Juice Moisturizing Sun Spray SPF50+ PA++++",
     "category": "spf",
-    "price": 143000,
+    "price": 144000,
     "volume": "150 мл",
     "skin": [
       "all",
@@ -372,7 +348,7 @@ window.PRODUCTS = [
     "nameRu": "Cellup pH Cure Foam Cleanser",
     "nameUz": "Cellup pH Cure Foam Cleanser",
     "category": "cleanser",
-    "price": null,
+    "price": 104000,
     "volume": "120 мл",
     "skin": [
       "all",
@@ -423,7 +399,7 @@ window.PRODUCTS = [
     "nameRu": "345 Relief Cream Mist",
     "nameUz": "345 Relief Cream Mist",
     "category": "toner",
-    "price": 104000,
+    "price": 105000,
     "volume": "60 мл",
     "skin": [
       "sensitive",
@@ -447,7 +423,7 @@ window.PRODUCTS = [
     "nameRu": "Vitamin C Boosting Serum",
     "nameUz": "Vitamin C Boosting Serum",
     "category": "serum",
-    "price": null,
+    "price": 138000,
     "volume": "30 мл",
     "skin": [
       "normal",
@@ -473,7 +449,7 @@ window.PRODUCTS = [
     "nameRu": "Cellup Trial Kit — набор миниатюр",
     "nameUz": "Cellup Trial Kit — mini to‘plam",
     "category": "set",
-    "price": 246000,
+    "price": 247000,
     "volume": "5 мини-средств",
     "skin": [
       "all"
@@ -495,7 +471,7 @@ window.PRODUCTS = [
     "nameRu": "Cellup Micro Pore Cleansing Oil",
     "nameUz": "Cellup Micro Pore Cleansing Oil",
     "category": "cleanser",
-    "price": 141000,
+    "price": 177000,
     "volume": "200 мл",
     "skin": [
       "all",
@@ -512,35 +488,13 @@ window.PRODUCTS = [
     "weight": 0.25
   },
   {
-    "id": "p22",
-    "image": "images/24.webp",
-    "brand": "TIRTIR",
-    "nameRu": "Mask Fit Red Cushion SPF40 PA++ — оттенок 23N Sand",
-    "nameUz": "Mask Fit Red Cushion SPF40 PA++ — 23N Sand rangi",
-    "category": "makeup",
-    "price": 185000,
-    "volume": "18 г",
-    "skin": [
-      "all"
-    ],
-    "concerns": [
-      "redness",
-      "dullness"
-    ],
-    "shortRu": "Стойкий кушон с плотным покрытием для выравнивания тона и маскировки покраснений. На фотографии оттенок 23N Sand. Оттенок лучше проверять на линии челюсти.",
-    "shortUz": "Teri rangini tekislash va qizarishni yopish uchun yuqori qoplamali chidamli kushon. Rasmda 23N Sand rangi. Rangni jag‘ chizig‘ida tekshirish ma’qul.",
-    "useRu": "Наберите небольшое количество на спонж и наносите тонкими прижимающими движениями от центра лица. При необходимости добавьте второй слой только на нужные зоны. SPF в макияже не заменяет отдельный солнцезащитный крем.",
-    "useUz": "Spongga oz miqdor oling va yuz markazidan yupqa bosib surting. Zarur joylarga ikkinchi qatlam qo‘shing. Makiyajdagi SPF alohida quyosh kremini almashtirmaydi.",
-    "weight": 0.068
-  },
-  {
     "id": "p23",
     "image": "images/25.jpeg",
     "brand": "Anua",
     "nameRu": "Niacinamide 10% + TXA 4% Serum",
     "nameUz": "Niacinamide 10% + TXA 4% Serum",
     "category": "serum",
-    "price": null,
+    "price": 188000,
     "volume": "30 мл",
     "skin": [
       "oily",
@@ -567,7 +521,7 @@ window.PRODUCTS = [
     "nameRu": "Azelaic Acid 10% + Hyaluron Redness Soothing Serum",
     "nameUz": "Azelaic Acid 10% + Hyaluron Redness Soothing Serum",
     "category": "serum",
-    "price": null,
+    "price": 200000,
     "volume": "30 мл",
     "skin": [
       "oily",
@@ -593,7 +547,7 @@ window.PRODUCTS = [
     "nameRu": "147 Barrier Cream",
     "nameUz": "147 Barrier Cream",
     "category": "cream",
-    "price": null,
+    "price": 199000,
     "volume": "50 мл",
     "skin": [
       "dry",
@@ -618,7 +572,7 @@ window.PRODUCTS = [
     "nameRu": "Pure Grinding Cleansing Balm",
     "nameUz": "Pure Grinding Cleansing Balm",
     "category": "cleanser",
-    "price": null,
+    "price": 128000,
     "volume": "50 мл",
     "skin": [
       "all",
@@ -669,7 +623,7 @@ window.PRODUCTS = [
     "nameRu": "Abib Glutathione CC Sun Cream SPF50+",
     "nameUz": "Abib Glutathione CC Sun Cream SPF50+",
     "category": "spf",
-    "price": null,
+    "price": 147000,
     "volume": "",
     "skin": [
       "all"
@@ -690,7 +644,7 @@ window.PRODUCTS = [
     "nameRu": "Abib Ultra Moisturizing Cream (для сухой кожи)",
     "nameUz": "Abib Ultra Moisturizing Cream (quruq teri uchun)",
     "category": "cream",
-    "price": null,
+    "price": 167000,
     "volume": "",
     "skin": [
       "all"
@@ -705,34 +659,13 @@ window.PRODUCTS = [
     "soon": true
   },
   {
-    "id": "p30",
-    "image": "images/30.jpg",
-    "brand": "Aestura",
-    "nameRu": "Aestura A-Cica Dual Barrier Creamy Toner",
-    "nameUz": "Aestura A-Cica Dual Barrier Creamy Toner",
-    "category": "toner",
-    "price": null,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Кремовый тонер с центеллой (Cica) для чувствительной кожи: успокаивает, укрепляет барьер, увлажняет.",
-    "shortUz": "Kremsimon toner — teri to‘sig‘ini mustahkamlaydi va namlaydi.",
-    "useRu": "Нанести на очищенную кожу ладонями до сыворотки.",
-    "useUz": "Zardobdan oldin tozalangan teriga kaft bilan surting.",
-    "imported": true,
-    "weight": 0.25,
-    "soon": true
-  },
-  {
     "id": "p31",
     "image": "images/p31.jpg",
     "brand": "Aestura",
     "nameRu": "Aestura Atobarrier 365 Cream (подарок)",
     "nameUz": "Aestura Atobarrier 365 Cream (sovg‘ali to‘plam)",
     "category": "cream",
-    "price": null,
+    "price": 317000,
     "volume": "",
     "skin": [
       "all"
@@ -753,7 +686,7 @@ window.PRODUCTS = [
     "nameRu": "Aestura Atobarrier 365 Cream, 80 мл",
     "nameUz": "Aestura Atobarrier 365 Cream 80 ml (sovg‘asiz)",
     "category": "cream",
-    "price": null,
+    "price": 270000,
     "volume": "80 мл",
     "skin": [
       "all"
@@ -768,34 +701,13 @@ window.PRODUCTS = [
     "soon": true
   },
   {
-    "id": "p33",
-    "image": "images/33.jpg",
-    "brand": "Aestura",
-    "nameRu": "Aestura Atobarrier 365 Set",
-    "nameUz": "Aestura Atobarrier 365 Set",
-    "category": "cream",
-    "price": null,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Набор Atobarrier 365 для восстановления барьера сухой и чувствительной кожи. Состав уточнить.",
-    "shortUz": "Aestura to‘plam (set) variant.",
-    "useRu": "По инструкции к каждому средству набора.",
-    "useUz": "To‘plamdagi har bir vosita yo‘riqnomasiga muvofiq foydalaning.",
-    "imported": true,
-    "weight": 0.15,
-    "soon": true
-  },
-  {
     "id": "p34",
     "image": "images/34.jpg",
     "brand": "Anua",
     "nameRu": "Anua PDRN Foam Cleanser",
     "nameUz": "Anua PDRN Foam Cleanser",
     "category": "cleanser",
-    "price": null,
+    "price": 138000,
     "volume": "",
     "skin": [
       "all"
@@ -816,7 +728,7 @@ window.PRODUCTS = [
     "nameRu": "Anua PDRN Hyaluronic Acid Mist 30 ml",
     "nameUz": "Anua PDRN Hyaluronic Acid Mist 30 ml",
     "category": "other",
-    "price": null,
+    "price": 130000,
     "volume": "30 мл",
     "skin": [
       "all"
@@ -837,7 +749,7 @@ window.PRODUCTS = [
     "nameRu": "Anua PDRN Serum (1+1 + maska)",
     "nameUz": "Anua PDRN Serum (1+1 + maska)",
     "category": "serum",
-    "price": null,
+    "price": 328000,
     "volume": "",
     "skin": [
       "all"
@@ -858,7 +770,7 @@ window.PRODUCTS = [
     "nameRu": "Anua PDRN Set",
     "nameUz": "Anua PDRN Set",
     "category": "cream",
-    "price": null,
+    "price": 292000,
     "volume": "",
     "skin": [
       "all"
@@ -879,7 +791,7 @@ window.PRODUCTS = [
     "nameRu": "Anua Peach Foam Cleanser",
     "nameUz": "Anua Peach Foam Cleanser",
     "category": "cleanser",
-    "price": null,
+    "price": 131000,
     "volume": "",
     "skin": [
       "all"
@@ -900,7 +812,7 @@ window.PRODUCTS = [
     "nameRu": "Arencia Cleansing Bar/Foam",
     "nameUz": "Arencia Cleansing Bar/Foam",
     "category": "cleanser",
-    "price": null,
+    "price": 144000,
     "volume": "",
     "skin": [
       "all"
@@ -921,7 +833,7 @@ window.PRODUCTS = [
     "nameRu": "Arencia Cleansing Oil 200 ml",
     "nameUz": "Arencia Cleansing Oil 200 ml",
     "category": "cleanser",
-    "price": null,
+    "price": 152000,
     "volume": "200 мл",
     "skin": [
       "all"
@@ -936,34 +848,13 @@ window.PRODUCTS = [
     "soon": true
   },
   {
-    "id": "p41",
-    "image": "images/41.jpg",
-    "brand": "Arencia",
-    "nameRu": "Arencia Mask Foam Cleanser",
-    "nameUz": "Arencia Mask Foam Cleanser",
-    "category": "mask",
-    "price": null,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Пенка-маска 2-в-1: очищает и ухаживает как маска, оставляя кожу мягкой.",
-    "shortUz": "Niqob-penka: tozalaydi va terini parvarish qiladi.",
-    "useRu": "Нанести на влажную кожу; как маска — 1–2 мин и смыть.",
-    "useUz": "Nam teriga surting; niqob sifatida 1–2 daqiqa ushlab, so‘ng yuving.",
-    "imported": true,
-    "weight": 0.15,
-    "soon": true
-  },
-  {
     "id": "p42",
     "image": "images/42.jpg",
     "brand": "Aromatica",
     "nameRu": "Aromatica Scalp Scaling Spray (soch to‘kilishiga)",
     "nameUz": "Aromatica Scalp Scaling Spray (soch to‘kilishiga)",
     "category": "hair",
-    "price": null,
+    "price": 150000,
     "volume": "",
     "skin": [
       "all"
@@ -984,7 +875,7 @@ window.PRODUCTS = [
     "nameRu": "Axis PDRN Triple Gel Toner",
     "nameUz": "Axis PDRN Triple Gel Toner",
     "category": "toner",
-    "price": null,
+    "price": 177000,
     "volume": "",
     "skin": [
       "all"
@@ -1005,7 +896,7 @@ window.PRODUCTS = [
     "nameRu": "Beplain Cleansing Oil (гидрофильное масло)",
     "nameUz": "Beplain Cleansing Oil (gidrofil)",
     "category": "cleanser",
-    "price": null,
+    "price": 181000,
     "volume": "",
     "skin": [
       "all"
@@ -1026,7 +917,7 @@ window.PRODUCTS = [
     "nameRu": "Beplain Cream",
     "nameUz": "Beplain Cream",
     "category": "cream",
-    "price": null,
+    "price": 123000,
     "volume": "",
     "skin": [
       "all"
@@ -1068,7 +959,7 @@ window.PRODUCTS = [
     "nameRu": "Body Fantasies Body & Hair Mist",
     "nameUz": "Body Fantasies Body & Hair Mist",
     "category": "hair",
-    "price": null,
+    "price": 152000,
     "volume": "",
     "skin": [
       "all"
@@ -1083,34 +974,13 @@ window.PRODUCTS = [
     "soon": true
   },
   {
-    "id": "p50",
-    "image": "images/50.jpg",
-    "brand": "BOH",
-    "nameRu": "BOH 3D Lifting Set",
-    "nameUz": "BOH 3D Lifting Set",
-    "category": "cream",
-    "price": null,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Набор для лифтинга: подтягивает контур, повышает упругость, разглаживает кожу. Состав уточнить.",
-    "shortUz": "BOH 3D lifting to'plami: toner, serum, cream mist, krem, ko'z krem, patch, sherbetli gidrofil.",
-    "useRu": "По инструкции к каждому средству набора, утром и вечером.",
-    "useUz": "To‘plamdagi har bir vosita yo‘riqnomasiga muvofiq, ertalab va kechqurun foydalaning.",
-    "imported": true,
-    "weight": 0.15,
-    "soon": true
-  },
-  {
     "id": "p51",
     "image": "images/51.jpg",
     "brand": "BOH",
     "nameRu": "BOH Collagen Eye Patch",
     "nameUz": "BOH Collagen Eye Patch",
     "category": "mask",
-    "price": null,
+    "price": 145000,
     "volume": "",
     "skin": [
       "all"
@@ -1125,34 +995,13 @@ window.PRODUCTS = [
     "soon": true
   },
   {
-    "id": "p52",
-    "image": "images/52.jpg",
-    "brand": "BOH",
-    "nameRu": "BOH Heal NAD Prizcell Set",
-    "nameUz": "BOH Heal NAD Prizcell Set",
-    "category": "cream",
-    "price": null,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Антивозрастной набор с NAD: восстанавливает, повышает упругость и сияние. Состав уточнить.",
-    "shortUz": "BOH Heal NAD Prizcell nabori (krem + serum).",
-    "useRu": "По инструкции к каждому средству набора.",
-    "useUz": "To‘plamdagi har bir vosita yo‘riqnomasiga muvofiq foydalaning.",
-    "imported": true,
-    "weight": 0.15,
-    "soon": true
-  },
-  {
     "id": "p53",
     "image": "images/53.jpg",
     "brand": "BOH",
     "nameRu": "BOH PLGA Lifting Serum",
     "nameUz": "BOH PLGA Lifting Serum",
     "category": "serum",
-    "price": null,
+    "price": 216000,
     "volume": "",
     "skin": [
       "all"
@@ -1173,7 +1022,7 @@ window.PRODUCTS = [
     "nameRu": "BOH Sherbet Cleanser",
     "nameUz": "BOH Sherbet Cleanser",
     "category": "cleanser",
-    "price": null,
+    "price": 150000,
     "volume": "",
     "skin": [
       "all"
@@ -1236,7 +1085,7 @@ window.PRODUCTS = [
     "nameRu": "Celimax Pore Dark Spot Sun Cream 10 ml",
     "nameUz": "Celimax Pore Dark Spot Sun Cream 10 ml",
     "category": "spf",
-    "price": null,
+    "price": 33000,
     "volume": "10 мл",
     "skin": [
       "all"
@@ -1251,34 +1100,13 @@ window.PRODUCTS = [
     "soon": true
   },
   {
-    "id": "p58",
-    "image": "images/p58.png",
-    "brand": "Celimax",
-    "nameRu": "Celimax Pore Dark Spot Sun Cream SPF50+",
-    "nameUz": "Celimax Pore Dark Spot Sun Cream SPF50+",
-    "category": "spf",
-    "price": null,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Солнцезащитный крем SPF50+ для проблемной кожи: контроль жирности, защита, уход за порами.",
-    "shortUz": "G‘ovaklar va qora dog‘larga qarshi quyoshdan himoya kremi.",
-    "useRu": "Наносить как финал ухода за 15–20 мин до выхода.",
-    "useUz": "Parvarishning yakuniy bosqichi sifatida, tashqariga chiqishdan 15–20 daqiqa oldin surting.",
-    "imported": true,
-    "weight": 0.1,
-    "soon": true
-  },
-  {
     "id": "p59",
     "image": "images/59.jpg",
     "brand": "Celimax",
     "nameRu": "Celimax Watery Sun Cream SPF50+",
     "nameUz": "Celimax Watery Sun Cream SPF50+",
     "category": "spf",
-    "price": null,
+    "price": 116000,
     "volume": "",
     "skin": [
       "all"
@@ -1299,7 +1127,7 @@ window.PRODUCTS = [
     "nameRu": "Centellian24 Madeca Cream",
     "nameUz": "Centellian24 Madeca Cream",
     "category": "cream",
-    "price": null,
+    "price": 348000,
     "volume": "",
     "skin": [
       "all"
@@ -1320,7 +1148,7 @@ window.PRODUCTS = [
     "nameRu": "Cerabase Cream",
     "nameUz": "Cerabase Cream",
     "category": "cream",
-    "price": null,
+    "price": 111000,
     "volume": "",
     "skin": [
       "all"
@@ -1341,7 +1169,7 @@ window.PRODUCTS = [
     "nameRu": "Cetaphil Moisturizing Lotion",
     "nameUz": "Cetaphil Moisturizing Lotion",
     "category": "cream",
-    "price": null,
+    "price": 167000,
     "volume": "",
     "skin": [
       "all"
@@ -1362,7 +1190,7 @@ window.PRODUCTS = [
     "nameRu": "Clio Kill Cover Concealer",
     "nameUz": "Clio Kill Cover Concealer",
     "category": "makeup",
-    "price": null,
+    "price": 124000,
     "volume": "",
     "skin": [
       "all"
@@ -1383,7 +1211,7 @@ window.PRODUCTS = [
     "nameRu": "Clio Kill Cover Cushion",
     "nameUz": "Clio Kill Cover Cushion",
     "category": "makeup",
-    "price": null,
+    "price": 200000,
     "volume": "",
     "skin": [
       "all"
@@ -1398,55 +1226,13 @@ window.PRODUCTS = [
     "soon": true
   },
   {
-    "id": "p65",
-    "image": "images/65.jpg",
-    "brand": "Clio",
-    "nameRu": "Clio Kill Cover Cushion (limited set + kosmetichka)",
-    "nameUz": "Clio Kill Cover Cushion (limited set + kosmetichka)",
-    "category": "makeup",
-    "price": null,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Кушон Kill Cover в лимитированном наборе с косметичкой: плотное стойкое покрытие.",
-    "shortUz": "Limitlangan to‘plam: kushon + sovg‘a sifatida kosmetichka.",
-    "useRu": "Нанести спонжем похлопывающими движениями.",
-    "useUz": "Splong bilan yengil urib surting.",
-    "imported": true,
-    "weight": 0.08,
-    "soon": true
-  },
-  {
-    "id": "p66",
-    "image": "images/66.jpg",
-    "brand": "Clio",
-    "nameRu": "Clio Kill Cover Mat Cushion (19N/21N)",
-    "nameUz": "Clio Kill Cover Mat Cushion (19N/21N)",
-    "category": "makeup",
-    "price": null,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Матовый кушон Kill Cover (оттенки 19N/21N): матовый финиш, высокое покрытие, контроль жирности.",
-    "shortUz": "Matoviy tugatuvchi kushon, zapaskasi bilan; 19N va 21N tuslari mavjud.",
-    "useRu": "Нанести спонжем похлопывающими движениями.",
-    "useUz": "Splong bilan yengil urib surting.",
-    "imported": true,
-    "weight": 0.08,
-    "soon": true
-  },
-  {
     "id": "p67",
     "image": "images/67.jpg",
     "brand": "CNP",
     "nameRu": "CNP Laboratory Ampule Mist",
     "nameUz": "CNP Laboratory Ampule Mist",
     "category": "other",
-    "price": null,
+    "price": 159000,
     "volume": "",
     "skin": [
       "all"
@@ -1551,7 +1337,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.Althea 345 Relief Serum",
     "nameUz": "Dr.Althea 345 Relief Serum",
     "category": "serum",
-    "price": null,
+    "price": 134000,
     "volume": "",
     "skin": [
       "all"
@@ -1572,7 +1358,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.Althea Aqua Marine Set",
     "nameUz": "Dr.Althea Aqua Marine Set",
     "category": "cream",
-    "price": null,
+    "price": 117000,
     "volume": "",
     "skin": [
       "all"
@@ -1593,7 +1379,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.Althea Cleansing Oil",
     "nameUz": "Dr.Althea Cleansing Oil",
     "category": "cleanser",
-    "price": null,
+    "price": 150000,
     "volume": "",
     "skin": [
       "all"
@@ -1614,7 +1400,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.Althea Gel Cleanser",
     "nameUz": "Dr.Althea Gel Cleanser",
     "category": "cleanser",
-    "price": null,
+    "price": 115000,
     "volume": "",
     "skin": [
       "all"
@@ -1635,7 +1421,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.Althea Sebum Cleanser",
     "nameUz": "Dr.Althea Sebum Cleanser",
     "category": "cleanser",
-    "price": null,
+    "price": 138000,
     "volume": "",
     "skin": [
       "all"
@@ -1656,7 +1442,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.Althea Sun Cream SPF50+",
     "nameUz": "Dr.Althea Sun Cream SPF50+",
     "category": "spf",
-    "price": null,
+    "price": 132000,
     "volume": "",
     "skin": [
       "all"
@@ -2349,7 +2135,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Cellup Micro Foam Cleanser",
     "nameUz": "Lagom Cellup Micro Foam Cleanser",
     "category": "cleanser",
-    "price": null,
+    "price": 116000,
     "volume": "",
     "skin": [
       "all"
@@ -2370,7 +2156,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Cellus Deep Moisture Cream",
     "nameUz": "Lagom Cellus Deep Moisture Cream",
     "category": "cream",
-    "price": null,
+    "price": 192000,
     "volume": "",
     "skin": [
       "all"
@@ -2391,7 +2177,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Cellus Mild Cream",
     "nameUz": "Lagom Cellus Mild Cream",
     "category": "cream",
-    "price": null,
+    "price": 198000,
     "volume": "",
     "skin": [
       "all"
@@ -2433,7 +2219,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Serum",
     "nameUz": "Lagom Serum",
     "category": "serum",
-    "price": null,
+    "price": 166000,
     "volume": "",
     "skin": [
       "all"
@@ -2454,7 +2240,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Skincare Set",
     "nameUz": "Lagom Skincare Set",
     "category": "other",
-    "price": null,
+    "price": 216000,
     "volume": "",
     "skin": [
       "all"
@@ -2475,7 +2261,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Sun Gel SPF50+ PA++++",
     "nameUz": "Lagom Sun Gel SPF50+ PA++++",
     "category": "spf",
-    "price": null,
+    "price": 154000,
     "volume": "",
     "skin": [
       "all"
@@ -2496,7 +2282,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Sun Stick SPF",
     "nameUz": "Lagom Sun Stick SPF",
     "category": "spf",
-    "price": null,
+    "price": 153000,
     "volume": "",
     "skin": [
       "all"
@@ -2517,7 +2303,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom Toner",
     "nameUz": "Lagom Toner",
     "category": "toner",
-    "price": null,
+    "price": 192000,
     "volume": "",
     "skin": [
       "all"
@@ -2538,7 +2324,7 @@ window.PRODUCTS = [
     "nameRu": "Lagom White Moisture Cream",
     "nameUz": "Lagom White Moisture Cream",
     "category": "cream",
-    "price": null,
+    "price": 211000,
     "volume": "",
     "skin": [
       "all"
@@ -3210,7 +2996,7 @@ window.PRODUCTS = [
     "nameRu": "Rejuran Active Cream",
     "nameUz": "Rejuran Active Cream",
     "category": "cream",
-    "price": null,
+    "price": 222000,
     "volume": "",
     "skin": [
       "all"
@@ -3231,7 +3017,7 @@ window.PRODUCTS = [
     "nameRu": "Rejuran Cream (PDRN)",
     "nameUz": "Rejuran Cream (PDRN)",
     "category": "cream",
-    "price": null,
+    "price": 222000,
     "volume": "",
     "skin": [
       "all"
@@ -3252,7 +3038,7 @@ window.PRODUCTS = [
     "nameRu": "Rejuran Dual Effect Ampoule",
     "nameUz": "Rejuran Dual Effect Ampoule",
     "category": "serum",
-    "price": null,
+    "price": 322000,
     "volume": "",
     "skin": [
       "all"
@@ -3294,7 +3080,7 @@ window.PRODUCTS = [
     "nameRu": "Rejuran Nutrive Cream",
     "nameUz": "Rejuran Nutrive Cream",
     "category": "cream",
-    "price": null,
+    "price": 298000,
     "volume": "",
     "skin": [
       "all"
@@ -3315,7 +3101,7 @@ window.PRODUCTS = [
     "nameRu": "Rejuran Sun Stick SPF50+",
     "nameUz": "Rejuran Sun Stick SPF50+",
     "category": "spf",
-    "price": null,
+    "price": 216000,
     "volume": "",
     "skin": [
       "all"
@@ -3330,34 +3116,13 @@ window.PRODUCTS = [
     "soon": true
   },
   {
-    "id": "p166",
-    "image": "images/166.jpg",
-    "brand": "Rejuran",
-    "nameRu": "Rejuran Sunscreen (premium tekstura)",
-    "nameUz": "Rejuran Sunscreen (premium tekstura)",
-    "category": "spf",
-    "price": null,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Солнцезащитный крем премиум-текстуры SPF: защита от UVA/UVB, комфортное нанесение.",
-    "shortUz": "Serumdek yengil teksturali premium quyoshdan himoya, SPFga injiq teri uchun ideal.",
-    "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
-    "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
-    "imported": true,
-    "weight": 0.1,
-    "soon": true
-  },
-  {
     "id": "p167",
     "image": "images/167.jpg",
     "brand": "Rejuran",
     "nameRu": "Rejuran Treatment Essence",
     "nameUz": "Rejuran Treatment Essence",
     "category": "serum",
-    "price": null,
+    "price": 316000,
     "volume": "",
     "skin": [
       "all"
@@ -3378,7 +3143,7 @@ window.PRODUCTS = [
     "nameRu": "Rejuran Turnover Cream PDRN",
     "nameUz": "Rejuran Turnover Cream PDRN",
     "category": "cream",
-    "price": null,
+    "price": 222000,
     "volume": "",
     "skin": [
       "all"
@@ -3399,7 +3164,7 @@ window.PRODUCTS = [
     "nameRu": "Rejuran UV Protection Cream SPF50+ PA++++",
     "nameUz": "Rejuran UV Protection Cream SPF50+ PA++++",
     "category": "spf",
-    "price": null,
+    "price": 184000,
     "volume": "",
     "skin": [
       "all"
@@ -3483,7 +3248,7 @@ window.PRODUCTS = [
     "nameRu": "Round Lab Birch Juice Sun Cream (детский), 60 мл",
     "nameUz": "Round Lab Birch Juice Sun Cream (bolalar uchun) 60 ml",
     "category": "spf",
-    "price": null,
+    "price": 167000,
     "volume": "60 мл",
     "skin": [
       "all"
@@ -3504,7 +3269,7 @@ window.PRODUCTS = [
     "nameRu": "Round Lab Birch Juice Sun Stick SPF50+",
     "nameUz": "Round Lab Birch Juice Sun Stick SPF50+",
     "category": "spf",
-    "price": null,
+    "price": 136000,
     "volume": "",
     "skin": [
       "all"
@@ -3525,7 +3290,7 @@ window.PRODUCTS = [
     "nameRu": "Round Lab Dokdo Cream",
     "nameUz": "Round Lab Dokdo Cream",
     "category": "cream",
-    "price": null,
+    "price": 173000,
     "volume": "",
     "skin": [
       "all"
@@ -3546,7 +3311,7 @@ window.PRODUCTS = [
     "nameRu": "Round Lab Dokdo Cream Set (80+80+40 g)",
     "nameUz": "Round Lab Dokdo Cream Set (80+80+40 g)",
     "category": "cream",
-    "price": null,
+    "price": 323000,
     "volume": "",
     "skin": [
       "all"
@@ -3567,7 +3332,7 @@ window.PRODUCTS = [
     "nameRu": "Round Lab Foam Cleanser (пенка)",
     "nameUz": "Round Lab Foam Cleanser (penka)",
     "category": "cleanser",
-    "price": null,
+    "price": 119000,
     "volume": "",
     "skin": [
       "all"
@@ -3588,7 +3353,7 @@ window.PRODUCTS = [
     "nameRu": "Round Lab Toner",
     "nameUz": "Round Lab Toner",
     "category": "toner",
-    "price": null,
+    "price": 139000,
     "volume": "",
     "skin": [
       "all"
@@ -4581,7 +4346,7 @@ window.PRODUCTS = [
     "nameRu": "Body Fantasies Body & Hair Mist 236 мл",
     "nameUz": "Body Fantasies soch va badan misti 236 ml",
     "category": "hair",
-    "price": null,
+    "price": 188000,
     "volume": "236 мл",
     "skin": [
       "all"
@@ -4741,7 +4506,7 @@ window.PRODUCTS = [
     "nameRu": "Dr.Althea Крем-маска (упаковка 4 шт)",
     "nameUz": "Dr.Althea Krem-maska (4 dona)",
     "category": "mask",
-    "price": null,
+    "price": 92000,
     "volume": "4 dona",
     "skin": [
       "all"
@@ -4803,7 +4568,7 @@ window.PRODUCTS = [
     "nameRu": "BOH 3D Lifting Serum",
     "nameUz": "BOH 3D Lifting Serum",
     "category": "serum",
-    "price": null,
+    "price": 186000,
     "volume": "—",
     "skin": [
       "all"
@@ -4825,7 +4590,7 @@ window.PRODUCTS = [
     "nameRu": "BOH 3D Lifting Cream Mist",
     "nameUz": "BOH 3D Lifting Cream Mist",
     "category": "moisture",
-    "price": null,
+    "price": 165000,
     "volume": "—",
     "skin": [
       "all"
@@ -4847,7 +4612,7 @@ window.PRODUCTS = [
     "nameRu": "BOH 3D Lifting Cream",
     "nameUz": "BOH 3D Lifting Krem",
     "category": "cream",
-    "price": null,
+    "price": 211000,
     "volume": "—",
     "skin": [
       "all"
@@ -4869,7 +4634,7 @@ window.PRODUCTS = [
     "nameRu": "BOH 3D Lifting Eye Cream (1+1, 2 шт)",
     "nameUz": "BOH 3D Lifting Ko‘z Kremi (1+1, 2 dona)",
     "category": "cream",
-    "price": null,
+    "price": 188000,
     "volume": "2 dona",
     "skin": [
       "all"
@@ -5029,27 +4794,6 @@ window.PRODUCTS = [
     "useUz": "Quruq teriga surting, massaj qiling, suv bilan yuving.",
     "imported": true,
     "weight": 0.5,
-    "soon": true
-  },
-  {
-    "id": "p251",
-    "image": "images/placeholder.svg",
-    "brand": "Clio",
-    "nameRu": "Clio Kill Cover High Glow Cushion (SPF50)",
-    "nameUz": "Clio Kill Cover High Glow Cushion (SPF50)",
-    "category": "makeup",
-    "price": null,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Кушон Kill Cover с сияющим (glow) финишем, стойкое покрытие, SPF50. В комплекте запаска.",
-    "shortUz": "Kill Cover kushoni: nurli finish, uzoq davom etadi, SPF50. Ichida zapaska bor.",
-    "useRu": "Нанести спонжем похлопывающими движениями.",
-    "useUz": "Spong bilan yengil urib surting.",
-    "imported": true,
-    "weight": 0.08,
     "soon": true
   },
   {
