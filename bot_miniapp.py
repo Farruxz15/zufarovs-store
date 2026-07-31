@@ -64,12 +64,12 @@ def profit_block(d):
     weight_cost=round(float(d.get('weight') or 0)*KG_FEE_USD*USD_RATE)
     profit=d['subtotal']-cost-weight_cost
     pct=round(profit/d['subtotal']*100) if d['subtotal'] else 0
-    lines=[f"\n\n➖➖➖➖➖\n📊 *Только для нас*",
+    lines=[f"\n\n➖➖➖➖➖\n📊 <b>Только для нас</b>",
            f"Закупка: {money(cost)} сум",
            f"Доставка из Кореи: {money(weight_cost)} сум",
-           f"*Прибыль: {money(profit)} сум ({pct}%)*"]
+           f"<b>Прибыль: {money(profit)} сум ({pct}%)</b>"]
     if unknown:
-        lines.append(f"⚠️ нет закупки: {', '.join(unknown)} — прибыль занижена")
+        lines.append(f"⚠️ нет закупки: {html.escape(', '.join(str(u) for u in unknown))} — прибыль занижена")
     return '\n'.join(lines)
 
 def store_keyboard():
@@ -201,11 +201,11 @@ async def receipt(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
     d=ctx.user_data;await send_admin(ctx,update.effective_user,d,update.message.photo[-1].file_id);persist_order(d,update.effective_user);await update.message.reply_text('✅ Спасибо за заказ! Чек получен. Консультант проверит оплату и свяжется с вами.', reply_markup=store_keyboard()); d.clear(); return ConversationHandler.END
 
 async def send_admin(ctx,user,d,photo=None):
-    text=("🔔 *НОВЫЙ ЗАКАЗ*\n\n"+items_text(d)+f"\n\nТовары: {money(d['subtotal'])} сум\n*Итого: {money(d['total'])} сум*\n_+ доставка курьером (Яндекс / BTS) по тарифу_\nОплата: {d['payment']}\n\n👤 {d['name']}\n📱 `{d['phone']}`\n📍 {d['address']}\nTelegram: @{user.username or '—'} (ID {user.id})"+profit_block(d))
+    text=("🔔 <b>НОВЫЙ ЗАКАЗ</b>\n\n"+items_html(d)+f"\n\nТовары: {money(d['subtotal'])} сум\n<b>Итого: {money(d['total'])} сум</b>\n<i>+ доставка курьером (Яндекс / BTS) по тарифу</i>\nОплата: {html.escape(str(d['payment']))}\n\n👤 {html.escape(str(d['name']))}\n📱 <code>{html.escape(str(d['phone']))}</code>\n📍 {html.escape(str(d['address']))}\nTelegram: @{html.escape(str(user.username or '—'))} (ID {user.id})"+profit_block(d))
     for admin in ADMIN_IDS:
         try:
-            if photo:await ctx.bot.send_photo(admin,photo,caption=text,parse_mode='Markdown')
-            else:await ctx.bot.send_message(admin,text,parse_mode='Markdown')
+            if photo:await ctx.bot.send_photo(admin,photo,caption=text,parse_mode='HTML')
+            else:await ctx.bot.send_message(admin,text,parse_mode='HTML')
             if d.get('lat') and d.get('lon'):await ctx.bot.send_location(admin,d['lat'],d['lon'])
         except Exception:
             # один недоступный получатель не должен ронять доставку остальным
