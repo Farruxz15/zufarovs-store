@@ -581,34 +581,6 @@ window.PRODUCTS = [
     "weight": 0.1
   },
   {
-    "id": "p27",
-    "image": "images/placeholder.svg",
-    "brand": "ZUFAROVS’ STORE",
-    "nameRu": "Персональный набор ухода",
-    "nameUz": "Shaxsiy parvarish to‘plami",
-    "category": "set",
-    "price": null,
-    "volume": "3–5 средств",
-    "skin": [
-      "all"
-    ],
-    "concerns": [
-      "acne",
-      "postacne",
-      "pigmentation",
-      "dehydration",
-      "redness",
-      "pores",
-      "dullness"
-    ],
-    "shortRu": "Индивидуальный комплект из товаров каталога, который формируется по типу кожи, основным задачам и бюджету клиента после короткой диагностики.",
-    "shortUz": "Qisqa diagnostikadan so‘ng mijozning teri turi, asosiy ehtiyojlari va byudjetiga qarab katalog mahsulotlaridan tuziladigan individual to‘plam.",
-    "useRu": "Каждое средство используется по отдельной схеме, указанной в карточке товара. Консультант поможет распределить этапы на утро и вечер и исключить нежелательные сочетания активов.",
-    "useUz": "Har bir mahsulot o‘z kartochkasida ko‘rsatilgan sxema bo‘yicha ishlatiladi. Konsultant bosqichlarni ertalab va kechqurunga taqsimlash hamda mos kelmaydigan aktivlarni ajratishga yordam beradi.",
-    "weight": 0.5,
-    "soon": true
-  },
-  {
     "id": "p28",
     "image": "images/28.jpg",
     "brand": "Abib",

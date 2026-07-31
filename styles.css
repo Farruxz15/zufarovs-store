@@ -167,6 +167,9 @@
 .checkout-form .delivery-note{margin:2px 0}
 
 /* товар не в наличии: вместо цены — «Скоро», кнопки добавления нет */
+.original-badge{position:absolute;top:9px;left:9px;z-index:2;display:inline-flex;align-items:center;gap:3px;padding:4px 8px;border-radius:999px;background:var(--green);color:#fff;font-size:9px;font-weight:800;letter-spacing:.05em;box-shadow:0 3px 8px rgba(53,88,71,.28)}
+.catalog-note{display:flex;align-items:center;gap:6px;font-size:11px;line-height:1.4;color:var(--muted);margin:0 0 12px;padding:9px 12px;background:var(--soft);border-radius:12px}
+.catalog-note:before{content:'ⓘ';font-size:13px;color:var(--green);font-weight:800}
 .soon-badge{display:inline-block;padding:5px 10px;border-radius:999px;background:var(--soft);color:var(--muted);font-size:11px;font-weight:800;letter-spacing:.04em;text-transform:uppercase}
 .price-large .soon-badge{font-size:13px;padding:7px 14px}
 .related-price .soon-badge{font-size:9px;padding:3px 7px}
