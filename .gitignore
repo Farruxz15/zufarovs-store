@@ -20,3 +20,5 @@ need_photos.csv
 telegram_debug.html
 .claude/
 bot.env
+PRODUCT_COSTS_railway.txt
+PRODUCT_COSTS*.txt
