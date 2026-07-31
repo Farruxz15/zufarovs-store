@@ -17,21 +17,87 @@
 # и сам пересчитает цены.
 #
 # ↓ вписывать товары ниже этой строки ↓
-Relief Sun: Rice + Probiotics SPF50+ PA++++
-1025 Dokdo Cleanser
-1025 Dokdo Lotion
-Birch Juice Moisturizing Cleanser
-Dark Spot Correcting Glow Serum
-Dark Spot Correcting Glow Toner
-Complete No-Stress Physical Sunscreen SPF50+ PA++++
-TXA 2.5% Intensive Brightening Cream
-Dark Spot Correcting Glow Cream
-Birch Juice Moisturizing Mild-Up Sunscreen SPF50+ PA
-Birch Juice Moisturizing Cream
-1025 Dokdo Cleansing Oil
-Birch Juice Moisturizing Sun Spray SPF50+ PA++++
-345 Relief Cream
-345 Relief Cream Mist
-Cellup Trial Kit — набор миниатюр
-Cellup Micro Pore Cleansing Oil
-Mask Fit Red Cushion SPF40 PA++ — оттенок 23N Sand
+p01  # Beauty of Joseon Relief Sun: Rice + Probiotics SPF50+ PA++++
+p02  # Round Lab 1025 Dokdo Cleanser
+p03  # Round Lab 1025 Dokdo Lotion
+p05  # AXIS-Y Dark Spot Correcting Glow Serum
+p06  # AXIS-Y Dark Spot Correcting Glow Toner
+p07  # AXIS-Y Complete No-Stress Physical Sunscreen SPF50+ PA++++
+p08  # AXIS-Y TXA 2.5% Intensive Brightening Cream
+p09  # AXIS-Y Dark Spot Correcting Glow Cream
+p10  # AXIS-Y Sunday Morning Refreshing Cleansing Foam
+p11  # Round Lab Birch Juice Moisturizing Mild-Up Sunscreen SPF50+ PA++++
+p12  # Round Lab 1025 Dokdo Ampoule
+p13  # Round Lab Birch Juice Moisturizing Cream
+p14  # Round Lab 1025 Dokdo Cleansing Oil
+p15  # Round Lab Birch Juice Moisturizing Sun Spray SPF50+ PA++++
+p16  # LAGOM Cellup pH Cure Foam Cleanser
+p17  # Dr. Althea 345 Relief Cream
+p18  # Dr. Althea 345 Relief Cream Mist
+p19  # Dr. Althea Vitamin C Boosting Serum
+p20  # LAGOM Cellup Trial Kit — набор миниатюр
+p23  # Anua Niacinamide 10% + TXA 4% Serum
+p24  # Anua Azelaic Acid 10% + Hyaluron Redness Soothing Serum
+p25  # Dr. Althea 147 Barrier Cream
+p26  # Dr. Althea Pure Grinding Cleansing Balm
+p28  # Abib Abib Glutathione CC Sun Cream SPF50+
+p29  # Abib Abib Jericho Rose Crème Nutrition Tube
+p31  # Aestura Aestura Atobarrier 365 Cream (подарок)
+p32  # Aestura Aestura Atobarrier 365 Cream, 80 мл
+p34  # Anua Anua PDRN Foam Cleanser
+p35  # Anua Anua PDRN Hyaluronic Acid Mist 30 ml
+p36  # Anua Anua PDRN Serum (1+1 + maska)
+p37  # Anua Anua PDRN Set
+p38  # Anua Anua Peach Foam Cleanser
+p39  # Arencia Arencia Cleansing Bar/Foam
+p40  # Arencia Arencia Cleansing Oil 200 ml
+p42  # Aromatica Aromatica Scalp Scaling Spray (soch to‘kilishiga)
+p43  # Axis Axis PDRN Triple Gel Toner
+p46  # Beplain Beplain Cleansing Oil (гидрофильное масло)
+p47  # Beplain Beplain Cream
+p49  # Body Fantasies Body Fantasies Body & Hair Mist
+p51  # BOH BOH Collagen Eye Patch
+p53  # BOH BOH PLGA Lifting Serum
+p54  # BOH BOH Sherbet Cleanser
+p57  # Celimax Celimax Pore Dark Spot Sun Cream 10 ml
+p59  # Celimax Celimax Watery Sun Cream SPF50+
+p60  # Centellian24 Centellian24 Madeca Cream
+p61  # Cerabase Cerabase Cream
+p62  # Cetaphil Cetaphil Moisturizing Lotion
+p63  # Clio Clio Kill Cover Concealer
+p64  # Clio Clio Kill Cover Cushion
+p67  # CNP CNP Laboratory Ampule Mist
+p75  # Dr.Althea Dr.Althea 345 Relief Serum
+p76  # Dr.Althea Dr.Althea Aqua Marine Set
+p78  # Dr.Althea Dr.Althea Cleansing Oil
+p80  # Dr.Althea Dr.Althea Gel Cleanser
+p81  # Dr.Althea Dr.Althea Sebum Cleanser
+p82  # Dr.Althea Dr.Althea Sun Cream SPF50+
+p115  # Lagom Lagom Cellup Micro Foam Cleanser
+p117  # Lagom Lagom Cellus Deep Moisture Cream
+p118  # Lagom Lagom Cellus Mild Cream
+p121  # Lagom Lagom Serum
+p122  # Lagom Lagom Skincare Set
+p123  # Lagom Lagom Sun Gel SPF50+ PA++++
+p124  # Lagom Lagom Sun Stick SPF
+p125  # Lagom Lagom Toner
+p126  # Lagom Lagom White Moisture Cream
+p160  # Rejuran Rejuran Active Cream
+p161  # Rejuran Rejuran Cream (PDRN)
+p162  # Rejuran Rejuran Dual Effect Ampoule
+p164  # Rejuran Rejuran Nutrive Cream
+p165  # Rejuran Rejuran Sun Stick SPF50+
+p167  # Rejuran Rejuran Treatment Essence
+p168  # Rejuran Rejuran Turnover Cream PDRN
+p169  # Rejuran Rejuran UV Protection Cream SPF50+ PA++++
+p173  # Round Lab Round Lab Birch Juice Sun Cream (детский), 60 мл
+p174  # Round Lab Round Lab Birch Juice Sun Stick SPF50+
+p177  # Round Lab Round Lab Dokdo Cream
+p178  # Round Lab Round Lab Dokdo Cream Set (80+80+40 g)
+p181  # Round Lab Round Lab Toner
+p228  # Body Fantasies Body Fantasies Body & Hair Mist 236 мл
+p237  # Dr.Althea Dr.Althea Крем-маска (упаковка 4 шт)
+p240  # BOH BOH 3D Lifting Serum
+p241  # BOH BOH 3D Lifting Cream Mist
+p242  # BOH BOH 3D Lifting Cream
+p243  # BOH BOH 3D Lifting Eye Cream (1+1, 2 шт)

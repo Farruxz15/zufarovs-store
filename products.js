@@ -222,7 +222,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p11",
-    "image": "images/11.webp",
+    "image": "images/p11.webp",
     "brand": "Round Lab",
     "nameRu": "Birch Juice Moisturizing Mild-Up Sunscreen SPF50+ PA++++",
     "nameUz": "Birch Juice Moisturizing Mild-Up Sunscreen SPF50+ PA++++",
@@ -415,7 +415,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p19",
-    "image": "images/19.jpg",
+    "image": "images/p19.webp",
     "brand": "Dr. Althea",
     "nameRu": "Vitamin C Boosting Serum",
     "nameUz": "Vitamin C Boosting Serum",
@@ -467,7 +467,7 @@ window.PRODUCTS = [
     "nameRu": "Cellup Micro Pore Cleansing Oil",
     "nameUz": "Cellup Micro Pore Cleansing Oil",
     "category": "cleanser",
-    "price": 177000,
+    "price": null,
     "volume": "200 мл",
     "skin": [
       "all",
@@ -481,7 +481,8 @@ window.PRODUCTS = [
     "shortUz": "Makiyaj, SPF va yog‘da eruvchi kirlarni tozalash uchun gidrofil moy. Kechki ikki bosqichli tozalashning birinchi qadami.",
     "useRu": "Нанесите 2–3 нажатия на сухое лицо, массируйте около минуты, добавьте воду и эмульгируйте до молочной текстуры. Тщательно смойте и завершите очищение пенкой.",
     "useUz": "Quruq yuzga 2–3 bosim surting, taxminan bir daqiqa massaj qiling, suv qo‘shib sutdek emulsiya hosil qiling. Yaxshilab yuving va ko‘pik bilan yakunlang.",
-    "weight": 0.25
+    "weight": 0.25,
+    "soon": true
   },
   {
     "id": "p23",
@@ -582,7 +583,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p28",
-    "image": "images/28.jpg",
+    "image": "images/p28.webp",
     "brand": "Abib",
     "nameRu": "Abib Glutathione CC Sun Cream SPF50+",
     "nameUz": "Abib Glutathione CC Sun Cream SPF50+",
@@ -602,10 +603,10 @@ window.PRODUCTS = [
   },
   {
     "id": "p29",
-    "image": "images/29.jpg",
+    "image": "images/p29.webp",
     "brand": "Abib",
-    "nameRu": "Abib Ultra Moisturizing Cream (для сухой кожи)",
-    "nameUz": "Abib Ultra Moisturizing Cream (quruq teri uchun)",
+    "nameRu": "Abib Jericho Rose Crème Nutrition Tube",
+    "nameUz": "Abib Jericho Rose Crème Nutrition Tube",
     "category": "cream",
     "price": 167000,
     "volume": "",
@@ -622,7 +623,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p31",
-    "image": "images/p31.jpg",
+    "image": "images/p31.png",
     "brand": "Aestura",
     "nameRu": "Aestura Atobarrier 365 Cream (подарок)",
     "nameUz": "Aestura Atobarrier 365 Cream (sovg‘ali to‘plam)",
@@ -642,7 +643,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p32",
-    "image": "images/32.jpg",
+    "image": "images/p32.png",
     "brand": "Aestura",
     "nameRu": "Aestura Atobarrier 365 Cream, 80 мл",
     "nameUz": "Aestura Atobarrier 365 Cream 80 ml (sovg‘asiz)",
@@ -668,7 +669,7 @@ window.PRODUCTS = [
     "nameUz": "Anua PDRN Foam Cleanser",
     "category": "cleanser",
     "price": 138000,
-    "volume": "",
+    "volume": "150 мл",
     "skin": [
       "all"
     ],
@@ -682,7 +683,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p35",
-    "image": "images/35.jpg",
+    "image": "images/p35.png",
     "brand": "Anua",
     "nameRu": "Anua PDRN Hyaluronic Acid Mist 30 ml",
     "nameUz": "Anua PDRN Hyaluronic Acid Mist 30 ml",
@@ -702,7 +703,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p36",
-    "image": "images/36.jpg",
+    "image": "images/p36.png",
     "brand": "Anua",
     "nameRu": "Anua PDRN Serum (1+1 + maska)",
     "nameUz": "Anua PDRN Serum (1+1 + maska)",
@@ -722,7 +723,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p37",
-    "image": "images/37.jpg",
+    "image": "images/p37.jpg",
     "brand": "Anua",
     "nameRu": "Anua PDRN Set",
     "nameUz": "Anua PDRN Set",
@@ -762,7 +763,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p39",
-    "image": "images/39.jpg",
+    "image": "images/p39.webp",
     "brand": "Arencia",
     "nameRu": "Arencia Cleansing Bar/Foam",
     "nameUz": "Arencia Cleansing Bar/Foam",
@@ -782,7 +783,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p40",
-    "image": "images/40.jpg",
+    "image": "images/p40.jpg",
     "brand": "Arencia",
     "nameRu": "Arencia Cleansing Oil 200 ml",
     "nameUz": "Arencia Cleansing Oil 200 ml",
@@ -802,7 +803,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p42",
-    "image": "images/42.jpg",
+    "image": "images/p42.png",
     "brand": "Aromatica",
     "nameRu": "Aromatica Scalp Scaling Spray (soch to‘kilishiga)",
     "nameUz": "Aromatica Scalp Scaling Spray (soch to‘kilishiga)",
@@ -822,7 +823,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p43",
-    "image": "images/43.jpg",
+    "image": "images/p43.webp",
     "brand": "Axis",
     "nameRu": "Axis PDRN Triple Gel Toner",
     "nameUz": "Axis PDRN Triple Gel Toner",
@@ -862,7 +863,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p47",
-    "image": "images/47.jpg",
+    "image": "images/p47.png",
     "brand": "Beplain",
     "nameRu": "Beplain Cream",
     "nameUz": "Beplain Cream",
@@ -1025,7 +1026,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p57",
-    "image": "images/57.jpg",
+    "image": "images/p57.webp",
     "brand": "Celimax",
     "nameRu": "Celimax Pore Dark Spot Sun Cream 10 ml",
     "nameUz": "Celimax Pore Dark Spot Sun Cream 10 ml",
@@ -1045,13 +1046,13 @@ window.PRODUCTS = [
   },
   {
     "id": "p59",
-    "image": "images/59.jpg",
+    "image": "images/p59.webp",
     "brand": "Celimax",
     "nameRu": "Celimax Watery Sun Cream SPF50+",
     "nameUz": "Celimax Watery Sun Cream SPF50+",
     "category": "spf",
-    "price": 116000,
-    "volume": "",
+    "price": 137000,
+    "volume": "40 мл",
     "skin": [
       "all"
     ],
@@ -1065,7 +1066,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p60",
-    "image": "images/60.jpg",
+    "image": "images/p60.png",
     "brand": "Centellian24",
     "nameRu": "Centellian24 Madeca Cream",
     "nameUz": "Centellian24 Madeca Cream",
@@ -1085,7 +1086,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p61",
-    "image": "images/61.jpg",
+    "image": "images/p61.jpeg",
     "brand": "Cerabase",
     "nameRu": "Cerabase Cream",
     "nameUz": "Cerabase Cream",
@@ -1105,7 +1106,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p62",
-    "image": "images/62.jpg",
+    "image": "images/p62.webp",
     "brand": "Cetaphil",
     "nameRu": "Cetaphil Moisturizing Lotion",
     "nameUz": "Cetaphil Moisturizing Lotion",
@@ -1125,7 +1126,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p63",
-    "image": "images/63.jpg",
+    "image": "images/p63.webp",
     "brand": "Clio",
     "nameRu": "Clio Kill Cover Concealer",
     "nameUz": "Clio Kill Cover Concealer",
@@ -1145,7 +1146,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p64",
-    "image": "images/64.jpg",
+    "image": "images/p64.jpeg",
     "brand": "Clio",
     "nameRu": "Clio Kill Cover Cushion",
     "nameUz": "Clio Kill Cover Cushion",
@@ -1289,7 +1290,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p76",
-    "image": "images/p76.jpg",
+    "image": "images/p76.png",
     "brand": "Dr.Althea",
     "nameRu": "Dr.Althea Aqua Marine Set",
     "nameUz": "Dr.Althea Aqua Marine Set",
@@ -1309,7 +1310,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p78",
-    "image": "images/78.jpg",
+    "image": "images/p78.jpeg",
     "brand": "Dr.Althea",
     "nameRu": "Dr.Althea Cleansing Oil",
     "nameUz": "Dr.Althea Cleansing Oil",
@@ -1329,7 +1330,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p80",
-    "image": "images/p80.jpg",
+    "image": "images/p80.jpeg",
     "brand": "Dr.Althea",
     "nameRu": "Dr.Althea Gel Cleanser",
     "nameUz": "Dr.Althea Gel Cleanser",
@@ -1349,7 +1350,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p81",
-    "image": "images/p81.jpg",
+    "image": "images/p81.webp",
     "brand": "Dr.Althea",
     "nameRu": "Dr.Althea Sebum Cleanser",
     "nameUz": "Dr.Althea Sebum Cleanser",
@@ -1369,7 +1370,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p82",
-    "image": "images/p82.jpg",
+    "image": "images/p82.webp",
     "brand": "Dr.Althea",
     "nameRu": "Dr.Althea Sun Cream SPF50+",
     "nameUz": "Dr.Althea Sun Cream SPF50+",
@@ -2142,7 +2143,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p121",
-    "image": "images/p121.jpg",
+    "image": "images/p121.webp",
     "brand": "Lagom",
     "nameRu": "Lagom Serum",
     "nameUz": "Lagom Serum",
@@ -2162,7 +2163,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p122",
-    "image": "images/p122.jpg",
+    "image": "images/p122.jpeg",
     "brand": "Lagom",
     "nameRu": "Lagom Skincare Set",
     "nameUz": "Lagom Skincare Set",
@@ -3157,7 +3158,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p173",
-    "image": "images/173.jpg",
+    "image": "images/p173.webp",
     "brand": "Round Lab",
     "nameRu": "Round Lab Birch Juice Sun Cream (детский), 60 мл",
     "nameUz": "Round Lab Birch Juice Sun Cream (bolalar uchun) 60 ml",
@@ -3183,7 +3184,7 @@ window.PRODUCTS = [
     "nameUz": "Round Lab Birch Juice Sun Stick SPF50+",
     "category": "spf",
     "price": 136000,
-    "volume": "",
+    "volume": "19 г",
     "skin": [
       "all"
     ],
@@ -3203,7 +3204,7 @@ window.PRODUCTS = [
     "nameUz": "Round Lab Dokdo Cream",
     "category": "cream",
     "price": 173000,
-    "volume": "",
+    "volume": "80 мл",
     "skin": [
       "all"
     ],
@@ -3234,26 +3235,6 @@ window.PRODUCTS = [
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
     "weight": 0.15
-  },
-  {
-    "id": "p179",
-    "image": "images/179.jpg",
-    "brand": "Round Lab",
-    "nameRu": "Round Lab Foam Cleanser (пенка)",
-    "nameUz": "Round Lab Foam Cleanser (penka)",
-    "category": "cleanser",
-    "price": 119000,
-    "volume": "",
-    "skin": [
-      "all"
-    ],
-    "concerns": [],
-    "shortRu": "Пенка для умывания: мягко очищает, не пересушивая кожу.",
-    "shortUz": "Round Lab tozalovchi penka (ko'pik).",
-    "useRu": "Вспенить с водой, помассировать и смыть.",
-    "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving.",
-    "imported": true,
-    "weight": 0.2
   },
   {
     "id": "p181",
