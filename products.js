@@ -30,7 +30,7 @@ window.PRODUCTS = [
     "nameRu": "1025 Dokdo Cleanser",
     "nameUz": "1025 Dokdo Cleanser",
     "category": "cleanser",
-    "price": 181000,
+    "price": 118000,
     "volume": "150 мл",
     "skin": [
       "all",
@@ -54,7 +54,7 @@ window.PRODUCTS = [
     "nameRu": "1025 Dokdo Lotion",
     "nameUz": "1025 Dokdo Lotion",
     "category": "moisture",
-    "price": 232000,
+    "price": 139000,
     "volume": "200 мл",
     "skin": [
       "dry",
@@ -103,7 +103,7 @@ window.PRODUCTS = [
     "nameRu": "Dark Spot Correcting Glow Serum",
     "nameUz": "Dark Spot Correcting Glow Serum",
     "category": "serum",
-    "price": 184000,
+    "price": 112000,
     "volume": "50 мл",
     "skin": [
       "all",
@@ -128,7 +128,7 @@ window.PRODUCTS = [
     "nameRu": "Dark Spot Correcting Glow Toner",
     "nameUz": "Dark Spot Correcting Glow Toner",
     "category": "toner",
-    "price": 208000,
+    "price": 146000,
     "volume": "125 мл",
     "skin": [
       "all",
@@ -177,7 +177,7 @@ window.PRODUCTS = [
     "nameRu": "TXA 2.5% Intensive Brightening Cream",
     "nameUz": "TXA 2.5% Intensive Brightening Cream",
     "category": "cream",
-    "price": 197000,
+    "price": 134000,
     "volume": "50 мл",
     "skin": [
       "all",
@@ -201,7 +201,7 @@ window.PRODUCTS = [
     "nameRu": "Dark Spot Correcting Glow Cream",
     "nameUz": "Dark Spot Correcting Glow Cream",
     "category": "cream",
-    "price": 203000,
+    "price": 134000,
     "volume": "50 мл",
     "skin": [
       "all",
@@ -302,7 +302,7 @@ window.PRODUCTS = [
     "nameRu": "Birch Juice Moisturizing Cream",
     "nameUz": "Birch Juice Moisturizing Cream",
     "category": "cream",
-    "price": 245000,
+    "price": 170000,
     "volume": "80 мл",
     "skin": [
       "dry",
@@ -473,7 +473,7 @@ window.PRODUCTS = [
     "nameRu": "Cellup Trial Kit — набор миниатюр",
     "nameUz": "Cellup Trial Kit — mini to‘plam",
     "category": "set",
-    "price": 340000,
+    "price": 246000,
     "volume": "5 мини-средств",
     "skin": [
       "all"
@@ -518,7 +518,7 @@ window.PRODUCTS = [
     "nameRu": "Mask Fit Red Cushion SPF40 PA++ — оттенок 23N Sand",
     "nameUz": "Mask Fit Red Cushion SPF40 PA++ — 23N Sand rangi",
     "category": "makeup",
-    "price": 254000,
+    "price": 185000,
     "volume": "18 г",
     "skin": [
       "all"
