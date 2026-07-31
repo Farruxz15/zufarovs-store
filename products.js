@@ -218,8 +218,7 @@ window.PRODUCTS = [
     "shortUz": "Kundalik kir va ortiqcha sebumni tozalash uchun tetiklantiruvchi ko‘pik. Normal, aralash va yog‘li teriga mos.",
     "useRu": "Вспеньте небольшое количество во влажных ладонях, мягко массируйте лицо 30–60 секунд и смойте. После макияжа или водостойкого SPF используйте как второй этап очищения.",
     "useUz": "Oz miqdorni nam kaftda ko‘pirtiring, yuzni 30–60 soniya muloyim massaj qiling va yuving. Makiyaj yoki suvga chidamli SPFdan keyin ikkinchi bosqichda ishlating.",
-    "weight": 0.17,
-    "soon": true
+    "weight": 0.17
   },
   {
     "id": "p11",
@@ -268,8 +267,7 @@ window.PRODUCTS = [
     "shortUz": "Yengil gel teksturali konsentrlangan namlantiruvchi ampula. Quruqlik hissini kamaytirish va teri silliqligini qo‘llab-quvvatlashga yordam beradi.",
     "useRu": "После тонера нанесите 2–3 капли на лицо и мягко распределите. Затем используйте эмульсию или крем. Можно применять утром и вечером.",
     "useUz": "Tonerdan keyin yuzga 2–3 tomchi surting va muloyim taqsimlang. So‘ng emulsiya yoki krem ishlating. Ertalab va kechqurun qo‘llash mumkin.",
-    "weight": 0.095,
-    "soon": true
+    "weight": 0.095
   },
   {
     "id": "p13",
@@ -363,8 +361,7 @@ window.PRODUCTS = [
     "shortUz": "Kundalik tozalash uchun teriga yaqin pH ga ega yumshoq ko‘pik, kuchli taranglik hissini qoldirmaslikka yordam beradi.",
     "useRu": "Вспеньте небольшое количество в ладонях, нанесите на влажное лицо, массируйте 30–60 секунд и смойте. Утром используйте самостоятельно, вечером — вторым этапом.",
     "useUz": "Oz miqdorni kaftda ko‘pirtiring, nam yuzga surting, 30–60 soniya massaj qiling va yuving. Ertalab alohida, kechqurun ikkinchi bosqichda ishlating.",
-    "weight": 0.17,
-    "soon": true
+    "weight": 0.17
   },
   {
     "id": "p17",
@@ -439,8 +436,7 @@ window.PRODUCTS = [
     "shortUz": "Xira teri, postakne va notekis rang uchun vitamin C li antioksidant serum. Sezgir terida yengil achishish berishi mumkin.",
     "useRu": "Нанесите 2–3 капли после тонера. Начните с 2–3 раз в неделю, затем увеличивайте частоту при хорошей переносимости. Не наносите на раздражённую кожу; днём обязательно используйте SPF.",
     "useUz": "Tonerdan keyin 2–3 tomchi surting. Haftasiga 2–3 martadan boshlang, yaxshi qabul qilinsa tezligini oshiring. Ta’sirlangan teriga surtmang; kunduzi SPF majburiy.",
-    "weight": 0.08,
-    "soon": true
+    "weight": 0.08
   },
   {
     "id": "p20",
@@ -511,8 +507,7 @@ window.PRODUCTS = [
     "shortUz": "10% niatsinamid va 4% traneksam kislotali serum postakne, pigment dog‘lari va notekis rang uchun. Yuqori konsentratsiya sezgir terini ta’sirlantirishi mumkin.",
     "useRu": "Нанесите 2–3 капли после тонера. Начните через день или 2–3 раза в неделю, затем увеличивайте частоту при хорошей переносимости. Не наносите на повреждённую кожу; утром используйте SPF.",
     "useUz": "Tonerdan keyin 2–3 tomchi surting. Kun ora yoki haftasiga 2–3 martadan boshlang, yaxshi qabul qilinsa tezligini oshiring. Shikastlangan teriga surtmang; ertalab SPF ishlating.",
-    "weight": 0.08,
-    "soon": true
+    "weight": 0.08
   },
   {
     "id": "p24",
@@ -537,8 +532,7 @@ window.PRODUCTS = [
     "shortUz": "10% azelain kislotasi va gialuron kislotali serum qizarish, yallig‘lanish va postakne uchun. Akne yoki rozatseani shifokor davolashini almashtirmaydi.",
     "useRu": "Начните с 2–3 применений в неделю на сухую кожу после тонера. Используйте 1–2 капли, затем крем. При выраженном жжении смойте и уменьшите частоту. Утром обязательно SPF.",
     "useUz": "Haftasiga 2–3 marta tonerdan keyin quruq teriga 1–2 tomchi surting, so‘ng krem. Kuchli achishish bo‘lsa yuving va tezligini kamaytiring. Ertalab SPF majburiy.",
-    "weight": 0.08,
-    "soon": true
+    "weight": 0.08
   },
   {
     "id": "p25",
@@ -562,8 +556,7 @@ window.PRODUCTS = [
     "shortUz": "Normal, quruq va sezgir teri uchun keramid va namlantiruvchi komponentlarga ega zich barer kremi. Quruqlikni kamaytirish va himoya to‘sig‘ini qo‘llab-quvvatlaydi.",
     "useRu": "Наносите завершающим этапом утром и вечером. Для очень сухих участков используйте более плотный слой. Утром поверх нанесите SPF.",
     "useUz": "Ertalab va kechqurun yakuniy bosqichda surting. Juda quruq joylarga qalinroq qatlam qo‘llang. Ertalab ustidan SPF surting.",
-    "weight": 0.1,
-    "soon": true
+    "weight": 0.1
   },
   {
     "id": "p26",
@@ -585,8 +578,7 @@ window.PRODUCTS = [
     "shortUz": "Aylantiriladigan dozatorli tozalovchi balzam makiyaj, SPF va yog‘da eruvchi kirlarni eritadi. Kechki tozalashning birinchi bosqichi uchun.",
     "useRu": "Поверните механизм, чтобы выдать небольшое количество. Нанесите на сухое лицо сухими руками, массируйте около минуты, добавьте воду и эмульгируйте. Тщательно смойте и используйте пенку.",
     "useUz": "Mexanizmni aylantirib oz miqdor chiqaring. Quruq yuzga quruq qo‘l bilan surting, taxminan bir daqiqa massaj qiling, suv qo‘shib emulsiya qiling. Yaxshilab yuving va ko‘pik ishlating.",
-    "weight": 0.1,
-    "soon": true
+    "weight": 0.1
   },
   {
     "id": "p27",
@@ -634,8 +626,7 @@ window.PRODUCTS = [
     "useRu": "Наносить днём как финал ухода за 15–20 мин до выхода.",
     "useUz": "Kunduzi parvarishning yakuniy bosqichi sifatida, tashqariga chiqishdan 15–20 daqiqa oldin surting.",
     "imported": true,
-    "weight": 0.1,
-    "soon": true
+    "weight": 0.1
   },
   {
     "id": "p29",
@@ -655,8 +646,7 @@ window.PRODUCTS = [
     "useRu": "Наносить на очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p31",
@@ -676,8 +666,7 @@ window.PRODUCTS = [
     "useRu": "Финал ухода утром и вечером — распределить и вбить до впитывания.",
     "useUz": "Ertalab va kechqurun parvarishning oxirida — tekis taqsimlab, shimilguncha singdiring.",
     "imported": true,
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p32",
@@ -697,8 +686,7 @@ window.PRODUCTS = [
     "useRu": "Наносить утром и вечером как завершающий этап ухода.",
     "useUz": "Ertalab va kechqurun parvarishning yakuniy bosqichi sifatida surting.",
     "imported": true,
-    "weight": 0.13,
-    "soon": true
+    "weight": 0.13
   },
   {
     "id": "p34",
@@ -718,8 +706,7 @@ window.PRODUCTS = [
     "useRu": "Вспенить с водой, помассировать, смыть. Можно как маска-пенка 1 мин.",
     "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving. Ko‘pikli niqob sifatida 1 daqiqa ushlab turish mumkin.",
     "imported": true,
-    "weight": 0.2,
-    "soon": true
+    "weight": 0.2
   },
   {
     "id": "p35",
@@ -739,8 +726,7 @@ window.PRODUCTS = [
     "useRu": "Распылять на лицо поверх ухода или макияжа при необходимости.",
     "useUz": "Kerak bo‘lganda parvarish yoki pardoz ustidan yuzga purkang.",
     "imported": true,
-    "weight": 0.08,
-    "soon": true
+    "weight": 0.08
   },
   {
     "id": "p36",
@@ -760,8 +746,7 @@ window.PRODUCTS = [
     "useRu": "Несколько капель на очищенную кожу утром и вечером до крема.",
     "useUz": "Ertalab va kechqurun kremdan oldin tozalangan teriga bir necha tomchi surting.",
     "imported": true,
-    "weight": 0.1,
-    "soon": true
+    "weight": 0.1
   },
   {
     "id": "p37",
@@ -781,8 +766,7 @@ window.PRODUCTS = [
     "useRu": "По инструкции к каждому средству набора.",
     "useUz": "To‘plamdagi har bir vosita yo‘riqnomasiga muvofiq foydalaning.",
     "imported": true,
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p38",
@@ -802,8 +786,7 @@ window.PRODUCTS = [
     "useRu": "Вспенить с водой, помассировать и смыть тёплой водой.",
     "useUz": "Suv bilan ko‘piklab, massaj qiling va iliq suv bilan yuving.",
     "imported": true,
-    "weight": 0.2,
-    "soon": true
+    "weight": 0.2
   },
   {
     "id": "p39",
@@ -823,8 +806,7 @@ window.PRODUCTS = [
     "useRu": "Вспенить, нанести на влажную кожу, помассировать и смыть.",
     "useUz": "Ko‘piklab, nam teriga surting, massaj qiling va yuving.",
     "imported": true,
-    "weight": 0.2,
-    "soon": true
+    "weight": 0.2
   },
   {
     "id": "p40",
@@ -844,8 +826,7 @@ window.PRODUCTS = [
     "useRu": "На сухую кожу, помассировать, эмульгировать водой и смыть.",
     "useUz": "Quruq teriga surting, massaj qiling, suv qo‘shib emulsiyalang va yuving.",
     "imported": true,
-    "weight": 0.25,
-    "soon": true
+    "weight": 0.25
   },
   {
     "id": "p42",
@@ -865,8 +846,7 @@ window.PRODUCTS = [
     "useRu": "Распылить на кожу головы и помассировать; можно без смывания.",
     "useUz": "Bosh terisiga purkang va massaj qiling; yuvmasa ham bo‘ladi.",
     "imported": true,
-    "weight": 0.35,
-    "soon": true
+    "weight": 0.35
   },
   {
     "id": "p43",
@@ -886,8 +866,7 @@ window.PRODUCTS = [
     "useRu": "Нанести на очищенную кожу ладонями до сыворотки.",
     "useUz": "Zardobdan oldin tozalangan teriga kaft bilan surting.",
     "imported": true,
-    "weight": 0.25,
-    "soon": true
+    "weight": 0.25
   },
   {
     "id": "p46",
@@ -907,8 +886,7 @@ window.PRODUCTS = [
     "useRu": "На сухую кожу, помассировать, эмульгировать водой и смыть.",
     "useUz": "Quruq teriga surting, massaj qiling, suv qo‘shib emulsiyalang va yuving.",
     "imported": true,
-    "weight": 0.2,
-    "soon": true
+    "weight": 0.2
   },
   {
     "id": "p47",
@@ -928,8 +906,7 @@ window.PRODUCTS = [
     "useRu": "Наносить на очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p48",
@@ -970,8 +947,7 @@ window.PRODUCTS = [
     "useRu": "Распылять на тело и волосы при необходимости.",
     "useUz": "Kerak bo‘lganda tana va sochga purkang.",
     "imported": true,
-    "weight": 0.35,
-    "soon": true
+    "weight": 0.35
   },
   {
     "id": "p51",
@@ -991,8 +967,7 @@ window.PRODUCTS = [
     "useRu": "Наложить под глаза на 20–30 мин, снять, остатки вбить.",
     "useUz": "Ko‘z ostiga 20–30 daqiqaga qo‘ying, oling va qoldig‘ini singdiring.",
     "imported": true,
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p53",
@@ -1012,8 +987,7 @@ window.PRODUCTS = [
     "useRu": "Несколько капель на очищенную кожу утром и вечером до крема.",
     "useUz": "Ertalab va kechqurun kremdan oldin tozalangan teriga bir necha tomchi surting.",
     "imported": true,
-    "weight": 0.1,
-    "soon": true
+    "weight": 0.1
   },
   {
     "id": "p54",
@@ -1033,8 +1007,7 @@ window.PRODUCTS = [
     "useRu": "На сухую кожу, помассировать, эмульгировать водой и смыть.",
     "useUz": "Quruq teriga surting, massaj qiling, suv qo‘shib emulsiyalang va yuving.",
     "imported": true,
-    "weight": 0.2,
-    "soon": true
+    "weight": 0.2
   },
   {
     "id": "p55",
@@ -1096,8 +1069,7 @@ window.PRODUCTS = [
     "useRu": "Наносить за 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.06,
-    "soon": true
+    "weight": 0.06
   },
   {
     "id": "p59",
@@ -1117,8 +1089,7 @@ window.PRODUCTS = [
     "useRu": "Наносить за 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.1,
-    "soon": true
+    "weight": 0.1
   },
   {
     "id": "p60",
@@ -1138,8 +1109,7 @@ window.PRODUCTS = [
     "useRu": "Наносить на очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p61",
@@ -1159,8 +1129,7 @@ window.PRODUCTS = [
     "useRu": "Наносить на очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p62",
@@ -1180,8 +1149,7 @@ window.PRODUCTS = [
     "useRu": "Наносить на кожу по мере необходимости, в т.ч. после душа.",
     "useUz": "Kerak bo‘lganda, jumladan dushdan so‘ng teriga surting.",
     "imported": true,
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p63",
@@ -1201,8 +1169,7 @@ window.PRODUCTS = [
     "useRu": "Точечно нанести на нужные зоны и растушевать.",
     "useUz": "Kerakli joylarga nuqtali surtib, tekislab yoying.",
     "imported": true,
-    "weight": 0.08,
-    "soon": true
+    "weight": 0.08
   },
   {
     "id": "p64",
@@ -1222,8 +1189,7 @@ window.PRODUCTS = [
     "useRu": "Нанести спонжем похлопывающими движениями, при необходимости в 2 слоя.",
     "useUz": "Spong bilan yengil urib surting, kerak bo‘lsa 2 qatlam qiling.",
     "imported": true,
-    "weight": 0.08,
-    "soon": true
+    "weight": 0.08
   },
   {
     "id": "p67",
@@ -1243,8 +1209,7 @@ window.PRODUCTS = [
     "useRu": "Распылять на лицо поверх ухода или макияжа при необходимости.",
     "useUz": "Kerak bo‘lganda parvarish yoki pardoz ustidan yuzga purkang.",
     "imported": true,
-    "weight": 0.3,
-    "soon": true
+    "weight": 0.3
   },
   {
     "id": "p68",
@@ -1348,8 +1313,7 @@ window.PRODUCTS = [
     "useRu": "Несколько капель на очищенную кожу утром и вечером до крема.",
     "useUz": "Ertalab va kechqurun kremdan oldin tozalangan teriga bir necha tomchi surting.",
     "imported": true,
-    "weight": 0.1,
-    "soon": true
+    "weight": 0.1
   },
   {
     "id": "p76",
@@ -1369,8 +1333,7 @@ window.PRODUCTS = [
     "useRu": "По инструкции к средствам набора.",
     "useUz": "To‘plamdagi vositalar yo‘riqnomasiga muvofiq foydalaning.",
     "imported": true,
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p78",
@@ -1390,8 +1353,7 @@ window.PRODUCTS = [
     "useRu": "На сухую кожу, помассировать, эмульгировать и смыть.",
     "useUz": "Quruq teriga surting, massaj qiling, suv bilan emulsiyalab yuving.",
     "imported": true,
-    "weight": 0.2,
-    "soon": true
+    "weight": 0.2
   },
   {
     "id": "p80",
@@ -1411,8 +1373,7 @@ window.PRODUCTS = [
     "useRu": "Вспенить с водой, помассировать и смыть.",
     "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
-    "weight": 0.2,
-    "soon": true
+    "weight": 0.2
   },
   {
     "id": "p81",
@@ -1432,8 +1393,7 @@ window.PRODUCTS = [
     "useRu": "Вспенить с водой, помассировать и смыть утром и вечером.",
     "useUz": "Ertalab va kechqurun suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
-    "weight": 0.2,
-    "soon": true
+    "weight": 0.2
   },
   {
     "id": "p82",
@@ -1453,8 +1413,7 @@ window.PRODUCTS = [
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.1,
-    "soon": true
+    "weight": 0.1
   },
   {
     "id": "p83",
@@ -2146,8 +2105,7 @@ window.PRODUCTS = [
     "useRu": "Вспенить с водой, помассировать и смыть.",
     "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
-    "weight": 0.2,
-    "soon": true
+    "weight": 0.2
   },
   {
     "id": "p117",
@@ -2167,8 +2125,7 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p118",
@@ -2188,8 +2145,7 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p119",
@@ -2230,8 +2186,7 @@ window.PRODUCTS = [
     "useRu": "Несколько капель на очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga bir necha tomchi surting.",
     "imported": true,
-    "weight": 0.1,
-    "soon": true
+    "weight": 0.1
   },
   {
     "id": "p122",
@@ -2251,8 +2206,7 @@ window.PRODUCTS = [
     "useRu": "По инструкции к средствам набора.",
     "useUz": "To‘plamdagi vositalar yo‘riqnomasiga muvofiq foydalaning.",
     "imported": true,
-    "weight": 0.3,
-    "soon": true
+    "weight": 0.3
   },
   {
     "id": "p123",
@@ -2272,8 +2226,7 @@ window.PRODUCTS = [
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.1,
-    "soon": true
+    "weight": 0.1
   },
   {
     "id": "p124",
@@ -2293,8 +2246,7 @@ window.PRODUCTS = [
     "useRu": "Нанести на кожу перед выходом и в течение дня.",
     "useUz": "Tashqariga chiqishdan oldin va kun davomida teriga surting.",
     "imported": true,
-    "weight": 0.1,
-    "soon": true
+    "weight": 0.1
   },
   {
     "id": "p125",
@@ -2314,8 +2266,7 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу ладонями или диском.",
     "useUz": "Tozalangan teriga kaft yoki paxta disk bilan surting.",
     "imported": true,
-    "weight": 0.25,
-    "soon": true
+    "weight": 0.25
   },
   {
     "id": "p126",
@@ -2335,8 +2286,7 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p127",
@@ -3007,8 +2957,7 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p161",
@@ -3028,8 +2977,7 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p162",
@@ -3049,8 +2997,7 @@ window.PRODUCTS = [
     "useRu": "Несколько капель на очищенную кожу до крема.",
     "useUz": "Kremdan oldin tozalangan teriga bir necha tomchi surting.",
     "imported": true,
-    "weight": 0.1,
-    "soon": true
+    "weight": 0.1
   },
   {
     "id": "p163",
@@ -3091,8 +3038,7 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p165",
@@ -3112,8 +3058,7 @@ window.PRODUCTS = [
     "useRu": "Нанести перед выходом и в течение дня.",
     "useUz": "Tashqariga chiqishdan oldin va kun davomida surting.",
     "imported": true,
-    "weight": 0.1,
-    "soon": true
+    "weight": 0.1
   },
   {
     "id": "p167",
@@ -3133,8 +3078,7 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу ладонями до сыворотки.",
     "useUz": "Zardobdan oldin tozalangan teriga kaft bilan surting.",
     "imported": true,
-    "weight": 0.1,
-    "soon": true
+    "weight": 0.1
   },
   {
     "id": "p168",
@@ -3154,8 +3098,7 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p169",
@@ -3175,8 +3118,7 @@ window.PRODUCTS = [
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.1,
-    "soon": true
+    "weight": 0.1
   },
   {
     "id": "p170",
@@ -3259,8 +3201,7 @@ window.PRODUCTS = [
     "useRu": "За 15–20 мин до выхода, обновлять каждые 2–3 часа.",
     "useUz": "Tashqariga chiqishdan 15–20 daqiqa oldin surting, har 2–3 soatda yangilab turing.",
     "imported": true,
-    "weight": 0.11,
-    "soon": true
+    "weight": 0.11
   },
   {
     "id": "p174",
@@ -3280,8 +3221,7 @@ window.PRODUCTS = [
     "useRu": "Нанести перед выходом и в течение дня.",
     "useUz": "Tashqariga chiqishdan oldin va kun davomida surting.",
     "imported": true,
-    "weight": 0.1,
-    "soon": true
+    "weight": 0.1
   },
   {
     "id": "p177",
@@ -3301,8 +3241,7 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p178",
@@ -3322,8 +3261,7 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу утром и вечером.",
     "useUz": "Ertalab va kechqurun tozalangan teriga surting.",
     "imported": true,
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p179",
@@ -3343,8 +3281,7 @@ window.PRODUCTS = [
     "useRu": "Вспенить с водой, помассировать и смыть.",
     "useUz": "Suv bilan ko‘piklab, massaj qiling va yuving.",
     "imported": true,
-    "weight": 0.2,
-    "soon": true
+    "weight": 0.2
   },
   {
     "id": "p181",
@@ -3364,8 +3301,7 @@ window.PRODUCTS = [
     "useRu": "На очищенную кожу ладонями или диском.",
     "useUz": "Tozalangan teriga kaft yoki paxta disk bilan surting.",
     "imported": true,
-    "weight": 0.25,
-    "soon": true
+    "weight": 0.25
   },
   {
     "id": "p182",
@@ -4356,8 +4292,7 @@ window.PRODUCTS = [
     "shortUz": "Katta hajmli tana va soch misti. Yengil, chidamli hid; sochga ham, kiyimga ham sepish mumkin.",
     "useRu": "Распылите с расстояния 20–30 см на тело или волосы.",
     "useUz": "20–30 sm masofadan tana yoki sochga sepiladi.",
-    "weight": 0.286,
-    "soon": true
+    "weight": 0.286
   },
   {
     "id": "p229",
@@ -4516,8 +4451,7 @@ window.PRODUCTS = [
     "shortUz": "Terini jadal namlantirish va tiklash uchun 4 donalik krem-maska to‘plami.",
     "useRu": "Нанесите на очищенную кожу плотным слоем на 10–15 минут, затем смойте или вбейте остатки.",
     "useUz": "Tozalangan teriga qalin qatlam qilib 10–15 daqiqaga surting, so‘ng yuving yoki qoldig‘ini singdiring.",
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p238",
@@ -4580,8 +4514,7 @@ window.PRODUCTS = [
     "shortUz": "3D Lifting liniyasidagi zardob: terining elastikligi va yuz konturi uchun.",
     "useRu": "Наносите 2–3 капли на очищенную кожу до крема, утром и вечером.",
     "useUz": "Tozalangan teriga kremdan oldin 2–3 tomchi, ertalab va kechqurun surting.",
-    "weight": 0.1,
-    "soon": true
+    "weight": 0.1
   },
   {
     "id": "p241",
@@ -4602,8 +4535,7 @@ window.PRODUCTS = [
     "shortUz": "Kun davomida namlantirish va lifting effekti uchun kremsimon mist.",
     "useRu": "Распыляйте на лицо с расстояния 20 см в любое время дня, в том числе поверх макияжа.",
     "useUz": "Kun davomida, hatto makiyaj ustidan ham, 20 sm masofadan yuzga purkang.",
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p242",
@@ -4624,8 +4556,7 @@ window.PRODUCTS = [
     "shortUz": "3D Lifting liniyasidagi yosh parvarishi uchun quyuq lifting krem.",
     "useRu": "Наносите на лицо и шею как финальный этап ухода утром и вечером.",
     "useUz": "Ertalab va kechqurun parvarishning yakuniy bosqichida yuz va bo‘yinga surting.",
-    "weight": 0.15,
-    "soon": true
+    "weight": 0.15
   },
   {
     "id": "p243",
@@ -4646,8 +4577,7 @@ window.PRODUCTS = [
     "shortUz": "Ko‘z atrofi uchun krem, 1+1 to‘plam — narx ikkitasi uchun.",
     "useRu": "Наносите безымянным пальцем по орбитальной кости утром и вечером.",
     "useUz": "Ertalab va kechqurun nomsiz barmoq bilan ko‘z suyagi bo‘ylab surting.",
-    "weight": 0.1,
-    "soon": true
+    "weight": 0.1
   },
   {
     "id": "p244",
