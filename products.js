@@ -240,7 +240,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p11",
-    "image": "images/p11.webp",
+    "image": "images/placeholder.svg",
     "brand": "Round Lab",
     "nameRu": "Birch Juice Moisturizing Mild-Up Sunscreen SPF50+ PA++++",
     "nameUz": "Birch Juice Moisturizing Mild-Up Sunscreen SPF50+ PA++++",
@@ -875,11 +875,11 @@ window.PRODUCTS = [
     "id": "p42",
     "image": "images/p42.png",
     "brand": "Aromatica",
-    "nameRu": "Aromatica Scalp Scaling Spray (soch to‘kilishiga)",
-    "nameUz": "Aromatica Scalp Scaling Spray (soch to‘kilishiga)",
+    "nameRu": "Aromatica Rosemary Root Enhancer, 100 мл",
+    "nameUz": "Aromatica Rosemary Root Enhancer, 100 ml",
     "category": "hair",
     "price": 150000,
-    "volume": "",
+    "volume": "100 мл",
     "skin": [
       "all"
     ],
@@ -1162,7 +1162,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p60",
-    "image": "images/p60.png",
+    "image": "images/placeholder.svg",
     "brand": "Centellian24",
     "nameRu": "Centellian24 Madeca Cream",
     "nameUz": "Centellian24 Madeca Cream",
@@ -1206,7 +1206,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p62",
-    "image": "images/p62.webp",
+    "image": "images/placeholder.svg",
     "brand": "Cetaphil",
     "nameRu": "Cetaphil Moisturizing Lotion",
     "nameUz": "Cetaphil Moisturizing Lotion",
