@@ -29,6 +29,19 @@ DEFAULT_WEIGHT=0.2
 KG_FEE_USD=int(os.getenv('KG_FEE_USD','10'))
 USD_RATE=int(os.getenv('USD_RATE','12350'))
 ORDERS_FILE=Path(__file__).with_name('orders.jsonl')
+# Откуда пришёл человек. В ссылке это часть после ?start=,
+# например t.me/zufarovs_store_bot?start=ig_bio → source = 'ig_bio'.
+# Пишем в visits.jsonl и подставляем в заказ, чтобы видеть,
+# какая площадка реально приводит покупателей, а не просто клики.
+VISITS_FILE=Path(__file__).with_name('visits.jsonl')
+SOURCE_NAMES={
+    'ig_bio':'Instagram · шапка профиля',
+    'ig_stories':'Instagram · сторис',
+    'ig_reels':'Instagram · reels',
+    'ig_post':'Instagram · пост',
+    'ig_dm':'Instagram · директ',
+    'tg':'Telegram-канал',
+}
 CONTACT, ADDRESS, HOME, PAYMENT, RECEIPT = range(5)
 
 def money(n): return f"{int(n):,}".replace(',',' ')
@@ -100,10 +113,20 @@ def card_message(total, with_items, d):
     )
 
 def persist_order(d,user):
-    row={'created_at':datetime.now().isoformat(timespec='seconds'),'telegram_id':user.id,'username':user.username,'items':d['items'],'subtotal':d['subtotal'],'weight':d.get('weight',0),'total':d['total'],'name':d.get('name'),'phone':d.get('phone'),'address':d.get('address'),'payment':d.get('payment')}
+    row={'created_at':datetime.now().isoformat(timespec='seconds'),'telegram_id':user.id,'username':user.username,'items':d['items'],'subtotal':d['subtotal'],'weight':d.get('weight',0),'total':d['total'],'name':d.get('name'),'phone':d.get('phone'),'address':d.get('address'),'payment':d.get('payment'),'source':d.get('source')}
     with ORDERS_FILE.open('a',encoding='utf-8') as f:f.write(json.dumps(row,ensure_ascii=False)+'\n')
 
+def persist_visit(user,source):
+    row={'created_at':datetime.now().isoformat(timespec='seconds'),'telegram_id':user.id,'username':user.username,'source':source}
+    with VISITS_FILE.open('a',encoding='utf-8') as f:f.write(json.dumps(row,ensure_ascii=False)+'\n')
+
 async def start(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
+    # ?start=ig_bio и т.п. — метка источника из ссылки
+    source=(ctx.args[0] if ctx.args else '').strip()[:64]
+    if source:
+        ctx.user_data['source']=source
+        try:persist_visit(update.effective_user,source)
+        except Exception:logging.exception('не удалось записать визит')
     text=("✨ *Добро пожаловать в ZUFAROVS’ STORE*\n\n"
           "Премиальная оригинальная корейская косметика 🇰🇷\n\n"
           "• Подробные карточки товаров\n"
@@ -200,8 +223,14 @@ async def receipt(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text('Отправьте чек фотографией.');return RECEIPT
     d=ctx.user_data;await send_admin(ctx,update.effective_user,d,update.message.photo[-1].file_id);persist_order(d,update.effective_user);await update.message.reply_text('✅ Спасибо за заказ! Чек получен. Консультант проверит оплату и свяжется с вами.', reply_markup=store_keyboard()); d.clear(); return ConversationHandler.END
 
+def source_line(d):
+    """Откуда пришёл клиент — строка для уведомления админу."""
+    s=d.get('source')
+    if not s:return ''
+    return f"\n📣 Источник: {html.escape(SOURCE_NAMES.get(s,s))}"
+
 async def send_admin(ctx,user,d,photo=None):
-    text=("🔔 <b>НОВЫЙ ЗАКАЗ</b>\n\n"+items_html(d)+f"\n\nТовары: {money(d['subtotal'])} сум\n<b>Итого: {money(d['total'])} сум</b>\n<i>+ доставка курьером (Яндекс / BTS) по тарифу</i>\nОплата: {html.escape(str(d['payment']))}\n\n👤 {html.escape(str(d['name']))}\n📱 <code>{html.escape(str(d['phone']))}</code>\n📍 {html.escape(str(d['address']))}\nTelegram: @{html.escape(str(user.username or '—'))} (ID {user.id})"+profit_block(d))
+    text=("🔔 <b>НОВЫЙ ЗАКАЗ</b>\n\n"+items_html(d)+f"\n\nТовары: {money(d['subtotal'])} сум\n<b>Итого: {money(d['total'])} сум</b>\n<i>+ доставка курьером (Яндекс / BTS) по тарифу</i>\nОплата: {html.escape(str(d['payment']))}\n\n👤 {html.escape(str(d['name']))}\n📱 <code>{html.escape(str(d['phone']))}</code>\n📍 {html.escape(str(d['address']))}\nTelegram: @{html.escape(str(user.username or '—'))} (ID {user.id})"+source_line(d)+profit_block(d))
     for admin in ADMIN_IDS:
         try:
             if photo:await ctx.bot.send_photo(admin,photo,caption=text,parse_mode='HTML')
@@ -228,6 +257,28 @@ async def orders(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
     text='🧾 Последние заказы\n\n'+'\n\n'.join(f"{r['created_at']} — {r['name']} — {money(r['total'])} сум" for r in reversed(rows))
     await update.message.reply_text(text)
 
+async def sources(update:Update,ctx:ContextTypes.DEFAULT_TYPE):
+    """Сколько человек пришло с каждой ссылки и сколько из них купило."""
+    if update.effective_user.id not in ADMIN_IDS:return
+    def read(path):
+        if not path.exists():return []
+        out=[]
+        for line in path.read_text(encoding='utf-8').splitlines():
+            try:out.append(json.loads(line))
+            except:pass
+        return out
+    visits,orders_rows=read(VISITS_FILE),read(ORDERS_FILE)
+    if not visits:
+        await update.message.reply_text('Переходов по ссылкам с метками пока нет.\nСсылка выглядит так: t.me/zufarovs_store_bot?start=ig_bio');return
+    keys=sorted({v['source'] for v in visits}|{r.get('source') for r in orders_rows if r.get('source')})
+    lines=[]
+    for k in keys:
+        people={v['telegram_id'] for v in visits if v['source']==k}
+        buys=[r for r in orders_rows if r.get('source')==k]
+        total=sum(r.get('total',0) for r in buys)
+        lines.append(f"{SOURCE_NAMES.get(k,k)}\n  переходов: {len(people)} · заказов: {len(buys)} · {money(total)} сум")
+    await update.message.reply_text('📣 Откуда приходят\n\n'+'\n\n'.join(lines))
+
 async def cancel(update:Update,ctx:ContextTypes.DEFAULT_TYPE): ctx.user_data.clear(); await update.message.reply_text('Заказ отменён. Магазин можно открыть кнопкой ниже.', reply_markup=store_keyboard()); return ConversationHandler.END
 
 async def post_init(app):
@@ -248,6 +299,6 @@ def main():
                         'и заказы из мини-аппа НЕ будут доходить. Задайте MINI_APP_URL и перезапустите.')
     app=Application.builder().token(BOT_TOKEN).post_init(post_init).build()
     conv=ConversationHandler(entry_points=[MessageHandler(filters.StatusUpdate.WEB_APP_DATA,web_order)],states={CONTACT:[MessageHandler(filters.CONTACT|(filters.TEXT&~filters.COMMAND),contact)],ADDRESS:[MessageHandler(filters.LOCATION|(filters.TEXT&~filters.COMMAND),address)],HOME:[MessageHandler(filters.TEXT&~filters.COMMAND,home)],PAYMENT:[CallbackQueryHandler(payment,pattern='^pay:')],RECEIPT:[MessageHandler(filters.PHOTO|(filters.TEXT&~filters.COMMAND),receipt)]},fallbacks=[CommandHandler('cancel',cancel)],allow_reentry=True)
-    app.add_handler(CommandHandler('start',start)); app.add_handler(CommandHandler('today',today)); app.add_handler(CommandHandler('orders',orders)); app.add_handler(conv)
+    app.add_handler(CommandHandler('start',start)); app.add_handler(CommandHandler('today',today)); app.add_handler(CommandHandler('orders',orders)); app.add_handler(CommandHandler('sources',sources)); app.add_handler(conv)
     print('Bot started');app.run_polling()
 if __name__=='__main__':main()

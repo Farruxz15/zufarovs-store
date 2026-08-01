@@ -7,6 +7,7 @@ __pycache__/
 bot.log
 bot-error.log
 orders.jsonl
+visits.jsonl
 products.js.bak
 # закупочные цены — репозиторий публичный, маржа не должна туда попасть
 costs.json
