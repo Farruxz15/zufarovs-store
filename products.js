@@ -240,7 +240,7 @@ window.PRODUCTS = [
   },
   {
     "id": "p11",
-    "image": "images/placeholder.svg",
+    "image": "images/p11.webp",
     "brand": "Round Lab",
     "nameRu": "Birch Juice Moisturizing Mild-Up Sunscreen SPF50+ PA++++",
     "nameUz": "Birch Juice Moisturizing Mild-Up Sunscreen SPF50+ PA++++",
