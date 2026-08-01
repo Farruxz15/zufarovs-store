@@ -76,7 +76,7 @@ const tr=()=>i18n[lang];
 const pName=p=>lang==='ru'?p.nameRu:p.nameUz;
 const pDesc=p=>lang==='ru'?p.shortRu:p.shortUz;
 const pUse=p=>lang==='ru'?p.useRu:p.useUz;
-const purpose=p=>pDesc(p);
+const purpose=p=>lang==='ru'?(p.purposeRu||p.shortRu):(p.purposeUz||p.shortUz);
 
 /* ---------- QIDIRUV / ПОИСК (kirill+lotin, 2 tilda, xatoga chidamli) ---------- */
 const CYR2LAT={'а':'a','б':'b','в':'v','г':'g','д':'d','е':'e','ё':'yo','ж':'j','з':'z','и':'i','й':'y','к':'k','л':'l','м':'m','н':'n','о':'o','п':'p','р':'r','с':'s','т':'t','у':'u','ф':'f','х':'x','ц':'c','ч':'ch','ш':'sh','щ':'sh','ъ':'','ы':'i','ь':'','э':'e','ю':'yu','я':'ya','ў':'o','қ':'q','ғ':'g','ҳ':'h','і':'i','ї':'i'};
@@ -86,7 +86,7 @@ const skel=s=>nrm(s).replace(/kh/g,'x').replace(/q/g,'k').replace(/ch/g,'c').rep
 function lev(a,b){if(a===b)return 0;if(Math.abs(a.length-b.length)>2)return 9;let prev=[...Array(b.length+1).keys()];for(let i=1;i<=a.length;i++){const cur=[i];for(let j=1;j<=b.length;j++)cur[j]=Math.min(prev[j]+1,cur[j-1]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1));prev=cur}return prev[b.length]}
 function catWords(p){const out=[p.category];for(const L of ['ru','uz']){const d=i18n[L];if(!d)continue;if(d.categories&&d.categories[p.category])out.push(d.categories[p.category]);for(const st of (d.quiz||[]))for(const k of [...(p.concerns||[]),...(p.skin||[])])if(st.options&&st.options[k])out.push(st.options[k])}return out.join(' ')}
 const _idx=new Map();
-function idxOf(p){if(!_idx.has(p.id)){const raw=[p.brand,p.nameRu,p.nameUz,p.shortRu,p.shortUz,p.useRu,p.useUz,p.volume,catWords(p)].join(' ');_idx.set(p.id,{n:nrm(raw),s:skel(raw)})}return _idx.get(p.id)}
+function idxOf(p){if(!_idx.has(p.id)){const raw=[p.brand,p.nameRu,p.nameUz,p.purposeRu,p.purposeUz,p.shortRu,p.shortUz,p.useRu,p.useUz,p.volume,catWords(p)].join(' ');_idx.set(p.id,{n:nrm(raw),s:skel(raw)})}return _idx.get(p.id)}
 function matchesQuery(p,q){
  if(!q)return true;
  const ix=idxOf(p),nq=nrm(q),sq=skel(q);
@@ -188,7 +188,7 @@ function renderCart(){
  document.querySelector('#cartEmpty').textContent=tr().emptyCart;document.querySelector('#cartEmpty').classList.toggle('hidden',entries.length>0);document.querySelector('#cartSummary').classList.toggle('hidden',entries.length===0);updateCartBadge();syncNative();
 }
 
-function openProduct(id){currentProduct=PRODUCTS.find(p=>p.id===id);if(!currentProduct)return;document.querySelector('#modalImage').src=currentProduct.image;document.querySelector('#modalImage').alt=pName(currentProduct);document.querySelector('#modalBrand').textContent=currentProduct.brand;document.querySelector('#modalName').textContent=pName(currentProduct);document.querySelector('#modalPrice').innerHTML=priceHtml(currentProduct);document.querySelector('#modalAdd').classList.toggle('hidden',isSoon(currentProduct));document.querySelector('#modalDesc').textContent=pDesc(currentProduct);document.querySelector('#modalBenefits').textContent=pDesc(currentProduct);document.querySelector('#modalUse').textContent=pUse(currentProduct);document.querySelector('#modalVolume').textContent=currentProduct.volume;document.querySelector('#modalTags').innerHTML=[...(currentProduct.skin||[]),...(currentProduct.concerns||[])].filter(x=>x!=='all').slice(0,5).map(x=>`<span class="tag">${labelTag(x)}</span>`).join('');syncModalFavorite();renderRelated(currentProduct);document.querySelector('#modal').classList.add('open');document.body.style.overflow='hidden';syncNative();}
+function openProduct(id){currentProduct=PRODUCTS.find(p=>p.id===id);if(!currentProduct)return;document.querySelector('#modalImage').src=currentProduct.image;document.querySelector('#modalImage').alt=pName(currentProduct);document.querySelector('#modalBrand').textContent=currentProduct.brand;document.querySelector('#modalName').textContent=pName(currentProduct);document.querySelector('#modalPrice').innerHTML=priceHtml(currentProduct);document.querySelector('#modalAdd').classList.toggle('hidden',isSoon(currentProduct));document.querySelector('#modalDesc').textContent=pDesc(currentProduct);document.querySelector('#modalBenefits').textContent=purpose(currentProduct);document.querySelector('#modalUse').textContent=pUse(currentProduct);document.querySelector('#modalVolume').textContent=currentProduct.volume;document.querySelector('#modalTags').innerHTML=[...(currentProduct.skin||[]),...(currentProduct.concerns||[])].filter(x=>x!=='all').slice(0,5).map(x=>`<span class="tag">${labelTag(x)}</span>`).join('');syncModalFavorite();renderRelated(currentProduct);document.querySelector('#modal').classList.add('open');document.body.style.overflow='hidden';syncNative();}
 function relatedProducts(p,limit=6){
  const shared=q=>(q.concerns||[]).filter(c=>(p.concerns||[]).includes(c)).length;
  return PRODUCTS.filter(x=>x.id!==p.id&&x.category===p.category)
