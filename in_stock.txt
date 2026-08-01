@@ -101,3 +101,33 @@ p240  # BOH BOH 3D Lifting Serum
 p241  # BOH BOH 3D Lifting Cream Mist
 p242  # BOH BOH 3D Lifting Cream
 p243  # BOH BOH 3D Lifting Eye Cream (1+1, 2 шт)
+
+# ── Накладная №000800012266 от 01.08.2026 ──────────────────────────
+# уже были в каталоге, но висели как «Скоро»
+p158  # BORYUNG Gijja dori (противопаразитное)
+p185  # SKIN1004 Madagascar Centella Air-Fit Suncream Plus SPF50+
+p200  # Torriden Dive-In Trial Kit
+p245  # Mix Collagen Package (коллаген усиленный, 3 пачки)
+p114  # La Roche-Posay Anthelios UVMune 400 SPF50+
+p244  # Spring Amore Beauty Festa mini set (Hanyul + Mamonde + Aestura + Laneige)
+p127  # TIRTIR Mask Fit Make Up Fixer
+
+# новые позиции из этой накладной
+p254  # Ohui Day Shield Sunquid SPF50+
+p255  # Aestura Red Calming Tone-Up Sunscreen, 10 мл
+p256  # Aestura Atobarrier Hydro Mineral Sunscreen, 20 мл
+p257  # Easy Washable Curling Mascara
+p258  # Easy Washable Volume Mascara
+p259  # AXIS-Y Vegan Collagen Eye Serum, 10 мл
+p260  # AXIS-Y Mugwort Pore Clarifying Wash Off Pack, 100 мл
+p261  # Ricocell Nature Recovery Mask Pack (Snail)
+p262  # Lagom Cellus Brightening Tone-Up Sun SPF50+
+p263  # BOH Probioderm Collagen Remodeling Deep Cleansing Balm
+p264  # Aestura Ceramide Intense Sheet Mask, 5 шт
+p265  # Rejuran Water Capsule Sun Serum SPF50+
+p266  # BOH Probioderm 3D Lifting Essential Toner
+p267  # BOH Collagen Essence Sun Cream SPF50+
+p268  # Lebelage Rice Cleansing Foam Set
+p269  # Bliss & Bloom Collagen Jelly 3Mix Age Recovery Edition
+p270  # Nivea Extra Bright Vitamin C Spray
+p271  # Numbuzin №9+ 3Days Eye Care Kit

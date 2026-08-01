@@ -35,8 +35,9 @@ def main():
         sys.exit(1)
 
     data = reprice.load_products()
-    lines = [ln.strip() for ln in STOCK_FILE.read_text(encoding='utf-8').splitlines()]
-    lines = [ln for ln in lines if ln and not ln.startswith('#')]
+    # комментарий можно писать и в конце строки: "p01  # название товара"
+    lines = [ln.split('#', 1)[0].strip() for ln in STOCK_FILE.read_text(encoding='utf-8').splitlines()]
+    lines = [ln for ln in lines if ln]
 
     in_stock = set()
     unmatched = []
